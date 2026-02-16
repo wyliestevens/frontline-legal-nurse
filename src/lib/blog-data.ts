@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-endocrinology-records-reveal-in-diabetes-mismanagement-claims",
+    title: "What Endocrinology Records Reveal in Diabetes Mismanagement Claims",
+    excerpt: "Endocrinology records expose patterns of negligence your opposing counsel hopes you miss. Here's what to look for.",
+    content: `
+Your diabetes mismanagement case lives or dies on the endocrinology records. I've reviewed hundreds of these files. The negligence patterns repeat themselves. The documentation gaps tell the real story. You need to know what to pull and where to look.
+
+**HbA1c Trends Show the Timeline of Deterioration**
+
+HbA1c results don't lie. Every endocrinology record includes serial HbA1c values spanning months or years. An HbA1c above 7% signals poor glycemic control. Above 9% indicates dangerous mismanagement. I've seen cases where the HbA1c climbed from 7.2% to 11.8% over eighteen months while the endocrinologist made zero medication adjustments. The timestamps on these labs establish when the provider knew control was failing. Defense counsel will argue the patient was noncompliant. The endocrinology notes either document noncompliance or they don't. Missing documentation means missing defense.
+
+**Medication Titration Records Expose Inaction**
+
+Endocrinology visits exist for one purpose: optimize diabetes medication. Look at the medication list on every visit note. Compare it to the previous visit. I've pulled records where a patient saw an endocrinologist quarterly for two years with an HbA1c consistently above 10%, and the provider never advanced beyond metformin monotherapy. Standard of care requires titration to maximum tolerated doses, then addition of second and third-line agents. GLP-1 agonists, SGLT-2 inhibitors, basal insulin. The records show exactly when the endocrinologist should have escalated therapy and didn't. Each missed opportunity becomes a bullet point in your expert's report.
+
+**Complication Screening Documentation Reveals Omissions**
+
+Endocrinologists must screen for diabetic complications at defined intervals. Retinopathy screening annually. Microalbuminuria testing annually. Foot exams at every visit. Lipid panels annually. The records either document these screenings or they don't. I've worked cases where patients developed proliferative diabetic retinopathy because no one ordered a dilated eye exam for three years. The endocrinology records contained no referral to ophthalmology, no documentation of patient education about eye complications, no mention of vision symptoms. That omission becomes your liability anchor. Check every progress note for complication screening. The absence speaks louder than the presence.
+
+**Treatment Plan Documentation Shows Communication Failures**
+
+Every endocrinology note should contain a clear treatment plan. Specific medication changes with exact dosing instructions. Follow-up intervals. Lab orders. Referrals. I've reviewed dozens of notes that say "continue current management" when the HbA1c is 10.5%. That phrase is negligence in writing. Look for notes without specific numerical targets. "Improve blood sugar control" means nothing. "Target HbA1c less than 7%" creates a measurable standard. Your expert witness needs these documented plans to establish what the provider committed to do versus what happened. The vague notes help you. They prove the provider had no actual plan.
+
+**Coordination With Primary Care Records Exposes Fragmented Care**
+
+Pull both the endocrinology records and the primary care records. Compare them. The endocrinology note should reference recent PCP visits, emergency department visits for hyperglycemia, and hospital admissions. I've seen catastrophic outcomes where a patient had three ED visits for blood sugars above 400 mg/dL, and the endocrinology notes from the same time period make no mention of these events. That gap proves the endocrinologist wasn't reviewing the patient's complete medical picture. It shows fragmented, negligent care. The timestamps matter. If the ED visit was Tuesday and the endocrinology follow-up was Friday, those records should align. When they don't, you have ammunition.
+
+**Patient Education Documentation Determines Shared Responsibility**
+
+Defense counsel will blame the patient. They'll claim noncompliance caused the bad outcome. Your response comes from the patient education documentation in the endocrinology records. I look for specific documentation: "Reviewed carbohydrate counting. Patient verbalizes understanding." Or "Discussed signs of hypoglycemia. Patient able to repeat back symptoms." These notes prove the provider fulfilled their duty to educate. The absence proves they didn't. I've won cases where the provider claimed the patient refused insulin, but zero documentation in two years of notes supported that claim. No "patient declines insulin" entry. No informed refusal form. No documentation means it didn't happen. Your expert hammers that point home.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-16",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Endocrinology records in diabetes mismanagement claims reveal HbA1c trends, medication failures, and documentation gaps that prove negligence.",
+    keywords: ["diabetes mismanagement","endocrinology records","medical malpractice","HbA1c","legal nurse consultant","medical record review"],
+  },
+  {
     slug: "why-attorneys-need-legal-nurse-consultants",
     title: "Why Attorneys Need Legal Nurse Consultants to Win Medical Cases",
     excerpt:
