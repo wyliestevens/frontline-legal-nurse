@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --primary-dark: #422616;
+  --primary-tan: #D0B690;
+  --secondary-brown: #775738;
+  --accent-gold: #F2CB07;
+  --accent-green: #9ae6b4;
+  --text-white: #ffffff;
+  --text-black: #000000;
+  --light-gray: #f6f6f6;
+}
+
+@theme inline {
+  --color-primary-dark: #422616;
+  --color-primary-tan: #D0B690;
+  --color-secondary-brown: #775738;
+  --color-accent-gold: #F2CB07;
+  --color-accent-green: #9ae6b4;
+  --color-light-gray: #f6f6f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--text-black);
+  background: var(--text-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--primary-tan);
+  color: var(--primary-dark);
+  border: 3px solid var(--accent-green);
+  padding: 15px 30px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  color: var(--primary-tan);
+  border-color: var(--primary-tan);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text-white);
+  border: 2px solid var(--accent-green);
+  padding: 12px 24px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent-green);
+  color: var(--primary-dark);
+}
+
+.section-border {
+  border: 2px solid var(--text-black);
+}
