@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Header() {
@@ -19,6 +20,14 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center">
+            <Image
+              src="/images/logo.png"
+              alt="Frontline Legal Nurse Consulting"
+              width={70}
+              height={70}
+              className="mr-3"
+              priority
+            />
             <span className="font-['Oswald'] text-2xl font-bold tracking-wide" style={{ color: '#422616' }}>
               FRONTLINE<span style={{ color: '#D0B690' }}> LEGAL NURSE</span>
             </span>

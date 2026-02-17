@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Wylie Stevens, BSN, RN - Legal Nurse Consultant",
@@ -27,20 +28,15 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
               <div
-                className="w-full max-w-md mx-auto h-96 rounded-lg flex items-center justify-center"
-                style={{ backgroundColor: "#422616", border: "3px solid #D0B690" }}
+                className="w-full max-w-md mx-auto h-96 rounded-lg overflow-hidden relative"
+                style={{ border: "3px solid #D0B690" }}
               >
-                <div className="text-center px-6">
-                  <div className="w-28 h-28 rounded-full mx-auto mb-4 flex items-center justify-center" style={{ backgroundColor: '#D0B690' }}>
-                    <svg className="w-14 h-14" fill="#422616" viewBox="0 0 24 24">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                    </svg>
-                  </div>
-                  <p className="font-['Oswald'] text-xl font-bold" style={{ color: "#D0B690" }}>Wylie Stevens</p>
-                  <p className="font-['Lato'] text-sm text-gray-300 mt-1">CEO, BSN, RN</p>
-                  <p className="font-['Lato'] text-xs text-gray-400 mt-1">Legal Nurse Consultant</p>
-                  <p className="font-['Lato'] text-xs text-gray-400 mt-1">University of Arkansas for Medical Sciences</p>
-                </div>
+                <Image
+                  src="/images/wylie-profile.jpg"
+                  alt="Wylie Stevens, CEO, BSN, RN - Legal Nurse Consultant"
+                  fill
+                  className="object-cover object-center"
+                />
               </div>
             </div>
             <div>

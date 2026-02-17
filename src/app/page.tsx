@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllPosts } from "@/lib/blog-data";
 
 const services = [
@@ -51,16 +52,21 @@ export default function HomePage() {
     <>
       {/* Hero Section */}
       <section
-        className="relative section-border"
+        className="relative section-border overflow-hidden"
         style={{ backgroundColor: "#422616" }}
       >
-        <div className="absolute inset-0 opacity-20">
-          <div className="w-full h-full" style={{
-            backgroundImage: 'linear-gradient(135deg, rgba(208,182,144,0.3) 0%, transparent 50%, rgba(119,87,56,0.3) 100%)',
-          }} />
+        <div className="absolute inset-0">
+          <Image
+            src="/images/hero-bg.jpg"
+            alt=""
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(66,38,22,0.4) 0%, rgba(66,38,22,0.7) 50%, rgba(66,38,22,0.85) 100%)' }} />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl ml-auto">
             <h1
               className="font-['Oswald'] text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
               style={{ color: "#D0B690" }}
@@ -90,28 +96,17 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <div
-                className="w-80 h-96 rounded-lg flex items-center justify-center"
+                className="w-80 h-96 rounded-lg overflow-hidden relative"
                 style={{
-                  backgroundColor: "#422616",
                   border: "3px solid #D0B690",
                 }}
               >
-                <div className="text-center px-6">
-                  <div className="w-24 h-24 rounded-full mx-auto mb-4 flex items-center justify-center" style={{ backgroundColor: '#D0B690' }}>
-                    <svg className="w-12 h-12" fill="#422616" viewBox="0 0 24 24">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                    </svg>
-                  </div>
-                  <p className="font-['Oswald'] text-lg font-bold" style={{ color: "#D0B690" }}>
-                    Wylie Stevens
-                  </p>
-                  <p className="font-['Lato'] text-sm text-gray-300 mt-1">
-                    CEO, BSN, RN
-                  </p>
-                  <p className="font-['Lato'] text-xs text-gray-400 mt-1">
-                    Legal Nurse Consultant
-                  </p>
-                </div>
+                <Image
+                  src="/images/wylie-profile.jpg"
+                  alt="Wylie Stevens, CEO, BSN, RN - Legal Nurse Consultant"
+                  fill
+                  className="object-cover object-center"
+                />
               </div>
             </div>
             <div>

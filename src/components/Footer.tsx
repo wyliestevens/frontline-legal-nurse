@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -6,9 +7,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-['Oswald'] text-2xl font-bold mb-6">
-              FRONTLINE<span style={{ color: '#D0B690' }}> LEGAL NURSE</span>
-            </h3>
+            <div className="flex items-center gap-3 mb-6">
+              <Image src="/images/logo.png" alt="Frontline Legal Nurse Consulting" width={50} height={50} />
+              <h3 className="font-['Oswald'] text-2xl font-bold">
+                FRONTLINE<span style={{ color: '#D0B690' }}> LEGAL NURSE</span>
+              </h3>
+            </div>
             <p className="font-['Lato'] text-gray-300 leading-relaxed text-sm">
               Expert legal nurse consulting for attorneys handling personal injury, medical malpractice, toxic tort, and product liability cases. We transform complex medical records into winning case strategies.
             </p>
