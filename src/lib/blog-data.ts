@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-gastroenterology-records-support-failure-to-diagnose-colorectal-cancer",
+    title: "How Gastroenterology Records Support Failure to Diagnose Colorectal Cancer",
+    excerpt: "GI records reveal diagnostic delays through colonoscopy reports, pathology results, and follow-up failures.",
+    content: `
+**The Colonoscopy Report Tells You What the Physician Saw and Missed**
+
+Your case lives or dies on what the colonoscopy report documents. The endoscopist describes polyp size, location, morphology, and removal technique. When a plaintiff develops colorectal cancer six months after a colonoscopy, you need to know if the endoscopist documented cecal intubation. Incomplete exams miss cancers. The prep quality matters too. A report noting poor bowel preparation gives you ammunition when cancer appears in an area the physician claimed to examine. I have reviewed hundreds of colonoscopy reports where physicians documented "no significant findings" yet pathology from subsequent procedures revealed advanced adenomas or carcinoma in the same colonic segment.
+
+**Pathology Reports Establish What the Defendant Knew and When**
+
+Pathology reports from biopsied polyps show the histologic diagnosis and dysplasia grade. High-grade dysplasia requires aggressive surveillance. Tubular adenomas over one centimeter require follow-up colonoscopy in three years, not ten. When defendants claim they followed guidelines, you check the pathology against their surveillance intervals. I have seen cases where pathology showed tubulovillous adenoma with high-grade dysplasia, the gastroenterologist received the report, and the patient never received a phone call or letter about follow-up. The cancer diagnosis came four years later. The pathology report sitting in the chart proves the physician had the information to prevent progression.
+
+**Surveillance Intervals Reveal Deviation from National Guidelines**
+
+The U.S. Multi-Society Task Force publishes specific surveillance intervals based on polyp characteristics. Your expert witnesses reference these guidelines, but you need the records to prove deviation. A patient with three to ten tubular adenomas needs surveillance in three years. A patient with a 15mm sessile serrated polyp needs surveillance in one year. When the gastroenterologist recommends a five-year interval instead, you have negligence. I reviewed a case where the physician removed seven adenomatous polyps and told the patient to return in ten years. The patient developed Stage III adenocarcinoma before that interval passed. The colonoscopy report and follow-up instructions in the chart contradicted every published guideline.
+
+**Office Visit Notes Show What the Physician Ignored**
+
+Patients report rectal bleeding, changes in bowel habits, unexplained weight loss, and abdominal pain. Office visit notes document whether the gastroenterologist took these complaints seriously. When a 58-year-old patient reports three months of rectal bleeding and the physician prescribes hemorrhoid cream without further workup, you have your case. When a patient describes pencil-thin stools and the physician orders fiber supplements, you have documentation of ignored red flags. I have reviewed charts where patients described classic colorectal cancer symptoms across multiple visits, and the physician never ordered diagnostic imaging or colonoscopy. These office notes become exhibits at trial.
+
+**Incomplete Polypectomies Create Ongoing Cancer Risk**
+
+Not all polyps come out in one piece. The endoscopist performing piecemeal polypectomy must document complete removal and schedule short-interval follow-up to check the resection site. When colonoscopy reports state "polyp removed in fragments" or "base cauterized" without follow-up plans, you have substandard care. Residual adenomatous tissue left at the polypectomy site progresses to cancer. I have worked on cases where the original polypectomy report noted incomplete removal, the gastroenterologist never scheduled repeat examination, and cancer developed at the exact anatomic location of the original polyp.
+
+**Referral Records Show Who Dropped the Ball**
+
+Primary care physicians refer patients for GI evaluation based on symptoms or positive fecal immunochemical tests. Referral records show the clinical indication and urgency level. When the PCP documents "urgent referral for positive FIT" and the GI office schedules the patient six months out, you have multiple defendants to consider. When the GI office loses the referral or the patient never receives a call to schedule, the administrative records prove system failures. I reviewed a wrongful death case where the PCP sent three separate referrals over eight months for a patient with hematochezia. The GI practice had no record of receiving any referral. The patient died of metastatic colon cancer. The referral documentation and the GI practice's intake records told the complete story of a preventable death.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-17",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Gastroenterology records prove failure to diagnose colorectal cancer through colonoscopy reports, pathology results, and surveillance gaps.",
+    keywords: ["failure to diagnose colorectal cancer","gastroenterology medical records","colonoscopy negligence","cancer misdiagnosis","legal nurse consultant","medical malpractice"],
+  },
+  {
     slug: "what-endocrinology-records-reveal-in-diabetes-mismanagement-claims",
     title: "What Endocrinology Records Reveal in Diabetes Mismanagement Claims",
     excerpt: "Endocrinology records expose patterns of negligence your opposing counsel hopes you miss. Here's what to look for.",
