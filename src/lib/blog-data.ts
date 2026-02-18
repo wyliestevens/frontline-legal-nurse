@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-urology-records-prove-about-catheter-associated-complications",
+    title: "What Urology Records Prove About Catheter-Associated Complications",
+    excerpt: "Urology documentation reveals the exact timeline and clinical decisions behind catheter injuries. Here's what to pull from the charts.",
+    content: `
+**The Insertion Note Shows Who Knew What**
+
+The catheter insertion documentation tells you whether the nurse or physician recognized difficulty at the time of placement. Look for the number of attempts recorded, the catheter size selected, and any notation of resistance or trauma. When you see "multiple attempts" or "difficult insertion" without a physician consult ordered, you have your first red flag. The absence of a notation about urethral bleeding or resistance does not mean it didn't happen. It means someone chose not to document it. I've reviewed hundreds of cases where the insertion note reads "Foley catheter inserted without difficulty" while the urology consult three days later describes a false passage and urethral stricture.
+
+**Urology Consultation Notes Reveal the Injury Pattern**
+
+The urologist's initial consult note describes what they found when they finally got called. Look for terms like false passage, urethral stricture, bladder perforation, or traumatic insertion. The urologist documents whether the injury is acute or chronic, which tells you if this happened during the current admission or resulted from cumulative trauma. When the urologist notes "evidence of chronic urethral trauma" in a patient with multiple catheterizations, you have a pattern of negligent technique. The consult note also reveals how long the injury went unrecognized. If the urology team gets called on hospital day seven for hematuria, ask yourself why nobody called them on day one when the blood first appeared in the urine bag.
+
+**The Bladder Scan and Imaging Results Document the Damage**
+
+Bladder ultrasounds and CT cystograms show you the structural damage. Post-void residual volumes over 200ml after catheter removal indicate either neurogenic bladder or mechanical obstruction from stricture formation. Retrograde urethrograms reveal the location and severity of strictures. Cystoscopy reports describe the exact injury: anterior urethral trauma, bladder neck injury, or perforation into the periurethral space. I've worked cases where the imaging clearly showed extravasation of contrast into the periurethral tissues, proving the catheter created a false passage through the urethral wall. The radiology report timestamps when the injury was first visualized, which you'll compare against when someone should have ordered the study based on clinical signs.
+
+**Serial Urinalysis Results Show the Infection Timeline**
+
+Every urinalysis with culture tells you when bacteria appeared, what species, and the colony count. Catheter-associated urinary tract infections develop in a predictable pattern. When you see E. coli at 100,000 colonies with white blood cells and bacteria in the urine, then Pseudomonas three days later, then Candida, you're looking at polymicrobial colonization from a chronic indwelling catheter. The antibiotic administration record shows whether anyone treated the infection appropriately or let it progress to urosepsis. Cross-reference the fever curves in the vital signs flow sheet with the urinalysis dates. If your plaintiff spiked fevers starting on day four but nobody ordered a urine culture until day seven, you have a delayed diagnosis.
+
+**Catheter Care Flow Sheets Expose Protocol Violations**
+
+Nursing flow sheets document catheter care every shift. Look for gaps in documentation of perineal care, absence of securement device checks, and missing drainage bag assessments. When the flow sheet shows the drainage bag hung above bladder level, you have reflux of contaminated urine back into the bladder. When nobody documents checking for kinks or dependent loops in the tubing, you have urinary retention and overdistension. I've seen cases where the flow sheet shows the same catheter in place for 28 days in a post-operative patient who should have had it removed on post-op day two per hospital protocol. That's 26 unnecessary days of infection risk.
+
+**The Urology Operative Report Proves Causation**
+
+When your plaintiff ends up in the OR with a urologist, the operative report describes exactly what surgical repair was necessary. Urethral dilation, direct vision internal urethrotomy, or urethroplasty all indicate significant structural damage requiring intervention. The operative findings section states what the surgeon saw: scar tissue, stricture location and length, and tissue quality. When the urologist performs a suprapubic cystostomy because the urethra is too damaged for transurethral catheterization, you have permanent injury. The pathology report on any resected tissue confirms chronic inflammation and fibrosis, which develops over weeks to months of untreated or repeated trauma.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-18",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Urology records reveal catheter injury timelines and negligent care patterns. Learn what to pull from insertion notes, consults, and imaging.",
+    keywords: ["catheter complications","urology records","catheter-associated injuries","medical malpractice","catheter insertion injury","urethral trauma"],
+  },
+  {
     slug: "how-gastroenterology-records-support-failure-to-diagnose-colorectal-cancer",
     title: "How Gastroenterology Records Support Failure to Diagnose Colorectal Cancer",
     excerpt: "GI records reveal diagnostic delays through colonoscopy reports, pathology results, and follow-up failures.",
