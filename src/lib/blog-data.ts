@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-pulmonology-records-support-occupational-lung-disease-claims",
+    title: "How Pulmonology Records Support Occupational Lung Disease Claims",
+    excerpt: "Pulmonology records contain the objective evidence you need to prove causation and timeline in occupational lung disease cases.",
+    content: `
+**Pulmonary Function Tests Establish Baseline and Decline**
+
+Your strongest evidence lives in serial PFTs. Compare the pre-employment or early employment spirometry results against current studies. Look for progressive decline in FEV1, FVC, and DLCO values. A steelworker I reviewed showed FEV1 of 98% predicted at hire, dropping to 54% predicted after 12 years of silica exposure. The decline pattern proves causation better than any deposition testimony. Request all PFT reports, not summaries. You need the flow-volume loops, the technician notes about test quality, and the radiologist interpretation of lung volumes.
+
+**Imaging Studies Document Disease Progression**
+
+Chest X-rays and CT scans show what breathing tests cannot. I have seen hundreds of asbestosis cases where the chest X-ray reads normal but the high-resolution CT reveals early interstitial changes. The ILO classification system grades pneumoconiosis severity from 0 to 3. An ILO reading of 1/1 or higher meets diagnostic criteria for silicosis or coal worker's pneumoconiosis. Demand the actual images, not just the radiology reports. Your expert needs to measure honeycombing, ground-glass opacities, and pleural plaques. Serial imaging over years demonstrates progression directly tied to continued workplace exposure.
+
+**Bronchoscopy Reports Confirm Exposure and Inflammation**
+
+Bronchoalveolar lavage findings tell you what your client inhaled. I reviewed a machinist's case where BAL fluid contained metal particles visible on microscopy. The pathology report identified aluminum, chromium, and nickel fragments. The differential cell count showed 45% neutrophils, indicating active inflammation. Transbronchial biopsy specimens revealing non-caseating granulomas confirm beryllium disease. Peribronchial fibrosis on biopsy supports chronic hypersensitivity pneumonitis from mold or chemical exposure. These tissue samples eliminate alternative diagnoses and lock in occupational causation.
+
+**Methacholine Challenge Tests Prove Reactive Airways**
+
+Workers exposed to irritants develop bronchial hyperreactivity. The methacholine challenge quantifies this. A positive test at PC20 less than 8 mg/mL demonstrates significant airway reactivity. I documented a firefighter's challenge test turning positive after 15 years of smoke exposure when his pre-employment test was negative. This objective finding defeats defense arguments about pre-existing asthma. The test also helps distinguish occupational asthma from COPD or other obstructive diseases. Your pulmonologist's interpretation of the dose-response curve becomes crucial trial evidence.
+
+**Treatment Records Link Symptoms to Work Exposure**
+
+Pulmonology clinic notes document the temporal relationship between exposure and symptoms. Look for statements like "patient reports dyspnea worsens during work week, improves on weekends." I found this pattern in 80% of successful occupational asthma claims I reviewed. Medication escalation over time proves progressive disease. A worker starting on occasional albuterol who now requires daily inhaled corticosteroids, long-acting bronchodilators, and supplemental oxygen shows clear deterioration. Emergency department visits and hospitalizations for respiratory distress during work periods strengthen your timeline. Pull every pulmonology encounter note, urgent care visit, and hospital admission record.
+
+**Physician Assessments Include Causation Opinions**
+
+Treating pulmonologists often state their causation opinion directly in clinical notes. I have pulled records where the doctor wrote "pneumoconiosis consistent with 20-year coal dust exposure" or "hypersensitivity pneumonitis related to workplace mold exposure." These contemporaneous opinions carry more weight than hired expert reports written years later. The physician's documentation of occupational history, including specific job duties and protective equipment use, supports your causation argument. Work restrictions and disability assessments in the chart quantify your client's impairment and wage loss. These opinions give your retained expert a foundation and make the defense expert's contradictory opinion look purchased.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-19",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Pulmonology records prove occupational lung disease claims through PFTs, imaging, bronchoscopy, and treatment documentation.",
+    keywords: ["pulmonology records","occupational lung disease","medical record review","legal nurse consultant","occupational asthma","pneumoconiosis"],
+  },
+  {
     slug: "what-urology-records-prove-about-catheter-associated-complications",
     title: "What Urology Records Prove About Catheter-Associated Complications",
     excerpt: "Urology documentation reveals the exact timeline and clinical decisions behind catheter injuries. Here's what to pull from the charts.",
