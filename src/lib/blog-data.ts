@@ -13,6 +13,38 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "three-questions-every-attorney-needs-before-accepting-a-med-mal-case",
+    title: "Three Questions Every Attorney Needs Before Accepting a Med Mal Case",
+    excerpt: "Twenty years of medical record review taught me most attorneys skip the same three critical questions. Here's what separates wins from losses.",
+    content: `
+I've watched attorneys burn six figures on cases they should have declined in the first phone call. The pattern repeats itself because most lawyers ask the wrong questions up front. They focus on damages before they confirm liability. They get excited about a bad outcome before they understand the standard of care. I'm going to give you the three questions I use to screen every medical malpractice case that crosses my desk. These questions have saved our attorney clients millions in wasted litigation costs.
+
+**Does the medical record timeline support your client's version of events?**
+
+Your client tells you the nurse ignored the call button for two hours before their mother fell. The medical record shows nursing documentation every 30 minutes with detailed neuro checks. You have no case. I've reviewed hundreds of falls cases where the family's perception of time and the documented timeline diverge completely. Pull the records before you sign the retainer. Look at the nursing flow sheets, the medication administration records, and the physician progress notes. If the documentation contradicts your client's story, you need to know this before you invest another hour. Electronic health records timestamp everything. Nurses chart in real time. The metadata doesn't lie. When I review records for falls cases, I build a minute-by-minute timeline of every documented nursing intervention, vital sign check, and patient observation in the four hours preceding the incident. This timeline either supports your theory of negligence or destroys it.
+
+**Do you have a definitive causal link between the breach and the injury?**
+
+A patient develops a Stage IV pressure ulcer during a three-week hospital stay. The nursing notes show inconsistent turning and repositioning. You have clear evidence of substandard care. But your client was admitted with septic shock, required vasopressors, and spent ten days on a ventilator. Hypotension and vasopressor use cause tissue ischemia. The pressure ulcer would have developed even with perfect nursing care. You have a breach with no causation. I see this disconnect in 40% of the pressure ulcer cases I review. The standard of care violation exists, but the patient's underlying condition caused the injury independent of the negligence. You need a nurse expert to analyze the medical record and connect the dots before you file. Look at the admission diagnoses, the medication list, the lab values showing tissue perfusion, and the operative reports. A bedridden patient with diabetes, peripheral vascular disease, and chronic steroid use develops pressure ulcers from their comorbidities, not from nursing negligence alone.
+
+**Does the damages amount justify the cost of litigating this case to verdict?**
+
+Medical malpractice defense costs you \$150,000 to \$300,000 to take to trial. Your expert witnesses bill \$500 to \$800 per hour. Depositions, record organization, and medical illustrations add another \$50,000. You need damages that support a verdict of at least \$750,000 to make the economics work on a contingency fee. I've reviewed cases where the liability was crystal clear but the patient made a full recovery. The attorney spent \$200,000 in costs chasing a \$100,000 settlement. Do the damages math before you commit. Calculate the economic losses, the life care plan costs if applicable, and the permanency of the injury. A missed appendicitis diagnosis resulting in a perforated appendix sounds terrible. If the patient spent five extra days in the hospital, underwent one additional surgery, and returned to work three months later with no permanent deficits, your damages won't support the litigation cost. I worked a delay in cancer diagnosis case where the attorney spent two years in litigation before learning the delayed diagnosis didn't change the patient's stage or prognosis. The case had zero value.
+
+**What the records tell you in the first 72 hours**
+
+Order the complete medical record immediately after the consultation. Don't wait for the client to request records through the hospital release of information department. Hire a legal nurse consultant to review the records within 72 hours of receipt. We provide attorneys with a preliminary liability assessment, a timeline of critical events, and a list of standard of care violations before they invest in expensive physician experts. This front-end screening identifies the fatal flaws in your case before you sink costs into litigation. I reviewed a birth injury case last month where the attorney was convinced he had a multimillion-dollar verdict. The fetal monitor strips showed completely normal tracings until delivery. The infant's Apgar scores were 8 and 9. The neurological injury occurred from a genetic metabolic disorder unrelated to labor management. The records told us everything we needed to know in the first review.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-23",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical malpractice case screening questions from a legal nurse consultant with 20 years reviewing records for attorneys.",
+    keywords: ["medical malpractice case screening","legal nurse consultant","medical record review","med mal case evaluation","causation in malpractice cases","medical negligence"],
+  },
+  {
     slug: "how-pulmonology-records-support-occupational-lung-disease-claims",
     title: "How Pulmonology Records Support Occupational Lung Disease Claims",
     excerpt: "Pulmonology records contain the objective evidence you need to prove causation and timeline in occupational lung disease cases.",
