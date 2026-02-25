@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "use-medical-records-to-prepare-your-client-for-defense-medical-exams",
+    title: "Use Medical Records to Prepare Your Client for Defense Medical Exams",
+    excerpt: "Defense doctors hunt for inconsistencies. Give your client the ammunition to stay consistent with the documented medical timeline.",
+    content: `
+The defense medical examiner has one job: find reasons to minimize your client's injuries. He reads the medical records before the exam. He notes every gap in treatment, every variation in symptom reporting, every inconsistency between what your client told the ER doctor and what they told their orthopedist three months later. You need to prepare your client with the same records the defense uses against them.
+
+**Pull the Complete Timeline Before the DME Gets Scheduled**
+
+Order and organize every medical record from six months before the incident through the present. Include emergency room reports, ambulance run sheets, primary care visits, specialist consultations, physical therapy notes, diagnostic imaging reports, and pharmacy records. The defense examiner will have these. Your client needs to review them first. I have seen cases fall apart because a plaintiff described their pre-incident health status differently than their primary care records documented. The defense expert testified the client was dishonest. The jury agreed.
+
+**Identify Every Prior Injury or Complaint to the Same Body Part**
+
+Search the pre-incident records for any mention of the injured area. Look for complaints of back pain before a motor vehicle collision caused herniated discs. Note previous shoulder problems before a slip and fall caused a rotator cuff tear. Check diagnostic imaging reports for degenerative changes. The defense doctor will ask your client about these findings. If your client says they never had prior problems and the records show otherwise, you lose credibility. Prepare your client to acknowledge documented pre-existing conditions and explain how the incident made them worse.
+
+**Highlight Variations in Symptom Descriptions**
+
+Review how your client described their pain and limitations to different providers. The ER note might say "moderate back pain." The orthopedist note two weeks later might say "severe lumbar pain radiating to left leg." The physical therapy initial evaluation might document "difficulty walking more than 10 minutes." These variations are normal. Symptoms evolve. Different providers document differently. Your client needs to see these variations before the defense examiner points them out. Explain why the descriptions changed. Pain worsened. Function declined. A new symptom developed.
+
+**Flag Treatment Gaps and Prepare the Explanation**
+
+Defense examiners attack gaps in medical treatment. Your client missed two months of physical therapy. They waited six weeks to follow up with the orthopedist. They stopped taking prescribed medication. Find these gaps in the records. Ask your client why they occurred. Insurance authorization delays. Transportation problems. Financial constraints. Medication side effects. The defense doctor will ask about every gap. Your client needs a clear, consistent answer supported by the record when possible. I have reviewed hundreds of cases where unexplained treatment gaps reduced settlement value by 30 percent or more.
+
+**Review Objective Findings and Diagnostic Results**
+
+The defense examiner focuses on objective medical findings. MRI results showing herniated discs. X-rays documenting fractures. Nerve conduction studies confirming radiculopathy. EMG findings supporting peripheral nerve damage. Your client needs to understand these test results before the exam. They need to know which tests showed abnormalities and when those tests were performed. The defense doctor will ask your client to describe their understanding of their medical condition. Clients who cannot accurately describe their documented injuries appear uninformed or dishonest.
+
+**Prepare Your Client With Direct Quotes From Their Treatment Records**
+
+Create a preparation document with direct quotes from medical records. Show your client what they told the emergency room physician on the date of injury. Show them what their treating surgeon documented about their functional limitations. Show them what their physical therapist recorded about their progress or lack thereof. These are your client's own reported symptoms and limitations. The defense examiner has these exact quotes. Your client needs to stay consistent with what they already reported to their treating physicians. Inconsistencies between prior medical reports and DME statements give the defense expert ammunition for cross-examination at trial.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-25",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Defense medical examiners hunt for inconsistencies in records. Prepare your client with the same documentation the defense uses against them.",
+    keywords: ["defense medical exam","DME preparation","medical records review","legal nurse consulting","personal injury case strategy","plaintiff preparation"],
+  },
+  {
     slug: "why-the-first-48-hours-of-medical-records-win-or-lose-your-case",
     title: "Why the First 48 Hours of Medical Records Win or Lose Your Case",
     excerpt: "The initial admission documentation reveals causation, damages, and liability before defensive charting begins.",
