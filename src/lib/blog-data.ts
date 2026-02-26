@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-your-opposing-expert-is-looking-for-in-the-medical-records",
+    title: "What Your Opposing Expert Is Looking for in the Medical Records",
+    excerpt: "The defense expert knows exactly where to look for ammunition. Here's how to find it first and neutralize their attack before deposition.",
+    content: `
+**The Defense Expert Reads Your Records With a Checklist**
+
+Every defense expert starts with the same hunting expedition. They scan for missing documentation, timeline gaps, pre-existing conditions, and treatment delays. I've reviewed enough cases to tell you exactly what they circle in red. The plaintiff who waited three days to see a doctor after the accident. The gap between injury date and first complaint of radicular symptoms. The medication refill history showing non-compliance. They build their narrative around what's absent and what contradicts your client's testimony.
+
+**Pre-Existing Conditions Are Their First Target**
+
+The defense expert pulls records from every provider mentioned anywhere in your file. They request pharmacy records going back years. They want imaging studies from before the incident. I've seen them locate a lumbar MRI from five years prior showing mild degenerative changes at L4-L5, then argue the herniation your client suffered was pre-existing. They search progress notes for any mention of back pain, headaches, or joint complaints before your incident date. They screenshot the relevant passages and build a timeline that suggests your client's injuries existed long before your defendant entered the picture.
+
+**Documentation Gaps Become Credibility Attacks**
+
+When the medical record shows your client reported pain as 7 out of 10 but continued working full time for two weeks, the defense expert highlights this. When physical therapy notes describe your client as cheerful and interactive while the injury report claims debilitating depression, they use it. When the ER record says minor abrasions but the orthopedic visit two months later describes severe ongoing pain, they question mechanism of injury. I've watched defense attorneys get verdicts reduced by millions because nobody caught these inconsistencies early enough to explain them.
+
+**Treatment Compliance Tells Their Favorite Story**
+
+Defense experts mine the records for missed appointments, declined procedures, and gaps in medication refills. They calculate the percentage of physical therapy sessions attended versus prescribed. They note when your client refused the epidural steroid injection the pain management physician recommended. They document every instance where clinical notes say the patient was advised to quit smoking or lose weight but follow-up records show no change. They build the narrative that your client's ongoing problems result from non-compliance, not from the defendant's negligence.
+
+**Causation Weaknesses Live in the Clinical Timeline**
+
+The defense expert creates a detailed chronology of every symptom, every diagnosis, every treatment. They look for symptoms reported weeks after the incident rather than immediately. They search for alternative explanations documented in the records. The progress note mentioning your client recently started a new job requiring heavy lifting. The psychiatric evaluation revealing a contentious divorce during the treatment period. The lab work showing uncontrolled diabetes or the tox screen positive for THC. They weave these findings into an alternative causation theory.
+
+**How to Get Ahead of Their Strategy**
+
+Order complete records from every provider mentioned in any note, including specialists your client saw years ago. Get pharmacy records from all pharmacies, not just the one your client remembers using. Request billing records and appointment logs to identify gaps before the defense does. Have a legal nurse consultant create a comprehensive timeline with every medical encounter, symptom report, and treatment decision. Identify the weak points in your case before the defense expert writes their report. Address missing documentation and timeline gaps in your expert's report first. When you acknowledge the issues and provide clinical context, you neutralize the defense expert's ammunition.
+
+**Your Expert Must Speak to Their Findings Directly**
+
+Don't let your expert ignore the problems in the medical records. The jury will hear about them during cross-examination. Your expert needs to address the three-day delay in seeking treatment and explain why it doesn't negate causation. They need to distinguish between degenerative changes and acute traumatic injury on imaging. They need to explain why missed physical therapy appointments don't eliminate the defendant's liability. I've reviewed hundreds of cases where the plaintiff's expert wrote a beautiful causation opinion but never mentioned the glaring issues the defense expert attacked. The jury sided with the expert who acknowledged and explained the problems.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-26",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Defense experts hunt for specific weaknesses in medical records. Learn what they look for and how to neutralize their strategy before deposition.",
+    keywords: ["medical records review","defense expert strategy","medical-legal cases","case preparation","legal nurse consultant","causation analysis"],
+  },
+  {
     slug: "use-medical-records-to-prepare-your-client-for-defense-medical-exams",
     title: "Use Medical Records to Prepare Your Client for Defense Medical Exams",
     excerpt: "Defense doctors hunt for inconsistencies. Give your client the ammunition to stay consistent with the documented medical timeline.",
