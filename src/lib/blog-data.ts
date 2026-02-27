@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "identifying-the-right-defendants-in-multi-provider-medical-malpractice-cases",
+    title: "Identifying the Right Defendants in Multi-Provider Medical Malpractice Cases",
+    excerpt: "Missing defendants costs you money. Here's how to identify every liable party before you file.",
+    content: `
+You lose money when you miss a defendant. I've seen attorneys settle cases for \$300,000 when the file pointed to three additional defendants worth millions more. The records tell you who to sue. You need to know how to read them.
+
+**Start With the Chain of Command in Hospital Records**
+
+Every hospital chart contains clues about who made decisions and who failed to act. Physician orders show the attending's name, but look deeper. Consult notes reveal which specialists saw the patient and when. Progress notes identify residents, fellows, and mid-level providers who wrote orders. Nursing notes document which RN called which physician about deteriorating vital signs. Phone logs and communication sheets show who ignored pages and who delayed responses. I reviewed a sepsis case where the hospitalist, the emergency department physician, and the ICU intensivist all missed obvious signs. The nursing supervisor who failed to escalate became defendant number four. Each one carried separate insurance policies.
+
+**Trace Transfer and Handoff Failures**
+
+Patients move between units, facilities, and levels of care. Someone owns each transition. Transfer summaries identify the sending physician and the accepting physician. Ambulance run sheets name the paramedics and the emergency medical services medical director. Skilled nursing facility records show which physician signed the transfer order and which nurse practitioner completed the admission assessment. I worked a case where a patient transferred from a rural hospital to a tertiary center. The sending ED physician missed a spinal fracture. The receiving trauma team failed to repeat imaging for six hours. The radiologist who read the initial CT as normal became defendant three. The rural hospital's transfer protocol failure added the facility administrator and medical director.
+
+**Follow the Surgical and Procedural Team**
+
+Operative reports list everyone in the room. The surgeon gets named first, but scrub techs, circulating nurses, anesthesiologists, and surgical assistants all bear responsibility. Anesthesia records reveal who intubated, who monitored, and who missed the desaturation event. Pathology reports identify which pathologist misread the frozen section. Radiology reports show which interventional radiologist placed the chest tube in the wrong space. Equipment logs point to biomedical engineering when devices fail. I reviewed a wrong-site surgery where the circulating nurse, the surgical tech, the resident, the attending, and the facility all violated the Universal Protocol. Five defendants. Five insurance carriers. The case settled for \$2.3 million.
+
+**Identify Corporate and Administrative Defendants**
+
+Individual providers make mistakes. Hospitals create systems where mistakes become inevitable. Staffing records show when the facility ran the ICU with inadequate nurse-to-patient ratios. Policy and procedure manuals reveal outdated protocols. Credentialing files expose physicians who should never have received privileges. Quality assurance documents show the hospital knew about a surgeon's complications and did nothing. Risk management correspondence proves the administration ignored multiple incident reports. I worked a case where an obstetrician with six prior malpractice settlements continued delivering babies. The hospital's credentialing committee chair, the medical staff president, and the chief medical officer all became defendants. The hospital's corporate parent settled before discovery closed.
+
+**Examine Equipment, Pharmaceuticals, and Product Liability**
+
+Medical devices fail. Drugs cause harm. Records document what was used and when. Implant logs identify manufacturers and lot numbers. Pharmacy dispensing records show who filled the wrong medication. Biomedical maintenance logs reveal equipment that passed inspection despite known defects. FDA recall notices prove the manufacturer knew about defective products. I reviewed a case where a patient received a recalled hip implant. The surgeon, the hospital, the device manufacturer, and the medical supply distributor all shared liability. The device manufacturer's internal emails showed engineers flagged the design flaw two years before the surgery. The case value tripled when we added the manufacturer.
+
+**Pull Employment and Credentialing Records Early**
+
+You need to know who employed each provider when the negligence occurred. Hospital employees create vicarious liability. Independent contractors limit it. Credentialing applications reveal which physicians lied about their training. Board certification records show who claimed credentials they never earned. State medical board disciplinary files expose prior complaints. National Practitioner Data Bank reports list previous malpractice payments and adverse actions. I worked a case where a physician claimed fellowship training in maternal-fetal medicine. He completed a one-month observership. The hospital never verified his credentials. We added the credentialing committee and the HR director who rubber-stamped the application.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-02-27",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Identifying defendants in medical malpractice cases requires systematic medical record review. Learn how to find every liable party before filing.",
+    keywords: ["medical malpractice defendants","multi-provider malpractice","hospital liability","medical record review","legal nurse consultant","malpractice case strategy"],
+  },
+  {
     slug: "what-your-opposing-expert-is-looking-for-in-the-medical-records",
     title: "What Your Opposing Expert Is Looking for in the Medical Records",
     excerpt: "The defense expert knows exactly where to look for ammunition. Here's how to find it first and neutralize their attack before deposition.",
