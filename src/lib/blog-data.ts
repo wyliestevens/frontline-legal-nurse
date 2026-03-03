@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-identify-spoliation-of-medical-evidence",
+    title: "How Legal Nurse Consultants Identify Spoliation of Medical Evidence",
+    excerpt: "Medical records tell you when documentation has been altered, backdated, or destroyed. Here's what to look for.",
+    content: `
+**Missing Pages Signal Deliberate Destruction**
+
+Your client codes in the ICU on March 15th. The medical record jumps from 2:30 PM to 4:45 PM with no nursing notes, no physician progress notes, no code sheet. This gap is not an oversight. Someone removed those pages. Electronic health records show audit trails with deleted entries, modified timestamps, and users who accessed charts after the incident date. I have reviewed charts where nurses logged in at midnight to edit notes written three days earlier. The metadata does not lie. When you see sequential page numbers with gaps or time stamps out of order, you have spoliation.
+
+**Inconsistent Vital Signs Reveal Backdated Entries**
+
+A patient's blood pressure reads 180/110 at 10:00 AM and 120/80 at 10:15 AM with no intervention documented. The heart rate drops 40 beats per minute in five minutes with no medication given. These vital signs are physiologically impossible without treatment. Someone backdated these entries after the fact to make the record look complete. I have seen entire flow sheets filled out in the same pen with identical handwriting, supposedly documenting q15-minute assessments over eight hours. Real-time documentation shows variations in pen color, pressure, and handwriting as nurses get tired. Fabricated documentation looks too perfect.
+
+**Altered Lab Results and Diagnostic Reports**
+
+You receive a medical record with a critical lab value circled in red and marked "called to Dr. Smith 1400." The original lab report in your client's personal copies shows no mark. Someone altered the chart after litigation started. Electronic records show similar tampering. A chest X-ray report gets amended 72 hours after the original reading, changing "large pleural effusion" to "small pleural effusion" after the patient dies from respiratory failure. The amended report timestamp falls two days after your demand letter arrived. This is consciousness of guilt in documentary form.
+
+**Missing Incident Reports and Risk Management Files**
+
+The nurse documents "incident report completed" in the narrative notes. You request the incident report. The hospital claims none exists. I have reviewed hundreds of cases where the medical record references incident reports, rapid response team activations, or risk management notifications, but these documents never appear in production. The hospital generates these reports immediately after adverse events. Their absence means destruction. Electronic systems track when users print, email, or delete incident reports. Your legal nurse consultant pulls the metadata showing the file existed and vanished after your HIPAA authorization arrived.
+
+**Altered Medication Administration Records**
+
+The anesthesia record shows propofol administered at 0900. The pharmacy dispensing record shows propofol was not removed from the Pyxis until 0915. Someone backdated the anesthesia record. Medication administration records frequently show this type of spoliation in surgical cases. I have reviewed charts where nurses documented giving medications before the pharmacy even filled the prescription. The time stamps on the electronic MAR show retroactive entries made during the next shift. Cross-reference every medication administration time with pharmacy dispensing logs and automatic dispensing machine reports.
+
+**Incomplete Physician Orders and Missing Protocols**
+
+The physician writes "Continue previous orders" on post-op day two. No previous orders exist in the chart. The nursing staff follows protocols for sepsis management. No sepsis protocol appears in the policies and procedures you received in discovery. Hospitals revise protocols after bad outcomes and destroy the versions in effect when your client was injured. I have seen facilities produce policies dated three months after the incident, claiming these were the operative guidelines. Your legal nurse consultant identifies these discrepancies by matching policy version dates against audit trails and employee training records.
+
+**Why You Need Clinical Eyes on Every Record**
+
+Attorneys spot legal issues. Legal nurse consultants spot clinical impossibilities. We read 40 charts a week. We know what real-time documentation looks like versus fabricated entries. We identify the missing pages you would never notice because we know what belongs in a complete medical record for each diagnosis and procedure. We cross-reference electronic metadata against paper copies and catch the alterations defense counsel hopes you miss. Spoliation of evidence does not announce itself. It hides in time stamps, sequential inconsistencies, and physiological impossibilities.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-03",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify spoliation of medical evidence through missing pages, altered timestamps, and clinical impossibilities in medical records.",
+    keywords: ["spoliation of medical evidence","legal nurse consultant","medical record tampering","altered medical records","missing medical records","medical record spoliation"],
+  },
+  {
     slug: "the-difference-between-medical-expert-witnesses-and-legal-nurse-consultants",
     title: "The Difference Between Medical Expert Witnesses and Legal Nurse Consultants",
     excerpt: "One testifies in court. The other builds your case foundation. Here's when you need each and why confusing their roles costs you money.",
