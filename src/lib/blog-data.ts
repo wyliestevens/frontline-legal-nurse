@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-reviewing-records-before-the-expert-witness-saves-thousands",
+    title: "Why Reviewing Records Before the Expert Witness Saves Thousands",
+    excerpt: "Legal nurse consultants identify missing records, timeline gaps, and merit issues before you spend a dime on expert fees.",
+    content: `
+**You Send Incomplete Records to Your Expert**
+
+I reviewed a fall case last month where the attorney sent 347 pages to their biomechanical expert. The expert billed \$8,500 for his initial review and opinion. The nursing home records were missing the entire incident report, the 72-hour post-fall assessment, and medication administration records from the shift when the patient fell. The expert rendered an opinion based on incomplete facts. The defense produced the missing records in discovery. The opinion fell apart. The attorney paid for a supplemental review at \$4,200. A legal nurse consultant costs \$125 per hour. We would have identified those gaps in three hours for \$375.
+
+**Your Expert Wastes Time on Non-Merit Cases**
+
+Attorneys send me cases with obvious departures from standard of care. They also send me cases with zero merit. Your expert charges the same rate either way. I reviewed a birth injury case where the attorney believed the obstetrician missed signs of fetal distress. The fetal heart rate strips showed Category I tracings throughout labor. The Apgar scores were 8 and 9. The newborn exam was normal. No hypoxic-ischemic encephalopathy. No seizures. The child's developmental delays appeared at age three with no proximate cause to delivery. An obstetric expert would have billed \$15,000 to tell you what I told the attorney in a four-page report for \$950. Walk away.
+
+**Timeline Confusion Destroys Credibility**
+
+Medical records arrive in chaos. Progress notes mix with lab results. Discharge summaries appear before admission orders. Electronic health records print with timestamps in military time across three different facilities. Your expert needs a clear, chronological timeline to form a defensible opinion. I built a timeline for a surgical malpractice case involving a bowel perforation. The surgeon claimed he recognized the perforation intraoperatively and repaired it immediately. The operative report said 1420 hours. The anesthesia record showed hypotension at 1347. The circulating nurse notes documented fecal matter in the surgical field at 1351. The surgeon waited 29 minutes. The expert used that timeline to establish delayed recognition. Without it, the expert would have accepted the surgeon's narrative.
+
+**Missing Records Equal Missing Damages**
+
+You need every page to quantify damages. I worked a case where the plaintiff suffered a medication error causing acute kidney injury. The attorney had the hospital records. He did not have the nephrology follow-up visits, the dialysis center records, or the home health nursing notes. Those records showed 18 months of ongoing treatment, dietary restrictions, and permanent loss of kidney function requiring biannual monitoring. The life care planner needed those records to project future medical costs. We obtained them before the expert review. The damages calculation jumped from \$240,000 to \$1.8 million.
+
+**Duplicate Billing Inflates Costs**
+
+Experts bill for reading records. They bill again when you send supplemental records. They bill for phone calls to clarify what the records mean. A legal nurse consultant reads the records once, identifies what matters, and explains the medicine in plain English. You send your expert a focused summary with relevant pages flagged. The expert spends two hours instead of twelve. I summarized a 2,400-page nursing home case down to 47 critical pages with a 12-page narrative report. The expert billed for three hours. He told the attorney it was the most efficient review he ever performed. The attorney saved \$6,750 in expert fees on one case.
+
+**Front-End Review Strengthens Your Negotiating Position**
+
+Defense attorneys know when you understand the medicine. They know when you do not. A legal nurse consultant's report in your demand package signals you vetted the case. I wrote a report for a pressure ulcer case identifying 14 specific departures from the Braden Scale protocol, the facility's own wound care policy, and CMS guidelines. The defense offered \$375,000 before the expert depositions. The attorney had spent \$1,200 on my review. He had not yet retained his wound care expert. The report alone moved the settlement.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-04",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse review before expert witness cuts costs by identifying record gaps, timeline issues, and merit problems. Real case examples inside.",
+    keywords: ["expert witness fees","legal nurse consultant","medical record review","case screening","expert costs","medical malpractice"],
+  },
+  {
     slug: "how-legal-nurse-consultants-identify-spoliation-of-medical-evidence",
     title: "How Legal Nurse Consultants Identify Spoliation of Medical Evidence",
     excerpt: "Medical records tell you when documentation has been altered, backdated, or destroyed. Here's what to look for.",
