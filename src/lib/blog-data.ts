@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-handle-conflicting-medical-opinions-in-your-case-file",
+    title: "How to Handle Conflicting Medical Opinions in Your Case File",
+    excerpt: "Three physicians review the same chart and give you three different opinions. Here's how to identify which expert opinion holds up.",
+    content: `
+Three physicians review the same chart and give you three different opinions. The orthopedist says the L4-L5 herniation caused permanent disability. The defense IME says your client had pre-existing degenerative disc disease. Your treating physician's notes mention both but commit to neither. You need to know which opinion survives cross-examination and which one costs you the case.
+
+**Start With the Medical Records Timeline, Not the Opinions**
+
+I've reviewed cases where attorneys built their entire strategy around an expert opinion before mapping the actual medical chronology. This approach fails. Pull every radiology report, every progress note, every therapy record. Create a chronological timeline of objective findings. Document every imaging study result, every measured range of motion, every quantified pain scale entry. The MRI from two months post-accident shows a herniation. The pre-accident MRI from three years prior shows mild bulging. These facts exist independent of any expert's interpretation. Your timeline tells you which opinion aligns with documented objective findings and which one requires speculative leaps.
+
+**Identify the Clinical Basis for Each Conflicting Opinion**
+
+Every medical opinion rests on specific clinical findings, diagnostic results, or medical literature. The defense expert claims pre-existing condition? Pull the exact records he cited. I've seen IME physicians reference a single word in a five-year-old primary care note while ignoring 47 pages of post-incident diagnostic studies. Your treating physician diagnosed traumatic brain injury based on Glasgow Coma Scale scores, CT findings, and neuropsychological testing. The defense neurologist dismissed TBI based solely on lack of loss of consciousness. One opinion cites multiple objective data points. The other cherry-picks a single criterion. Document which clinical standards each expert applied and which ones they ignored.
+
+**Compare Each Opinion Against Standard of Care Documentation**
+
+Medical standards exist in published clinical guidelines, peer-reviewed literature, and hospital protocols. The American College of Radiology has specific guidelines for diagnosing acute versus chronic injuries on imaging. The American Academy of Orthopaedic Surgeons publishes treatment algorithms. When two orthopedists give opposing causation opinions, pull the relevant clinical practice guidelines. I reviewed a shoulder injury case where the plaintiff expert claimed surgical necessity while defense claimed conservative treatment was appropriate. The AAOS guideline stated surgical intervention for full-thickness rotator cuff tears in patients under 60 with specific functional deficits. The medical records documented all criteria. One expert followed published standards. One didn't. The jury heard about those guidelines.
+
+**Examine What Each Expert Actually Reviewed**
+
+Your liability expert based his opinion on review of 2,400 pages of records. The defense expert reviewed 180 pages selected by defense counsel. I've seen this pattern in hundreds of cases. Request the specific documents each expert reviewed. Compare the lists. The plaintiff expert reviewed operative reports, pathology slides, pharmacy records, and EMS run sheets. The defense expert received only selected progress notes and one imaging report. An opinion based on incomplete records fails on cross-examination. An opinion based on comprehensive review withstands scrutiny. Document exactly which records each expert saw and which ones they didn't.
+
+**Look for Internal Inconsistencies Within Each Opinion**
+
+The defense expert states your client had full range of motion six weeks post-accident. The physical therapy records from that same week document 40-degree limitation in shoulder abduction with 7/10 pain. The expert's report cites those same therapy records on a different point. He reviewed the records. He ignored findings contrary to his conclusion. I've flagged dozens of these internal contradictions in defense expert reports. Create a chart matching each statement in the expert report to the actual medical record entry. When the expert's characterization contradicts the documented findings he claims to have reviewed, you've identified impeachment material. When your expert's opinion aligns with every documented finding, you've identified your trial witness.
+
+**Use Nurse Consultants to Identify Which Opinion the Records Support**
+
+Attorneys read medical opinions through a legal lens. Nurses read them through a clinical lens. We've reviewed charts where three physicians gave three interpretations of the same wound care documentation. The records showed Stage III pressure ulcer on admission, upgraded to Stage IV within 72 hours, with documented turns every four hours and nutrition consults. One opinion blamed inadequate staffing. One blamed patient non-compliance. One blamed pre-existing malnutrition. The nursing notes told the actual story: missed turning schedules, incomplete documentation, and facility protocol violations. A legal nurse consultant identifies which expert opinion aligns with clinical standards of documentation, assessment, and intervention. We've read enough charts to spot the difference between an opinion supported by the medical record and one contradicted by it.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-05",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Conflicting medical opinions destroy cases. Learn how to identify which expert opinion survives cross-examination using documented clinical findings.",
+    keywords: ["conflicting medical opinions","medical expert testimony","medical records review","legal nurse consultant","expert witness credibility","case strategy"],
+  },
+  {
     slug: "why-reviewing-records-before-the-expert-witness-saves-thousands",
     title: "Why Reviewing Records Before the Expert Witness Saves Thousands",
     excerpt: "Legal nurse consultants identify missing records, timeline gaps, and merit issues before you spend a dime on expert fees.",
