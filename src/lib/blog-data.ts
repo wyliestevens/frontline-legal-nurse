@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-medical-records-support-the-defense-more-than-your-client",
+    title: "When Medical Records Support the Defense More Than Your Client",
+    excerpt: "What to do when the chart tells a story you didn't want to hear. Five clinical strategies from 20 years of real case reviews.",
+    content: `
+I've reviewed the chart. The documentation is clean. The vitals were monitored. The intervention happened within standard of care timeframes. Your client's version doesn't match what's written. This happens more often than attorneys want to admit.
+
+**Look for Documentation Gaps, Not Documentation Quality**
+
+A well-documented chart doesn't mean nothing went wrong. It means the nurse knew how to chart. I've seen immaculate flow sheets next to a patient who coded from an untreated sepsis. The documentation showed vital signs every four hours. What it didn't show was anyone trending those vitals or notifying the physician when the MAP dropped below 65 three times in a row. The defense will point to the completed flow sheet. You point to the absence of clinical judgment. The records show tasks completed but critical thinking absent.
+
+**Find the Clinical Story Behind the Timestamps**
+
+Records time-stamped at 0800 don't mean care happened at 0800. Nurses chart in batches. They backfill. They document at shift change for the entire 12 hours. I reviewed a falls case where the nurse documented neuro checks every hour after the patient hit their head. Perfect timing. Perfect documentation. The problem: the flow sheet was printed after the checks were supposedly done, and the handwriting matched across all 12 entries. Same pen pressure. Same ink saturation. The defense will show you timestamps. You show the jury a photocopier pattern in human handwriting.
+
+**Reconstruct Events Using Medication Administration Records**
+
+The MAR tells the truth when narrative notes lie. Your client says nobody responded to his pain for six hours post-op. The nurse's notes say "patient resting comfortably, denies pain." The MAR shows no PRN analgesics given during that window. A patient truly denying pain doesn't need medication. A patient in pain who isn't medicated tells you the nurse didn't assess or didn't believe the complaint. Cross-reference every narrative note against the MAR. When they conflict, the MAR wins. Nurses don't skip charting medications. They skip assessing pain.
+
+**Identify Standard of Care Violations the Defense Will Ignore**
+
+The defense hired a nurse expert who says everything looks fine. Their expert won't tell them about the pressure ulcer protocol violation or the missed fall risk reassessment. I worked a wrongful death case where the patient aspirated during a feeding. The chart showed aspiration precautions in place. What it didn't show was a swallow evaluation after the patient's stroke three days prior. The speech therapy consult sat unsigned in the order section. The nurse fed the patient anyway. Standard of care requires a swallow study before oral intake post-CVA. The defense expert called it an unfortunate complication. We called it negligence.
+
+**Use Prior Records to Show Baseline Changes**
+
+Your client has a history. The defense will use it against you. Diabetes, hypertension, obesity, prior surgeries. They'll argue pre-existing conditions caused the harm. You argue the records show a functional baseline before this incident. I reviewed a surgical site infection case where the defense blamed the patient's diabetes. The patient's HbA1c sat at 6.8 for three years before surgery. Well-controlled. The infection came from a documented break in sterile technique during a dressing change. The prior records proved the diabetes didn't cause the infection. The technique failure did.
+
+**Know When to Walk Away and When to Dig Deeper**
+
+Some cases don't have merit. The records show appropriate care. The outcome was unfortunate but not negligent. I tell attorneys this directly. But some cases hide merit under defensive documentation. The difference shows in the details. A nurse charts "patient educated on fall precautions" but the patient has documented dementia and a MOCA score of 12. You don't educate someone who can't remember. You implement interventions. The chart looks compliant. The care was inadequate. Twenty years of case reviews taught me this: when records look too good, find out what the staff was covering.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-06",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical records support defense? Five clinical strategies to find merit in charts that look clean. From 20 years reviewing medical-legal cases.",
+    keywords: ["medical records review","medical malpractice defense","nursing documentation","standard of care violations","legal nurse consultant","medication administration records"],
+  },
+  {
     slug: "how-to-handle-conflicting-medical-opinions-in-your-case-file",
     title: "How to Handle Conflicting Medical Opinions in Your Case File",
     excerpt: "Three physicians review the same chart and give you three different opinions. Here's how to identify which expert opinion holds up.",
