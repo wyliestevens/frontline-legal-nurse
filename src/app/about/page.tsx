@@ -47,7 +47,7 @@ export default function AboutPage() {
                 With a Bachelor of Science in Nursing from the University of Arkansas for Medical Sciences, 19 years of direct nursing experience, and 20 years in healthcare, Wylie Stevens founded Frontline Legal Nurse Consulting to solve a specific problem: attorneys wasting valuable time trying to decipher complex medical records without clinical expertise.
               </p>
               <p className="font-['Lato'] text-white leading-relaxed mb-4">
-                Having worked alongside attorneys for years, she saw firsthand how the legal industry often expects paralegals and legal secretaries to handle medical record reviews, even though they lack the medical training to identify critical details. That gap costs attorneys time, money, and case outcomes.
+                Having worked alongside attorneys for years, he saw firsthand how the legal industry often expects paralegals and legal secretaries to handle medical record reviews, even though they lack the medical training to identify critical details. That gap costs attorneys time, money, and case outcomes.
               </p>
               <p className="font-['Lato'] text-white leading-relaxed mb-4">
                 Frontline Legal Nurse takes the burden of medical record reviews, expert sourcing, and case preparation off your shoulders. We specialize in personal injury, medical malpractice, class action, toxic tort, and product liability cases.

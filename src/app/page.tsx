@@ -118,17 +118,17 @@ export default function HomePage() {
               </p>
               <p className="font-['Lato'] text-white leading-relaxed mb-4">
                 With 19 years of nursing experience and 20 years in healthcare, Wylie Stevens is your
-                secret weapon to winning more cases. She brings deep clinical expertise to every
+                secret weapon to winning more cases. He brings deep clinical expertise to every
                 medical record review, ensuring nothing gets missed.
               </p>
               <p className="font-['Lato'] text-white leading-relaxed mb-4">
-                Her team provides comprehensive medical record analysis, fact summary reports, and
+                His team provides comprehensive medical record analysis, fact summary reports, and
                 expert case evaluations that give attorneys the edge they need. From personal injury
                 to medical malpractice, toxic tort to product liability, Frontline Legal Nurse
                 delivers clear, actionable medical insights.
               </p>
               <p className="font-['Lato'] text-white leading-relaxed mb-8">
-                She has access to thousands of legal nurse consultants and a dedicated team ready to
+                He has access to thousands of legal nurse consultants and a dedicated team ready to
                 handle cases of any size and complexity.
               </p>
               <Link href="/contact" className="btn-primary">
