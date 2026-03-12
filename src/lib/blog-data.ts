@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-your-medical-malpractice-case-needs-a-damages-analysis-beyond-economics",
+    title: "Why Your Medical Malpractice Case Needs a Damages Analysis Beyond Economics",
+    excerpt: "Economic reports miss the clinical realities that turn good settlements into excellent ones. Here's what you're leaving on the table.",
+    content: `
+Your economist tells you the case is worth \$2.3 million in lost wages and medical costs. Your expert witness confirms liability. You send the demand package. The defense offers \$800,000. What happened?
+
+**The Economic Report Tells Half the Story**
+
+Economists quantify wages, calculate medical expenses, and project future costs. They work from billing statements and income records. What they don't do is translate the medical record into human impact. I've seen economic reports value a below-knee amputation and a complete brachial plexus injury at similar figures because the medical costs aligned. The daily reality of those injuries differs drastically. One client walks with a prosthetic and returns to modified desk work. The other loses all function in their dominant arm and requires assistance with basic hygiene. Your economic expert won't explain why the second case demands triple the settlement.
+
+**Clinical Translation Changes Settlement Negotiations**
+
+A damages analysis from a legal nurse consultant puts clinical meat on economic bones. We chart the progression from injury through current status. We identify every complication, every revision surgery, every infection. We document wound care requirements, medication regimens, and therapy schedules. When defense counsel reads that your client requires twice-daily dressing changes for an unhealed surgical site at 14 months post-op, the future medical costs become real. When we detail the six medication classes your client takes for neuropathic pain, including the failed trials and adverse reactions, the jury sees suffering, not line items.
+
+**Future Care Needs Require Clinical Expertise**
+
+Economists project costs based on treatment plans. Who verifies those plans match the standard of care for the specific injuries? I reviewed a case where the economist projected 20 years of outpatient physical therapy for a traumatic brain injury client. The medical records showed plateau at 18 months with no further functional gains. The defense would have shredded that projection. We revised the life care plan to include appropriate custodial care, cognitive therapy, and case management instead. The corrected projection increased the demand by \$1.8 million and withstood defense scrutiny.
+
+**Documenting Loss of Enjoyment Requires Medical Evidence**
+
+You know the client lost quality of life. Prove it with medical record chronology. We pull every reference to functional decline: the occupation therapy note showing your client can no longer button shirts, the psychology record documenting withdrawal from social activities, the pain management chart tracking medication increases. We organize these findings by life domain: self-care, mobility, cognition, social engagement, vocational capacity. This documentation supports your non-economic damages argument with clinical proof, not just testimony. I worked a case where we extracted 43 separate medical record references to a formerly active client's progressive isolation and depression following a surgical error. The defense called the pain and suffering demand excessive until they saw the clinical timeline.
+
+**Defense Experts Target Weak Damages Claims**
+
+Defense medical experts review your damages evidence looking for gaps and exaggerations. They find them. I've watched defense IME physicians argue that injuries weren't as severe as claimed because the medical records didn't support the narrative. They point out missing treatments, inconsistent complaints, and unexplained gaps in care. A thorough damages analysis identifies these vulnerabilities before defense sees them. We flag the three-month gap in pain management appointments and explain it with the medication prior authorization denial documented in the records. We address the physical therapy discharge and show the insurance coverage termination. We turn apparent weaknesses into evidence of barriers to care.
+
+**The Analysis Guides Your Expert Witness Testimony**
+
+Your medical expert testifies about causation and standard of care. Who connects that testimony to daily impact? The damages analysis gives your expert the clinical foundation to explain how the malpractice changed your client's life. We provide the detailed summary your expert references when describing functional limitations, ongoing symptoms, and future deterioration. Your expert testifies with authority because they're working from comprehensive clinical documentation, not a summary report. Defense cross-examination loses force when your expert cites specific medical record entries supporting every damages claim.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-12",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical malpractice damages analysis reveals what economic reports miss. Clinical documentation turns good settlements into excellent verdicts.",
+    keywords: ["medical malpractice damages","damages analysis","legal nurse consultant","life care plan","medical record review","settlement negotiation"],
+  },
+  {
     slug: "using-case-chronology-to-expose-inconsistencies-in-defendant-physician-testimony",
     title: "Using Case Chronology to Expose Inconsistencies in Defendant Physician Testimony",
     excerpt: "A detailed timeline of medical interventions reveals when a defendant's story contradicts the documented clinical facts.",
