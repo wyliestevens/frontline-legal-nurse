@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-build-a-compelling-medical-narrative-for-mediation",
+    title: "How to Build a Compelling Medical Narrative for Mediation",
+    excerpt: "A chronological story with clinical anchors beats a stack of records every time. Here's how to construct it.",
+    content: `
+**Start With the Clinical Baseline Before the Incident**
+
+Your mediator needs to see what normal looked like. I pulled records on a slip and fall case where the plaintiff claimed permanent back injury. The defense offered \$75,000. We documented she had completed a half-marathon six weeks before the fall, worked 50-hour weeks as a floor nurse, and had zero pain complaints in five years of primary care visits. The clinical baseline made her post-incident lumbar fusion and opioid dependence impossible to ignore. The case settled for \$890,000. Establish function, not just absence of diagnosis. Show work capacity, activity level, and independence in ADLs through clinical documentation.
+
+**Map Every Clinical Deterioration to a Specific Failure**
+
+Mediators decide cases when they see cause and effect. I reviewed a nursing home case where an 82-year-old developed stage IV sacral pressure ulcers. The facility blamed age and comorbidities. We created a timeline showing the wound nurse documented high pressure areas on admission day. Repositioning orders were written but nursing notes showed turns happened once per 12-hour shift instead of every two hours. The ulcer went from stage I to stage IV in 19 days. We tied each stage progression to missed turns documented in the EMR. The deterioration timeline made the neglect visible. Settlement went from \$200,000 to \$1.2 million in three hours of mediation.
+
+**Translate Medical Jargon Into Functional Loss**
+
+A C5-C6 herniated disc means nothing to most mediators. Loss of ability to button a shirt, grip a coffee cup, or sleep through the night without burning arm pain means everything. I worked a case where a rear-end collision caused cervical radiculopathy. The EMR showed positive Spurling's test, decreased grip strength from 45 kg to 18 kg, and failed conservative treatment. We translated it: the plaintiff went from building custom furniture to needing his wife to open jars. His occupational therapy notes documented he dropped tools repeatedly and stopped taking custom orders. He lost his business. The functional translation made the six-figure wage loss claim credible. The defense doubled their offer when they understood what radiculopathy stole from him.
+
+**Use Treating Physician Notes to Prove Causation**
+
+IME doctors get paid to disagree. Treating physicians document real-time observations before litigation exists. I reviewed records where a defense IME claimed fibromyalgia, not the work injury, caused chronic pain. The treating physiatrist's notes from week two post-injury described mechanical low back pain with radicular symptoms, positive straight leg raise, and L5-S1 disc protrusion on MRI. His notes said "patient had zero back pain history prior to lifting incident per extensive history taken today." Six months of physical therapy notes showed consistent improvement until the insurer cut off treatment. The pain became chronic after treatment stopped, not before. The treating provider timeline destroyed the defense causation argument.
+
+**Highlight What the Defense Medical Expert Ignores**
+
+Defense experts cherry-pick. Your narrative shows what they left out. I reviewed a medical malpractice case where sepsis killed a 54-year-old woman. The defense infectious disease expert wrote that her death was inevitable given her diabetes and obesity. He ignored twelve hours of tachycardia, fever, and hypotension in the nursing notes before anyone ordered blood cultures. He ignored the ED physician's note stating "patient looks septic, starting broad-spectrum antibiotics." He ignored the two-hour delay in antibiotic administration after the order was written. We built a narrative around the ignored data. The expert's opinion collapsed under the weight of what he pretended not to see.
+
+**Quantify the Medical Cost Trajectory With Specificity**
+
+Future medical damages sound speculative until you show the documented treatment plan. I worked a traumatic brain injury case where the physiatrist wrote a life care plan in his chart notes: annual neurology visits, ongoing speech therapy twice monthly, neuropsychological testing every two years, and probable need for memory care placement within 10 years. The occupational therapist documented the plaintiff needed 24-hour supervision due to impaired safety awareness. We took the documented clinical recommendations, added the going rates, and presented a 40-year cost analysis. The defense called it inflated until we showed their own IME doctor agreed the plaintiff needed lifetime neurology follow-up. Documented medical necessity beats theoretical projections.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-13",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Build compelling medical narratives for mediation using clinical baselines, deterioration timelines, and functional loss translation.",
+    keywords: ["medical narrative","mediation strategy","legal nurse consulting","medical records review","case preparation","medical causation"],
+  },
+  {
     slug: "why-your-medical-malpractice-case-needs-a-damages-analysis-beyond-economics",
     title: "Why Your Medical Malpractice Case Needs a Damages Analysis Beyond Economics",
     excerpt: "Economic reports miss the clinical realities that turn good settlements into excellent ones. Here's what you're leaving on the table.",
