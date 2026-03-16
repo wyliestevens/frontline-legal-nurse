@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-most-attorneys-miss-the-nursing-standard-of-care-entirely",
+    title: "Why Most Attorneys Miss the Nursing Standard of Care Entirely",
+    excerpt: "Nurses document what physicians never see. You lose cases when you focus only on the MD's orders and ignore the RN's clinical judgment failures.",
+    content: `
+You focus on the physician's orders. You analyze the surgeon's technique. You hire a medical expert to review the differential diagnosis. Meanwhile, the nursing failures cost your client their leg, and you never saw it coming.
+
+**The Physician Orders Treatment But the Nurse Delivers It**
+
+The doctor writes for IV antibiotics every six hours. The medication administration record shows the nurse gave them every eight hours instead. Your client develops sepsis. The infection spreads. You blame the doctor for inadequate antibiotic coverage when the nurse never followed the order in the first place. I see this in 40% of the hospital negligence cases that cross my desk. Attorneys read the physician's notes and skip the MAR entirely. The nurse's charting tells you what treatments your client actually received versus what the doctor intended. These are not the same thing.
+
+**Nurses Assess Between Physician Visits and They Document What They Find**
+
+Your nursing home resident fell three times in two weeks. The physician saw her once during that period. The nurses assessed her every shift and documented unsteady gait, confusion, and attempts to stand without assistance. They noted all of this in the nursing notes. They never implemented fall precautions. They never placed her closer to the nurses' station. They never increased monitoring. You sue the facility for inadequate physician oversight when the nurses identified the fall risk and did nothing. The nursing standard of care requires them to intervene based on their own assessment findings, not wait for a doctor's order.
+
+**The Nursing Process Is Independent Clinical Judgment**
+
+Nurses follow a distinct process: assess, diagnose, plan, implement, evaluate. They make nursing diagnoses separate from medical diagnoses. A patient has the medical diagnosis of diabetes. The nurse identifies the nursing diagnosis of risk for impaired skin integrity and implements a turning schedule, skin assessments, and pressure-relieving devices. When your client develops a Stage 4 pressure ulcer, you look for a physician's order for wound care. You miss the point. The nurse had an independent duty to prevent the wound from forming. No doctor's order required.
+
+**Nursing Standards Come From Multiple Sources and You Need All of Them**
+
+You ask your expert what the standard of care requires. They reference their own experience. You need the facility's policies and procedures. You need the state nurse practice act. You need the applicable specialty nursing standards from organizations like the Emergency Nurses Association or the American Association of Critical-Care Nurses. You need the nursing textbooks and clinical guidelines current at the time of the incident. I reviewed a case last month where the hospital's own policy required neuro checks every 15 minutes for a head injury patient. The nurse charted them every hour. The patient herniated and died. The policy manual won your case, and the referring attorney almost missed it.
+
+**Nursing Documentation Follows Specific Rules and the Gaps Tell the Story**
+
+Late entries appear in different ink or with different timestamps in electronic records. Gaps in charting mean gaps in care or gaps in surveillance. A labor and delivery nurse charts fetal heart tones every 30 minutes when continuous monitoring was required. You see documentation. I see 29 minutes of every half hour where no one watched your client's baby. The baby develops hypoxia. The strips show late decelerations the nurse should have caught. Your opposing counsel argues the nurse assessed continuously and charted periodically. You need to know that continuous electronic fetal monitoring requires continuous observation and documentation of any concerning patterns immediately.
+
+**The Nurse Is Your Witness to the Physician's Negligence Too**
+
+The surgeon perforates the bowel during a routine laparoscopy. The scrub nurse documents fecal spillage in the operative note. The surgeon's dictation makes no mention of it. The circulating nurse charts the patient's dropping blood pressure in the recovery room. The anesthesiologist's note shows stable vital signs. Nurses create a parallel medical record. They see what happens at the bedside. Their documentation either supports or contradicts the physician's version of events. You depose the doctor and accept their reconstruction of the case. You never read what the nurses wrote while events unfolded in real time.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-16",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Nursing standard of care determines liability in most medical cases. Learn what attorneys miss when they focus only on physician conduct.",
+    keywords: ["nursing standard of care","medical malpractice","nursing negligence","legal nurse consultant","medical records review","hospital negligence"],
+  },
+  {
     slug: "how-to-build-a-compelling-medical-narrative-for-mediation",
     title: "How to Build a Compelling Medical Narrative for Mediation",
     excerpt: "A chronological story with clinical anchors beats a stack of records every time. Here's how to construct it.",
