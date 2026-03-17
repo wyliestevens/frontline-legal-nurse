@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-prepare-interrogatories-for-maximum-clinical-information-extraction",
+    title: "How to Prepare Interrogatories for Maximum Clinical Information Extraction",
+    excerpt: "Generic interrogatories miss the clinical details that win cases. Here's how to write questions your defendant's experts must answer with specifics.",
+    content: `
+**Stop Asking Questions Defendants Want to Answer**
+
+Most interrogatories I see hand defendants easy exits. "Describe all treatment provided" lets them summarize in three useless sentences. "List all medications prescribed" gets you a drug list without dosages, routes, or timing. I've watched attorneys lose traction because their interrogatories asked for summaries instead of forcing defendants to document their clinical decision-making. You need questions the answering party cannot dodge without looking incompetent or dishonest. Target the standard of care violations you already identified in your medical record review. Make them explain why they deviated.
+
+**Demand the Clinical Reasoning Behind Every Critical Decision**
+
+Your interrogatories must force providers to state the medical justification for specific actions. "Identify the clinical findings documented in the medical record on March 15, 2023 at 1430 hours before administering 10mg IV morphine to a patient with documented respiratory rate of 8 breaths per minute." This question locks them into their charting. "State the medical reason Dr. Jones discharged the patient with oxygen saturations of 88% on room air without supplemental oxygen or pulmonary consultation." Now they must either admit poor judgment or fabricate reasoning not in the record. I've seen defense experts crumble during deposition when forced to defend answers to properly constructed interrogatories. The interrogatory answer becomes impeachment gold.
+
+**Pin Down Every Gap in Monitoring and Documentation**
+
+Nursing home and hospital cases live or die on monitoring failures. Your interrogatories must identify every required assessment the staff skipped. "List each date and time between January 1-15, 2024 nursing staff documented neurovascular checks on the plaintiff's left lower extremity after surgical repair of left femur fracture." You know from the standards post-surgical orthopedic patients need neurovascular checks every 2-4 hours. When they cannot produce 14 days of consistent documentation, you have your neglect case. "State the clinical rationale for 72-hour gap in blood glucose monitoring for plaintiff with diabetes mellitus type 1 and documented hypoglycemic episode on admission." They have no good answer.
+
+**Extract Equipment and Product Details Before Spoliation Claims Arise**
+
+Product liability and medical device cases require exact specifications early. "Identify the manufacturer name, model number, serial number, and lot number of the transvaginal mesh implanted on June 3, 2022." Get this in interrogatory answers before the hospital conveniently loses records. "State the date of last preventive maintenance performed on the Da Vinci surgical robot used in plaintiff's hysterectomy and identify each malfunction code documented during the procedure." Medical equipment generates error logs the defense will not volunteer. Your interrogatory must demand them specifically. I've worked cases where these details emerged only because the attorney asked the precise question before anyone thought to scrub the database.
+
+**Force Disclosure of All Treating Providers and Their Specific Roles**
+
+Complex medical cases involve multiple providers making critical decisions. "Identify each physician, resident, physician assistant, nurse practitioner, registered nurse, and medical student who examined plaintiff between her emergency department arrival at 0830 hours and her respiratory arrest at 1645 hours on April 12, 2023, and state what clinical assessments each provider documented." This interrogatory maps the chain of custody for medical decision-making. You need to know who saw what when. "State which provider ordered discontinuation of plaintiff's heparin infusion at 2200 hours and identify the documented indication for this order." One provider made the deadly call. Make them tell you who.
+
+**Request Protocols and Policies Defendants Actually Followed**
+
+Every healthcare facility has written protocols they ignore. "Identify the facility protocol in effect on October 8, 2023 for escalation of care when patient early warning scores exceed 6, and state whether nursing staff followed this protocol for plaintiff." You want their own standards in writing with their admission they violated them. "Produce the medication reconciliation policy in effect during plaintiff's admission and identify which required steps the admitting nurse completed." The policy says reconcile all home medications within two hours of admission. The chart shows it happened 18 hours later after the drug interaction caused the seizure. They wrote the policy. They violated it. They must state both facts in interrogatory answers.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-17",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "5 min read",
+    metaDescription: "Write interrogatories for medical cases that force defendants to document clinical decisions and expose standard of care violations in their own words.",
+    keywords: ["interrogatories medical malpractice","clinical interrogatories","medical legal discovery","nursing home interrogatories","hospital negligence discovery","legal nurse consultant"],
+  },
+  {
     slug: "why-most-attorneys-miss-the-nursing-standard-of-care-entirely",
     title: "Why Most Attorneys Miss the Nursing Standard of Care Entirely",
     excerpt: "Nurses document what physicians never see. You lose cases when you focus only on the MD's orders and ignore the RN's clinical judgment failures.",
