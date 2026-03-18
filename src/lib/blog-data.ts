@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-prepare-your-expert-for-daubert-challenges",
+    title: "How Legal Nurse Consultants Prepare Your Expert for Daubert Challenges",
+    excerpt: "A legal nurse consultant identifies weaknesses in opposing expert testimony and strengthens your expert's methodology before depositions and hearings.",
+    content: `
+Your expert witness survives or dies on methodology. The opposing counsel knows this. They will attack every gap in reasoning, every unexplained leap from clinical findings to causation, every reference to outdated literature. I have watched strong liability cases collapse because an expert walked into deposition unprepared for methodological scrutiny.
+
+**We Identify the Methodological Gaps Before Opposing Counsel Does**
+
+Your expert states the defendant's failure to monitor fetal heart rate tracings caused hypoxic ischemic encephalopathy. The medical records show a 40-minute gap in documented assessments. Your expert needs to articulate the specific pathophysiology linking those 40 minutes to the brain injury pattern visible on MRI. We map out each step: the late decelerations indicating uteroplacental insufficiency, the expected timeline for cellular damage in Category III tracings, the correlation between Apgar scores and umbilical cord blood gas values, and the radiologic findings consistent with acute intrapartum hypoxia rather than chronic placental insufficiency. We write this out in clinical detail before deposition prep begins.
+
+**We Audit Your Expert's Differential Diagnosis Process**
+
+The Daubert challenge lives and dies on differential diagnosis. Your expert must rule in and rule out alternative causes with specificity. In a delayed sepsis diagnosis case, your expert claims the emergency department physician breached the standard of care by missing meningitis. We examine the vital signs, white blood cell count with differential, C-reactive protein levels, and mental status documentation. We force the question: What specific clinical findings at hour two of the ED visit made bacterial meningitis more likely than viral syndrome, migraine, or drug-seeking behavior? We identify which alternative diagnoses your expert must address and which lab values or physical exam findings exclude them. We cite the specific literature supporting each step of this reasoning.
+
+**We Vet Every Citation Your Expert Plans to Use**
+
+I have seen experts cite studies they never read. I have seen them reference guidelines from 2003 when the 2018 version contradicts their opinion. I have seen them misstate sample sizes, confuse relative risk with absolute risk, and quote abstracts while ignoring methods sections. We obtain every article, guideline, and textbook your expert references. We read them in full. We verify the expert's interpretation matches the actual findings. We check publication dates against the date of the incident. We identify any conflicting literature the opposing expert will use and prepare your expert to address those conflicts with clinical reasoning, not deflection.
+
+**We Translate Complex Pathophysiology Into Daubert-Proof Language**
+
+Your expert understands the medicine. The judge does not. The expert must explain why their methodology meets the Daubert standard without assuming medical knowledge. We help your expert articulate testing, error rates, peer review, and general acceptance in language a federal judge understands during a hearing. For a compartment syndrome case, we help the expert explain why serial neurovascular assessments every two hours represent the accepted standard, why deviation from this protocol increases missed diagnosis rates from 3% to 47%, and why the peer-reviewed orthopedic literature supports this assessment frequency across 15 years of prospective studies.
+
+**We Prepare the Expert to Defend Clinical Experience as Valid Methodology**
+
+Opposing counsel will argue your expert's opinion rests on subjective clinical experience rather than scientific method. We prepare your expert to quantify that experience. A nurse expert testifying about pressure ulcer development must state how many Stage IV ulcers she has personally treated, how many years she spent in wound care, which evidence-based protocols she followed, and which peer-reviewed pressure injury guidelines informed her practice. We document this before the Daubert motion lands on your desk. The expert's CV lists certifications and employers. We extract the clinical volume, patient populations, and hands-on procedural experience behind those bullet points.
+
+**We Know What the Opposing Expert Will Attack**
+
+I have reviewed thousands of expert reports from both sides. The attacking expert follows patterns. They claim your expert ignored alternative diagnoses. They state your expert applied specialty standards to generalist practice settings. They argue your expert relied on temporal association rather than causation. They point out your expert's lack of recent clinical practice. We anticipate these attacks by reviewing the opposing expert's prior testimony, published articles, and known biases. We prepare your expert with specific rebuttals rooted in clinical literature and case facts.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-18",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify methodological gaps in expert testimony and prepare Daubert-proof opinions for medical malpractice cases.",
+    keywords: ["Daubert challenge","legal nurse consultant","expert witness preparation","medical expert testimony","differential diagnosis","medical malpractice"],
+  },
+  {
     slug: "how-to-prepare-interrogatories-for-maximum-clinical-information-extraction",
     title: "How to Prepare Interrogatories for Maximum Clinical Information Extraction",
     excerpt: "Generic interrogatories miss the clinical details that win cases. Here's how to write questions your defendant's experts must answer with specifics.",
