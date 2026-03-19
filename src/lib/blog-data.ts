@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-timing-matters-in-medical-record-requests-and-what-happens-when-you-wait",
+    title: "Why Timing Matters in Medical Record Requests and What Happens When You Wait",
+    excerpt: "Medical records vanish, get destroyed, or become impossible to obtain. Here's what I've seen happen when attorneys delay their requests.",
+    content: `
+**Most Hospitals Destroy Records After Seven Years**
+
+Your client fell in a nursing home in 2017. You file suit in 2024. The hospital already sent those records to off-site storage or shredded them per their retention policy. I've watched attorneys scramble when they discover the ED records, radiology reports, and nursing notes from the initial injury no longer exist. State laws set minimum retention periods, but hospitals stick to those minimums. Medical records cost money to store. Facilities destroy them the moment they legally clear the deadline. The defense knows this. They wait you out.
+
+**Electronic Health Records Get Purged During System Migrations**
+
+Hospitals switch EHR vendors every five to eight years. Epic to Cerner. Meditech to Epic. Allscripts to something else. During these migrations, data gets lost, corrupted, or deliberately excluded from the transfer. I reviewed a birth injury case where the fetal monitoring strips existed in the old system but never made it to the new one. The hospital claimed they no longer had access to the archive. We subpoenaed the old vendor directly and got partial data, but three hours of critical tracings disappeared forever. Request records before the migration notice goes out. Once they announce a new system, you have six months before documentation starts vanishing.
+
+**Witness Nurses Leave and Memories Fade Fast**
+
+The ICU nurse who charted your client's declining neuro status works at a different hospital now. The charge nurse who called the attending physician three times retired. The respiratory therapist who documented the ventilator malfunction moved to Arizona. I've deposed nurses who have no independent memory of a patient from 18 months ago. They relied entirely on their charting, and if you don't have complete records, you don't have their testimony. Nurses see 200 patients a year in critical care settings. They remember nothing specific without documentation to refresh their recollection. Get the records while staff turnover is still low and while the people who wrote those notes still work in the building.
+
+**Incident Reports Disappear Into Risk Management Black Holes**
+
+You want the incident report filed after your client's post-op bleed. The risk management department claims it no longer exists or falls under attorney-client privilege. I've seen both excuses used when attorneys wait too long to request these documents. Fresh incident reports sometimes surface during early discovery because the facility hasn't finished its internal review. Wait two years and risk management has already closed the file, interviewed witnesses, and buried everything under privilege claims. Early requests force facilities to produce or claim privilege before they've built an airtight legal strategy around the event. Timing disrupts their preparation.
+
+**Physician Documentation Gets Harder to Obtain After Practice Sales**
+
+The orthopedic surgeon who botched your client's knee replacement sold his practice to a hospital system. His old office manager retired. The new system claims they only received records from the past three years. I've tracked down former practice managers, storage facilities, and even the physician's personal attorney to locate pre-acquisition charts. Some never turn up. Private practices get bought and sold constantly. Small offices close, physicians retire, and records end up in basements, storage units, or dumpsters. Request records from private practices within 90 days of the incident. Don't assume they will still exist when you're ready to file.
+
+**Radiology Images Degrade and Storage Systems Fail**
+
+DICOM images from CT scans, MRIs, and X-rays live on servers with finite lifespans. I reviewed a traumatic brain injury case where the initial head CT from the ED no longer opened because the file format became obsolete. The hospital still had the radiologist's written report, but we lost the actual images showing the subdural hematoma's size and location. Digital doesn't mean permanent. Storage systems crash. Backup tapes degrade. File formats change. Request imaging studies on disc immediately after the incident, and store your own copies. The defense has theirs. You need yours before the hospital's system fails or gets upgraded.
+
+**The Statute of Limitations Doesn't Protect Your Evidence**
+
+You have two years to file suit. The hospital has seven years to keep records. Those timelines don't align in your favor. I've watched attorneys assume they had time because the statute hadn't run. They didn't. By the time they requested records, half the documentation had been destroyed per policy, and the other half sat in off-site storage costing \$500 per box to retrieve. Facilities charge you for that retrieval. They delay production. They claim records are incomplete. Early requests eliminate these games. You control the timeline when you request records within 60 days of the incident, not 18 months later.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-19",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Medical records vanish after 7 years. EHR migrations lose data. Here's why attorneys must request records immediately after an incident.",
+    keywords: ["medical record requests","medical records retention","legal nurse consulting","medical malpractice records","hospital record destruction","EHR data loss"],
+  },
+  {
     slug: "how-legal-nurse-consultants-prepare-your-expert-for-daubert-challenges",
     title: "How Legal Nurse Consultants Prepare Your Expert for Daubert Challenges",
     excerpt: "A legal nurse consultant identifies weaknesses in opposing expert testimony and strengthens your expert's methodology before depositions and hearings.",
