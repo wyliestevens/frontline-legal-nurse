@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-use-hospital-policy-and-procedure-manuals-in-your-case-strategy",
+    title: "How to Use Hospital Policy and Procedure Manuals in Your Case Strategy",
+    excerpt: "Hospital policies establish the standard of care. Here's how to weaponize them in medical litigation.",
+    content: `
+**Hospital Policies Define the Standard of Care**
+
+Every hospital maintains policy and procedure manuals. These documents tell staff exactly how to perform nursing tasks, respond to emergencies, document assessments, and escalate patient deterioration. When a nurse or physician violates these policies, you have written proof they failed to meet their own institutional standards. I've seen defense attorneys crumble when confronted with their client hospital's own policy manual showing the nurse should have called the physician after two elevated blood pressure readings, not four.
+
+**Request Policies Early and Specifically**
+
+Demand the relevant policies in your initial discovery requests. Do not ask for "all policies and procedures." Specify policies by clinical situation: fall risk assessment protocols, medication administration procedures, restraint application guidelines, pressure ulcer prevention bundles, sepsis screening tools, or whatever applies to your case. Hospitals will bury you in irrelevant documents if you let them. I've reviewed defense responses where they produced the visitor parking policy but claimed they lost the rapid response team activation criteria. Push back hard.
+
+**Compare Policy to Documentation**
+
+Lay the hospital policy next to the nursing flow sheets and progress notes. Create a chart showing what the policy required and what the medical record proves happened. In a case involving a post-surgical patient who bled out, the policy required vital sign checks every 15 minutes for two hours post-op. The nurse documented vitals at 1400, then nothing until 1530. The patient coded at 1520. That 75-minute gap proved fatal and violated the hospital's own written standards. Your damages expert uses this to show causation.
+
+**Policies Reveal What Training Staff Received**
+
+Hospital policies double as training documents. When a policy states "all RNs will assess pain using the 0-10 numerical scale every four hours," the hospital has confirmed they trained their nurses on this standard. The defendant nurse cannot claim ignorance. I've deposed nurses who insisted they didn't know they needed to reposition a bedbound patient every two hours. Then we show them the pressure injury prevention policy with their signature on the annual competency acknowledgment. Their credibility evaporates.
+
+**Look for Policy Violations in Supervision and Staffing**
+
+Policies govern more than bedside care. They address charge nurse responsibilities, preceptor requirements for new graduates, and mandatory staff-to-patient ratios. In a medication error case, I found the hospital policy required all new nurses to have medications co-signed by a preceptor for 90 days. The nurse who gave the wrong dose was on day 30 of orientation and gave medications unsupervised. The hospital violated its own safety protocol. This shifted liability from the individual nurse to the institution and expanded your recovery.
+
+**Outdated Policies Expose Systemic Failures**
+
+Check the policy revision dates. A fall prevention policy last updated in 2008 tells you the hospital ignored 15 years of evidence-based practice improvements. Professional standards evolve. If the policy references outdated equipment or eliminated medications, the hospital demonstrates deliberate indifference to patient safety. I reviewed a case where the hospital's restraint policy still referenced Posey vests, which were contraindicated by national guidelines eight years earlier. This showed the jury a pattern of institutional neglect beyond one bad nurse.
+
+**Policies Written After Your Incident Are Admissible**
+
+Defense counsel will fight to exclude policies revised after your client's injury. Argue for admission as subsequent remedial measures showing feasibility or to prove the hospital recognized the danger. Some jurisdictions allow these revisions to impeach defense experts who claim the old standard was acceptable. I've seen hospitals completely rewrite their neurological assessment policies three months after a missed stroke case. The new policy proved the old one was inadequate and the hospital knew it.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-20",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Hospital policy manuals define standard of care. Learn how to use policies and procedures to prove liability in medical malpractice cases.",
+    keywords: ["hospital policy","standard of care","medical malpractice","nursing negligence","hospital procedures","case strategy"],
+  },
+  {
     slug: "why-timing-matters-in-medical-record-requests-and-what-happens-when-you-wait",
     title: "Why Timing Matters in Medical Record Requests and What Happens When You Wait",
     excerpt: "Medical records vanish, get destroyed, or become impossible to obtain. Here's what I've seen happen when attorneys delay their requests.",
