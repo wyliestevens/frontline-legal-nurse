@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-identify-the-moment-standard-of-care-broke",
+    title: "How Legal Nurse Consultants Identify the Moment Standard of Care Broke",
+    excerpt: "We pinpoint the exact moment care failed by reading what's missing, tracking the timeline, and knowing what nurses should have done.",
+    content: `
+You hire us to find where care broke down. We deliver the exact moment, the specific nursing action missed, and the clinical consequence. Here's how we do it.
+
+**We Read What the Nurse Didn't Document**
+
+The absence tells the story. When I see a patient with chest pain and no cardiac monitoring strip in the chart, I know monitoring never happened. When a fall risk assessment is blank for a 78-year-old on Ambien, I know the nurse skipped it. When a surgical patient's pain score jumps from 4 to 9 with no intervention documented for three hours, I know someone ignored standing orders. Missing documentation means missing care. We identify the gaps because we know what belongs in every chart for every diagnosis. Your opposing counsel will argue the nurse forgot to document. We show the jury what happens when a nurse actually performs an assessment. The documentation follows the action. No documentation means no action.
+
+**We Build the Timeline Down to the Minute**
+
+The breach lives in the sequence. I reviewed a post-surgical case where the nurse documented stable vitals at 1400, then again at 1800. The patient arrested at 1745. We pulled the pharmacy records. Pain medication was administered at 1430. We pulled the monitor strips. Heart rate climbed from 92 to 136 between 1500 and 1630. The nurse charted stable vitals while the patient was actively decompensating. We proved the nurse falsified documentation and missed a four-hour window to intervene. We reconstruct every medication administration, every vital sign, every lab result, every physician order. We cross-reference electronic timestamps with nursing notes. The lies show up in the gaps.
+
+**We Know the Protocols Your Defendant Should Have Followed**
+
+Every facility has policies buried in the operations manual. We get them. A hospital's sepsis protocol requires blood cultures before antibiotics, lactate levels within one hour, and 30cc/kg fluid bolus within three hours. When the nurse hangs antibiotics at 2200 and draws cultures at 2245, we caught the breach. Contaminated cultures. Delayed diagnosis. Longer ICU stay. We know ACLS algorithms, stroke protocols, obstetric hemorrhage response, and restraint monitoring requirements. We tell you which policy the nurse violated and what the violation cost your client. We write it in language the jury understands.
+
+**We Identify the Assessment the Nurse Never Performed**
+
+Nurses are licensed to assess. They are required to assess. When assessment fails, patients die. I reviewed a nursing home case where an 82-year-old resident fell and hit her head. The nurse documented the resident was alert and oriented with no visible injury. No neuro checks. No physician notification. No monitoring. The resident was found unresponsive eight hours later with a subdural hematoma. The nurse never performed a cranial nerve assessment, never checked pupils, never evaluated gait. She looked at the resident and wrote a note. We detail every assessment the standard of care required. We explain what the nurse would have found if she had assessed properly. We connect the missed assessment to the outcome.
+
+**We Consult Specialists Who Testify About the Breach**
+
+Your case needs more than our review. You need a credentialed expert who will testify. We have a national network of practicing nurses who worked in the exact unit where your breach occurred. They know the equipment, the staffing ratios, the patient populations, and the protocols. They review our analysis and confirm the breach. They write reports. They sit for depositions. They testify at trial. We match your case to the right expert based on specialty, geography, and testimony experience. We don't hand you a curriculum vitae and wish you luck. We brief the expert on our findings and prepare them to support your theory of liability.
+
+**We Calculate What the Breach Cost Your Client**
+
+The breach creates damages. We quantify them. A missed pulmonary embolism diagnosis extends hospital stay by 12 days. We calculate the cost of ICU care, mechanical ventilation, and complications. A pressure ulcer develops because the nurse didn't reposition a paralyzed patient. We project lifetime wound care costs, infection treatment, and surgical debridement. A medication error causes anoxic brain injury. We outline the care plan your client now requires for life. We give you numbers for your economist. We give you facts for your damages testimony.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-24",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants pinpoint standard of care breaches by reading missing documentation, building timelines, and knowing nursing protocols.",
+    keywords: ["standard of care breach","legal nurse consultant","medical malpractice","nursing negligence","medical record review","expert witness"],
+  },
+  {
     slug: "why-your-demand-package-needs-a-medical-narrative-not-a-records-dump",
     title: "Why Your Demand Package Needs a Medical Narrative Not a Records Dump",
     excerpt: "Insurance adjusters won't dig through 2,000 pages. Medical narratives connect injuries to damages and force fair settlement offers.",
