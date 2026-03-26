@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-use-medical-records-to-prove-negligent-care-patterns",
+    title: "How to Use Medical Records to Prove Negligent Care Patterns",
+    excerpt: "Medical records contain documented proof of systemic failures. Here's how to find it and use it.",
+    content: `
+Single incidents look like mistakes. Patterns look like negligence. Your job is to show the jury a facility's repeated failures, not one nurse's bad day. Medical records contain the evidence you need if you know where to look.
+
+**Track the Same Deficiency Across Multiple Patients**
+
+Pull records for other residents during the same timeframe. Look for identical documentation failures. I've seen facilities where nobody charted repositioning for months. Not one patient. Not one shift. The wound care protocols existed on paper. The implementation did not. When five different residents develop Stage III pressure ulcers in the same quarter, you have your pattern. Cross-reference incident reports with staffing schedules. The same charge nurse on duty during multiple falls tells a story. The same medication errors on the same unit during the same shift times reveals a systemic problem.
+
+**Document the Gap Between Policy and Practice**
+
+Request the facility's policies and procedures manual. Compare what they promised to do against what they documented doing. I reviewed a case where the fall prevention policy required hourly rounding. The flow sheets showed rounding every four to six hours at best. Entire shifts went blank. The policy stated all high-risk residents received bed alarms. The nurses' notes referenced multiple falls with no alarm documentation. This gap is negligence. Your expert witness uses this gap to establish breach of duty. Juries understand broken promises.
+
+**Chart the Progression of Preventable Deterioration**
+
+Create a timeline showing missed opportunities to intervene. A Stage I pressure ulcer becomes Stage IV over six weeks. The records show wound measurements getting worse. The care plans show the same ineffective interventions repeated. Nobody escalated care. Nobody called the physician. Nobody implemented advanced wound protocols until the family complained. I've seen this exact scenario dozens of times. The medical record proves each missed checkpoint. The wound care flow sheets document worsening measurements. The physician progress notes reference ongoing concerns. The lack of action becomes visible.
+
+**Identify Missing Assessments and Ignored Red Flags**
+
+Look for assessment tools left incomplete or ignored entirely. Braden scores for pressure ulcer risk. Morse scores for fall risk. Pain scales. Nutrition assessments. These scores trigger specific interventions per facility protocol. When the scores indicate high risk but interventions never appear in the care plan, you have negligence. I pulled records where a resident scored 12 on the Braden scale (high risk) for three consecutive weeks. Zero documentation of enhanced turning schedules. Zero specialty mattress orders. Zero nutritional supplementation. The resident developed bilateral heel ulcers. The scores predicted it. The staff ignored it.
+
+**Examine Staffing Patterns During Incidents**
+
+Request staffing records and cross-reference them with incident dates. Facilities short-staff nights and weekends. The records prove it. Compare the nurse-to-patient ratios during incidents against state requirements and facility policies. I worked a case where every medication error occurred when one nurse covered 45 residents. The timesheet showed this happened every Sunday for months. The pharmacy records showed the errors. The payroll records showed why. Your damages expert uses inadequate staffing to show corporate decisions led to patient harm. This moves your case from individual negligence to corporate liability.
+
+**Pull Surveillance Records and Correlate With Documentation**
+
+Survey reports from state agencies document observed deficiencies. These reports describe real-time observations by inspectors. Compare surveyor findings to the medical records from the same dates. Surveyors observed residents sitting in soiled briefs. The nursing documentation showed toileting occurred every two hours. Somebody lied. Surveyors found expired medications in the med cart. The medication administration records showed those same medications given to residents. Either the doses were expired or the documentation was false. Both options support your case. State survey reports give you an independent third-party verification of negligent conditions.
+
+**Connect Repeated Deficiencies to Your Client's Harm**
+
+Every pattern you establish must tie back to your client's injuries. The jury needs to see your client suffered because the facility created dangerous conditions for everyone. Show the facility knew about the problem through prior incidents. Show they failed to correct it. Show your client's injury was the inevitable result. I testified in a case where the facility received three survey citations for inadequate supervision of high-risk residents in six months. My client fell four times in two weeks. The pattern established foreseeability. The facility knew residents were falling. They did nothing. Your client paid the price.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-26",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Prove negligent care patterns using medical records. Learn specific documentation review techniques from 20 years of legal nurse consulting.",
+    keywords: ["medical records review","nursing home negligence","pattern of negligence","legal nurse consultant","medical malpractice evidence","facility liability"],
+  },
+  {
     slug: "what-makes-a-medical-malpractice-screening-certificate-strong-versus-weak",
     title: "What Makes a Medical Malpractice Screening Certificate Strong Versus Weak",
     excerpt: "Weak screening certificates kill cases before trial. Learn what expert declarations must contain to survive dismissal motions.",
