@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-your-personal-injury-case-needs-a-functional-capacity-evaluation",
+    title: "Why Your Personal Injury Case Needs a Functional Capacity Evaluation",
+    excerpt: "A functional capacity evaluation turns subjective complaints into objective proof of disability. Here's what it proves in court.",
+    content: `
+Your client says she cannot lift her grandchildren anymore. Defense counsel calls her a malingerer. You need objective proof of functional loss, not another narrative report from a treating physician. A functional capacity evaluation gives you quantifiable data on what your client's body does and does not do.
+
+**What a Functional Capacity Evaluation Measures**
+
+An FCE tests your client's physical abilities against the demands of daily living and occupational tasks. The evaluator measures lift capacity, carry distance, push-pull force, overhead reach tolerance, grip strength, and sustained positional tolerance. Your client performs these tasks while being monitored for pain behaviors, heart rate response, and consistency of effort. The evaluation takes four to eight hours and produces pages of measurable data. I have seen FCE reports document that a warehouse worker who once lifted 75 pounds repeatedly now fatigues at 20 pounds after two repetitions. This is not a narrative opinion. This is biomechanical proof.
+
+**How FCE Results Change Settlement Value**
+
+Defense attorneys dismiss treating physician restrictions as advocacy medicine. They argue your client's complaints are subjective and unmeasurable. An FCE removes subjectivity from the equation. When the report states your client demonstrates consistent pain behaviors and objective mechanical limitations during standardized testing, the defense loses its malingering argument. I reviewed a lumbar fusion case where the treating surgeon released the plaintiff to sedentary work. The FCE showed she fatigued after 15 minutes of sitting and 10 minutes of standing. Her job required eight-hour shifts. The case value tripled because we proved she had zero functional capacity for competitive employment. The FCE also establishes future medical needs. When testing reveals your client requires positional changes every 20 minutes, you build the record for ongoing pain management and assistive devices.
+
+**When to Order the FCE in Your Case Timeline**
+
+Order the FCE after maximum medical improvement but before the economist calculates damages. Your life care planner and vocational expert need the FCE data to support their opinions. The FCE feeds directly into earning capacity loss calculations. I worked a traumatic brain injury case where the FCE revealed profound deficits in task sequencing and sustained concentration. The vocational expert used this data to eliminate 87% of the jobs the defense expert claimed the plaintiff could perform. Order the FCE too early and your client has not reached baseline function. Order it too late and you rush your experts or delay filing deadlines.
+
+**Who Performs a Valid Functional Capacity Evaluation**
+
+You need a licensed physical therapist or occupational therapist with FCE certification. The evaluator must use standardized protocols such as Blankenship, ErgoScience, or Matheson. I have seen defense counsel shred FCE reports done by chiropractors or uncertified technicians. The evaluator needs a defensible methodology and normative data for comparison. Your evaluator must document validity testing throughout the exam. These are embedded measures of effort consistency. When your client shows 95% consistency on coefficient of variation testing, the defense cannot claim symptom magnification. I reviewed an FCE report where validity measures were absent. Defense counsel moved to exclude the entire evaluation. The judge granted the motion. We lost six months and \$4,500.
+
+**What the FCE Proves to a Jury**
+
+Juries understand physical demonstrations better than medical jargon. The FCE report translates injury into functional loss. Your expert witness testifies that your client lifted 85 pounds pre-injury and now lifts 15 pounds before pain stops the test. Jurors see the 70-pound loss in concrete terms. They understand this person cannot carry a bag of dog food or a case of water. The FCE also proves your client tried to perform. The evaluation demands effort. Your client showed up, attempted the tasks, and the objective measurements showed failure. This destroys the defense narrative of a lazy plaintiff seeking a payday. I have watched juries award full damages after seeing FCE video clips of a plaintiff unable to reach overhead or squat to floor level. The visual proof validates the injury claim.
+
+**How to Use FCE Results Across All Your Experts**
+
+The FCE report feeds every aspect of damages calculation. Your economist uses the physical restrictions to calculate wage loss. Your life care planner uses the functional deficits to project assistive devices and home modifications. Your vocational expert uses the lift restrictions to eliminate job categories. I worked a case where the FCE showed the plaintiff required a sit-stand workstation and could not tolerate vibration. The life care plan included a \$15,000 ergonomic office setup and vehicle modifications. The vocational expert eliminated all driving jobs and manual labor positions. One FCE report supported \$800,000 in future damages across three expert opinions. You pay \$3,000 for the evaluation and multiply your case value by documenting what your client cannot do anymore.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-03-31",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Functional capacity evaluations prove objective functional loss in personal injury cases. Learn when to order an FCE and how it multiplies case value.",
+    keywords: ["functional capacity evaluation","FCE personal injury","proving functional loss","personal injury damages","objective medical evidence","settlement value"],
+  },
+  {
     slug: "proving-pain-and-suffering-through-objective-medical-record-documentation",
     title: "Proving Pain and Suffering Through Objective Medical Record Documentation",
     excerpt: "Pain and suffering damages require more than patient complaints. Here's how to extract objective medical evidence from the chart.",
