@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-build-winning-life-care-plan-cases",
+    title: "How Legal Nurse Consultants Build Winning Life Care Plan Cases",
+    excerpt: "Life care plans demand clinical precision and documentation most attorneys miss. Here's how to build one right.",
+    content: `
+**Start With the Medical Foundation Before You Call the Life Care Planner**
+
+You need clean, organized medical records before any life care planner touches your case. I've seen attorneys waste \$15,000 on life care plans built on incomplete records. The planner bills you, delivers a report, then you discover three years of neurology notes were missing. Now you're paying for a revision or starting over. Your legal nurse consultant pulls every record, organizes them chronologically, creates a medical timeline, and identifies gaps before the life care planner reviews a single page. This saves you money and builds a defensible foundation.
+
+**Identify Every Treating Provider and Future Care Need**
+
+Your client with a traumatic brain injury sees twelve specialists. You have records from seven. The defense will shred your life care plan if you miss the neuropsychologist, speech therapist, or pain management physician. Your legal nurse consultant cross-references every provider mentioned in discharge summaries, referral notes, and medication orders. We document every prescription, every durable medical equipment order, every home health visit. We note when the orthopedic surgeon writes 'patient will require total knee replacement within five years.' These clinical details become line items worth hundreds of thousands in your life care plan.
+
+**Match Injuries to Long-Term Complications With Clinical Evidence**
+
+Defense attorneys attack life care plans by challenging medical necessity. You claim your client needs \$2 million in future care. They demand proof. Your legal nurse consultant links current injuries to evidence-based complications. Spinal cord injury at T6 means neurogenic bladder, which means recurrent UTIs, which means nephrology care every six months for life. We cite the medical literature. We show where the urologist documented chronic infections. We pull the cystoscopy reports showing bladder wall damage. Every future care need traces back to documented pathology in the medical records.
+
+**Calculate Medication Costs Based on Actual Prescribing Patterns**
+
+I reviewed a case where the life care planner estimated \$500 monthly for pain medication. The records showed the client took OxyContin, gabapentin, cyclobenzaprine, and Voltaren gel. Actual monthly cost: \$1,847. Your legal nurse consultant tracks every medication across the entire treatment history. We note dose escalations. We identify when providers switched from one medication to another due to side effects. We document medication trials and failures. This clinical detail prevents the defense from claiming you inflated pharmaceutical costs.
+
+**Document Functional Limitations Through Clinical Observations**
+
+Physical therapy notes contain gold for life care plans. The PT documents your client's transfer ability, gait speed, balance deficits, and assistive device needs. Occupational therapy notes show ADL limitations. Nursing notes describe wound care requirements and time spent on each dressing change. Your legal nurse consultant mines these clinical observations. We create a functional capacity summary based on provider documentation, not client complaints. When the life care planner includes a wheelchair, we show where the PT documented the client's inability to ambulate more than 20 feet.
+
+**Prepare Your Legal Nurse Consultant to Brief the Life Care Planner**
+
+The best life care plans come from collaboration between your legal nurse consultant and the life care planner. We provide a comprehensive medical summary, injury list, current treatment plan, and anticipated complications. We highlight red flags in the records. We note where providers discussed future surgical needs or long-term prognosis. This briefing cuts the life care planner's review time and ensures they focus on the clinically significant details. You get a stronger report and lower costs.
+
+**Build Your Rebuttal Before the Defense Files Theirs**
+
+Defense life care planners will lowball every number in your report. Your legal nurse consultant performs a gap analysis between your life care plan and the medical records. We identify vulnerable line items before trial. We find additional documentation to support questioned expenses. We prepare clinical rebuttals to anticipated defense arguments. I've worked cases where this advance preparation added \$800,000 to the settlement because we had clinical evidence ready for every defense challenge.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-01",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants build winning life care plan cases through medical record organization and clinical analysis. Expert guidance for attorneys.",
+    keywords: ["life care plan","legal nurse consultant","medical records review","personal injury case","future medical costs","case preparation"],
+  },
+  {
     slug: "why-your-personal-injury-case-needs-a-functional-capacity-evaluation",
     title: "Why Your Personal Injury Case Needs a Functional Capacity Evaluation",
     excerpt: "A functional capacity evaluation turns subjective complaints into objective proof of disability. Here's what it proves in court.",
