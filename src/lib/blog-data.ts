@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "defeating-the-empty-chair-defense-after-defendant-settlement",
+    title: "Defeating the Empty Chair Defense After Defendant Settlement",
+    excerpt: "Settlement creates opportunity for remaining defendants to shift blame. Stop them with documented causation and liability chains.",
+    content: `
+**Your Settled Defendant Becomes the Scapegoat**
+
+The orthopedic surgeon settles out. Defense counsel for the hospital immediately pivots. The entire case becomes about the surgeon's negligent reduction of the tibial plateau fracture. The nursing staff who failed to perform neurovascular checks every two hours get a pass. The hospitalist who ignored compartment syndrome symptoms for nine hours disappears from jury focus. You watch your strong case against the hospital evaporate because the empty chair takes all the blame.
+
+**Establish the Liability Chain Before Settlement**
+
+You build your record early. Document every defendant's independent negligence with specificity. The ED physician failed to order the CT angiography despite obvious vascular compromise. The charge nurse documented pedal pulses as present when they were absent. The orthopedic resident delayed surgical consult for six hours. Each failure stands alone. Each caused separate harm. When one defendant settles, their documented negligence remains in the record through expert reports, deposition testimony, and medical chronologies. You already created the separation.
+
+**Use Stipulated Facts and Admissions Aggressively**
+
+Negotiate your settlement agreement with teeth. The settling defendant stipulates to specific facts about their breaches of standard of care. They admit the delay. They admit the medication error. They admit the failure to monitor. These stipulations come into evidence against remaining defendants. The empty chair stays empty, but the admissions speak. I have seen plaintiff counsel obtain stipulations to negligence, causation, and specific timeline failures. The jury hears those admissions read into the record. The remaining defendants lose their scapegoat.
+
+**Lock in Deposition Testimony Before Release**
+
+Depose the settling defendant's employees and agents before dismissal. The floor nurses who failed to escalate care sit for deposition. The emergency physician who missed sepsis criteria answers questions under oath. The case manager who delayed discharge planning gives testimony. You preserve this testimony for trial. When defense counsel tries to blame the absent party, you read their sworn statements. The physician admitted the standard required immediate intervention. The nurse testified she knew the patient needed ICU-level care. Their words defeat the empty chair argument.
+
+**Expert Reports Must Separate Causation Clearly**
+
+Your medical causation expert breaks down each defendant's contribution to harm with clinical precision. The anesthesiologist's failure to monitor end-tidal CO2 caused the hypoxic brain injury between 0847 and 0903 hours. The recovery room nurse's failure to assess respiratory status every 15 minutes allowed continued hypoxia from 0903 to 0945 hours. The responding physician's delay in intubation from 0945 to 1015 hours extended the injury. Each failure produced measurable harm. Each defendant owns specific injury. The settling defendant takes their portion. The remaining defendants own theirs.
+
+**Medical Records Tell the Complete Liability Story**
+
+The contemporaneous medical record proves who did what and when. The medication administration record shows the wrong dose given at 1430 hours. The nursing notes show no response to patient complaints of chest pain at 1445, 1500, and 1515 hours. The telemetry strips show ST elevation beginning at 1505 hours. The physician's note shows first assessment at 1615 hours. One defendant settling does not erase the documented timeline. The remaining defendants left their negligence in the chart. I have watched defense counsel struggle to explain away their client's documented failures while blaming an absent party whose negligence the record proves was separate and distinct.
+
+**Voir Dire Addresses Empty Chair Directly**
+
+You handle this during jury selection. You explain settlements. You explain multiple parties bearing responsibility. You ask potential jurors if they will hold remaining defendants accountable for their specific actions even when another party settled. You inoculate against the defense strategy before opening statements. The jury expects the empty chair argument. They already committed to rejecting it. When defense counsel points to the absent defendant, the jury remembers your question and their answer.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-03",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Empty chair defense tactics fail when you document independent negligence chains and lock in testimony before settlement. Clinical strategy from 20 years in medical-legal cases.",
+    keywords: ["empty chair defense","defendant settlement","medical malpractice strategy","multiple defendant liability","medical legal cases","causation analysis"],
+  },
+  {
     slug: "medical-record-evidence-for-punitive-damages-in-healthcare-negligence",
     title: "Medical Record Evidence for Punitive Damages in Healthcare Negligence",
     excerpt: "Punitive damages require proof of willful misconduct or reckless disregard. Know what documentation separates compensatory cases from punitive awards.",
