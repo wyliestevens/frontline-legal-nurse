@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-quality-improvement-records-reveal-and-how-to-get-them",
+    title: "What Quality Improvement Records Reveal and How to Get Them",
+    excerpt: "Quality improvement files contain incident reports, peer reviews, and root cause analyses that show what the hospital knew and when they knew it.",
+    content: `
+I have watched attorneys walk away from seven-figure settlements because they never requested quality improvement records. These files sit in hospital QI departments and contain the admissions, timelines, and system failures you need to prove your case. The defense knows this. They fight discovery on these records harder than anything else in the file.
+
+**What Lives Inside Quality Improvement Files**
+
+Incident reports detail exactly what happened from the perspective of staff who witnessed it. A nurse documents that she found your client on the floor at 0230 with no bed alarm activated. The charge nurse writes that the patient had been requesting pain medication for three hours before the code. Peer review committees discuss whether the surgeon deviated from standard of care during the procedure. Root cause analyses trace adverse events back through every system failure that contributed. These documents use plain language. Staff write what they saw without the defensive posture of deposition testimony.
+
+**M&M Conferences and Peer Review Discussions**
+
+Morbidity and mortality conferences produce meeting minutes where physicians discuss cases that went wrong. I pulled M&M records in a birth injury case where the attending obstetrician told colleagues he "should have done the C-section an hour earlier." The defense had claimed in their answer that timing was appropriate. Peer review files contain emails between department chairs about competency concerns. One product liability case turned when QI emails showed the facility's biomedical engineering team had flagged the defective equipment in safety reports six months before my client's injury. These communications exist in writing because hospitals must document improvement efforts for accreditation.
+
+**Occurrence Reports and Variance Documentation**
+
+Hospitals track every deviation from policy through occurrence reporting systems. A medication error gets logged with the wrong dose, who administered it, and what happened to the patient. Falls generate reports noting staffing levels, response times, and equipment failures. I reviewed occurrence data in a wrongful death case that showed 23 prior incidents of the same medication being pulled from the Pyxis for the wrong patient. The hospital knew about the pattern. They had done nothing to fix the workflow. Your damages argument changes when you prove the defendant had notice of a recurring problem.
+
+**How These Records Get Protected**
+
+Defense counsel cites state peer review privilege statutes in every case. Some states protect all QI materials from discovery. Others protect only specific peer review activities. You need to know your jurisdiction's exact statutory language. Federal facilities and cases involving EMTALA fall under different rules. I have seen hospitals claim privilege over documents that were actually billing records or administrative reports. They stamp "QI Confidential" on anything damaging. You must challenge these blanket assertions with specific requests and in camera review.
+
+**Discovery Strategies for Protected Records**
+
+Request the documents in your initial discovery. Force the defendant to assert privilege and produce a privilege log. Look for exceptions in your state statute. Many states allow discovery of QI records when the plaintiff shows the information exists nowhere else or when the hospital places its own quality of care at issue. Depose the risk manager and quality director about what QI activities occurred after the incident. Their testimony creates a roadmap of what files exist. Subpoena the people who wrote incident reports. They often testify to the same facts they documented, even if you never get the actual report.
+
+**What You Learn From Access**
+
+QI records prove knowledge and notice. They establish that the hospital or provider knew about the risk before your client got hurt. They show patterns of negligence across multiple patients. They contain admissions that contradict sworn testimony. They reveal which policies existed, which ones were violated, and who knew about the violations. In a nursing home case, infection control committee minutes showed the facility had been cited for the same hygiene violations in three prior state surveys. The administrator had promised correction. Nothing changed. Your client developed sepsis from the same breakdown in protocol. The QI file built the entire punitive damages case.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-06",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Quality improvement records contain incident reports and peer reviews that prove your medical malpractice case. Learn what they reveal and how to access them.",
+    keywords: ["quality improvement records","incident reports","peer review discovery","medical malpractice discovery","hospital QI files","occurrence reports"],
+  },
+  {
     slug: "defeating-the-empty-chair-defense-after-defendant-settlement",
     title: "Defeating the Empty Chair Defense After Defendant Settlement",
     excerpt: "Settlement creates opportunity for remaining defendants to shift blame. Stop them with documented causation and liability chains.",
