@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "using-cms-survey-data-to-build-your-nursing-home-case",
+    title: "Using CMS Survey Data to Build Your Nursing Home Case",
+    excerpt: "CMS survey reports expose patterns of neglect, staffing failures, and regulatory violations attorneys miss when they focus only on medical records.",
+    content: `
+CMS survey reports hand you documented proof of systemic failures in nursing homes. These inspection reports detail deficiencies the facility admitted to federal surveyors. You are looking at admissions of substandard care written by government inspectors who walked the halls, interviewed staff, and reviewed internal documents you will never see otherwise.
+
+**Where to Find CMS Survey Data**
+
+Go to Medicare.gov and search the Nursing Home Compare tool. Enter the facility name or location. Download the full inspection reports under the "Health Inspections" tab. You want the Statement of Deficiencies, the Plan of Correction, and any complaint investigation reports. State health departments also maintain these records. I request them directly from the state agency when the online database lags behind recent surveys. You need surveys from two years before your incident through six months after. Patterns matter more than single violations.
+
+**Reading Deficiency Tags and Scope Codes**
+
+Each deficiency gets a tag number corresponding to a specific federal regulation. Tag F689 means free from abuse and neglect. Tag F725 covers pressure ulcer care. Tag F740 addresses behavioral health services. The scope and severity code tells you how widespread and how serious the violation was. A "J" rating means immediate jeopardy to resident health or safety. Anything above "D" shows a pattern of harm beyond isolated incidents. I have seen facilities with repeated "G" and "H" level violations for falls, medication errors, and inadequate supervision. Those letters prove the facility knew about systemic problems.
+
+**Connecting Survey Deficiencies to Your Case Facts**
+
+Match the deficiency dates and descriptions to your client's timeline. The facility cited for inadequate wound care monitoring in March faces hard questions when your client develops a Stage 4 pressure ulcer in April. Survey reports often name specific units or nursing stations. If your client lived on the second-floor memory care unit and surveyors found understaffing on that exact unit, you have location-specific proof. I have used survey findings about call light response times exceeding 30 minutes to support fall cases where the resident fell while attempting to reach the bathroom unassisted.
+
+**Identifying Repeat Violations and Failed Corrections**
+
+Facilities submit Plans of Correction promising specific fixes. CMS returns months later to verify compliance. When the same deficiency appears in subsequent surveys, the facility failed to correct known dangers. I reviewed a case where surveyors cited improper insulin administration three times in 18 months. My client suffered a hypoglycemic event during that window. The repeated violations showed the facility's corrections were cosmetic. Repeat citations for the same tag numbers demonstrate deliberate indifference. Judges and juries understand that pattern.
+
+**Using Complaint Investigation Reports**
+
+CMS investigates specific complaints outside the standard survey cycle. These reports respond to allegations from families, staff, or residents. The investigation happens close to the incident date. Complaint investigations focus on narrow issues with detailed findings about what happened and who was responsible. I have seen complaint investigations reveal staffing records, incident reports, and witness statements you would spend months obtaining through discovery. Request all complaint investigations for your facility during the relevant time period. The state survey agency releases these under public records laws.
+
+**Leveraging Survey Data in Demand Letters and Depositions**
+
+Cite specific deficiency tags and dates in your demand letter. Quote the surveyor's findings verbatim. The defense knows these are public records and official government findings. You establish baseline proof of negligence before reviewing a single page of medical records. During depositions, ask the administrator and Director of Nursing about specific deficiencies. They must explain why the facility was cited, what their Plan of Correction promised, and whether they implemented those changes before your client was harmed. I have watched administrators crumble when confronted with their own signed Plans of Correction admitting to the exact failures at issue in the lawsuit.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-09",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "CMS survey data exposes nursing home deficiencies, repeat violations, and systemic failures attorneys use to prove negligence and build stronger cases.",
+    keywords: ["CMS survey data","nursing home abuse cases","deficiency tags","nursing home negligence","Medicare inspection reports","legal nurse consulting"],
+  },
+  {
     slug: "why-nurse-to-patient-ratios-matter-in-negligence-cases",
     title: "Why Nurse to Patient Ratios Matter in Negligence Cases",
     excerpt: "Understaffing kills. Here's how to prove the ratio was unsafe and caused your client's harm.",
