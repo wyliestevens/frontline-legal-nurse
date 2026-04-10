@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-the-joint-commission-standards-mean-for-your-hospital-negligence-case",
+    title: "What The Joint Commission Standards Mean for Your Hospital Negligence Case",
+    excerpt: "Joint Commission standards give you enforceable benchmarks to prove hospital negligence. Here's how to use them.",
+    content: `
+**Joint Commission Standards Are Your Baseline for Hospital Duty of Care**
+
+The Joint Commission accredits over 4,000 hospitals nationwide. Their standards create enforceable expectations for patient safety. I've used these standards to establish breach of duty in hundreds of hospital negligence cases. When a hospital displays that gold seal, they're telling every patient they meet specific performance standards. Your job is to show the jury exactly which standards the hospital violated and how those violations caused harm.
+
+**National Patient Safety Goals Give You Concrete Violation Points**
+
+The Joint Commission publishes National Patient Safety Goals every year. These goals address medication errors, patient identification, infection control, fall prevention, and surgical site verification. I worked a case where a 72-year-old man fell from his hospital bed at 2 AM. The hospital had scored him as high fall risk on admission. They documented the risk but never implemented fall precautions. No bed alarm. No hourly rounding. No non-slip socks. The National Patient Safety Goal for fall reduction gave us the exact protocol they should have followed. The case settled for \$850,000 before trial.
+
+**Medication Management Standards Expose Systemic Failures**
+
+Joint Commission standards require two-patient identifiers before medication administration. They mandate independent double-checks for high-alert medications like insulin, heparin, and chemotherapy agents. I reviewed records for a woman who received 100 units of insulin instead of 10 units. She went into hypoglycemic shock and suffered permanent brain damage. The medication administration record showed only one nurse signature. No independent verification. No double-check documentation. The standard was clear. The violation was clear. The causation was clear.
+
+**Documentation Requirements Turn Missing Records Into Evidence**
+
+The Joint Commission requires hospitals to maintain complete, accurate, and timely documentation. When nursing notes vanish or contain unexplained gaps, you have a standards violation before you even address the underlying negligence. I've seen cases where critical care flow sheets disappear for the exact hours when a patient decompensated. The missing documentation alone suggests consciousness of guilt. The Joint Commission standard gives you the framework to argue spoliation and request adverse inference instructions.
+
+**Staffing and Competency Standards Attack the Hospital Directly**
+
+The Joint Commission requires hospitals to maintain adequate staffing levels and verify staff competency. These standards let you pierce the veil of independent contractor defenses. I worked a wrongful death case involving a stroke patient who arrived during the window for tPA administration. The emergency department nurse had never completed the hospital's stroke protocol competency. She didn't recognize the symptoms. She didn't activate the stroke team. The patient died three days later. The Joint Commission standards for competency verification gave us direct hospital liability. The nurse's individual failure became the hospital's systemic failure.
+
+**Infection Control Standards Work for Surgical Site and Hospital-Acquired Infections**
+
+Joint Commission standards mandate hand hygiene compliance monitoring, environmental cleaning protocols, and antibiotic stewardship programs. I reviewed a case where a patient developed MRSA sepsis after total knee replacement. The hospital's own infection control data showed hand hygiene compliance below 60% on the orthopedic unit. The surgical site infection rate exceeded national benchmarks. The standards gave us ammunition to demand the hospital's internal quality improvement data. That data won the case.
+
+**Use Joint Commission Standards in Discovery From Day One**
+
+Request the hospital's most recent Joint Commission survey results in your initial document demands. Ask for statements of conditions, requirements for improvement, and any findings requiring corrective action plans. Demand policies and procedures related to the specific standards applicable to your case. Depose the nurse manager about staff training on relevant protocols. Depose the quality officer about compliance monitoring. The hospital will fight these requests. Fight back. These documents transform general negligence claims into specific standards violations with measurable benchmarks and clear causation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-10",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Joint Commission standards give you enforceable benchmarks to prove hospital negligence. Use them in discovery and at trial.",
+    keywords: ["Joint Commission standards","hospital negligence","medical malpractice","National Patient Safety Goals","hospital liability","legal nurse consulting"],
+  },
+  {
     slug: "using-cms-survey-data-to-build-your-nursing-home-case",
     title: "Using CMS Survey Data to Build Your Nursing Home Case",
     excerpt: "CMS survey reports expose patterns of neglect, staffing failures, and regulatory violations attorneys miss when they focus only on medical records.",
