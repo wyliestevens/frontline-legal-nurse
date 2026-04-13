@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-use-medical-literature-to-strengthen-your-causation-argument",
+    title: "How to Use Medical Literature to Strengthen Your Causation Argument",
+    excerpt: "Medical literature searches turn weak causation arguments into bulletproof expert testimony. Here's how to use them correctly.",
+    content: `
+**Start Your Literature Search Before You Hire Your Expert**
+
+Most attorneys wait until after they retain an expert to run a medical literature search. This is backwards. I review the literature first, then I know which expert to call. A PubMed search takes fifteen minutes and tells me if the science supports my causation theory. If I find three solid studies linking the drug to the injury, I move forward. If I find nothing, I refer the case out or decline it. Your expert needs the literature to form an opinion. You need the literature to decide if the expert is worth the retainer.
+
+**Use PubMed and Google Scholar, Not General Google Searches**
+
+PubMed indexes peer-reviewed medical journals. Google Scholar captures medical literature plus legal citations to medical studies. General Google searches pull blog posts, news articles, and garbage. I once reviewed a case where defense counsel shredded plaintiff's expert because he cited a health blog instead of original research. The jury watched the expert backpedal for twenty minutes. Your expert opinion dies the moment opposing counsel proves the supporting literature is weak or non-existent. Give your expert quality sources or give your client back their retainer.
+
+**Focus on Epidemiological Studies and Case Reports for Rare Events**
+
+Epidemiological studies show association between exposure and outcome across populations. A cohort study following 10,000 patients who took the medication versus 10,000 who did not gives you statistical power. Relative risk ratios above 2.0 start to mean something. I worked a case where we found a meta-analysis showing a 3.2 relative risk of stroke in women over 50 taking a specific hormone therapy. That single study carried our causation argument through summary judgment. For rare adverse events, case reports work. If only 47 people worldwide developed the condition after taking the drug, a case series of those 47 patients is your best evidence.
+
+**Look for Dose-Response Relationships and Temporal Associations**
+
+Strong causation arguments show the injury gets worse with higher doses or longer exposure. I reviewed a toxic exposure case where multiple studies demonstrated increased neurological damage with increased blood lead levels. The relationship was linear and consistent across studies. Temporal association matters too. If symptoms appeared within days of starting the medication and resolved after stopping it, document that timeline. Then find literature showing the same temporal pattern in other patients. Defense experts attack causation by claiming the injury happened before exposure or continued long after exposure ended. Literature showing a tight temporal window shuts down this argument.
+
+**Extract the Key Data Points Your Expert Needs**
+
+Your expert needs more than a stack of abstracts. Pull the methodology, sample size, confidence intervals, and specific findings from each study. I create a literature summary chart for complex cases: study name, year, number of subjects, type of study, key findings, and limitations. This chart goes to the expert with the records. The expert references it during deposition and trial. I watched a neurologist use this exact approach to testify about traumatic brain injury outcomes. He cited five studies by name, quoted the confidence intervals, and explained why each study supported his opinion. The jury saw a prepared expert who knew the science cold.
+
+**Use Medical Librarians for Complex Searches**
+
+Medical university librarians run literature searches for a fee. They know MeSH terms, Boolean operators, and database filters you have never heard of. I used a medical librarian for a birth injury case involving a rare genetic metabolic disorder. She found 23 relevant studies in four languages. We translated the foreign studies and found two critical pieces of evidence about delayed diagnosis causing permanent injury. The search cost \$400. The case settled for \$2.1 million. Librarians find studies you miss because they search medical databases all day, every day.
+
+**Update Your Literature Search Before Deposition and Trial**
+
+New studies publish constantly. A literature search from two years ago is stale. I run updated searches 30 days before expert depositions and again before trial. I once found a new study published six weeks before trial showing our exact injury pattern in pediatric patients exposed to the defendant's product. We disclosed it immediately. The study included MRI findings matching our plaintiff's scans. Defense counsel requested a continuance to review the new literature. We settled during the continuance for policy limits. Run the search again. New evidence wins cases.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-13",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical literature searches strengthen causation arguments in medical malpractice and personal injury cases. Learn how to find and use the right studies.",
+    keywords: ["medical literature search","causation argument","expert witness testimony","PubMed search","epidemiological studies","medical legal cases"],
+  },
+  {
     slug: "what-the-joint-commission-standards-mean-for-your-hospital-negligence-case",
     title: "What The Joint Commission Standards Mean for Your Hospital Negligence Case",
     excerpt: "Joint Commission standards give you enforceable benchmarks to prove hospital negligence. Here's how to use them.",
