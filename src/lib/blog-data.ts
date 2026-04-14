@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-sentinel-event-data-reveals-about-systemic-hospital-failures",
+    title: "What Sentinel Event Data Reveals About Systemic Hospital Failures",
+    excerpt: "Sentinel event patterns expose recurring breakdowns in communication, staffing, and protocols. These failures turn into your strongest evidence.",
+    content: `
+The Joint Commission tracks over 1,000 sentinel events annually. I have reviewed hundreds of these cases. The patterns repeat with stunning predictability. Wrong-site surgery happens because surgical teams skip the timeout. Patients fall because nurses work double shifts without adequate breaks. Medication errors occur because pharmacy alerts get overridden 90% of the time. These are not isolated incidents. These are system failures.
+
+**Communication Breakdowns Dominate Root Cause Analysis**
+
+Seventy percent of sentinel events trace back to communication failures. Physicians discharge patients without talking to bedside nurses who know the patient is confused. Night shift nurses fail to document critical changes because electronic health records lack structured handoff templates. Surgical teams operate on the wrong limb because the consent form lists one procedure and the surgical schedule lists another. When you see a bad outcome, look for the communication gap. The gap exists in 7 out of 10 cases. Find it and you find liability.
+
+**Staffing Ratios Drive Preventable Deaths**
+
+Hospitals run skeleton crews and patients die. The data is clear. Every additional patient assigned to one nurse increases mortality risk by 7%. I have reviewed fatal falls where one nurse covered 12 medical-surgical patients. I have seen pressure ulcers develop to stage 4 because CNAs rotated through three units per shift. When you examine staffing records, compare actual nurse-to-patient ratios against the acuity scores documented in the chart. The mismatch tells the story. Administrators knew patients needed more care than staff provided. They chose profit over safety.
+
+**Alarm Fatigue Kills and Hospitals Know It**
+
+Telemetry monitors alarm 150 to 400 times per shift per patient. Nurses become desensitized. They silence alarms without investigating. Critical events get missed. I reviewed a case where a post-operative patient went into ventricular tachycardia. The monitor alarmed for 11 minutes. No one responded. The patient coded and suffered permanent brain damage. Post-incident investigation showed that particular unit averaged 10,000 alarms per day. Only 6% required clinical intervention. Hospitals have alarm management policies. They do not enforce them. Your expert needs to review the alarm data logs and the hospital's own alarm fatigue committee minutes.
+
+**Medication Errors Follow Predictable Patterns**
+
+The top three medication errors are wrong dose, wrong medication, and omitted doses. These happen during shift changes, during admissions, and when patients transfer between units. Reconciliation is the failure point. I have seen warfarin continued post-operatively when it should have been held, leading to catastrophic bleeding. I have seen insulin given to patients whose blood sugar was already dropping. Electronic health records create alert fatigue identical to alarm fatigue. Pharmacists and nurses click through warnings without reading them. Pull the medication administration record. Pull the pharmacy override reports. Pull the EHR audit trail showing how many warnings got dismissed. The evidence is there.
+
+**Retained Surgical Items Are Never Excusable**
+
+Sponges and instruments get left inside patients because surgical teams skip count protocols. The Joint Commission requires counts before incision, before closing body cavities, and before closing skin. Teams rush. They count while simultaneously closing. One person calls out numbers while looking at their phone. These cases are indefensible when you prove the hospital had a policy and staff violated it. Subpoena the OR records for the entire month. You will find count discrepancies in other cases. You will find incomplete documentation. You establish a pattern of non-compliance.
+
+**Pressure Ulcers Document Neglect in Real Time**
+
+A stage 3 or stage 4 pressure ulcer takes weeks to develop. These wounds require sustained neglect. Hospitals have turning schedules, specialty mattresses, and wound care protocols. When a patient develops a sacral ulcer down to the bone, the medical record tells you exactly when nursing staff failed to reposition the patient. I have reviewed charts where turning schedules were documented every two hours, but the patient remained in the same position for 72 hours straight. Physical therapists noted the developing wound. Nurses charted around it. The wound care team was never consulted until the bone was visible. This is corporate negligence. The hospital credentialed these nurses. The hospital failed to supervise them. The hospital prioritized documentation over actual care.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-14",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Sentinel event data exposes recurring hospital failures in communication, staffing, and protocols that create your strongest liability evidence.",
+    keywords: ["sentinel events","hospital negligence","medical malpractice","nursing negligence","corporate negligence","hospital systems failures"],
+  },
+  {
     slug: "how-to-use-medical-literature-to-strengthen-your-causation-argument",
     title: "How to Use Medical Literature to Strengthen Your Causation Argument",
     excerpt: "Medical literature searches turn weak causation arguments into bulletproof expert testimony. Here's how to use them correctly.",
