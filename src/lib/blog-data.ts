@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-prove-the-wrong-surgical-procedure-was-performed",
+    title: "How to Prove the Wrong Surgical Procedure Was Performed",
+    excerpt: "Wrong-site, wrong-procedure, and wrong-patient surgeries leave a paper trail. Here's how to build your case from the medical records.",
+    content: `
+**The Documentation Tells You What Happened Before Anyone Says a Word**
+
+The operative report is your starting point. Compare the procedure documented in the operative report against the consent form, the pre-op H&P, and the surgical scheduling records. Wrong-procedure cases show immediate discrepancies. The consent form says knee arthroscopy. The operative report describes a meniscectomy on the opposite knee. The anesthesia record confirms the surgeon prepped the wrong leg. You will find the truth in the first hour of record review if you know where to look.
+
+**The Time-Out Record Either Exists or It Doesn't**
+
+The Universal Protocol requires a surgical time-out before incision. This is a mandatory verification process where the surgical team confirms patient identity, procedure, and surgical site. The circulating nurse documents this time-out in the nursing notes or on a specific time-out form. Missing time-out documentation is direct evidence of protocol violation. When the time-out exists but documents the wrong information, you have proof the entire surgical team failed to catch the error before cutting. I have reviewed cases where the time-out form was completed after the surgery when someone realized the mistake.
+
+**Site Marking Failures Appear in Multiple Places**
+
+Surgeons must mark the surgical site before the patient enters the operating room. Check the pre-op nursing assessment for documentation of site marking. Look at the anesthesia record for notes about marked versus unmarked sites. Review any photographs taken in the OR. Wrong-site surgeries show one of two patterns: no site marking occurred, or the surgeon marked the correct site but operated on the unmarked site anyway. The second scenario is worse because it shows the surgeon ignored his own safety measure. Pull the hospital's site marking policy and compare it to what the records show happened.
+
+**The Radiology Reports and Imaging Studies Prove Intent**
+
+Pre-operative imaging tells you which side needed surgery. The MRI report describes a torn rotator cuff in the right shoulder. The X-ray shows degenerative changes in the left hip. When the surgeon operates on the opposite side or wrong joint, these reports become your strongest evidence. Order the actual imaging studies, not just the reports. The radiologist's dictation includes laterality markers and anatomical descriptions. I have seen defense attorneys argue the surgeon was treating bilateral disease, but the imaging studies destroy this defense when they show pathology on only one side.
+
+**Post-Operative Records Show the Cover-Up or Admission**
+
+Read the post-op nursing notes and the surgeon's post-op note carefully. Some surgeons document the error immediately. Others write vague notes about "intraoperative findings" or "change in surgical plan." Look for addendums to the operative report. Late changes to the medical record suggest someone tried to modify the story. Check when each entry was made by reviewing the electronic timestamp or the physical chart's chronology. The PACU notes sometimes contain the first mention of the error when the patient or family questions why the wrong body part is bandaged.
+
+**Your Expert Witness Needs These Specific Records**
+
+Send your surgical expert the complete OR records: the operative report, anesthesia record, circulating nurse notes, time-out documentation, pre-op assessment, consent forms, and the surgeon's H&P. Include all imaging studies and radiology reports from the 90 days before surgery. Add the hospital's policies on Universal Protocol, site marking, and surgical consent. Your expert will compare the standard of care against what these records prove occurred. The deviation from protocol is often so clear that your expert's affidavit writes itself.
+
+**The Pattern Matters When the Hospital Wants to Settle**
+
+Pull incident reports and peer review records through discovery. Wrong-procedure events are never-events under CMS guidelines. Hospitals track these through their quality and safety departments. Previous incidents involving the same surgeon or the same OR team strengthen your case and your settlement position. State health department complaints and inspection reports are public records. I have found multiple prior wrong-site surgeries by the same surgeon through state licensing board records. This pattern evidence transforms your case value because it shows institutional knowledge and failure to act.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-16",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Surgical malpractice evidence: How to prove wrong-procedure surgery using operative reports, time-out records, and imaging studies.",
+    keywords: ["surgical malpractice","wrong procedure","wrong site surgery","operative report","universal protocol","medical malpractice"],
+  },
+  {
     slug: "what-fetal-heart-rate-tracings-reveal-about-delayed-birth-interventions",
     title: "What Fetal Heart Rate Tracings Reveal About Delayed Birth Interventions",
     excerpt: "Electronic fetal monitoring strips document the exact moment your client's baby showed signs of distress and when delivery teams failed to act.",
