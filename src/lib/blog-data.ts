@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "nursing-home-abuse-medical-evidence-shows-neglect-not-aging",
+    title: "Nursing Home Abuse Medical Evidence Shows Neglect Not Aging",
+    excerpt: "Aging does not cause Stage 4 pressure ulcers. The medical record tells you whether injuries stem from neglect or natural decline.",
+    content: `
+The nursing home will tell you the sacral ulcer developed because your client was 89 years old with diabetes. I have reviewed the records. The ulcer developed because staff turned the resident once per 12-hour shift instead of every two hours. The medical evidence proves which story is true.
+
+**Pressure Ulcers Document Turning Frequency and Repositioning Failure**
+
+A Stage 2 pressure ulcer develops after two hours of unrelieved pressure. A Stage 3 ulcer requires days of neglect. A Stage 4 ulcer with exposed bone did not happen because someone was old. It happened because no one turned them. The nursing notes will show gaps in repositioning documentation. The wound care notes will show rapid progression from intact skin to deep tissue injury. Progression from Stage 1 to Stage 4 in under two weeks proves inadequate monitoring and intervention. Normal aging does not create tunneling wounds with purulent drainage.
+
+**Malnutrition Has Lab Values and Weight Loss Patterns**
+
+Your client weighed 142 pounds on admission. Three months later, she weighed 98 pounds. The albumin level dropped from 3.8 to 2.1 g/dL. Prealbumin fell to 10 mg/dL. These numbers do not reflect normal aging. They reflect protein-calorie malnutrition from inadequate feeding assistance and monitoring. The dietary intake records will show "refused meal" or "ate 25%" without documentation of supplemental nutrition or physician notification. Compare the care plan requirements for feeding assistance to the actual staffing records during meal times. The math will not add up.
+
+**Dehydration Shows in Vital Signs and Clinical Markers**
+
+Elevated sodium levels above 145 mEq/L indicate dehydration. BUN to creatinine ratios above 20:1 point to volume depletion. Orthostatic hypotension with systolic drops exceeding 20 mmHg demonstrates inadequate fluid intake. I have seen records where residents went 12 hours without documented fluid intake during the day shift. The physician orders specified 1500 mL daily fluid intake. The nursing notes show 400 mL total. Your expert will testify this caused the acute kidney injury, not the resident's age.
+
+**Fall Injuries Reveal Monitoring and Staffing Gaps**
+
+A fall with a witnessed, documented trip over a threshold differs from a fall found 45 minutes after it occurred. Review the incident report timestamp against the nursing notes. Check the care plan fall risk assessment score against the interventions ordered. If the resident scored high risk for falls and the care plan specified bed alarms and hourly rounding, the flow sheets will show whether staff followed through. A fractured hip from a fall during a high-risk period with no documented rounding for three hours proves negligence. The medical record will show you exactly when staff last checked on the resident.
+
+**Medication Errors Create Measurable Harm**
+
+Warfarin dosing errors produce INR levels above 5.0 and result in subdural hematomas or gastrointestinal bleeding. Insulin administration without blood glucose monitoring causes hypoglycemic episodes with documented confusion and altered mental status. The medication administration record will show doses given or held. The physician orders will show what the parameters were. When these do not match, you have your evidence. I reviewed a case where a resident received double doses of metoprolol for six days. The blood pressure dropped to 78/42 mmHg. The resident fell and sustained a skull fracture. The defense argued the resident was frail and elderly. The medical record showed iatrogenic hypotension from medication error.
+
+**Sepsis From Untreated Infections Follows a Timeline**
+
+A urinary tract infection does not become urosepsis overnight. The progression takes days. The medical record will show elevated white blood cell counts, low-grade fevers, and changed urine characteristics before the resident became hypotensive and unresponsive. Nursing documentation will show whether staff reported these changes to the physician. Lack of timely physician notification when clinical indicators meet facility protocols proves negligence. I have seen records where residents displayed fever, tachycardia, and decreased urine output for 48 hours before anyone called the doctor. The resident developed septic shock and died. The facility blamed advanced age and multiple comorbidities. The records showed a three-day window where early intervention would have prevented death.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-17",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Nursing home neglect leaves medical evidence. Learn how pressure ulcers, malnutrition labs, and fall patterns prove abuse versus normal aging.",
+    keywords: ["nursing home abuse","medical evidence of neglect","pressure ulcer neglect","nursing home malnutrition","elder abuse medical records","legal nurse consultant"],
+  },
+  {
     slug: "how-to-prove-the-wrong-surgical-procedure-was-performed",
     title: "How to Prove the Wrong Surgical Procedure Was Performed",
     excerpt: "Wrong-site, wrong-procedure, and wrong-patient surgeries leave a paper trail. Here's how to build your case from the medical records.",
