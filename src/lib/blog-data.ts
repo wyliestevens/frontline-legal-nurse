@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-hospital-charts-reveal-about-fall-prevention-protocol-compliance",
+    title: "What Hospital Charts Reveal About Fall Prevention Protocol Compliance",
+    excerpt: "The medical record either confirms fall protocols were followed or exposes gaps. Here's what to look for.",
+    content: `
+I've reviewed hundreds of hospital fall cases. The difference between a defensible fall and negligence lives in the nursing documentation. Your case hinges on whether the hospital followed their own fall prevention protocols. The chart tells you everything.
+
+**The Morse Fall Scale Score Tells You Who Was Responsible**
+
+Every hospital uses a fall risk assessment tool. The Morse Fall Scale is the most common. Nurses score patients on admission and with every status change. A score above 45 triggers mandatory interventions. Look for the initial assessment in the admission nursing note. If it's missing, the nurse failed to identify the risk. If the score is documented but interventions are absent, you have a clear breach. I've seen cases where a patient scored 65 (high risk) and the chart shows zero fall precautions initiated. That's indefensible.
+
+**Hourly Rounding Logs Expose the Truth About Supervision**
+
+Hospitals require nurses to round on high-risk patients every hour. The documentation should show a checkmark or initial for every hour of every shift. Look at the flow sheet. Missing rounds before a fall destroy the defense. I worked a case where a 78-year-old post-op patient fell at 0300. The rounding log showed no checks between 2200 and 0600. The nurse claimed she rounded but didn't document. The jury didn't buy it. Neither should you.
+
+**Bed Alarms and Their Failure Points**
+
+High-risk patients get bed alarms. The nurse documents alarm placement in the intervention column. Look for three things: was the alarm ordered, was it placed, was it functioning. I've seen charts where the alarm was documented as "on" but the incident report notes it was found unplugged. Check the maintenance logs. Some facilities keep electronic records of alarm activations. If the alarm never triggered before the fall, it wasn't working or wasn't placed. Get the device itself during discovery.
+
+**Toileting Schedules Prevent Most Falls**
+
+Most falls happen during attempts to reach the bathroom. Scheduled toileting every two hours is standard for high-risk patients. The nursing flow sheet should document each toileting attempt. Look at the time of fall. If the patient hadn't been toileted in four hours, the nurse failed to follow protocol. I reviewed a case where an elderly woman with a hip fracture fell at 1400. Her last documented toilet visit was 0800. She told the nurse call button wasn't working. That detail was buried in the incident report. It became the centerpiece of our demand.
+
+**Call Light Response Times Are Measurable**
+
+Modern hospitals track how long it takes nurses to respond to call lights. This data lives in the electronic system. Subpoena it. When a patient falls after pressing the call light, response time is critical. I've obtained reports showing 15-minute average response times on understaffed units. If your patient waited 12 minutes and then tried to get up alone, you have a staffing case. The hospital's own data proves the point.
+
+**Post-Fall Documentation Reveals What Went Wrong**
+
+The documentation immediately after a fall tells you what the nurse knows she missed. Read the incident report against the nursing notes. Look for inconsistencies. Nurses often document interventions after the fact to cover gaps. Check the electronic time stamps. I've seen nurses chart a bed alarm was "on all shift" at 1405, when the fall occurred at 1400. The electronic record showed the entry was made at 1420. That's fabrication. The chart audit trail doesn't lie.
+
+**Physician Orders for Restraint Alternatives**
+
+Physicians must order specific fall interventions for high-risk patients. Look for orders for low beds, floor mats, sitters, or physical therapy consults. If the Morse score triggered these interventions but no orders exist, the physician shares liability. If orders exist but nurses didn't implement them, it's nursing negligence. I worked a wrongful death case where a confused patient was ordered a 24-hour sitter. The chart showed the sitter left at 1900 for a dinner break. The patient fell from bed at 1915 and sustained a fatal subdural hematoma. The sitter was never replaced.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-21",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Hospital fall cases turn on documented fall prevention protocols. Learn what charts reveal about Morse scores, rounding logs, and alarm compliance.",
+    keywords: ["hospital falls","fall prevention protocols","Morse Fall Scale","nursing documentation","medical malpractice","legal nurse consultant"],
+  },
+  {
     slug: "medication-error-cases-start-at-three-distinct-failure-points",
     title: "Medication Error Cases Start at Three Distinct Failure Points",
     excerpt: "Every medication error follows a chain. The failure happens at prescription, dispensing, or administration. Here's how to trace it.",
