@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "pressure-ulcer-litigation-depends-on-staging-documentation-and-timing",
+    title: "Pressure Ulcer Litigation Depends on Staging Documentation and Timing",
+    excerpt: "The NPUAP staging system tells you what level of negligence occurred and when. Missing documentation reveals deliberate gaps in care.",
+    content: `
+I have reviewed hundreds of pressure ulcer cases. The difference between a nuisance settlement and a seven-figure verdict lies in understanding the staging system and catching documentation gaps. Most attorneys miss the timeline embedded in wound progression. Defense counsel bets on this.
+
+**The NPUAP Staging System Defines Your Damages**
+
+The National Pressure Ulcer Advisory Panel staging system runs from Stage 1 through Stage 4, plus two categories for unstageable wounds. Stage 1 shows intact skin with non-blanchable redness. Stage 2 presents partial-thickness skin loss with a shallow open ulcer or intact blister. Stage 3 involves full-thickness tissue loss where subcutaneous fat becomes visible but bone, tendon, and muscle remain covered. Stage 4 exposes bone, tendon, or muscle with probable undermining and tunneling. A Stage 4 sacral ulcer requires surgical debridement, flap closure, and months of wound care. Your expert needs to explain this progression to a jury in terms they feel in their gut.
+
+**Wound Progression Timing Establishes Negligence Duration**
+
+Pressure ulcers develop in predictable timeframes under sustained pressure. Stage 1 ulcers form within two to six hours of unrelieved pressure in high-risk patients. Progression from Stage 1 to Stage 2 takes 24 to 72 hours without intervention. Stage 3 develops over three to five days of continued neglect. Stage 4 ulcers require one to two weeks of complete care failure. When your plaintiff enters a facility without wounds and develops a Stage 4 ulcer within 14 days, you have documented proof of systematic neglect. Compare admission photos, transfer records, and daily nursing notes against this timeline.
+
+**Missing Assessments Point to Deliberate Documentation Failures**
+
+Federal regulations require nursing homes to conduct skin assessments on admission, weekly for four weeks, then quarterly for stable residents. Daily documentation must note turning, repositioning, and skin checks every two hours for immobile residents. When I see gaps in these required assessments, I know staff recognized the developing wound and chose not to document it. Look for sudden appearance of Stage 3 or Stage 4 ulcers without preceding Stage 1 or Stage 2 documentation. The wound did not skip stages. The staff skipped documentation to hide their failure. Subpoena the electronic health record audit trail to prove who accessed the chart and when.
+
+**Unstageable Wounds Hide the True Damage Extent**
+
+Two wound classifications create documentation problems defense teams exploit. Deep Tissue Injury presents as purple or maroon intact skin or blood-filled blister from underlying soft tissue damage. Unstageable ulcers show full-thickness tissue loss where slough or eschar obscures the wound base. Defense counsel argues you cannot prove the wound's severity because the stage remains unknown. Wrong. These classifications indicate severe tissue damage. DTI evolves into Stage 3 or Stage 4 within days. Unstageable wounds require surgical debridement to reveal true depth. Both classifications prove the facility allowed tissue destruction to progress beyond surface damage.
+
+**Staging Changes in Records Reveal Tampering or Incompetence**
+
+Watch for wounds documented as Stage 3 on Tuesday and downgraded to Stage 2 on Friday. Pressure ulcers do not heal backward through stages. Wound closure proceeds through granulation and epithelialization, not reverse staging. When I see downward stage migration in charts, I flag it immediately. Either the nurse lacks basic wound assessment competence or someone altered documentation after your demand letter arrived. Cross-reference wound measurements, photographs, and consultant notes. A wound photographed at 4cm deep with visible subcutaneous fat cannot become Stage 2 partial-thickness loss without surgical intervention and months of healing.
+
+**Physician Orders Expose Staff Noncompliance**
+
+Pull every physician order related to wound care, repositioning, pressure-relieving devices, and nutritional support. Compare these orders against nursing flow sheets and daily notes. Orders for two-hour turning schedules mean nothing when flow sheets show four-hour gaps. Prescriptions for specialized mattresses lose value when supply records prove the facility never owned the device. Dietary orders for high-protein supplements fail when meal intake records show 25% consumption. This documentation gap proves staff received explicit instructions to prevent wound progression and ignored them. The jury understands defiance.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-22",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Pressure ulcer staging and documentation timing define negligence in nursing home litigation. Learn what wound progression reveals about care failures.",
+    keywords: ["pressure ulcer litigation","NPUAP staging system","nursing home negligence","wound documentation","bedsore lawsuit","medical record review"],
+  },
+  {
     slug: "what-hospital-charts-reveal-about-fall-prevention-protocol-compliance",
     title: "What Hospital Charts Reveal About Fall Prevention Protocol Compliance",
     excerpt: "The medical record either confirms fall protocols were followed or exposes gaps. Here's what to look for.",
