@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-anesthesia-records-must-contain-and-where-malpractice-hides",
+    title: "What Anesthesia Records Must Contain and Where Malpractice Hides",
+    excerpt: "The anesthesia record is a minute-by-minute roadmap. Missing vitals, incomplete drug logs, and charting gaps reveal negligence.",
+    content: `
+I have reviewed hundreds of anesthesia records where the case turned on what was documented and what was missing. The anesthesia record is not a summary. It is a real-time chronicle of every vital sign, every drug administered, every intervention performed. When something goes wrong during surgery, this record either proves or disproves negligence.
+
+**The Required Components of a Complete Anesthesia Record**
+
+Every anesthesia record must include continuous documentation at five-minute intervals minimum. Vital signs include heart rate, blood pressure, oxygen saturation, end-tidal CO2, respiratory rate, and temperature. The record must show the exact time anesthesia started, when the patient was intubated, when surgical incision occurred, and when anesthesia ended. Drug administration requires drug name, dose, route, and time given. Fluid administration must show type, volume, and rate. The anesthesiologist must document airway management including laryngoscopy grade, tube size, and ventilator settings. Any deviation from normal requires a notation explaining the clinical response.
+
+**The Red Flags I Look for First**
+
+Gaps in charting tell me the anesthesiologist was not monitoring or was not documenting. Both are indefensible. I see records with vital signs entered in blocks rather than continuous intervals. This means retroactive charting, not real-time monitoring. Missing end-tidal CO2 readings suggest the anesthesiologist failed to detect ventilation problems. Absent or delayed documentation of hypotension, tachycardia, or oxygen desaturation shows the provider either missed the crisis or ignored it. I have seen anesthesia records where a patient's blood pressure dropped to 60/40 for fifteen minutes with no intervention documented. That record alone won the case.
+
+**Drug Errors and Documentation Failures**
+
+Anesthesia involves powerful medications with narrow therapeutic windows. The record must show precise dosing. I have reviewed cases where the anesthesiologist documented administering rocuronium but failed to document reversal with sugammadex or neostigmine. The patient arrived in recovery paralyzed and hypoxic. Other cases involve wrong-dose epinephrine or phenylephrine leading to hypertensive crisis or cardiac arrest. Look for missing lot numbers, missing doses, or drugs listed without times. These gaps indicate sloppy practice and open the door to dosing errors. Pre-induction checklists should appear in the record. When they are absent, you question whether the anesthesiologist verified allergies, NPO status, or difficult airway predictors.
+
+**Airway Complications and Incomplete Documentation**
+
+Difficult intubation is a known risk, but failure to document the difficulty is negligence. The anesthesiologist must record the laryngoscopy grade using the Cormack-Lehane classification. Grade 3 or 4 views require notation of alternative techniques such as video laryngoscopy, fiberoptic intubation, or surgical airway. I have worked cases where the provider made multiple intubation attempts causing tracheal injury but documented only one attempt. Dental injuries, esophageal intubation, and failed airways must be documented immediately. Missing airway documentation after a patient suffers anoxic brain injury is indefensible. The absence of notes about desaturation during intubation attempts suggests the provider was not watching the monitor or chose not to document the crisis.
+
+**Emergence and Recovery Period Failures**
+
+The anesthesia record does not end when surgery ends. Documentation must continue through emergence and handoff to recovery staff. I see cases where patients extubated too early aspirate or develop laryngospasm, but the anesthesia record shows no distress. Postoperative nausea, pain scores, and mental status require documentation. Handoff communication to the PACU nurse must include airway status, medications given, estimated blood loss, and any intraoperative complications. Missing handoff documentation means no proof the anesthesiologist communicated critical information. I have reviewed wrongful death cases where the patient arrested in PACU and the anesthesia record contained no mention of intraoperative hypotension or massive blood loss. The PACU nurse walked into a disaster with no warning.
+
+**What Missing Records Tell You**
+
+Some anesthesia records disappear or get altered after a bad outcome. I have seen records with whited-out sections, entries in different ink, or electronic timestamps showing late entries added days after the incident. Demand the original record and the electronic audit trail. Compare the anesthesia record to the nursing notes, surgeon's operative report, and PACU notes. Discrepancies reveal fabrication. One case involved an anesthesiologist who documented normal vitals throughout a procedure, but the circulating nurse's notes showed three code blues. The anesthesiologist committed perjury and lost his license.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-23",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Anesthesia malpractice cases turn on what the anesthesia record contains. Learn what documentation is required and where negligence hides.",
+    keywords: ["anesthesia malpractice","anesthesia record","medical malpractice","anesthesia documentation","legal nurse consulting","medical record review"],
+  },
+  {
     slug: "pressure-ulcer-litigation-depends-on-staging-documentation-and-timing",
     title: "Pressure Ulcer Litigation Depends on Staging Documentation and Timing",
     excerpt: "The NPUAP staging system tells you what level of negligence occurred and when. Missing documentation reveals deliberate gaps in care.",
