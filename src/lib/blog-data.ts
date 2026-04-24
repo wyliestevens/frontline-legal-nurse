@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "proving-the-hospital-failed-to-follow-sepsis-protocol-bundles",
+    title: "Proving the Hospital Failed to Follow Sepsis Protocol Bundles",
+    excerpt: "Sepsis cases turn on documentation of protocol compliance. Here's what to look for in the medical records.",
+    content: `
+Hospitals lose sepsis cases when their own documentation proves they missed the bundle timelines. I've reviewed hundreds of these cases. The pattern repeats: delayed recognition, incomplete treatment, and nurses charting information the physicians ignored. Your strongest evidence sits in the time stamps, the vital signs flow sheets, and the order entry records.
+
+**The Sepsis Bundle Timeline Starts Earlier Than You Think**
+
+The Surviving Sepsis Campaign guidelines mandate the three-hour bundle starts when sepsis is first suspected, not when it's diagnosed. I've seen defense attorneys argue the clock starts at the physician's formal diagnosis three hours after the patient arrived in the ED. Wrong. Your expert looks for the moment the clinical criteria appeared: two or more SIRS criteria plus suspected infection. High white count, tachycardia above 90, respiratory rate above 20, fever above 101°F. These vitals appear in triage notes. The bundle clock already started.
+
+**Blood Cultures Before Antibiotics Is Non-Negotiable**
+
+The three-hour sepsis bundle requires blood cultures before antibiotic administration. I've reviewed cases where nurses gave antibiotics 45 minutes before drawing cultures because the ED was slammed. The patient died. The blood cultures came back negative because the antibiotics sterilized the sample. Your infectious disease expert writes an opinion with no organism identification to guide targeted therapy. The hospital's own protocol checklist shows the bundle step incomplete or performed out of sequence. The defense settles.
+
+**Lactate Levels Tell the Story of Tissue Perfusion**
+
+Elevated lactate means the patient's tissues are starving for oxygen. Initial lactate above 4 mmol/L triggers the septic shock protocol. I've seen cases where the first lactate came back at 6.2 and nobody repeated it for eight hours. The protocol requires re-measurement within six hours if initially elevated. Your nursing expert points to the sepsis order set the hospital printed and placed in every unit. They didn't follow their own rule. The second lactate measured 9.1. The patient coded twenty minutes later.
+
+**Fluid Resuscitation Volume and Rate Must Meet Protocol Standards**
+
+The bundle requires 30 mL/kg of crystalloid fluids within three hours for hypotension or lactate above 4. For a 70 kg patient, that's 2,100 mL. I pull the IV fluid administration records. I see 500 mL normal saline given over two hours, then nothing for ninety minutes, then another 500 mL. Total: 1,000 mL in five hours. The patient remained hypotensive with systolic BP in the 80s. The nurse documented the low blood pressure every hour but nobody escalated care. Your damages include anoxic brain injury from prolonged hypoperfusion.
+
+**Vasopressor Delays Cost Lives in Septic Shock**
+
+When fluid resuscitation doesn't restore blood pressure, the protocol demands vasopressors. Norepinephrine is first-line. I've reviewed cases where the patient remained hypotensive for three hours after receiving the full fluid bolus, but the physician delayed vasopressors because "we wanted to give more fluids." The protocol doesn't support that decision. The patient needed a central line for safe vasopressor administration. The hospital waited two hours for the ICU fellow to place it. The patient arrested during line placement. The autopsy showed watershed infarcts in the brain and acute tubular necrosis in the kidneys from prolonged shock.
+
+**Documentation of Sepsis Screening Tools Creates Liability**
+
+Most hospitals use electronic sepsis screening tools built into the EMR. These tools auto-populate with vital signs and lab values. When the screening tool fires an alert, it generates a time-stamped record. I've seen cases where the screening tool triggered a "severe sepsis" alert at 14:23 and the physician didn't enter orders until 17:45. The three-hour window closed. The hospital's own technology documented their failure. Your legal nurse pulls the sepsis alert reports from the EMR data files. These reports don't always appear in the standard medical records production. You request them specifically in discovery.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-24",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Sepsis protocol failures create winnable cases. Learn what to look for in medical records to prove the hospital missed bundle timelines.",
+    keywords: ["sepsis protocol","sepsis bundle","medical malpractice","hospital negligence","septic shock","legal nurse consultant"],
+  },
+  {
     slug: "what-anesthesia-records-must-contain-and-where-malpractice-hides",
     title: "What Anesthesia Records Must Contain and Where Malpractice Hides",
     excerpt: "The anesthesia record is a minute-by-minute roadmap. Missing vitals, incomplete drug logs, and charting gaps reveal negligence.",
