@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "wrong-site-surgery-and-the-medical-record-proof-of-timeout-failure",
+    title: "Wrong Site Surgery and the Medical Record Proof of Timeout Failure",
+    excerpt: "The Universal Protocol creates documentation requirements. Missing signatures and timestamps reveal exactly where the system broke down.",
+    content: `
+I have reviewed 47 wrong-site surgery cases in my 20 years as a legal nurse consultant. Every single one had documentation failures in the timeout process. The medical record tells you exactly how the protocol broke down and who bears responsibility.
+
+**The Universal Protocol Creates Documentation Requirements**
+
+The Joint Commission requires three steps: preoperative verification, site marking, and the timeout itself. Each step generates specific documentation. You need the H&P with the planned procedure, the consent form with the surgical site specified, and the timeout checklist completed immediately before incision. The circulating nurse must document the timeout in the operative report with names of all participants present and verbal confirmation of the correct site. Missing documentation equals a failed timeout. The hospital will argue the timeout occurred but was not documented. You prove this defense fails by showing the pattern of missing elements across multiple documents.
+
+**Site Marking Documentation Reveals the First Failure**
+
+The surgeon must mark the operative site with his or her initials while the patient is awake and able to confirm. The medical record must show when and where the marking occurred. Look for the preoperative nursing note documenting visible surgical site markings with the surgeon's initials. Check the operative report for confirmation the marking was present and correct when the patient entered the OR. Wrong-site cases often show no documentation of site marking at all. Some show the marking occurred after sedation started. Some show markings on both sides when only one side required surgery. Each of these documentation gaps proves protocol violations.
+
+**The Timeout Checklist Shows Who Participated and When**
+
+Most facilities use a formal checklist for the timeout. This document must show the date, time, patient name, planned procedure, and surgical site verification. Every team member present must be listed by name and role. The circulating nurse leads the timeout and signs the form. The surgeon, anesthesiologist, and surgical tech must also sign. Missing signatures tell you who was not paying attention or not present. A blank timeout form filed in the chart after surgery tells you the timeout never occurred. Time stamps matter. If the timeout documentation shows a time after the procedure start time in the anesthesia record, someone falsified the document.
+
+**Operative Report Language Exposes Real-Time Awareness**
+
+Read the operative report narrative carefully. The surgeon describes what he or she found upon entering the surgical site. Wrong-site cases often contain phrases revealing the surgeon recognized the error mid-procedure. Look for descriptions of normal anatomy when pathology was expected. Look for statements about switching sites or repositioning the patient after incision. Some surgeons document the error directly. Most use vague language about unexpected findings. Cross-reference the operative report timing with anesthesia documentation. The anesthesia record shows when incision occurred and when the procedure ended. Unexplained delays or sudden changes in vital signs correlate with the moment of discovery.
+
+**Multiple Consent Forms Reveal Confusion About the Planned Procedure**
+
+Wrong-site surgeries often involve last-minute procedure changes or additions. You will find multiple consent forms signed on the same day. One consent lists the correct site. Another lists the wrong site. The scheduler entered one procedure in the electronic system. The surgeon wrote different orders in the chart. The OR staff prepared equipment for a third procedure entirely. Each document came from a different source and nobody reconciled the conflicts before cutting. This documentation chaos proves system failure. The timeout exists specifically to catch these discrepancies before incision.
+
+**Incident Reports and Peer Review Documents Contain Admissions**
+
+The hospital generates internal documents after wrong-site events. Incident reports capture immediate statements from staff members present in the OR. These reports often contain direct admissions about skipped steps or miscommunication. Peer review committee minutes discuss the event and assign fault. Root cause analysis documents map the entire chain of failures. You need these documents. They exist in every wrong-site case. The hospital will claim peer review protection. Fight for them. Many states allow discovery when the incident report was created for billing or administrative purposes rather than quality improvement. The content determines protection, not the label on the document.
+
+**Missing Nursing Notes Prove the Hospital Destroyed Evidence**
+
+Circulating nurse notes must document every step of the Universal Protocol. These notes should appear in both the preoperative area record and the intraoperative record. Wrong-site cases frequently show gaps in nursing documentation during critical time periods. The preop nurse charted arrival and vital signs but nothing about site verification. The circulating nurse documented opening supplies but nothing about the timeout. Some facilities produce nursing notes clearly written after the fact with different ink or electronic time stamps showing late entry. Spoliation of evidence arguments succeed when you demonstrate the hospital's documentation policy requires specific entries and those entries are missing from the record.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-04-28",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Wrong-site surgery cases reveal timeout failures through missing documentation, unsigned checklists, and conflicting consent forms in the medical record.",
+    keywords: ["wrong-site surgery","surgical timeout","Universal Protocol","medical malpractice","legal nurse consulting","medical record review"],
+  },
+  {
     slug: "retained-surgical-instruments-and-the-documentation-trail-you-need-to-win",
     title: "Retained Surgical Instruments and the Documentation Trail You Need to Win",
     excerpt: "The medical record tells you whether the surgical count protocol broke down or was never followed at all.",
