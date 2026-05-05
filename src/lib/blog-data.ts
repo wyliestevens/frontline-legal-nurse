@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "proving-a-psychiatric-facility-failed-to-prevent-patient-self-harm",
+    title: "Proving a Psychiatric Facility Failed to Prevent Patient Self-Harm",
+    excerpt: "Psychiatric malpractice cases hinge on documentation gaps. Here's what to look for when a facility failed to protect a suicidal patient.",
+    content: `
+I've reviewed hundreds of psychiatric malpractice cases where patients harmed themselves under facility care. The facility always claims they did everything right. The medical records tell a different story. You need to know what deviations from the standard of care look like in black and white.
+
+**The Suicide Risk Assessment Must Be Repeated**
+
+A single assessment at admission means nothing. Psychiatric patients require reassessment every shift, after every significant event, and whenever clinical presentation changes. Look for documentation of suicidal ideation, plan, means, and intent at each nursing shift change. I've seen cases where a patient denied suicidal thoughts at 7 AM and attempted hanging at 2 PM. The 11 AM assessment was missing. No documentation of mood changes. No re-evaluation after a difficult family phone call. The facility claimed the patient was stable. The chart showed they stopped watching.
+
+**Environmental Safety Rounds Are Non-Negotiable**
+
+Every psychiatric unit must conduct and document environmental safety rounds. Staff check for ligature points, contraband, sharps, and means of self-harm. These rounds happen at the start of each shift at minimum. Pull the environmental safety checklists. Note every gap. I worked a case where a patient used a phone charger cord the night shift never confiscated. The safety round checklist for that room was blank. The patient had been on Q15 minute checks. Staff falsified the check documentation. The ligature point was a bathroom door hinge that should have been removed during the initial room inspection.
+
+**Observation Levels Must Match Acuity**
+
+Physicians order specific observation frequencies based on suicide risk. Q15 means every fifteen minutes. 1:1 means constant visual contact. Arms-length means a staff member stays within reaching distance. Get the physician orders. Compare them to nursing documentation. Look for 30-minute gaps where no checks occurred. I've seen nurses chart observations at times they were on break or in another building. Video footage proved they never entered the hallway. Match the video timestamps to the observation flow sheets. The discrepancies win cases.
+
+**Contraband Searches Require Documentation**
+
+Psychiatric facilities must search patients and their belongings on admission and periodically throughout the stay. Visitors bring in cigarette lighters, razors, medications, shoelaces, and belts. The search log tells you if staff followed protocol. I reviewed records where a patient overdosed on pills a family member smuggled in during a visit. The visitor log showed no search occurred. The unit policy required a staff member to inspect all bags and packages. The patient was on high suicide precautions. No one checked the visitor's purse.
+
+**Staffing Ratios Affect Patient Safety**
+
+Psychiatric units operate with specific nurse-to-patient ratios. Understaffing leads to missed observations, delayed interventions, and preventable deaths. Subpoena the staffing schedules for the shift in question. Count the patients. Count the licensed staff. Compare the numbers to state regulations and facility policy. I worked a wrongful death case where one RN covered 24 acute psychiatric patients overnight. Three patients required Q15 checks. Two needed 1:1 observation. The math made proper monitoring impossible. The facility administrator admitted they operated short-staffed for six months.
+
+**Post-Incident Response Reveals Prior Knowledge**
+
+Read the incident reports, root cause analyses, and quality improvement documents. Facilities must investigate every self-harm event. These documents often reveal previous incidents involving the same ligature points, the same staffing failures, or the same policy violations. I've found cases where five patients used the same bathroom fixture for hanging attempts over two years. The facility identified the hazard after the first incident. They never removed the fixture. Your client was the sixth victim. The pattern proves gross negligence.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-05",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Psychiatric malpractice cases require proving failed suicide prevention. Learn what documentation gaps reveal facility negligence.",
+    keywords: ["psychiatric malpractice","suicide prevention","patient self-harm","psychiatric facility negligence","medical malpractice","legal nurse consultant"],
+  },
+  {
     slug: "cosmetic-surgery-malpractice-requires-documentation-of-consent-and-technique-fai",
     title: "Cosmetic Surgery Malpractice Requires Documentation of Consent and Technique Failures",
     excerpt: "Winning cosmetic surgery cases demands proof of informed consent violations and technical deviations you find buried in operative reports.",
