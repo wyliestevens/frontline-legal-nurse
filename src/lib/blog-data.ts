@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "ophthalmology-malpractice-records-show-where-vision-loss-started",
+    title: "Ophthalmology Malpractice Records Show Where Vision Loss Started",
+    excerpt: "Surgical logs, pre-op imaging, and post-op notes reveal exactly when and how negligence caused permanent vision damage.",
+    content: `
+**Pre-Operative Records Establish Your Baseline**
+
+Your ophthalmology malpractice case lives or dies on what the pre-operative records show. I need the full chart including visual acuity measurements, slit lamp exam findings, optical coherence tomography (OCT) imaging, and intraocular pressure readings. These documents prove what vision your client had before anyone touched their eye. Without this baseline, defense counsel will claim the vision loss existed before surgery. I've seen attorneys lose solid cases because they accepted incomplete pre-op documentation. Get the complete workup or you're fighting with one hand tied.
+
+**Surgical Logs Tell You What Went Wrong in Real Time**
+
+The operative report and anesthesia record show exactly what happened in the OR. Look for posterior capsule rupture during cataract surgery. Check for vitreous loss documentation. Note whether the surgeon converted from phacoemulsification to extracapsular extraction mid-procedure. I review these records and watch for what the surgeon doesn't write down. When an op note says "procedure completed without complications" but the post-op course shows immediate vision decline, somebody is lying. The nursing circulator notes often contain details the surgeon omitted. Subpoena those separately.
+
+**Post-Operative Vision Decline Appears in Specific Patterns**
+
+You need every post-op visit note for at least 90 days. Vision loss from surgical negligence follows predictable patterns. Endophthalmitis shows rapid vision decline within days, with pain and hypopyon visible on exam. Retinal detachment presents with sudden floaters, flashes, and visual field cuts that worsen over hours to days. Cystoid macular edema develops over weeks with progressive central vision blur. I map these findings against the standard of care timeline. When the surgeon waited five days to refer a patient with worsening pain and light perception vision, I know we have a delayed diagnosis claim.
+
+**Imaging Studies Prove Structural Damage**
+
+OCT imaging, fundus photography, and B-scan ultrasound don't lie. I compare pre-op and post-op scans to show macular holes, retained lens fragments, choroidal hemorrhage, or optic nerve damage. Defense experts will argue your client had pre-existing pathology. Your pre-op imaging shuts that argument down. I worked a case where the surgeon claimed the patient's retinal detachment was spontaneous. The post-op ultrasound showed a posterior capsule defect and vitreous hemorrhage. Settlement came fast after we presented those images in deposition.
+
+**Medication Records Show Inadequate Post-Operative Management**
+
+The prescription history and medication administration records reveal whether the surgeon followed infection prevention protocols. Patients need prophylactic antibiotics, anti-inflammatories, and pressure-lowering drops on specific schedules. I flag cases where the surgeon failed to prescribe fourth-generation fluoroquinolones after cataract surgery or where nursing staff didn't document medication administration. When endophthalmitis develops and the med records show gaps in antibiotic coverage, you have a management failure claim on top of the surgical error.
+
+**Consultation Notes Reveal What Other Specialists Saw**
+
+Retina specialist consultations and second opinion evaluations give you unfiltered assessment of the damage. These ophthalmologists write what they see, not what the original surgeon wants documented. I've pulled consultation notes where the retina specialist documented "extensive vitreous hemorrhage consistent with intraoperative trauma" three days after the original surgeon wrote "unremarkable post-op course." Those contradictions build your negligence timeline. Get every consultation note, every imaging report, and every communication between providers.
+
+**Expert Review Connects Documentation Gaps to Permanent Harm**
+
+I send you a chronology showing every deviation from standard care. Your ophthalmology expert witness uses this to explain how delayed intervention, surgical errors, or failure to recognize complications caused permanent vision loss. The records show what happened. Your expert explains why it shouldn't have happened. I've prepared case analyses for attorneys who thought they had a weak claim, only to find the records contained five separate standard of care violations. The documentation was always there. Someone needed to know where to look.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-06",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Ophthalmology malpractice cases require surgical logs, imaging, and post-op notes to prove vision loss from negligence.",
+    keywords: ["ophthalmology malpractice","vision loss negligence","surgical records","post-operative documentation","medical malpractice","legal nurse consulting"],
+  },
+  {
     slug: "proving-a-psychiatric-facility-failed-to-prevent-patient-self-harm",
     title: "Proving a Psychiatric Facility Failed to Prevent Patient Self-Harm",
     excerpt: "Psychiatric malpractice cases hinge on documentation gaps. Here's what to look for when a facility failed to protect a suicidal patient.",
