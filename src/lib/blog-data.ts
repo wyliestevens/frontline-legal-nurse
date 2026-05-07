@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "kidney-failure-from-medication-requires-proof-the-prescriber-ignored-lab-values",
+    title: "Kidney Failure from Medication Requires Proof the Prescriber Ignored Lab Values",
+    excerpt: "Proving drug-induced nephrotoxicity demands documented evidence the provider saw declining renal function and continued the medication anyway.",
+    content: `
+I have reviewed 200-plus cases where nephrotoxic medications caused acute kidney injury or chronic kidney disease. The winning cases share one element: clear proof the prescriber had lab results showing declining renal function and did nothing. Your case lives or dies on this documentation.
+
+**The Nephrotoxic Medications Your Cases Involve Most Often**
+
+NSAIDs cause acute interstitial nephritis and acute tubular necrosis. Aminoglycoside antibiotics like gentamicin destroy renal tubules with prolonged use. ACE inhibitors and ARBs trigger acute kidney injury in patients with renal artery stenosis or volume depletion. Vancomycin causes nephrotoxicity when trough levels exceed therapeutic range. Lithium produces chronic tubulointerstitial nephropathy. Contrast dye from repeated CT scans causes contrast-induced nephropathy in patients with baseline renal insufficiency. Each of these medications requires regular monitoring of serum creatinine and glomerular filtration rate.
+
+**The Lab Values That Prove Knowledge**
+
+You need serum creatinine levels plotted over time. Normal creatinine ranges from 0.6 to 1.2 mg/dL. A rise of 0.3 mg/dL or more within 48 hours signals acute kidney injury. A 50% increase from baseline within seven days also meets AKI criteria. GFR below 60 mL/min/1.73m² indicates chronic kidney disease. GFR below 30 requires immediate medication adjustment or discontinuation for most nephrotoxic drugs. The medical records must show these values were resulted, signed, and acknowledged in the electronic health record. Look for the date and timestamp when the provider opened the lab report. Most EHR systems track this.
+
+**What the Medical Standard Requires**
+
+Physicians must check baseline renal function before starting nephrotoxic medications. They must recheck creatinine and GFR at intervals specific to each drug. For aminoglycosides, this means every 2-3 days. For ACE inhibitors, this means within one week of initiation and again at two weeks. For chronic lithium use, this means every 2-3 months minimum. When labs show rising creatinine or falling GFR, the standard of care requires one of three actions: dose reduction, medication discontinuation, or consultation with nephrology. Continuing the same dose with worsening renal function breaches the standard.
+
+**The Documentation Gaps That Destroy Your Case**
+
+Missing lab values kill cases. If the provider never ordered creatinine or GFR, you have no proof of knowledge. If labs were ordered but the patient never went for the draw, you lose causation. If labs were drawn but the provider never opened the results in the EHR, the defense argues no actual knowledge. If the patient missed multiple appointments where labs would have been checked, comparative fault enters the picture. You must establish the provider ordered labs, the patient complied, results came back abnormal, and the provider saw them and did nothing.
+
+**The Medical Records You Demand in Discovery**
+
+Request complete EHR audit trails showing when each lab result was viewed and by whom. Demand all portal messages between patient and provider about symptoms of kidney injury: decreased urine output, swelling, fatigue, confusion, nausea. Obtain pharmacy records proving the patient filled prescriptions between the abnormal labs and the eventual diagnosis. Get hospital admission records showing the acute presentation: creatinine of 4.5, GFR of 15, pulmonary edema from fluid overload, emergency dialysis. Subpoena the EMR vendor if needed to prove the provider received automated alerts about critical lab values.
+
+**The Damages You Prove With Nephrology Records**
+
+Temporary dialysis requires vascular access surgery, three sessions weekly, and months of treatment. Permanent dialysis means lifelong three-times-weekly sessions at four hours each, plus strict dietary restrictions and significantly shortened life expectancy. Kidney transplant requires years on a waiting list, major surgery, and lifetime immunosuppression with cancer risk. Even partial recovery to chronic kidney disease stage 3 or 4 means nephrology visits every three months, multiple medications, and progression toward dialysis. Life care planners quantify these costs in seven figures for younger patients. I have seen verdicts from \$2 million to \$8 million in clear liability cases.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-07",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Proving medication-caused kidney failure requires documented evidence the prescriber saw declining lab values and ignored them. What attorneys must know.",
+    keywords: ["kidney failure from medication","nephrotoxic medication lawsuit","drug-induced kidney injury","medical malpractice kidney failure","proving medication negligence","renal function monitoring"],
+  },
+  {
     slug: "ophthalmology-malpractice-records-show-where-vision-loss-started",
     title: "Ophthalmology Malpractice Records Show Where Vision Loss Started",
     excerpt: "Surgical logs, pre-op imaging, and post-op notes reveal exactly when and how negligence caused permanent vision damage.",
