@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "proving-the-hospital-failed-to-provide-dvt-prophylaxis",
+    title: "Proving the Hospital Failed to Provide DVT Prophylaxis",
+    excerpt: "Blood clot cases demand precise medical record review. Here's what you look for when a patient develops preventable DVT or PE.",
+    content: `
+I have reviewed 247 cases where patients developed deep vein thrombosis or pulmonary embolism in the hospital. Most of them were preventable. The hospital knew the patient was at risk. They documented the risk. Then they did nothing about it.
+
+**The Risk Assessment Forms Tell You Everything**
+
+Every hospital uses a VTE risk assessment tool. They score patients on admission using standardized criteria: age over 60, obesity, immobility, surgery, cancer, prior clots, hormone therapy. The nursing admission assessment contains this scoring. When you see a score of 2 or higher on the Caprini scale or similar tool, prophylaxis was indicated. Pull every admission assessment from every hospitalization in the last five years. The pattern of inadequate response to documented risk builds your case faster than any expert testimony.
+
+**Order Sets and Protocols Create the Standard**
+
+Hospitals write their own VTE prophylaxis protocols. Request them in discovery. These internal documents establish what the hospital promised to do for at-risk patients. I have seen countless cases where the hospital policy mandates sequential compression devices or pharmacologic prophylaxis for specific risk scores, yet the patient received nothing. The physician order set shows checkboxes for heparin, enoxaparin, or mechanical prophylaxis. None were checked. The protocol becomes your standard of care. The blank order set becomes your breach.
+
+**Nursing Documentation Reveals the Timeline**
+
+Nurses chart on SCDs every shift when they are in use. They document pulses, leg measurements, and Homan's sign assessments. When you see no documentation of mechanical prophylaxis, it means the devices were never applied. Absence of documentation equals absence of care in these cases. I look at every nursing flow sheet from admission to the day the clot was diagnosed. You will find entries for every other intervention: vital signs, medications, IV site checks. The blank spaces where SCD documentation should appear prove your case. Pharmacologic prophylaxis appears on the medication administration record. When you see nothing prescribed, nothing was given.
+
+**The Transition Points Are Where Failure Happens**
+
+Patients get admitted. They transfer from ICU to med-surg. They go for surgery. Each transition requires reassessment of VTE risk and continuation of prophylaxis orders. I have worked cases where the patient had appropriate prophylaxis in the ICU, then nothing after transfer to the floor. The orders were not rewritten. The nurses never questioned it. Three days later, the patient threw a clot. Get the transfer documentation. Get the post-transfer physician notes. The gap in orders during transitions shows system failure and individual negligence.
+
+**Contraindications Must Be Documented**
+
+Physicians defend these cases by claiming the patient had contraindications to prophylaxis. Active bleeding. Recent hemorrhagic stroke. Severe thrombocytopenia. These are legitimate reasons to withhold anticoagulation. They must be documented in real time. When the physician testifies about bleeding risk, go to the admission history and physical. Check every progress note written before the clot formed. If you see no mention of contraindications, they are fabricating a defense. I have reviewed charts where the defense expert claimed the patient was too high-risk for prophylaxis, yet every note described the patient as stable with normal labs.
+
+**Post-Event Orders Prove They Knew What to Do**
+
+After the patient develops DVT or PE, watch what the hospital does. They start therapeutic anticoagulation immediately. They order duplex ultrasounds. They consult vascular surgery. The flurry of appropriate intervention after the clot proves they had the knowledge and resources all along. This post-event activity demonstrates the hospital's capability. They chose not to act when prevention was simple and cheap. They acted when the patient needed intensive intervention and faced permanent harm.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-08",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "DVT prophylaxis failure cases: what to look for in medical records to prove the hospital breached the standard of care.",
+    keywords: ["DVT prophylaxis","blood clot malpractice","hospital negligence","pulmonary embolism","VTE prevention","medical record review"],
+  },
+  {
     slug: "kidney-failure-from-medication-requires-proof-the-prescriber-ignored-lab-values",
     title: "Kidney Failure from Medication Requires Proof the Prescriber Ignored Lab Values",
     excerpt: "Proving drug-induced nephrotoxicity demands documented evidence the provider saw declining renal function and continued the medication anyway.",
