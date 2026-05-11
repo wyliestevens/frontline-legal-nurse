@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "prostate-cancer-misdiagnosis-and-the-urology-records-proving-delayed-screening",
+    title: "Prostate Cancer Misdiagnosis and the Urology Records Proving Delayed Screening",
+    excerpt: "Urology records reveal specific patterns of delayed PSA testing and ignored risk factors. Here's what to look for.",
+    content: `
+I have reviewed hundreds of prostate cancer cases. The pattern repeats. A man presents with advanced metastatic disease. The family wants answers. You pull the records and find years of missed opportunities sitting in urology progress notes, lab reports, and consultation letters. The oncologist tells the family the cancer was already stage IV at diagnosis. Your job is proving it did not need to be.
+
+**PSA Testing Gaps Tell the Story**
+
+Start with the PSA history. Guidelines recommend baseline testing for men at age 50, or age 45 for African American men and those with first-degree relatives diagnosed before age 65. Pull every primary care visit note from age 45 forward. Look for annual physicals where PSA was discussed and declined, or worse, never mentioned. A five-year gap with no PSA testing in a man with a brother who died of prostate cancer is negligence. The records either document the screening conversation or they do not. When they do not, you have liability.
+
+**Digital Rectal Exam Documentation Matters**
+
+The DRE is quick, cheap, and finds cancers that PSA testing misses. Urologists know this. When a patient complains of urinary hesitancy, weak stream, or nocturia, the standard of care demands a DRE. I see charts where the urologist documents these exact complaints and prescribes Flomax without performing or documenting a rectal exam. Six months later, the patient returns with bone pain. The biopsy shows Gleason 9 adenocarcinoma. The prostate was rock hard and nodular. No urologist misses that on exam. They missed it because they never did the exam.
+
+**Risk Factor Documentation Exposes Failures**
+
+Family history lives in the social history section. When it is blank, you have two possibilities. The provider never asked, or they asked and did not document. Either way, they failed to risk-stratify the patient. African American men have twice the mortality rate of white men for prostate cancer. A 47-year-old African American man with lower urinary tract symptoms needs aggressive screening. When the records show neither PSA testing nor DRE over three years of urology visits, the deviation from standard of care is clear. The risk factors were visible. The charts prove the urologist saw the patient repeatedly. The screening did not happen.
+
+**Imaging Reports Reveal Ignored Findings**
+
+Pull every radiology report from the liability period. CT scans done for abdominal pain or kidney stones often capture the prostate. Radiologists comment on prostatic enlargement, calcifications, or asymmetry. These findings require follow-up. I reviewed a case where a CT report noted "heterogeneous prostatic enlargement, clinical correlation recommended" in a 62-year-old man. The ordering urologist signed the report. No follow-up occurred. Eighteen months later, the patient was diagnosed with metastatic disease. The radiologist handed the urologist a red flag. The urologist ignored it. The contemporaneous documentation proves the timeline.
+
+**Referral Patterns Show System Failures**
+
+Primary care physicians refer to urology for screening and symptoms. The referral note tells you what the PCP was worried about. The urology consultation note tells you what the specialist did about it. When a PCP refers for "elevated PSA, rule out malignancy" and the urologist sees the patient once, documents a normal DRE, and discharges him without biopsy or follow-up plan, you have actionable negligence. The PSA was 6.8 ng/mL. Normal is under 4.0. The biopsy should have happened. Twenty months later, the patient presents with pathological fractures. The referral loop closed without appropriate workup.
+
+**Biopsy Delays and Lost Results**
+
+When a biopsy finally occurs, track the specimen. Pathology reports go missing. Results get filed without physician review. I worked a case where a prostate biopsy showed adenocarcinoma in three of twelve cores, Gleason 7. The pathology report was faxed to the urology office. No one called the patient. He assumed no news meant good news. Fourteen months later, he followed up for unrelated hematuria. The urologist pulled the old path report and said "we need to talk about this cancer from last year." The patient never knew. Treatment delay turned a curable T2 tumor into incurable T4 disease. The pathology report was date-stamped. The medical records had no documentation of patient notification. Your expert explains how fourteen months of tumor growth changed the prognosis and treatment options. The damages are calculable.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-11",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Prostate cancer misdiagnosis cases hinge on urology records. Learn what PSA gaps, missing DREs, and ignored imaging reveal about delayed screening.",
+    keywords: ["prostate cancer misdiagnosis","urology medical records","delayed cancer diagnosis","PSA testing negligence","medical malpractice","legal nurse consulting"],
+  },
+  {
     slug: "proving-the-hospital-failed-to-provide-dvt-prophylaxis",
     title: "Proving the Hospital Failed to Provide DVT Prophylaxis",
     excerpt: "Blood clot cases demand precise medical record review. Here's what you look for when a patient develops preventable DVT or PE.",
