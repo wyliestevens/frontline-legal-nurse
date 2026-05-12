@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "proving-delayed-breast-cancer-diagnosis-through-mammogram-misreads-and-missed-fo",
+    title: "Proving Delayed Breast Cancer Diagnosis Through Mammogram Misreads and Missed Followup",
+    excerpt: "The difference between Stage I and Stage III sits in the radiology report you need to scrutinize line by line.",
+    content: `
+I have reviewed hundreds of breast cancer delay cases. The pattern repeats: a radiologist overlooks a density, a primary care physician ignores a BI-RADS 4 recommendation, or a patient never receives the callback letter. By the time diagnosis occurs, the cancer has spread to lymph nodes or beyond. Your client faces mastectomy, chemotherapy, and decreased survival odds. The liability sits in the medical record.
+
+**The BI-RADS Classification System Is Your Roadmap**
+
+Every mammogram report includes a BI-RADS score from 0 to 6. BI-RADS 0 means incomplete and requires additional imaging. BI-RADS 3 means probably benign with six-month follow-up. BI-RADS 4 and 5 demand biopsy. I find cases where radiologists downgrade findings to BI-RADS 2 when the imaging clearly shows irregular margins or architectural distortion. Pull the prior mammograms going back three years. Compare the images yourself with your expert. Look for masses present on previous films the radiologist called normal tissue.
+
+**Radiologist Misreads Happen in Predictable Patterns**
+
+Radiologists miss cancers in dense breast tissue more frequently than fatty tissue. Your client with heterogeneously dense or extremely dense breasts needs supplemental ultrasound or MRI when mammography shows limitations. The report should state this. Radiologists also miss cancers in the upper outer quadrant near the axilla and in the far posterior tissue near the chest wall. These areas get inadequate compression during standard views. Request the technologist's notes about positioning and compression quality. Look for cancers appearing at the edge of the image field where the radiologist's eye tracking drops off.
+
+**The Follow-Up Chain Breaks at Multiple Points**
+
+The radiologist issues a BI-RADS 4 recommendation. The report goes to the ordering physician. The physician's office should contact the patient within days and schedule biopsy within two weeks. I see breakdowns at every step. The report sits in an electronic queue no one monitors. The medical assistant documents the call attempt but never follows up. The patient misunderstands the urgency and delays scheduling. Your case requires proof of what communication occurred and when. Subpoena the phone logs, the certified mail receipts, and the electronic health record audit trail showing who accessed the mammogram report.
+
+**Compare the Pathology to the Tumor Growth Rate**
+
+Breast cancer doubling time ranges from 50 to 200 days depending on subtype. Triple negative and HER2 positive cancers grow faster than hormone receptor positive tumors. Your expert calculates backward from the diagnosis date using the tumor size and grade. A 4.5 cm Grade 3 invasive ductal carcinoma at diagnosis did not appear overnight. The expert's retrospective review of the prior mammogram should identify the earlier stage mass the radiologist missed. The pathology report gives you mitotic rate, Ki-67 proliferation index, and histologic grade. These numbers tell you how aggressive the cancer behaved during the delay period.
+
+**Stage Migration Determines Damages**
+
+Stage I breast cancer has 99% five-year survival. Stage IIIB drops to 72%. Your client diagnosed at Stage III with lymph node involvement requires more aggressive treatment than she would have needed at Stage I. She endures dose-dense chemotherapy, full axillary dissection, and radiation. She faces lymphedema risk, neuropathy, cardiac toxicity, and premature menopause. She loses work time and independence. Quantify the difference in treatment burden between what she received and what she would have received with timely diagnosis. Your life care planner and oncology expert build this comparison.
+
+**Document Review Requires Clinical Translation**
+
+You need someone who reads mammogram reports daily and understands what "subtle asymmetry" means versus "spiculated mass with pleomorphic calcifications." You need someone who knows sentinel node biopsy differs from axillary dissection in complications and recovery. Your legal nurse consultant identifies the deviations from standard of care before you spend money on a physician expert. We flag the missing ultrasound after dense tissue notation. We find the absent documentation of informed consent about screening limitations. We build your timeline of when each provider knew what information and what they did with it.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-12",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Delayed breast cancer diagnosis cases turn on mammogram misreads and missed follow-up. Here's how to prove liability using BI-RADS scores and medical records.",
+    keywords: ["delayed breast cancer diagnosis","mammogram misread","BI-RADS classification","breast cancer malpractice","radiology standard of care","medical malpractice breast cancer"],
+  },
+  {
     slug: "prostate-cancer-misdiagnosis-and-the-urology-records-proving-delayed-screening",
     title: "Prostate Cancer Misdiagnosis and the Urology Records Proving Delayed Screening",
     excerpt: "Urology records reveal specific patterns of delayed PSA testing and ignored risk factors. Here's what to look for.",
