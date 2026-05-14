@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "stroke-misdiagnosis-when-emergency-departments-fail-acute-stroke-protocols",
+    title: "Stroke Misdiagnosis When Emergency Departments Fail Acute Stroke Protocols",
+    excerpt: "Emergency departments follow specific time-stamped protocols for stroke evaluation. Missing these steps creates liability you prove with timestamps.",
+    content: `
+**The 10 Minute Rule and Door-to-Needle Time**
+
+Every stroke case starts with timestamps. The American Heart Association and Joint Commission mandate a 10-minute physician evaluation from triage. ED staff must complete a focused neurological exam within this window. The complete acute stroke protocol requires door-to-CT completion within 25 minutes and door-to-needle time under 60 minutes for tPA administration. I see facilities document initial vital signs and chief complaint, then leave the patient waiting 45 minutes before anyone performs a neurological assessment. This delay eliminates the treatment window. Your expert witnesses the gap between policy and practice through the time stamps alone.
+
+**The Missing NIHSS Score Tells You Everything**
+
+The National Institutes of Health Stroke Scale is not optional. Every patient presenting with neurological symptoms needs an NIHSS score documented by a qualified nurse or physician. This 15-item assessment takes less than 10 minutes and quantifies stroke severity from 0 to 42. I review charts where the triage note says "left-sided weakness" or "slurred speech" but no one performs or documents an NIHSS. The absence of this score means one of two things: the staff never suspected stroke, or they recognized stroke symptoms and failed to follow protocol. Either scenario supports your claim. The NIHSS score drives every clinical decision about tPA eligibility and specialist consultation.
+
+**CT Head Interpretation Must Happen Immediately**
+
+Non-contrast CT head is the first-line imaging for acute stroke. Radiologists must read these scans stat, not four hours later. I review cases where the CT happens within 30 minutes but the radiologist reads it the next morning. The ED physician must review the images directly and document their interpretation while waiting for radiology. Hemorrhage exclusion is the primary goal because tPA administration in hemorrhagic stroke kills patients. Your nursing expert identifies when imaging happened, when radiology read it, and whether the ED physician documented their own preliminary read. Gaps in this chain prove protocol violations.
+
+**tPA Administration Requires Specific Exclusion Criteria Documentation**
+
+Tissue plasminogen activator has 31 absolute and relative contraindications. ED physicians must document they reviewed each exclusion criterion before withholding tPA. I see charts where the physician writes "not a tPA candidate" without listing which contraindications apply. Blood pressure above 185/110, recent surgery, current anticoagulation, and glucose abnormalities are common exclusions. The physician must document blood pressure readings, medication history, INR levels, and glucose values with decision-making that references these specific data points. When the chart lacks this documentation, you prove the physician never completed the checklist. The absence of documentation equals absence of proper evaluation.
+
+**Neurology Consultation Happens by Phone Within Minutes**
+
+EDs transfer stroke patients or consult neurology immediately. Most facilities use telemedicine stroke consultation. The neurologist must see or speak with the patient within 20 minutes of stroke alert activation. I review records where nursing notes mention calling neurology but include no documentation of the call time, neurologist name, or recommendations given. Your case strengthens when the phone log shows no outgoing calls during the critical window. Facilities that bill for telemedicine stroke consultation but produce no video documentation of the encounter face additional exposure. The neurology consult note should include the NIHSS score, review of imaging, and specific recommendations about tPA administration or transfer.
+
+**Post-tPA Monitoring Protocols Are Rigid and Measurable**
+
+Patients who receive tPA need neurological checks every 15 minutes for two hours, then every 30 minutes for six hours. Nursing must document NIHSS scores, blood pressure, and bleeding assessment at each interval. These patients require ICU-level monitoring. I see cases where the patient gets tPA in the ED, then sits in a hallway bed for three hours with vital signs checked once. Intracranial hemorrhage, the most dangerous tPA complication, develops in 6% of patients. Your nursing expert compares the documented monitoring intervals against protocol requirements. Missing assessments during the critical post-tPA window proves negligence when the patient deteriorates.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-14",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Stroke misdiagnosis cases turn on documented protocol failures. Learn what timestamps, NIHSS scores, and tPA criteria prove ED negligence.",
+    keywords: ["stroke misdiagnosis","acute stroke protocols","emergency department negligence","tPA administration","NIHSS score","medical malpractice"],
+  },
+  {
     slug: "proving-delayed-breast-cancer-diagnosis-through-mammogram-misreads-and-missed-fo",
     title: "Proving Delayed Breast Cancer Diagnosis Through Mammogram Misreads and Missed Followup",
     excerpt: "The difference between Stage I and Stage III sits in the radiology report you need to scrutinize line by line.",
