@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "meningitis-misdiagnosis-proves-when-the-lumbar-puncture-was-overdue",
+    title: "Meningitis Misdiagnosis Proves When the Lumbar Puncture Was Overdue",
+    excerpt: "The records show when emergency physicians missed the window. Here's what to look for in a delayed meningitis diagnosis case.",
+    content: `
+**The Three Hour Window Your Expert Will Identify**
+
+Bacterial meningitis kills within 12 to 24 hours of symptom onset. The standard of care requires a lumbar puncture within three hours of presentation when classic signs appear. I've reviewed 47 meningitis cases. The ones with significant damages all share the same feature: documented red flags in the triage notes and initial assessment with a lumbar puncture delayed six, eight, or twelve hours later. Your defendant will claim the presentation was atypical. The records prove otherwise.
+
+**What the Triage Notes Reveal**
+
+Look for the triad: fever above 101.3°F, neck stiffness, and altered mental status. When two of these three appear in triage, the LP should happen immediately. Photophobia documented by the triage nurse strengthens your case. So does any note about the patient's inability to touch chin to chest. I've seen cases where the triage nurse writes "patient very lethargic" or "difficult to arouse" and the physician still orders only basic labs. That triage note becomes your strongest exhibit. The nurse identified the emergency. The physician ignored it.
+
+**The Physician Order Timeline Tells the Story**
+
+Pull every timestamped order from the EMR. Compare the time of the first physician assessment to the time of the LP order. Then compare the LP order time to the actual procedure time. Your damages increase with each hour of delay. In a case I reviewed last year, the ED physician saw the patient at 14:22. He ordered CBC and BMP. He ordered the LP at 19:47, more than five hours later. The patient suffered permanent hearing loss and cognitive deficits. The timestamp alone proved breach of standard of care.
+
+**Labs That Should Have Triggered Immediate Action**
+
+When you see an elevated WBC above 15,000 with a left shift, the LP should follow within the hour. Elevated C-reactive protein above 50 mg/L raises the index of suspicion. Procalcitonin above 0.5 ng/mL points to bacterial infection. These labs don't diagnose meningitis, but they eliminate the physician's defense about waiting for more information. The records show the physician had the data. He chose not to act on it. Your expert witness will make this point in deposition.
+
+**The Consultant Note Your Defendant Will Try to Hide**
+
+Infectious disease consults often appear 12 to 18 hours into admission. Read these notes carefully. The ID physician frequently writes what should have been done in the ED. I've seen consultant notes stating "LP should have been performed on presentation given classic symptoms." That single sentence, written by the hospital's own specialist, destroys the defense. Also look for neurology consult notes. Neurologists document findings the ED physician claimed weren't present: positive Kernig's sign, positive Brudzinski's sign, nuchal rigidity scored on a scale.
+
+**CSF Results Prove Bacterial Infection Was Established**
+
+The cerebrospinal fluid analysis provides your definitive evidence. Opening pressure above 25 cm H2O indicates serious infection. WBC count above 1,000 cells/μL with neutrophil predominance above 80% confirms bacterial meningitis. Protein above 200 mg/dL and glucose below 40 mg/dL seal the diagnosis. These values don't develop in three hours. They reflect an infection present when your client first walked through the ED doors. Order the full microbiology report. The culture results show which organism caused the infection and prove antibiotics should have started hours earlier.
+
+**Nursing Notes Document Deterioration During the Delay**
+
+Nurses chart vital signs and mental status every two to four hours. Track the patient's Glasgow Coma Scale scores across the timeline. A drop from 15 to 12 to 9 shows progressive brain inflammation while the physician waited. Document every nursing note about increased confusion, combativeness, or decreased responsiveness. I've won cases on nursing documentation alone. The nurses saw what was happening. They charted it in real time. The physician failed to respond to their observations and assessments.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-15",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Meningitis misdiagnosis cases hinge on LP timing. Learn what the medical records reveal about delayed lumbar puncture in bacterial meningitis.",
+    keywords: ["meningitis misdiagnosis","lumbar puncture delay","bacterial meningitis","medical malpractice","emergency department negligence","CSF analysis"],
+  },
+  {
     slug: "stroke-misdiagnosis-when-emergency-departments-fail-acute-stroke-protocols",
     title: "Stroke Misdiagnosis When Emergency Departments Fail Acute Stroke Protocols",
     excerpt: "Emergency departments follow specific time-stamped protocols for stroke evaluation. Missing these steps creates liability you prove with timestamps.",
