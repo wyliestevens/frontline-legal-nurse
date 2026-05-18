@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "connecting-defective-medical-devices-to-documented-patient-injuries",
+    title: "Connecting Defective Medical Devices to Documented Patient Injuries",
+    excerpt: "How to build an airtight product liability case by linking device failure to specific clinical harm in the medical record.",
+    content: `
+**The Device Fails but the Records Tell the Story**
+
+You need three elements to win a medical device product liability case: proof the device malfunctioned, proof your client suffered harm, and documentation linking the two. The last one trips up most attorneys. I've reviewed cases where the device failure is obvious and the injury is catastrophic, but the medical records don't connect them. The surgeon writes "unexpected bleeding" instead of "suture failure." The operative report says "device removed" without explaining why. You need a nurse who knows what to look for and where to find it.
+
+**Start With the Operative and Procedure Notes**
+
+The operative report tells you what the surgeon saw in real time. Look for phrases like "device malposition noted," "unable to advance catheter," "fractured component retrieved," or "excessive resistance encountered." I reviewed a case involving a fractured orthopedic plate where the surgeon documented "hardware failure at third screw" in the operative note but buried it in paragraph seven. The attorney missed it in the initial review. That single line proved the device failed during the index procedure, not from patient noncompliance months later.
+
+**Track the Timeline From Implant to Complication**
+
+Your strongest cases show a direct temporal relationship between device use and injury. A patient gets a hernia mesh on Monday. By Thursday, she has a surgical site infection. By the following Tuesday, she's back in the OR for mesh removal and debridement. The progression matters. I've seen defense attorneys argue that infections develop from patient factors, not defective mesh. You counter with nursing notes documenting purulent drainage at the mesh site, wound cultures growing specific organisms, and intraoperative findings of mesh erosion into surrounding tissue. The timeline eliminates alternative causes.
+
+**Look for Revision Procedures and Explant Reports**
+
+When a device fails, the body tells you. The patient returns for revision surgery, and the surgeon documents what went wrong. I reviewed a case involving a defective hip implant where the revision operative note described "extensive metallosis, blackened tissue, and gross component wear." The pathology report confirmed metal debris in the tissue samples. The explant photographs showed visible corrosion. Defense counsel tried to blame patient obesity and activity level. The physical evidence of device degradation shut that down.
+
+**Radiology Reports Reveal What Changed**
+
+Compare imaging from immediately post-implant to imaging at the time of injury. A pedicle screw sits in perfect position on the post-op CT. Six weeks later, the screw has migrated, breached the vertebral body, and now impinges on the spinal cord. The radiologist documents "interval hardware migration with canal compromise." You now have objective proof the device moved. I worked a case where serial X-rays over eight months showed progressive subsidence of a spinal cage. Each report noted increasing collapse. The patient developed neurological deficits matching the imaging timeline. The device failed. The imaging proved it.
+
+**Nursing Documentation Captures the Patient's Decline**
+
+Nurses chart every shift. They record pain levels, wound appearance, drainage characteristics, and patient complaints. A patient with a defective IVC filter starts having back pain. Nurses document escalating pain scores from 4/10 to 9/10 over three days. The patient describes the pain as "stabbing" and "right-sided." CT shows filter migration and perforation into the retroperitoneum. The nursing notes establish when symptoms started and how they progressed. Defense attorneys argue the patient exaggerates pain. The nursing documentation, recorded in real time without litigation in mind, contradicts that narrative.
+
+**Expert Review Connects Clinical Dots Defense Wants Hidden**
+
+You need a clinical expert who speaks the language of the medical record and translates it into causation testimony. I've worked with attorneys who hired physician experts without first having the records reviewed by a legal nurse. The physician missed critical nursing entries, didn't notice the explant pathology report, and overlooked the device lot number documentation. A legal nurse consultant identifies these elements first. We create the chronology, flag the key entries, and highlight the documentation linking device failure to injury. Your expert witness then builds testimony on a foundation of organized, indexed, and interpreted records.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-18",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Product liability medical device cases: How to connect device failure to documented injuries using operative notes, imaging, and nursing records.",
+    keywords: ["product liability","medical device litigation","defective medical devices","legal nurse consulting","medical record review","device failure documentation"],
+  },
+  {
     slug: "meningitis-misdiagnosis-proves-when-the-lumbar-puncture-was-overdue",
     title: "Meningitis Misdiagnosis Proves When the Lumbar Puncture Was Overdue",
     excerpt: "The records show when emergency physicians missed the window. Here's what to look for in a delayed meningitis diagnosis case.",
