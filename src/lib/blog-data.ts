@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "mass-tort-pharmaceutical-cases-need-individual-medical-record-analysis",
+    title: "Mass Tort Pharmaceutical Cases Need Individual Medical Record Analysis",
+    excerpt: "Class-wide claims fail without individual medical causation. Here's what to pull from each plaintiff's records.",
+    content: `
+**Your Mass Tort Dies Without Individual Medical Causation**
+
+You signed 200 plaintiffs for the latest drug litigation. You have expert declarations about the drug's mechanism of injury. You do not have what matters most: individualized medical evidence linking each plaintiff's injury to the drug. I have watched attorneys lose millions because they treated mass tort cases like a rubber stamp operation. Each plaintiff needs a complete medical chronology showing exposure, temporal relationship, differential diagnosis, and alternative causation ruled out. The medical records prove or destroy each individual claim.
+
+**Start With Prescription Records and Dosing History**
+
+You need pharmacy records, prescription histories, and medication administration records from every prescribing physician and dispensing pharmacy. I want dates of first dose, dosing changes, refill patterns, and discontinuation dates. When I reviewed files for a proton pump inhibitor case involving chronic kidney disease, 40% of plaintiffs had gaps in their prescription records exceeding six months. Those gaps killed causation. Defense experts tore apart claims where we showed inconsistent dosing or poor medication compliance. Get the CVS records, the Walgreens records, the mail-order pharmacy records, and the hospital formulary documentation. Build an airtight timeline before you file.
+
+**Pull Complete Pre-Existing Condition Documentation**
+
+Defense counsel will blame every pre-existing condition in your plaintiff's medical history. You need records going back five to ten years before the first drug exposure. I need baseline labs, imaging studies, consultation notes, and specialist assessments. In a testosterone replacement therapy case involving cardiovascular events, I found plaintiffs with documented coronary artery disease, hyperlipidemia, diabetes, and smoking histories spanning decades. We had to show the drug accelerated existing disease or caused a discrete new injury. Get the cardiology records, the endocrinology notes, the primary care documentation. If you do not address pre-existing conditions in your demand, defense counsel will use them to destroy your case value.
+
+**Document Temporal Relationship With Clinical Precision**
+
+The onset of symptoms after drug initiation matters more than anything else I review. You need emergency department records, urgent care visits, hospital admissions, and physician progress notes documenting when symptoms began. I look for complaints documented in real time, not allegations manufactured after litigation started. In a bisphosphonate case involving atypical femur fractures, the strongest files showed plaintiffs reporting thigh pain to orthopedists within weeks of fracture, with imaging confirming stress fractures. Weak files had plaintiffs claiming years of ignored symptoms with zero contemporaneous documentation. Medical records do not lie about timing. Your plaintiff's memory does.
+
+**Extract Differential Diagnosis From Specialist Notes**
+
+You need documentation showing physicians ruled out alternative causes. I review rheumatology notes, neurology consultations, gastroenterology reports, and diagnostic testing specifically ordered to exclude competing diagnoses. When I worked on a fluoroquinolone case involving tendon ruptures, the strongest claims had MRI reports showing tendinopathy without degenerative changes, orthopedic notes documenting acute onset without prior tendon problems, and sports medicine evaluations ruling out mechanical causes. Get the radiology reports with physician interpretations, not just imaging studies. Get the actual consultation notes where specialists document their clinical reasoning. This documentation defeats alternative causation arguments before trial.
+
+**Quantify Damages With Objective Medical Evidence**
+
+Bill amounts do not prove damages. I need operative reports, physical therapy progress notes, pain management records, and functional capacity evaluations. Your plaintiff claims permanent disability. The medical records better show ongoing treatment, persistent objective findings, and documented functional limitations. I reviewed a Roundup case where the plaintiff claimed total disability from non-Hodgkin lymphoma. His oncology notes showed complete remission at twelve months, return to full-time work, and no ongoing treatment. His demand included future medical costs we could not support. Pull treatment records through the present day. Get updated office visits within 90 days of filing. Show continued medical necessity for every dollar you demand.
+
+**Track Every Medication Change and Adverse Event Report**
+
+Physician notes documenting drug discontinuation after adverse events win cases. I look for progress notes stating "discontinued due to" or "adverse reaction to" or "patient developed." I pull hospital discharge summaries listing the drug as a contributing factor to admission. I review medication reconciliation forms showing when the drug was stopped and why. In a diabetes medication case involving ketoacidosis, I found emergency department records explicitly listing the drug as the precipitating cause and hospitalist notes documenting immediate discontinuation. Those records anchored our causation argument. If the treating physician connected the dots in real time, your expert opinion becomes nearly unassailable. Pull every medication list, every discharge summary, every transition of care document showing what clinicians believed caused the injury.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-20",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Mass tort pharmaceutical cases require individual medical record analysis. Learn what documentation proves causation and damages for each plaintiff.",
+    keywords: ["mass tort","pharmaceutical litigation","medical records review","legal nurse consultant","drug injury cases","medical causation"],
+  },
+  {
     slug: "how-to-prove-work-causation-in-disputed-workers-compensation-claims",
     title: "How to Prove Work Causation in Disputed Workers Compensation Claims",
     excerpt: "Clinical documentation strategies to establish medical causation when insurers deny work-related injuries.",
