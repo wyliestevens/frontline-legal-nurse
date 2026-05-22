@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "va-hospital-records-present-hidden-traps-for-medical-malpractice-attorneys",
+    title: "VA Hospital Records Present Hidden Traps for Medical Malpractice Attorneys",
+    excerpt: "Veterans Affairs medical records follow different standards, use unique coding systems, and hide critical documentation. Here's what you need to know.",
+    content: `
+I've reviewed hundreds of VA medical malpractice cases. The records look nothing like civilian hospital charts. Attorneys who treat them the same way miss deadlines, overlook liable parties, and undervalue cases. The VA system operates under different rules, different documentation standards, and different legal protections. You need to know what makes these cases different before you waste six months chasing the wrong defendants.
+
+**CPRS Documentation Hides Critical Information**
+
+The VA uses Computerized Patient Record System (CPRS) for all clinical documentation. The interface encourages copy-forward charting more than any civilian EHR system I've seen. Nurses and physicians duplicate previous notes for weeks at a time. The patient's condition changes but the documentation stays identical. You see "patient stable" charted for three consecutive days while lab values show progressive renal failure. The critical detail sits buried in a flowsheet tab most providers never open. Your expert needs to review every tab, every flowsheet, and every medication administration record separately. The summary notes tell you nothing.
+
+**The Federal Tort Claims Act Controls Your Timeline**
+
+You have two years from the date of discovery to file an administrative claim with the VA. Not a lawsuit. An administrative claim on Standard Form 95. The VA has six months to respond. You cannot file suit until the VA denies your claim or six months pass. I've watched attorneys miss this deadline because they treated VA cases like standard medical malpractice. The Federal Tort Claims Act also caps your damages differently than state law. You get no punitive damages. You get no jury trial. Federal judges hear these cases. The strategy you use for a county courthouse jury does not work here.
+
+**Community Care Records Scatter Across Multiple Systems**
+
+The VA now sends veterans to civilian providers through the MISSION Act and Veterans Choice Program. Your client sees a VA primary care physician who refers him to a civilian orthopedic surgeon who orders imaging at a private radiology center. The negligence occurs at the civilian facility. The records live in three separate systems. The VA's CPRS shows the referral. The civilian surgeon's notes sit in a completely different EHR. The radiology report might not make it back to the VA chart for weeks. I've found cases where critical imaging results never reached the referring VA physician. You need records from every entity involved. The VA will not produce the civilian records for you. You request those separately.
+
+**VA Provider Identification Creates Discovery Problems**
+
+Civilian hospital records name every provider clearly. VA records often show only usernames or employee numbers. A progress note signed "JONES.ROBERT.MD" might refer to three different Robert Jones physicians at that facility. The nursing notes use badge numbers instead of names. You need the VA's employee roster to match documentation to actual providers. I've reviewed charts where the physician named in the incident report never appears in the clinical documentation. The doctor who made the negligent decision used a resident's login to enter orders. Your standard interrogatories will not capture this information.
+
+**Service Connection Status Changes Damage Calculations**
+
+Veterans receive disability compensation from the VA based on their service-connected conditions. Your client gets \$3,200 monthly for service-connected PTSD and diabetes. The negligent surgery leaves him unable to work. His lost wages calculation must account for the VA disability income he continues to receive. Defense counsel will argue his employability was already compromised. You need a vocational expert who understands VA disability ratings. The percentage rating assigned to each condition matters. A veteran rated 100% permanent and total faces different damage calculations than one rated 70% with future earning capacity.
+
+**Federal Vaccine Injury Records Require Separate Analysis**
+
+The VA administers more vaccines than most civilian healthcare systems. Flu shots, pneumonia vaccines, COVID-19 vaccines, and travel-related immunizations go to millions of veterans annually. Vaccine injuries fall under the Federal Tort Claims Act but also potentially the National Vaccine Injury Compensation Program. I've reviewed cases where the veteran received a vaccine at a VA facility and developed Guillain-Barré syndrome. You need the lot number, the manufacturer, the administration site, and the post-vaccination monitoring records. These details live in the immunization module of CPRS, not the progress notes. Your records request must specifically name this module or the VA will not produce it.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-22",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "VA hospital records use different systems, timelines, and rules than civilian charts. Avoid costly mistakes in veterans medical malpractice cases.",
+    keywords: ["VA medical malpractice","veterans hospital records","Federal Tort Claims Act","CPRS documentation","VA medical records review","veteran malpractice cases"],
+  },
+  {
     slug: "mass-tort-pharmaceutical-cases-need-individual-medical-record-analysis",
     title: "Mass Tort Pharmaceutical Cases Need Individual Medical Record Analysis",
     excerpt: "Class-wide claims fail without individual medical causation. Here's what to pull from each plaintiff's records.",
