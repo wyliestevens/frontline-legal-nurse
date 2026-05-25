@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "prescription-drug-monitoring-data-proves-opioid-overprescription-claims",
+    title: "Prescription Drug Monitoring Data Proves Opioid Overprescription Claims",
+    excerpt: "PDMP records reveal prescribing patterns, dosage escalation, and doctor shopping your medical records alone miss.",
+    content: `
+**PDMP Records Show What Prescribers Knew and When They Knew It**
+
+Prescription Drug Monitoring Programs capture every controlled substance dispensed in a state. Your plaintiff was prescribed 120mg morphine equivalents daily for six months while also filling benzodiazepines from another prescriber. The PDMP showed both prescriptions. The defendant physician had access to this database and failed to check it. You now prove the prescriber ignored red flags visible in real time. Pull PDMP records for every defendant prescriber in your opioid case. The timestamps matter. The query logs matter more.
+
+**Morphine Milligram Equivalents Expose Dangerous Dose Escalation**
+
+PDMP data converts all opioid prescriptions to morphine milligram equivalents. CDC guidelines flag doses above 90 MME daily as high risk. I have reviewed cases where prescribers wrote for 300 MME daily without documented pain assessments or functional improvement. The PDMP shows this escalation over months. Your defendant prescribed 20mg oxycodone four times daily, then added 50mcg fentanyl patches, then added oxymorphone 10mg twice daily. The math tells the story: the prescriber chased tolerance instead of addressing treatment failure. Calculate total MME at each prescription date. Chart it. The graph alone is exhibit-worthy.
+
+**Overlapping Prescriptions and Multiple Prescribers Create Liability**
+
+PDMP records identify concurrent prescriptions from different providers filling at different pharmacies. Your decedent filled oxycodone from Prescriber A, hydrocodone from Prescriber B, and alprazolam from Prescriber C within the same 30-day period. None documented awareness of the others. The PDMP would have revealed this if any prescriber had checked. I have seen cases where patients died from respiratory depression while holding valid prescriptions from four different doctors. The PDMP proves each prescriber had the tool to prevent the outcome. Subpoena pharmacy fill dates. Cross-reference against prescriber query logs. The gaps are your case.
+
+**Early Refill Patterns Indicate Diversion or Misuse**
+
+PDMP data flags early refills. A 30-day prescription filled on day 21 signals misuse, diversion, or dose escalation beyond prescribed instructions. I reviewed a case where the patient refilled oxycodone every 18 to 22 days for eight months. The prescriber continued writing prescriptions without addressing the pattern. The PDMP timestamps proved the prescriber either ignored the red flag or never accessed the database. Early refills appear in the data as discrete events with dates and quantities. Count them. Present them chronologically. They demonstrate the prescriber's failure to monitor.
+
+**Lack of Prescriber Queries Proves Negligence**
+
+Most state PDMPs track when prescribers log in and run patient reports. The absence of queries is evidence. Your defendant prescribed high-dose opioids for two years. The PDMP shows zero queries during that period. State law required checks before initial prescriptions and at regular intervals. The prescriber violated statutory duty. I have seen defendants claim they "monitored" patients without PDMP evidence to support it. Request the query log directly from your state PDMP administrator. It lists every search by provider license number with dates and times. No queries means no monitoring.
+
+**Cash Payments and Pharmacy Shopping Appear in PDMP Records**
+
+PDMP entries include payment method and pharmacy location. Multiple pharmacies for the same medication class raise diversion concerns. Cash payments for controlled substances when the patient has insurance coverage suggest intentional evasion. I reviewed records where a patient filled prescriptions at seven different pharmacies across three counties while paying cash for each. The pattern was visible in the PDMP for anyone who looked. The prescriber did not look. The data proves wilful blindness or reckless prescribing. Map the pharmacies. Show the distances. Demonstrate the effort required to avoid detection.
+
+**States Mandate PDMP Checks With Specific Timeframes**
+
+Forty-nine states operate PDMPs. Most require prescriber checks before initial opioid prescriptions and every 90 days thereafter. Some states require checks before each prescription. Know your jurisdiction's statute. I have worked cases in Kentucky, Ohio, West Virginia, and Tennessee where mandatory PDMP check laws created clear statutory violations. The defendant's failure to query the database is negligence per se when state law mandates it. Obtain the state statute. Obtain the PDMP query log. The violation is binary. Either the prescriber checked or did not check.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-25",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "PDMP records prove opioid overprescription through dosage data, prescriber queries, and pharmacy patterns your medical records miss.",
+    keywords: ["opioid overprescription","prescription drug monitoring program","PDMP records","morphine milligram equivalents","prescriber negligence","medical malpractice opioids"],
+  },
+  {
     slug: "va-hospital-records-present-hidden-traps-for-medical-malpractice-attorneys",
     title: "VA Hospital Records Present Hidden Traps for Medical Malpractice Attorneys",
     excerpt: "Veterans Affairs medical records follow different standards, use unique coding systems, and hide critical documentation. Here's what you need to know.",
