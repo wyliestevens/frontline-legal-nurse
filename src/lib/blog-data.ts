@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "labor-and-delivery-records-prove-preventable-maternal-deaths",
+    title: "Labor and Delivery Records Prove Preventable Maternal Deaths",
+    excerpt: "Most maternal deaths hide in plain sight within labor records. Here's what the documentation reveals about preventable failures.",
+    content: `
+**The Strip Tells the Story Before Anyone Codes**
+
+The fetal monitoring strip documents every contraction, every deceleration, every failure to respond. You see late decelerations starting at 1430. The nurse documents them at 1445. The physician gets called at 1502. The baby delivers at 1547 with Apgars of 2 and 4. The mother hemorrhages on the table. This sequence lives in black and white on the strip, and it proves your case. I've reviewed hundreds of these strips where the warning signs scroll across the paper for 30, 60, 90 minutes before anyone acts. The strip doesn't lie about timing or severity.
+
+**Hemorrhage Protocols Exist But Teams Ignore Them**
+
+Every labor and delivery unit maintains a hemorrhage protocol. The protocol specifies triggering criteria, medication dosages, team member roles, and escalation timelines. Your records show whether staff followed it. Look for quantified blood loss documentation. Estimated blood loss of 500cc, then 800cc, then "heavy bleeding" tells you they stopped measuring when they should have activated the protocol. Check medication administration records for Pitocin, Methergine, Hemabate, and Cytotec with timestamps. Missing doses or delayed administration proves deviation from standard of care. I've seen cases where the hemorrhage cart sat unopened in the room while the patient bled out.
+
+**Vital Sign Gaps Reveal Monitoring Failures**
+
+Standard of care requires vital signs every 15 minutes during active labor and every 5 minutes during pushing. Postpartum monitoring follows a strict schedule based on delivery type and complications. Your nursing flow sheets show the reality. Missing vital signs for 45 minutes during active bleeding mean nobody knew her pressure dropped to 70/40 until she lost consciousness. Tachycardia climbing from 95 to 130 over two hours shows progressive deterioration. Compare documented vital signs against policy requirements and AWHONN guidelines. The gaps prove negligence.
+
+**Provider Communication Breaks Down in the Chart**
+
+Phone call logs, page records, and nursing notes document every attempt to reach the physician. The nurse pages at 0215 about decelerations. She pages again at 0232. She calls the answering service at 0245. The physician arrives at 0320. This 65-minute gap lives in your records. Look for nursing documentation using phrases like "physician aware," "physician notified," or "awaiting physician orders." These phrases mean the nurse saw a problem and got no response. Check for any documentation of chain of command activation. Its absence proves the hospital's own safety systems failed.
+
+**Preeclampsia Red Flags Fill the Prenatal Record**
+
+Severe preeclampsia doesn't appear suddenly in labor. The prenatal record shows progressive warning signs. Blood pressure trending upward over weeks. Proteinuria documented at week 32. Complaints of headache and visual changes at week 35. These findings should have triggered delivery planning, magnesium protocols, and NICU notification. Instead, the patient labors at term and seizes on the table. The prenatal records prove providers saw the trajectory and failed to act. I've worked cases where five office visits documented concerning findings with no intervention.
+
+**The Forty-Five Minutes After Delivery**
+
+Most maternal deaths occur in the immediate postpartum period. Your nursing notes document the first 45 minutes after delivery with minute-by-minute detail or they don't. Fundal checks, pad counts, vital signs, and patient responsiveness belong in that record. Missing documentation during this critical window suggests missing monitoring. Look for inconsistencies between the delivery note and nursing notes. The physician documents "estimated blood loss 400cc" while nursing notes describe saturating pads and clots. These contradictions prove someone wasn't paying attention or wasn't telling the truth.
+
+**Autopsy Findings Close the Loop**
+
+The autopsy report quantifies what the clinical records suggested. Total blood loss of 2400cc when the chart estimates 800cc. Amniotic fluid embolism with documentation of sudden dyspnea and hypotension ignored for 12 minutes. Disseminated intravascular coagulation with no coagulation studies ordered despite bleeding from every site. The autopsy proves cause of death. The labor records prove it was preventable. Match autopsy findings against what providers documented and when they documented it. The timeline proves negligence.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-27",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Maternal mortality cases hide in labor records. Learn what fetal strips, hemorrhage protocols, and vital sign gaps prove about preventable deaths.",
+    keywords: ["maternal mortality","labor and delivery records","wrongful death","medical malpractice","obstetric negligence","preventable maternal death"],
+  },
+  {
     slug: "prescription-drug-monitoring-data-proves-opioid-overprescription-claims",
     title: "Prescription Drug Monitoring Data Proves Opioid Overprescription Claims",
     excerpt: "PDMP records reveal prescribing patterns, dosage escalation, and doctor shopping your medical records alone miss.",
