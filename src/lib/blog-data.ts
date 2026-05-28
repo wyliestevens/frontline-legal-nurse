@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "proving-substandard-care-in-nicu-malpractice-cases",
+    title: "Proving Substandard Care in NICU Malpractice Cases",
+    excerpt: "NICU cases turn on documentation failures and protocol deviations. Here's what to look for in the records.",
+    content: `
+I have reviewed hundreds of NICU charts where premature infants suffered preventable injuries. The cases worth pursuing share common patterns. You need to know where the standard of care breaks down and how to prove it through the medical record.
+
+**Temperature Instability and Thermoregulation Failures**
+
+Premature infants lose heat four times faster than term babies. The standard of care requires maintaining axillary temperature between 36.5°C and 37.5°C. Look for gaps in documented temperature checks—they should occur hourly for extremely premature infants under 28 weeks. I see charts where temperatures drop to 35°C or lower for extended periods with no intervention documented. Check the incubator temperature settings, humidity levels, and whether the infant was properly positioned under radiant warmers. When hypothermia occurs, it increases oxygen consumption, causes metabolic acidosis, and leads to intraventricular hemorrhage.
+
+**Ventilator Mismanagement and Bronchopulmonary Dysplasia**
+
+Ventilator-induced lung injury happens when settings are too aggressive or weaning occurs too slowly. Your expert needs to review every ventilator setting change, blood gas result, and chest x-ray. Oxygen saturation targets for premature infants range from 90% to 95%. Prolonged exposure above 95% causes retinopathy of prematurity. Settings below 88% cause bradycardia and cerebral hypoxia. I worked a case where an infant remained on high-pressure ventilation for six days after blood gases normalized. The respiratory therapist documented concerns. The neonatologist did not adjust settings. The child developed severe BPD requiring a tracheostomy.
+
+**Feeding Protocols and Necrotizing Enterocolitis**
+
+NEC kills premature infants when early signs get missed or feeding advancement happens too quickly. The standard of care requires checking gastric residuals before each feeding, monitoring abdominal girth every shift, and testing all stools for blood. Look for documentation of feeding intolerance—bilious residuals, abdominal distention, bloody stools, or temperature instability. Feedings should advance by 10-20 mL/kg/day maximum for extremely premature infants. I reviewed a chart where nurses documented increased residuals and abdominal loops for 18 hours before the physician was notified. The infant went to emergency surgery six hours later. Half the bowel was necrotic.
+
+**Central Line Infections and Sepsis Protocols**
+
+Central line-associated bloodstream infections are never-events in many institutions. Your liability case strengthens when the NICU violated its own policies. Request the unit's written protocols for line insertion, dressing changes, and blood culture procedures. Check whether the line was placed using maximum sterile barrier precautions. Dressing changes should occur every seven days or when soiled. I see infections develop because nurses documented wet or soiled dressings without changing them. When an infant decompensates with suspected sepsis, antibiotics must start within one hour. Delays in recognizing early signs—temperature instability, increased apnea, feeding intolerance—result in overwhelming sepsis and death.
+
+**Intraventricular Hemorrhage Prevention**
+
+Grade III and IV bleeds cause permanent neurological damage. The standard of care focuses on prevention through gentle handling, minimal suctioning, and avoiding rapid fluid shifts. Head ultrasounds should occur at 7-10 days of life for all infants under 30 weeks gestation. Review the nursing notes for documented handling techniques, positioning, and clustering of care activities. Rapid administration of sodium bicarbonate, hypertonic saline, or blood products increases the risk of IVH. Look for medication administration records showing bolus infusions instead of slow pushes. Check whether the infant received antenatal steroids—their absence prior to premature delivery constitutes obstetrical malpractice.
+
+**Documentation Gaps Expose Liability**
+
+Every gap in nursing documentation creates reasonable doubt about what care the infant received. NICU flow sheets should reflect assessments every two to four hours minimum. Missing vital signs, absent intake-output records, and blank pain scores indicate substandard nursing care. I find cases where entire shifts lack documentation during critical deterioration periods. The defense will claim the care was provided but not charted. Your expert testimony must establish that nursing standards require real-time documentation because these infants change minute to minute. The absence of charting equals absence of assessment.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-28",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "NICU malpractice cases turn on specific protocol failures. Learn what to look for in premature infant medical records.",
+    keywords: ["NICU malpractice","premature infant","neonatal intensive care","medical malpractice","substandard care","legal nurse consulting"],
+  },
+  {
     slug: "labor-and-delivery-records-prove-preventable-maternal-deaths",
     title: "Labor and Delivery Records Prove Preventable Maternal Deaths",
     excerpt: "Most maternal deaths hide in plain sight within labor records. Here's what the documentation reveals about preventable failures.",
