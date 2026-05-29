@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "implant-failure-cases-need-device-tracking-and-surgical-records-linked",
+    title: "Implant Failure Cases Need Device Tracking and Surgical Records Linked",
+    excerpt: "Hip replacements, spinal hardware, and cardiac devices fail. Your case lives or dies on connecting the dots between OR documentation and manufacturer data.",
+    content: `
+The orthopedic surgeon implanted a DePuy ASR hip system in your 52-year-old plaintiff. Three years later, she needs revision surgery for metallosis and pseudotumor formation. The operative report lists the implant model number. The pathology shows cobalt and chromium tissue destruction. You need the device tracking records to prove this specific acetabular cup came from a manufacturing lot with documented defects. I have reviewed 300+ implant failure cases. The attorneys who win connect three data points: the surgical implantation records, the device identification and tracking documentation, and the manufacturer's internal quality control failures.
+
+**Surgical Records Contain Device Identifiers You Need Immediately**
+
+The operative report documents the implant manufacturer, model number, size, and lot number. The circulating nurse completes an implant log with device serial numbers and expiration dates. Many hospitals scan device bar codes directly into the electronic health record. You need all of this within your first records request. I have seen cases stall for months because attorneys requested "medical records" without specifying implant documentation. The hospital sends clinic notes and lab work but omits the device tracking sheets sitting in the surgical services department. Your records request must explicitly demand all device identification documents, implant logs, bar code scans, and manufacturer product inserts provided at the time of surgery.
+
+**Device Tracking Links Your Plaintiff to Defective Manufacturing Batches**
+
+The FDA requires manufacturers to track certain high-risk devices from production to patient. Lot numbers and serial numbers tell you when and where the device was manufactured. I reviewed a spinal fusion case where the plaintiff's pedicle screws came from a lot manufactured during a three-month window when the company's sterilization process failed validation. The manufacturer knew it. They had internal emails discussing whether to recall that production run. The lot number from the OR implant log placed our plaintiff's hardware squarely in the defective batch. Without that lot number, you argue about general design defects. With it, you prove this specific device was defective when implanted.
+
+**Explant Pathology and Metallurgy Reports Prove Device Deterioration**
+
+When your plaintiff undergoes revision surgery, the explanted device goes to pathology. The pathology report describes tissue reaction, foreign body response, metallosis, osteolysis, and inflammatory changes. The explanted hardware itself gets sent for independent metallurgical analysis. I have reviewed cases where the metallurgy report showed stress fractures, corrosion, and material composition outside manufacturer specifications. The tissue pathology shows what the failed device did to your plaintiff's body. The metallurgy report shows why the device failed. You need both. Most attorneys get the tissue pathology because it arrives with the standard medical records. They miss the metallurgy analysis because nobody thought to send the explanted device for independent testing.
+
+**Manufacturer Documents Reveal Known Defect Patterns**
+
+Your Freedom of Information Act requests to the FDA pull adverse event reports, 510(k) submissions, and post-market surveillance data. The MAUDE database contains thousands of device failure reports. I searched MAUDE for a specific cardiac defibrillator model and found 47 reports of battery depletion failures in a six-month period. The manufacturer's own data showed a failure rate five times higher than the previous model. Your plaintiff's device serial number puts her in the affected production timeframe. The manufacturer's risk assessment documents show they knew about the battery supplier's quality control problems before your plaintiff's implantation date. These documents exist. You must get them.
+
+**Revision Surgery Records Quantify the Damage**
+
+The revision operative report describes what the surgeon found when he reopened your plaintiff. Bone loss. Soft tissue destruction. Pseudotumor size. Synovial fluid metal ion levels. I reviewed a case where the revision surgery required removing 200 milliliters of metal-stained fluid and debriding a pseudotumor the size of a grapefruit. The original implant surgery took 90 minutes. The revision took four hours and required a femoral bone graft. The revision anesthesia record, blood transfusion records, and extended operating room time all quantify damages. The pathology from revision tissue samples provides evidence of ongoing harm. Get every page of the revision surgery documentation.
+
+**Expert Review Connects Clinical Findings to Manufacturing Failures**
+
+Your biomechanical engineer needs the device specifications, the explant analysis, and the complete surgical records. Your orthopedic surgery expert needs the imaging studies showing implant positioning and progressive failure. I coordinate between liability experts and clinical experts on these cases. The engineer explains why the acetabular cup design created abnormal wear patterns. The surgeon explains why those wear patterns were not caused by surgical technique or patient factors. Both experts need the manufacturer's design history file, risk analysis documents, and post-market complaint data. Your legal nurse consultant identifies which clinical findings matter and translates them into language your technical experts use to build their opinions.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-05-29",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Implant failure cases require linking surgical records, device tracking data, and manufacturer defects. Legal nurse consultant explains what attorneys need.",
+    keywords: ["implant failure","device tracking","surgical records","manufacturer defects","medical device litigation","legal nurse consultant"],
+  },
+  {
     slug: "proving-substandard-care-in-nicu-malpractice-cases",
     title: "Proving Substandard Care in NICU Malpractice Cases",
     excerpt: "NICU cases turn on documentation failures and protocol deviations. Here's what to look for in the records.",
