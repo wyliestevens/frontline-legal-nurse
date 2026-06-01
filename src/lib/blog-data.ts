@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-home-health-nurses-miss-critical-signs-before-patient-death",
+    title: "How Home Health Nurses Miss Critical Signs Before Patient Death",
+    excerpt: "Visiting nurses document stable vitals while patients deteriorate. Here's how to prove they failed to escalate.",
+    content: `
+**The Documentation Says Stable But the Patient Died**
+
+I see this pattern in wrongful death cases involving home health: The nurse charts normal vital signs on Friday. The patient dies Sunday. The agency claims the death was unforeseeable. Your job is to prove the nurse missed red flags or worse, saw them and did nothing. Home health negligence cases turn on whether the nurse recognized deterioration and escalated appropriately. The medical record tells you everything.
+
+**What Escalation Failure Looks Like in the Chart**
+
+Look for vital sign trends, not isolated readings. A blood pressure of 100/60 seems fine until you see it was 140/85 two visits prior. Progressive hypotension signals shock. The competent nurse phones the physician immediately. Check the nursing notes for clinical findings the nurse documented but failed to act on: increased confusion, decreased urine output, new edema, worsening shortness of breath, skin color changes. If the nurse wrote "patient lethargic" but made no calls and recommended no intervention, you have negligence. Compare what the nurse saw against what the physician knew. If critical information never reached the doctor, the nurse breached duty.
+
+**The Physician Order Sheet Reveals What Should Have Happened**
+
+Every home health patient has standing orders and parameters for contacting the physician. Pull these orders. They specify exact vitals ranges, symptoms, and conditions requiring immediate notification. A physician order stating "call for systolic BP below 100" means the nurse must call. If the chart shows BP of 90/50 with no documentation of physician contact, you have clear breach. Look for wound care orders too. Physicians specify wound measurement frequency and appearance changes requiring notification. A Stage 2 pressure ulcer advancing to Stage 4 over three weeks with no escalation proves the nurse ignored deterioration.
+
+**The Missing Call Log Is Your Smoking Gun**
+
+Home health agencies maintain communication logs between nurses and physicians. Subpoena these separately from the clinical chart. The absence of calls during a period of documented decline is powerful evidence. I reviewed a case where the patient's oxygen saturation dropped from 95% to 86% over five days. The nurse charted every reading. The call log showed zero physician contact. The patient died of respiratory failure. The agency settled. Also request the nurse's personal phone records. Some nurses call physicians from cell phones to avoid agency documentation. Get both.
+
+**Standard of Care Comes From Agency Policy and Clinical Guidelines**
+
+Home health agencies write policies based on Medicare Conditions of Participation and nursing standards. Request the complete policy manual, especially sections on assessment, communication, and physician notification. These policies define what the reasonable nurse does. If agency policy requires daily wound measurement for infected wounds but the nurse checked weekly, you prove breach through their own standards. Pull clinical practice guidelines from organizations like the Wound Ostomy and Continence Nurses Society or the American Association of Heart Failure Nurses. Guidelines specify objective criteria for escalation: heart failure patients with 3-pound weight gain in 24 hours need same-day physician evaluation.
+
+**The Nurse's Prior Disciplinary History and Training Records**
+
+Subpoena the individual nurse's personnel file. Look for prior complaints about failure to communicate, missed assessments, or documentation deficiencies. Prior discipline for similar conduct shows pattern. Review competency assessments and mandatory education records. Home health nurses must complete annual competencies in wound care, vital sign interpretation, and disease-specific monitoring. If the nurse failed competency testing in areas relevant to your case, you prove the agency knew or should have known this nurse was unqualified to care for your client. Training records also show if the nurse received specialized education for complex patients like those with heart failure, diabetes, or post-surgical conditions.
+
+**Build Your Timeline With Vital Sign Flowsheets**
+
+Create a spreadsheet of every vital sign, assessment finding, and nursing action across all visits. Plot weight, blood pressure, heart rate, respiratory rate, oxygen saturation, and pain scores. Visual trends prove deterioration the nurse should have recognized. Add physician orders and agency policies to your timeline. Show exactly when the nurse violated specific parameters. I use this method to demonstrate the 72-hour window when intervention would have prevented death. Your timeline becomes your most persuasive exhibit at mediation. It shows exactly what the nurse saw, what she ignored, and when the patient's condition became irreversible.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-01",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Home health negligence: How to prove visiting nurses failed to escalate deteriorating patients using medical records and agency policies.",
+    keywords: ["home health negligence","visiting nurse malpractice","failure to escalate","home health wrongful death","nursing standard of care","medical legal nurse consulting"],
+  },
+  {
     slug: "implant-failure-cases-need-device-tracking-and-surgical-records-linked",
     title: "Implant Failure Cases Need Device Tracking and Surgical Records Linked",
     excerpt: "Hip replacements, spinal hardware, and cardiac devices fail. Your case lives or dies on connecting the dots between OR documentation and manufacturer data.",
