@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "proving-sterile-technique-failures-when-infection-follows-surgery",
+    title: "Proving Sterile Technique Failures When Infection Follows Surgery",
+    excerpt: "Surgical site infections don't happen by chance. The medical records reveal what went wrong in the OR and who failed to follow protocol.",
+    content: `
+Your client developed a surgical site infection after what should have been a routine procedure. The defense claims all infections carry inherent risk. You need to prove the OR team breached the standard of care through failures in sterile technique.
+
+**The Timing Tells the Story**
+
+Surgical site infections fall into three categories based on onset. Superficial incisional SSIs appear within 30 days and involve only skin and subcutaneous tissue. Deep incisional SSIs develop within 30 to 90 days and affect fascial and muscle layers. Organ space SSIs occur within 30 to 90 days and involve any anatomical area beyond the incision itself. The organism cultured from your client's infection tells you where the breach occurred. Staphylococcus aureus or coagulase-negative staphylococci point to skin flora contamination during the procedure. Gram-negative rods like E. coli or Pseudomonas suggest instrument or environmental contamination. Polymicrobial infections scream multiple breaches in sterile technique.
+
+**What the OR Records Must Contain**
+
+The operative report should document who scrubbed in, who circulated, and the time each person entered and exited the sterile field. Look for documentation of the surgical time out, antibiotic prophylaxis timing, and skin prep solution used. The anesthesia record shows room temperature and total procedure time. Long procedures over three hours exponentially increase infection risk, especially if the room temperature exceeded 68 degrees Fahrenheit. The nursing notes must reflect traffic in and out of the OR, any breaks in sterile field, and instrument counts. Missing documentation equals missing proof of compliance.
+
+**The Breaches I See Repeatedly**
+
+Improper hand hygiene before gloving causes 40% of preventable SSIs in the cases I review. The scrub nurse or surgeon fails to complete the full five-minute surgical scrub or uses incorrect technique. Inadequate skin preparation with chlorhexidine or povidone-iodine solution leaves resident bacteria on the surgical site. The prep must dry completely before incision. I have seen operative reports where the surgeon made first incision 90 seconds after prep application. Contaminated instruments tell their own story through the cultures. A positive intraoperative culture growing the same organism as the postoperative infection proves the source. Equipment failures like non-sterile air handling systems or contaminated irrigation fluid create outbreaks affecting multiple patients in the same OR during the same time period.
+
+**The Peer-Reviewed Standards You Need**
+
+The CDC publishes specific guidelines for prevention of surgical site infections. These are not suggestions. Hospitals adopt these as policy and their staff must follow them. AORN publishes perioperative standards and recommended practices that define acceptable sterile technique. The Joint Commission mandates compliance with the Surgical Care Improvement Project measures, including appropriate antibiotic selection, timing, and discontinuation. Pull these standards. Compare them line by line against what the records show. Every deviation is evidence.
+
+**How Defense Attorneys Will Fight You**
+
+They claim all surgery carries infection risk and your client signed a consent form acknowledging this. They argue the infection rate for this procedure falls within acceptable ranges. They point to patient risk factors like diabetes, obesity, or smoking. You counter with specifics. The consent form does not waive liability for negligence. The acceptable infection rate assumes proper sterile technique. Patient risk factors require enhanced precautions, not excuses for sloppy technique. I have reviewed cases where morbidly obese patients received inadequate antibiotic dosing because the surgeon used standard weight-based protocols instead of adjusted dosing. This is negligence, not inevitable outcome.
+
+**The Expert Witness You Need**
+
+Your expert must work in the same specialty and practice in a similar setting. A general surgeon who performs the same procedure at a community hospital has credibility. A retired academic who stopped operating fifteen years ago does not. The expert needs to review the complete medical record, including the hospital's policies and procedures for sterile technique. They must identify the specific breach and explain how it caused the infection. I connect attorneys with practicing surgeons and perioperative nurses who testify about sterile technique failures monthly. These experts review hundreds of cases yearly and know exactly what sloppy technique looks like in the records. Your expert must articulate that this infection resulted from preventable contamination, not random chance.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-02",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Surgical site infections prove sterile technique failures. Learn what medical records reveal about OR protocol breaches and how to prove causation.",
+    keywords: ["surgical site infection","sterile technique","medical malpractice","operating room negligence","SSI lawsuit","hospital infection"],
+  },
+  {
     slug: "how-home-health-nurses-miss-critical-signs-before-patient-death",
     title: "How Home Health Nurses Miss Critical Signs Before Patient Death",
     excerpt: "Visiting nurses document stable vitals while patients deteriorate. Here's how to prove they failed to escalate.",
