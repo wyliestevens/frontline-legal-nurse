@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-prove-a-radiologist-missed-critical-findings-on-imaging",
+    title: "How to Prove a Radiologist Missed Critical Findings on Imaging",
+    excerpt: "Radiology malpractice cases turn on specific comparison points and timeline documentation. Here's what to look for in the films and reports.",
+    content: `
+**The Missed Finding Lives in the Report Comparison**
+
+Your strongest evidence sits in the radiology reports themselves. Pull every imaging study from 12 months before the missed finding through diagnosis. Line them up chronologically. A radiologist who reads a chest CT on January 15th and describes "clear lung fields" when a 2.3 cm nodule sits in the right upper lobe has created your liability. The next radiologist who reads the follow-up scan on April 10th and immediately identifies the now 3.1 cm mass proves the finding was visible and reportable. I have seen this exact pattern in lung cancer cases where the delay cost the patient surgical candidacy. The comparison writes itself.
+
+**Get the Actual Images, Not Just Reports**
+
+You need the DICOM files, not the written reports alone. Attorneys who rely only on radiology reports miss half the case. The images show what was visible at the time of interpretation. A subtle fracture line, an early infiltrate, a small tumor—these findings live in the pixels. I worked a case where the radiologist reported "no acute findings" on a knee MRI, but the images clearly showed a posterior cruciate ligament tear visible on three separate sequences. Your expert needs those images to render an opinion worth defending. Hospital systems must provide DICOM files on CD or via secure download. Demand them in discovery.
+
+**The Radiology Standard Is Immediate and Specific**
+
+Radiologists must identify and report all clinically significant findings at the time of interpretation. This is not a negotiable standard. A 1.5 cm pancreatic mass on abdominal CT requires immediate reporting and specific location description. A radiologist who writes "pancreas unremarkable" when images show a hypodense lesion in the pancreatic head has breached the standard. I have reviewed cases where radiologists documented incidental findings in every organ system except the one with pathology. This pattern suggests the radiologist never looked at those images or sequences. Your expert will testify the finding was present, visible, and required documentation.
+
+**Communication Failures Compound the Negligence**
+
+Radiologists carry a duty to communicate critical findings directly to the ordering physician. A critical finding is any result requiring immediate action to prevent death or serious harm. Pulmonary embolism, pneumothorax, acute hemorrhage, aortic dissection—these require a phone call, not just a typed report. I worked a wrongful death case where a radiologist identified a large subdural hematoma on head CT at 2:00 PM but never called the emergency department. The patient died at 6:00 PM. The radiology report entered the system at 4:30 PM. No physician saw it until after the death. The phone logs proved no outbound calls. This is indefensible.
+
+**The Follow-Up Recommendation Creates Liability**
+
+Radiologists who recommend follow-up imaging create a duty to ensure the follow-up happens. When a radiologist writes "recommend repeat CT in three months to assess stability" and no system exists to track compliance, the patient falls through. I have seen dozens of cases where the recommended follow-up never occurred and cancer progressed. The liability question becomes: who owns the follow-up? The radiologist who recommended it? The ordering physician who never saw the recommendation? The hospital system with no tracking protocol? Your case often involves multiple defendants. The radiology group, the hospitalist group, and the hospital administration all share exposure.
+
+**Expert Review Requires Subspecialty Match**
+
+Your expert must practice in the same subspecialty as the defendant radiologist. A general diagnostic radiologist does not qualify to review a neuroradiology case. A breast imaging specialist does not review musculoskeletal studies. Board certification and current clinical practice in the specific area matter for testimony credibility. I connect attorneys with radiologists who read the same study types daily. They know what findings appear on specific sequences, what measurements trigger intervention, and what language belongs in reports. These experts have defended their own interpretations in peer review. They know the standard because they live it.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-03",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Radiology malpractice cases require DICOM files, report comparisons, and subspecialty experts. Learn what proves a missed finding.",
+    keywords: ["radiology malpractice","missed findings","imaging errors","radiologist negligence","medical malpractice","legal nurse consulting"],
+  },
+  {
     slug: "proving-sterile-technique-failures-when-infection-follows-surgery",
     title: "Proving Sterile Technique Failures When Infection Follows Surgery",
     excerpt: "Surgical site infections don't happen by chance. The medical records reveal what went wrong in the OR and who failed to follow protocol.",
