@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "proving-a-pathologist-misread-the-biopsy-and-delayed-cancer-diagnosis",
+    title: "Proving a Pathologist Misread the Biopsy and Delayed Cancer Diagnosis",
+    excerpt: "Pathology errors kill patients. Here's how to build your case when the lab gets it wrong.",
+    content: `
+**The Pathologist's Error Kills Your Client Slowly**
+
+A dermatologist biopsies a suspicious mole. The pathology report comes back benign. Fifteen months later, your client presents with Stage IV melanoma and widespread metastases. The original slides told a different story. I have reviewed this exact scenario in seven cases over the past three years. The pathologist misread the mitotic rate, failed to identify atypical melanocytes, or confused architectural disorder with normal tissue variation. Your client lost the window for excision when the tumor was less than one millimeter deep. Now they face a five-year survival rate below 30 percent.
+
+**Pull Every Slide and Block From Every Lab**
+
+You need the original glass slides, not just the report. The paraffin blocks matter too. Request all H&E stains and any immunohistochemical studies performed. Get the gross description from the pathology assistant who received the specimen. I have seen cases where the clinician submitted three tissue fragments but the pathologist only examined two. The third fragment sat in the cassette and contained the malignancy. Your records request must specify slides, blocks, cassettes, requisition forms, and the specimen container. If the lab destroyed the blocks, document when and why. Tissue retention policies vary, but most labs keep blocks for ten years minimum.
+
+**Find the Right Expert Who Reads the Same Tissue Types**
+
+A general pathologist will not move the needle if your case involves a rare sarcoma or complex breast pathology. You need a subspecialist who reads hundreds of the same tissue types annually. For melanoma cases, I connect attorneys with dermatopathologists who chair tumor boards at academic medical centers. For GYN pathology errors, you want someone who does nothing but cervical, endometrial, and ovarian specimens. The defense will bring a pathologist with 30 years of experience. Your expert needs deeper current experience in the specific tissue and diagnosis at issue. Generic credentials lose cases.
+
+**The Standard of Care Lives in the Original Report Date**
+
+Defense counsel will argue the histologic interpretation fell within acceptable variation. Your expert must reference the WHO classification, AJCC staging criteria, and CAP protocols in effect when the pathologist signed out the case. The 2010 WHO guidelines for melanoma differ from the 2018 update. If the original biopsy occurred in 2012, the standard of care gets measured against 2012 criteria. I review the literature published before the error date. Recent studies do not establish what the pathologist should have known five years ago. Pull the textbooks and journal articles the pathologist would have consulted at the time. The defense wants to argue about subjective interpretation. You argue about objective criteria the pathologist ignored.
+
+**Causation Requires Staging Comparison and Treatment Timelines**
+
+Your expert must establish what stage the cancer presented at initial biopsy versus diagnosis after the delay. A Stage IA breast cancer detected at first biopsy becomes Stage IIIB fifteen months later. The treatment shifts from lumpectomy and sentinel node biopsy to mastectomy, axillary dissection, chemotherapy, and radiation. Survival rates drop from 98 percent to 72 percent. I build timelines showing when the patient presented, when the pathologist should have diagnosed malignancy, when the cancer was actually diagnosed, and how the staging changed. The tumor doubling time matters. Growth rates vary by cancer type. Your expert calculates backward from the delayed diagnosis to show what stage existed at the original biopsy date.
+
+**Financial Damages Multiply With Advanced Disease**
+
+The economic damages in pathology malpractice cases exceed typical misdiagnosis claims. Your client now needs aggressive chemotherapy instead of simple excision. The medical bills increase tenfold. Lost wages extend over years, not months. Life care plans project ongoing surveillance, management of treatment complications, and palliative care. I have worked cases where the original missed diagnosis involved a \$15,000 treatment plan. The delayed diagnosis created \$890,000 in projected medical costs. The life expectancy reduction drives the life care plan numbers. A 42-year-old woman with Stage IV ovarian cancer loses decades of work life. The economist must account for reduced life expectancy when calculating total damages.
+
+**Document the Lab's Quality Control Failures**
+
+Request the lab's CAP inspection reports, proficiency testing results, and internal quality assurance data. Check if the pathologist was board-certified at the time. Look for prior corrected reports or amended diagnoses by the same pathologist. I found a case where the pathologist had failed two consecutive proficiency tests for melanoma identification. The lab kept him on staff reading dermatopathology specimens. That internal document destroyed the defense. State medical board complaints against the pathologist or the lab create powerful evidence. CLIA inspection violations show pattern and practice issues beyond your single case.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-04",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Pathology malpractice cases require original slides, subspecialist experts, and staging timelines to prove delayed cancer diagnosis.",
+    keywords: ["pathology malpractice","misread biopsy","delayed cancer diagnosis","medical malpractice","cancer misdiagnosis","pathologist error"],
+  },
+  {
     slug: "how-to-prove-a-radiologist-missed-critical-findings-on-imaging",
     title: "How to Prove a Radiologist Missed Critical Findings on Imaging",
     excerpt: "Radiology malpractice cases turn on specific comparison points and timeline documentation. Here's what to look for in the films and reports.",
