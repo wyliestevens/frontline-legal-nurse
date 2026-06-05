@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "pharmacy-malpractice-proof-lives-in-the-dispensing-records",
+    title: "Pharmacy Malpractice Proof Lives in the Dispensing Records",
+    excerpt: "Pharmacists fill 4 billion prescriptions yearly. When they dispense the wrong drug or dose, the evidence sits in records most attorneys miss.",
+    content: `
+Pharmacists fill over 4 billion prescriptions every year in the United States. The error rate hovers around 1.5%. That translates to 60 million dispensing errors annually. Some cause temporary discomfort. Others kill.
+
+**The Dispensing Record Shows What Actually Left the Pharmacy**
+
+Your client presents with a prescription for Lisinopril 10mg. The pharmacy bottle label reads Lisinopril 10mg. But your client took Lisinopril 40mg for three months and ended up in the ER with syncope and acute kidney injury. The dispensing record proves it. This document lists the NDC number (National Drug Code), which identifies the exact manufacturer, drug name, strength, and package size of the medication the pharmacist pulled from the shelf. Cross-reference the NDC on the dispensing record with the NDC database. If the numbers don't match what the prescription ordered, you have your proof. I've reviewed cases where the label said one thing and the pills inside were completely different. The NDC doesn't lie.
+
+**Prescription Records vs. Dispensing Records Are Not the Same Document**
+
+Attorneys request prescription records and think they have everything. You don't. The prescription record shows what the physician ordered. The dispensing record shows what the pharmacist filled. Most malpractice happens in the gap between these two documents. Get both. The prescription file includes the original written, electronic, or verbal order. The dispensing record includes the lot number, NDC, quantity dispensed, pharmacist initials, verification time stamps, and any override alerts the pharmacist clicked through. I've seen pharmacists dismiss eight different system alerts about drug interactions before dispensing a medication contraindicated with the patient's other prescriptions. Those alerts live in the dispensing software audit trail.
+
+**Look-Alike Sound-Alike Drugs Create Systematic Errors**
+
+Hydroxyzine and hydralazine. Clonidine and clonazepam. Celebrex and Celexa. These pairs cause errors in every pharmacy system I've reviewed. The FDA maintains a list of over 1,500 drug name pairs prone to confusion. Your expert witness needs to address whether the pharmacy had protocols to prevent LASA (look-alike sound-alike) errors. Most sophisticated pharmacy systems flag these combinations. If the pharmacist bypassed the warning, the audit trail documents the override. I worked a case where a patient received glipizide instead of glyburide for six weeks. Blood glucose dropped to 34 mg/dL. Permanent neurological damage followed. The dispensing record showed the pharmacist overrode the verification alert three separate times.
+
+**Dosing Errors Show Up in Quantity and Strength Fields**
+
+A prescription for Metformin 500mg twice daily for 30 days requires 60 tablets. If the dispensing record shows 180 tablets of 500mg were given, someone made an error. If it shows 60 tablets of 1500mg extended-release, someone substituted a different formulation without authorization. I've reviewed records where pharmacists misread handwritten prescriptions and dispensed 10-times the ordered dose. The prescription said 0.5mg. The dispensing record showed 5mg. After 90 days, the patient developed toxicity symptoms requiring hospitalization. Quantity and strength fields tell you whether the pharmacist filled what the doctor ordered or made a dangerous assumption.
+
+**Refill Records Reveal Pattern Problems**
+
+One dispensing error is negligence. Multiple dispensing errors to the same patient show systematic failure. Pull every refill record for the disputed medication. Check whether the pharmacy dispensed the wrong drug or dose consistently across multiple fills. I reviewed a case where a pharmacy filled the wrong strength of levothyroxine for 18 months. Twelve refills. Same error every time. The patient developed cardiac arrhythmias and osteoporosis from chronic over-medication. The refill pattern proved the pharmacy never caught its own mistake despite multiple opportunities to verify the prescription against the patient profile.
+
+**Third-Party Verification Systems Leave Electronic Fingerprints**
+
+Most pharmacies use verification systems where one pharmacist enters the prescription and another verifies before dispensing. The computer logs both actions with time stamps and user IDs. Request the complete audit trail from the pharmacy management system. This data shows whether the pharmacy followed its own verification protocols. I've seen cases where the same pharmacist who entered the prescription also verified it, violating the pharmacy's standard operating procedure. When both steps happen within 45 seconds, you know no real verification occurred. That time stamp discrepancy has destroyed pharmacy defenses in multiple cases I've reviewed.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-05",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Pharmacy malpractice cases require dispensing records, not just prescriptions. Learn how NDC numbers and audit trails prove wrong drugs were dispensed.",
+    keywords: ["pharmacy malpractice","dispensing records","medication errors","pharmacy negligence","NDC numbers","prescription errors"],
+  },
+  {
     slug: "proving-a-pathologist-misread-the-biopsy-and-delayed-cancer-diagnosis",
     title: "Proving a Pathologist Misread the Biopsy and Delayed Cancer Diagnosis",
     excerpt: "Pathology errors kill patients. Here's how to build your case when the lab gets it wrong.",
