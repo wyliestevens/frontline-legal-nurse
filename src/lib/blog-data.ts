@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-roi-of-using-a-legal-nurse-consultant-on-every-medical-legal-case",
+    title: "The ROI of Using a Legal Nurse Consultant on Every Medical-Legal Case",
+    excerpt: "Legal nurse consultants identify missed damages, eliminate weak cases early, and accelerate settlements. The question is not whether you need one, but how much money you lose without one.",
+    content: `
+**You Miss Damages Without Clinical Training**
+
+You read the hospital chart and see the patient fell, fractured a hip, went to surgery, and recovered. The LNC reads the same chart and finds a Stage 3 pressure ulcer documented on day four, antibiotic orders for MRSA infection on day seven, and physical therapy notes showing the patient lost independent ambulation. These are separate damages. Each one adds to your case value. Without clinical expertise, you leave money on the table because you do not know what you are looking at.
+
+**Early Case Assessment Saves You Money**
+
+I reviewed a potential nursing home wrongful death case last month. The family was devastated. The intake looked solid. Within three hours of chart review, I found complete documentation of the patient's advance directive refusing hospitalization, family meetings confirming DNR status, and appropriate comfort care measures. The death was expected and properly managed. You walk away from this case before investing another dollar. The attorney who does not use an LNC spends \$15,000 on experts and depositions before discovering what I found in the first chart review. Your worst cases are the ones you should have declined.
+
+**We Translate Medicine Into Damages Your Jury Understands**
+
+Medical records document clinical facts. Juries award money for human suffering. The operative report states "exploratory laparotomy with lysis of adhesions, small bowel resection, and temporary colostomy." I tell you the surgeon opened the abdomen, cut away scar tissue, removed dead intestine, and created an opening in the abdominal wall where stool now drains into a bag. The patient must irrigate this stoma daily, change the appliance every three days, and avoid normal clothing. This is permanent disfigurement and daily indignity. I bridge the gap between medical terminology and the impact on your client's life.
+
+**Chart Organization Accelerates Every Phase of Litigation**
+
+You receive 4,000 pages of records from three hospitals, two specialists, and a rehab facility. You need to find every blood pressure reading, every medication change, and every nursing assessment showing pain level. Your paralegal spends 40 hours creating a timeline. An LNC does this in eight hours because we know where to look. We create chronologies, medication flowsheets, and indexed summaries that your expert witness uses to prepare testimony. When defense counsel requests specific documents during deposition, you put your hand on the exact page in seconds. Preparation wins trials.
+
+**We Identify the Right Experts and Prepare Them Efficiently**
+
+Your birth injury case needs a neonatologist, not just any pediatrician. Your surgical error case needs a general surgeon who performs laparoscopic cholecystectomies weekly, not a trauma surgeon. I connect you with the right specialist and provide them with a case summary that highlights the standard of care violations. Your expert bills \$750 per hour. Without proper preparation, they spend six hours reading records to understand the case. With an LNC summary, they spend two hours. You save \$3,000 and get a more focused expert opinion.
+
+**Legal Nurse Consultants Find What Hospital Risk Management Hides**
+
+Hospitals know which records plaintiff attorneys examine. They produce the physician progress notes, the operative report, and the discharge summary. They delay producing the nursing flow sheets, the medication administration records, and the incident reports. These documents contain the proof you need. The nursing notes show your patient called for help six times before falling. The MAR shows the wrong dose of anticodone given at 0600, and the patient was found unresponsive at 0645. I know which missing records to demand and what those gaps mean.
+
+**The Numbers Are Simple**
+
+An LNC costs \$150 to \$200 per hour for record review. A typical case review takes four to eight hours. You invest \$1,200. This investment eliminates a case worth \$0 before you spend \$10,000. It adds \$50,000 in discovered damages to a case you thought was worth \$100,000. It cuts your expert preparation costs in half. It accelerates your settlement timeline by months. Your contingency fee is one third. Finding one missed surgery complication worth \$30,000 puts \$10,000 in your pocket. The LNC paid for themselves seven times over.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-08",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify missed damages, eliminate weak cases early, and save thousands in expert costs. See the real ROI.",
+    keywords: ["legal nurse consultant","medical record review","case ROI","medical malpractice","personal injury attorney","expert witness preparation"],
+  },
+  {
     slug: "pharmacy-malpractice-proof-lives-in-the-dispensing-records",
     title: "Pharmacy Malpractice Proof Lives in the Dispensing Records",
     excerpt: "Pharmacists fill 4 billion prescriptions yearly. When they dispense the wrong drug or dose, the evidence sits in records most attorneys miss.",
