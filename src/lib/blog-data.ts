@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "small-and-mid-size-firms-gain-the-most-from-legal-nurse-consultants",
+    title: "Small and Mid-Size Firms Gain the Most From Legal Nurse Consultants",
+    excerpt: "Large firms absorb mistakes. Small and mid-size firms cannot. Legal nurse consultants give you the clinical precision you need to win.",
+    content: `
+**You Work Without the Safety Net of Biglaw**
+
+Large firms spread risk across hundreds of cases and dozens of attorneys. You do not have this luxury. Every case you accept must perform. Every expert you hire must deliver. Every medical record you misinterpret costs you money you will never recover. I have watched small firms lose \$40,000 on a spinal fusion case because they missed a contraindication buried in operative notes. The surgeon documented the patient's osteoporosis severity three times across 200 pages. The attorney never saw it. The defense expert destroyed their liability theory in six minutes of deposition testimony. A legal nurse consultant would have flagged this on page one of the review.
+
+**Your Time Is Worth More Than Medical Record Analysis**
+
+You bill \$350 to \$500 per hour. You spend twelve hours reading through a traumatic brain injury file to understand Glasgow Coma Scale scores, intracranial pressure monitoring, and neuroimaging findings. You just spent \$4,200 to \$6,000 learning what a legal nurse consultant tells you in a written report for \$1,200. I have reviewed TBI cases where attorneys highlighted every page of records but missed the critical detail: the neurosurgeon's note showing the patient refused recommended surgery. This refusal breaks your damages claim. You need someone who reads neuro charts daily, not someone who Googles medical terms while billing premium rates.
+
+**You Need Clinical Translation Before Expert Witness Investment**
+
+Expert witnesses charge \$500 to \$800 per hour. You bring them a case before you understand the clinical timeline. They bill you for six hours explaining why your liability theory fails. You spent \$3,000 to \$4,800 learning you should have rejected the case. Legal nurse consultants review first. We tell you where the medicine supports your case and where it destroys it. I screened a birth injury case last month where the attorney believed Apgar scores of 7 and 8 proved negligence. The scores showed a healthy infant. Cord blood gas values told the real story. The pH was 6.89 with a base deficit of -18. This degree of metabolic acidosis indicated prolonged hypoxia. Without this clinical translation, the attorney would have hired an expert witness to explain why he had no case.
+
+**You Must Identify All Defendants From Medical Records Alone**
+
+Missing a defendant means missing a settlement contribution or trial recovery. Missing a defendant also means facing a motion to dismiss after the statute of limitations expires. I reviewed a surgical error case where the attorney sued the operating surgeon and hospital. The anesthesiologist made four critical mistakes documented in the anesthesia record. The CRNA administered a paralytic without securing the airway. The attending anesthesiologist was not in the room. The attorney found this eighteen months into litigation. The statute had run. Legal nurse consultants identify every provider who touched the patient. We read anesthesia flow sheets, nursing notes, pharmacy administration records, and therapy documentation. We tell you who to name before you file.
+
+**You Compete Against Defense Firms With In-House Nurses**
+
+Insurance defense firms keep legal nurse consultants on staff or retainer. They review every medical record before the answer gets filed. They identify your weaknesses before you spot your strengths. I have worked cases where defense identified pre-existing conditions the plaintiff's attorney never mentioned in discovery. A herniated disc case collapsed when defense showed the patient had undergone three prior lumbar surgeries at different facilities. The attorney never ordered complete medical records. Defense did. You need the same clinical review capability the defense uses against you. Legal nurse consultants level the information advantage.
+
+**Your Case Volume Demands Efficient Screening Systems**
+
+You evaluate twenty potential cases monthly. You accept five. You need to know which five within days of the initial consultation, not weeks. Medical record screening separates cases with merit from cases with missing liability or inadequate damages. I screen cases where the injury sounds catastrophic but the medical proof shows something different. A stroke case following chiropractic neck manipulation sounds strong. The radiology report shows the vertebral artery dissection started before the chiropractic visit. The patient had neck pain for three days prior. This pre-existing symptom timeline defeats causation. You learn this from a screening report in 48 hours, not from an expert witness deposition six months into litigation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-09",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants give small firms clinical precision large firms have in-house. Learn why your firm needs this advantage now.",
+    keywords: ["legal nurse consultant","small law firm","medical record review","case screening","expert witness","medical malpractice"],
+  },
+  {
     slug: "the-roi-of-using-a-legal-nurse-consultant-on-every-medical-legal-case",
     title: "The ROI of Using a Legal Nurse Consultant on Every Medical-Legal Case",
     excerpt: "Legal nurse consultants identify missed damages, eliminate weak cases early, and accelerate settlements. The question is not whether you need one, but how much money you lose without one.",
