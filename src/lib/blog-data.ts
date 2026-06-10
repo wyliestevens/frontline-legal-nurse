@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-integrate-a-legal-nurse-consultant-into-your-case-workflow",
+    title: "How to Integrate a Legal Nurse Consultant Into Your Case Workflow",
+    excerpt: "Most attorneys bolt on an LNC after building their case. This costs you time and money. Here's the right way to work together.",
+    content: `
+**Bring Us In Before You Sign the Client**
+
+You need medical record screening before you commit resources to a case. Send me the emergency department records, discharge summaries, and operative reports. I tell you within 48 hours if the injuries support your damages claim or if the treatment timeline contradicts your client's story. Last month I reviewed records for a slip-and-fall attorney who nearly signed a client claiming total disability. The lumbar MRI showed degenerative changes dating back five years before the incident. He walked away from a case worth nothing. This saves you from spending \$15,000 on a case you'll drop after the first deposition.
+
+**Order Medical Records the Right Way From Day One**
+
+Stop requesting entire chart copies when you only need specific documentation. I create a targeted records request list based on the injury type and alleged mechanism. For a birth injury case, you need labor and delivery flow sheets, fetal monitoring strips, neonatal resuscitation records, and NICU admission notes. For a surgical error case, you need pre-op H&Ps, anesthesia records, intraoperative nursing notes, pathology reports, and post-op progress notes for 72 hours minimum. Your paralegal gets the right records the first time. You avoid \$800 in duplicate retrieval fees three months later when you realize the consent forms and imaging reports were missing.
+
+**Let Me Build Your Discovery Strategy**
+
+I draft your interrogatories and requests for production with clinical precision. Generic form discovery misses critical documentation. In a delayed cancer diagnosis case, you need the actual radiology images on CD, not just the written report. You need the quality assurance committee meeting minutes. You need the credentialing files for the radiologist who missed the lung nodule. I identify which specific policies and procedures to request based on the standard of care violation. Your opposing counsel receives discovery requests showing you understand the medicine. They know you're not guessing.
+
+**Use Me During Depositions for Real-Time Clinical Translation**
+
+I sit next to you during expert depositions and flag inconsistencies immediately. When the defense's pulmonologist testifies about oxygen saturation levels, I write you a note explaining why his testimony contradicts the pulse oximetry readings in the respiratory therapy flow sheet from page 847. When the orthopedic surgeon claims the femur fracture resulted from pre-existing osteoporosis, I point you to the DEXA scan results showing normal bone density. You impeach the witness in the moment instead of realizing the opening six weeks later when you review the transcript.
+
+**Have Me Vet Your Experts Before You Hire Them**
+
+You're paying \$600 per hour for expert opinions. Send me their CVs first. I verify their clinical background matches your case needs. I've seen attorneys hire a family practice physician to opine on neurosurgical technique. I've seen a pediatric cardiologist retained for an adult myocardial infarction case. The expert gets destroyed on cross-examination about their lack of relevant experience. I also review their previous testimony through services like Trellis. If your expert contradicted your position in another case last year, you need to know before the retainer check clears.
+
+**Give Me Your Medical Records 90 Days Before Trial**
+
+I create your trial binders with tabbed medical chronologies organized by body system and provider type. You know exactly where to find the critical nursing note showing the patient called for help 20 minutes before the fall. You know which page contains the medication administration record proving the pharmacy dispensed the wrong dosage. I prepare medical glossaries defining every clinical term the jury will hear. I create treatment timelines blown up to poster size showing the six-hour gap when nobody checked on your nursing home resident. You walk into trial fluent in the medical facts while opposing counsel shuffles through 3,000 unsorted pages.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-10",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultant integration: When to bring an LNC into your case workflow, from screening to trial. Written by Wylie Stevens, BSN, RN.",
+    keywords: ["legal nurse consultant","case workflow","medical record review","attorney case strategy","LNC integration","medical legal consulting"],
+  },
+  {
     slug: "small-and-mid-size-firms-gain-the-most-from-legal-nurse-consultants",
     title: "Small and Mid-Size Firms Gain the Most From Legal Nurse Consultants",
     excerpt: "Large firms absorb mistakes. Small and mid-size firms cannot. Legal nurse consultants give you the clinical precision you need to win.",
