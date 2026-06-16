@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-your-intake-process-needs-a-legal-nurse-preliminary-review",
+    title: "Why Your Intake Process Needs a Legal Nurse Preliminary Review",
+    excerpt: "Most attorneys waste thousands on cases with fatal medical flaws. A preliminary review at intake stops this before you invest a dime.",
+    content: `
+**The \$50,000 Mistake You Make at Intake**
+
+You sign a client with a hospital stay, surgical complications, and anger at the medical system. You order records. You pay your expert \$5,000 for review. Three months later, the expert tells you the standard of care was met. You eat the costs and cut the client loose. I see this pattern every week. The medical records told the story from page one, but no one with clinical eyes looked before you committed resources. A legal nurse preliminary review at intake kills bad cases in 48 hours, not three months.
+
+**What a Preliminary Review Actually Identifies**
+
+I pull the emergency department records, operative notes, and discharge summaries first. These documents reveal whether you have a case worth pursuing. A 62-year-old falls at a grocery store and fractures her hip. The ED notes show a pre-existing osteoporosis diagnosis with a T-score of -3.2 and prior compression fractures. Defense will argue she had eggshell bones. You need to know this before you file. A construction worker develops respiratory distress after chemical exposure. His chest X-ray shows chronic obstructive pulmonary disease with a 30-pack-year smoking history documented three years before the incident. These facts do not kill every case, but they change your damages calculation and settlement strategy immediately.
+
+**The Timeline Issues Your Paralegal Misses**
+
+Your staff pulls records and organizes them chronologically. They do a solid job. They miss the clinical timeline because they do not read medical language fluently. A patient presents to urgent care with right lower quadrant pain at 1400 hours. The provider orders a CT scan at 1420. The radiologist reads the scan at 1545 and documents possible appendicitis. The patient goes home with discharge instructions at 1530. Your paralegal sees the timestamps but does not catch the critical fact: the patient was discharged before the radiologist issued the final read. This is negligence. I caught this exact scenario in a case last month. The attorney was about to decline it.
+
+**Pre-Existing Conditions Versus Aggravations**
+
+Defense attorneys love pre-existing conditions. You need to know which ones matter. I reviewed a motor vehicle accident case where the plaintiff had three prior lumbar surgeries. The MRI from two years before the accident showed multilevel degenerative disc disease. Your instinct says run from this case. The post-accident MRI showed a new disc herniation at L3-L4, a level with no prior pathology. Neurosurgery notes confirmed acute traumatic injury distinct from chronic degeneration. This differentiation requires clinical training to spot. Without it, you refer out a six-figure case or worse, you take a case where the pre-existing condition actually defeats causation.
+
+**The Records You Need Before You Decide**
+
+Do not order the entire medical history at intake. Get the acute records related to the incident: emergency department notes, hospital admission and discharge summaries, operative reports if surgery occurred, and radiology reports with images if the injury involves fractures or internal damage. For nursing home cases, grab the 30 days before the incident plus the incident report. For birth injury cases, get prenatal records from the third trimester, labor and delivery notes, and the newborn's first 72 hours. A focused review of 200 pages costs you \$800 to \$1,500. It saves you from spending \$15,000 on a full record review and expert analysis of a case with no merit.
+
+**How This Changes Your Intake Conversion Rate**
+
+You think a preliminary review adds time to your intake process. It does the opposite. I complete most preliminary reviews within 48 hours. You call the potential client back with specific medical information about their case. You speak with authority about their diagnosis, treatment timeline, and medical issues. Clients sign with attorneys who demonstrate command of their medical situation. Your conversion rate climbs because you sound like the attorney who already worked their case. The clients you decline get a fast answer instead of months of false hope.
+
+**The Referral Network Advantage**
+
+Attorneys who use preliminary reviews build referral networks faster. You return calls to referring attorneys within 72 hours with a clear answer: take the case or decline with specific medical reasoning. The attorney who refers you a case respects a fast no more than a slow maybe. I work with a plaintiff's firm in Phoenix with this intake system. They review 40 potential cases monthly. They sign 12. They decline 28 with detailed medical explanations that referring attorneys trust. Their referral network doubled in 18 months because they became the firm with answers, not the firm sitting on files.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-16",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse preliminary review at intake kills bad cases in 48 hours and identifies six-figure cases others miss. Stop wasting money on doomed files.",
+    keywords: ["legal nurse consultant","case intake process","preliminary medical record review","medical legal case screening","attorney intake strategy","pre-existing conditions"],
+  },
+  {
     slug: "why-turnaround-time-on-medical-record-review-destroys-your-litigation-timeline",
     title: "Why Turnaround Time on Medical Record Review Destroys Your Litigation Timeline",
     excerpt: "Delayed record reviews kill settlement leverage and force you into reactive case strategy. Speed determines who controls the negotiation.",
