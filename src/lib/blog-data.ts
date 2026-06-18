@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-growing-demand-for-legal-nurse-consultants-in-mass-tort-litigation",
+    title: "The Growing Demand for Legal Nurse Consultants in Mass Tort Litigation",
+    excerpt: "Mass tort cases demand specialized medical expertise at scale. Here's why attorney teams now require legal nurse consultants from intake through trial.",
+    content: `
+**Mass Tort Cases Require Medical Analysis Before You Sign the Client**
+
+You receive 200 intake calls about a contaminated water case. Eighty percent claim thyroid disease. Your job is to separate viable plaintiffs from the non-viable before you invest a dime in litigation costs. A legal nurse consultant reviews medical records during intake and identifies which thyroid conditions link to the specific contaminant versus pre-existing Hashimoto's disease or medication-induced hypothyroidism. I have worked cases where attorneys signed 300 clients before medical review. They ended up dismissing 180 plaintiffs after spending months on worthless files. The LNC prevents this waste during the intake phase.
+
+**Product Liability Demands Device-Specific Clinical Knowledge**
+
+Hernia mesh litigation involves surgical reports, explant procedures, and infection pathways. IVC filter cases require understanding of device migration, perforation sites, and retrieval attempts. Talcum powder cases demand analysis of pathology reports showing asbestos fibers in ovarian tissue specimens. Your expert witness needs to testify about these details. Your LNC identifies them first in the medical chronology. I reviewed a transvaginal mesh case where the attorney missed three revision surgeries buried in operative notes from different facilities. Those revisions increased the settlement value by \$400,000. The LNC finds what you miss when reading 3,000 pages at midnight.
+
+**Pharmaceutical Mass Torts Need Dosing Records and ADR Analysis**
+
+Your client took Risperdal for six years. You need the exact dosing progression, the prescriber's notes about gynecomastia symptoms, and whether the physician continued prescribing after breast tissue development began. I have reviewed hundreds of psychotropic drug cases. Attorneys often overlook pharmacy records showing dose escalations. They miss psychiatrist notes documenting side effects before permanent injury occurred. The LNC creates a medication timeline cross-referenced with clinical notes and lab values. This timeline shows prescriber negligence and pharmaceutical liability in one document your expert uses at deposition.
+
+**Causation Analysis Separates Strong Cases From Weak Ones**
+
+Your Roundup client has non-Hodgkin lymphoma. He also has hepatitis C, smoked for thirty years, and worked in a chemical plant. The LNC reviews oncology records and determines whether the pathology supports glyphosate-related NHL versus occupational exposure or viral-induced lymphoma. I worked a Paraquat case where the neurologist diagnosed Parkinson's disease, but the movement disorder specialist's notes described essential tremor with cognitive decline from chronic alcoholism. No Lewy body pathology. No substantia nigra degeneration on imaging. The attorney dropped the case before spending \$50,000 on a neurology expert who would have withdrawn after records review.
+
+**Environmental Exposure Cases Require Exposure Timeline Correlation**
+
+Camp Lejeune litigation involves veterans who lived on base during specific contamination periods. Your client claims kidney cancer from trichloroethylene exposure. The LNC pulls military service records, cross-references housing assignments with contamination zones, and reviews renal cell carcinoma pathology. I reviewed a case where the veteran lived in contaminated housing for only eight months in 1981. His clear cell carcinoma diagnosis came forty years later with a smoking history and hypertension. Weak causation. Compare this to a veteran with three years of exposure, rare renal medullary carcinoma, and no other risk factors. Strong case. The LNC identifies these differences before you waste time on weak claims.
+
+**Multi-District Litigation Needs Standardized Medical Record Analysis**
+
+You have 500 cases going into an MDL. The court wants plaintiff fact sheets with medical histories, treatment timelines, and injury specifics. You need consistency across every submission. One LNC creates the master template. Your team of LNCs reviews all 500 files using identical criteria. I have supported MDL teams in Xarelto, Taxotere, and 3M earplug litigation. The attorneys who win leadership positions submit the most organized, medically accurate case inventories. The LNC team makes you look competent to the judge and opposing counsel.
+
+**Bellwether Case Selection Depends on Medical Strength**
+
+The MDL selects twelve bellwether trials. Your case needs clean liability, strong causation, and a sympathetic plaintiff with significant damages. The LNC reviews your entire inventory and ranks cases by medical merit. I worked with a firm holding 200 Lipitor files. After LNC review, only thirty-two plaintiffs had diabetes onset within the therapeutic window, without family history or obesity as confounding factors. Five of those had complications requiring hospitalization. Two became bellwether candidates. The LNC analysis drove case selection worth millions in settlement momentum.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-18",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify viable mass tort cases during intake and strengthen causation analysis for MDL litigation and bellwether trials.",
+    keywords: ["legal nurse consultant","mass tort litigation","medical records review","causation analysis","MDL cases","bellwether trial selection"],
+  },
+  {
     slug: "why-your-intake-process-needs-a-legal-nurse-preliminary-review",
     title: "Why Your Intake Process Needs a Legal Nurse Preliminary Review",
     excerpt: "Most attorneys waste thousands on cases with fatal medical flaws. A preliminary review at intake stops this before you invest a dime.",
