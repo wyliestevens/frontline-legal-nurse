@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-help-insurance-companies-evaluate-claim-validity",
+    title: "How Legal Nurse Consultants Help Insurance Companies Evaluate Claim Validity",
+    excerpt: "Insurance carriers use legal nurse consultants to identify inflated claims, detect treatment inconsistencies, and quantify legitimate damages.",
+    content: `
+Insurance adjusters hand us files to answer one question: Does this claim hold water? I've reviewed thousands of claims for carriers over two decades. They need us because medical records tell a different story than demand letters, and they need someone who reads both English and medical chart documentation fluently.
+
+**We Identify Treatment Inconsistencies Before Trial**
+
+A plaintiff claims debilitating back pain from a rear-end collision. The medical records show he missed four physical therapy appointments, refused an MRI his orthopedist ordered, and posted beach volleyball photos on social media during his treatment period. We flag these inconsistencies in our chronology. We connect the dots between what the plaintiff alleges and what the clinical documentation proves. Insurance carriers use this analysis to determine settlement value or proceed to trial. Your opponent's legal nurse does the same work on your files.
+
+**We Distinguish Pre-Existing Conditions from Acute Injuries**
+
+The lumbar spine MRI shows multilevel degenerative disc disease. The radiology report dates back three years before the accident. The plaintiff's attorney submitted a demand package attributing all spinal findings to the collision. We review the imaging studies, compare pre-accident records to post-accident treatment notes, and quantify which conditions existed before the incident. Insurance companies reject inflated demands when we demonstrate degenerative changes on imaging studies predating the loss date by years. This distinction alone saves carriers millions in settlements.
+
+**We Calculate Reasonable and Necessary Treatment Costs**
+
+A workers compensation claim includes \$47,000 in chiropractic bills over eight months for a minor ankle sprain. We review the treatment records against evidence-based guidelines and standard care protocols. Three visits per week for a grade I ankle sprain exceeds reasonable treatment frequency. We document when providers exceed Medicare guidelines, order unnecessary diagnostic studies, or continue passive treatment beyond appropriate timeframes. Carriers use our analysis to negotiate lien reductions and challenge excessive billing.
+
+**We Evaluate Causation Between Incident and Claimed Injuries**
+
+The emergency department record shows the patient walked into the ER six hours after a slip and fall. He reported mild hip discomfort. His vital signs were stable. No imaging was ordered. Three weeks later, he presents to a chiropractor claiming severe radiculopathy requiring extensive treatment. We analyze whether the mechanism of injury supports the claimed diagnosis. We review whether symptom progression follows typical clinical patterns or raises red flags. Insurance companies need this causation analysis before they write settlement checks.
+
+**We Assess Provider Credibility and Treatment Patterns**
+
+Some providers treat every auto accident patient identically. Same diagnostic codes. Same treatment duration. Same final bills within a narrow range. We review provider patterns across multiple claims. We identify mills billing maximum policy limits regardless of injury severity. We document when providers generate extensive records to support litigation rather than achieve clinical outcomes. Carriers recognize these patterns and adjust claim handling accordingly.
+
+**We Quantify Future Medical Needs and Life Care Planning**
+
+The plaintiff's life care plan projects \$2.3 million in future medical costs. We review the plan against current clinical status, expected recovery trajectories, and evidence-based treatment algorithms. We identify inflated durable medical equipment costs, unnecessary attendant care hours, and speculative surgical interventions with low probability. We prepare alternative life care analyses based on actual clinical need rather than worst-case scenarios. The difference between competing life care plans determines whether a case settles or proceeds to verdict.
+
+**We Prepare Defense Experts and Cross-Examination Strategies**
+
+Your defense expert needs a roadmap through 3,000 pages of medical records before deposition. We create focused summaries highlighting contradictory statements, gaps in treatment, and documentation supporting your theory. We draft questions exposing weaknesses in the plaintiff's treatment narrative. Insurance companies retain us to prepare their experts because physicians miss critical details buried in nursing notes, therapy records, and prescription histories. We find those details because we documented identical scenarios during our clinical years.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-19",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants help insurance companies identify inflated claims, distinguish pre-existing conditions, and evaluate treatment validity.",
+    keywords: ["legal nurse consultant","insurance claim evaluation","medical record review","claim validity","pre-existing conditions","treatment causation"],
+  },
+  {
     slug: "the-growing-demand-for-legal-nurse-consultants-in-mass-tort-litigation",
     title: "The Growing Demand for Legal Nurse Consultants in Mass Tort Litigation",
     excerpt: "Mass tort cases demand specialized medical expertise at scale. Here's why attorney teams now require legal nurse consultants from intake through trial.",
