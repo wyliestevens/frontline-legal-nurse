@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "ai-medical-record-review-works-until-it-misses-your-case",
+    title: "AI Medical Record Review Works Until It Misses Your Case",
+    excerpt: "AI speeds up document review but fails where medical malpractice cases are won or lost. Here's what breaks down.",
+    content: `
+I ran a test last month. I fed an AI tool 847 pages of records from a birth injury case we had already reviewed. The AI flagged the obvious: delayed C-section, low Apgar scores, cooling protocol initiated. It missed the anesthesiologist's note buried on page 312 showing the epidural catheter migrated, causing maternal hypotension that compromised fetal perfusion for 18 minutes before anyone documented a blood pressure. That migration detail turned a questionable case into a \$2.3 million settlement. The AI read the words. It did not understand what they meant.
+
+**AI Reads Words But Misses Clinical Patterns**
+
+AI tools excel at keyword searches and timeline generation. They pull every mention of "fall" or "medication error" in seconds. They organize chaos into spreadsheets. What they do not do is recognize when a nurse charts "patient resting comfortably" at 0200 while the vital signs show respirations at 8 and O2 sat at 88% on room air. I have seen this pattern in over 200 narcotic overdose cases. The charting says one thing. The clinical picture screams another. You need someone who has stood at a bedside and knows resting comfortably does not include respiratory depression. AI does not connect those dots because it has never watched someone stop breathing.
+
+**The Standard of Care Question Requires Human Judgment**
+
+Your expert will get destroyed on cross if you build your case on AI-generated deviations. I reviewed a pressure injury case last year where AI identified 15 "missed turning documentation" entries. Sounds damning. Three of those entries occurred during a code blue when the patient was clinically dead for 11 minutes. Two more happened during an emergent intubation. The standard of care does not require turning a patient during active resuscitation. AI flagged the documentation gap. It did not read the code sheet, the intubation note, or the crash cart log. Your nursing expert needs to tell you which deviations matter and which ones get you laughed out of court.
+
+**Complex Medication Interactions Need Clinical Translation**
+
+AI identifies drug-drug interactions by scanning databases. It spits out alerts. I reviewed 1,200 pages for a wrongful death case involving a 74-year-old on warfarin, amiodarone, and fluconazole. AI flagged the interaction. What it did not tell you is that the cardiologist increased the amiodarone dose on day three while the patient was already therapeutic on warfarin, then the hospitalist added fluconazole on day five for a suspected fungal infection. The INR went from 2.4 to 9.1 in 48 hours. The patient bled into his brain. AI sees three drugs. A clinical reviewer sees the sequence, understands why each prescriber missed the compounding effect, and explains to a jury how this kills people. That narrative wins cases.
+
+**Nursing Home Cases Break AI Completely**
+
+I have reviewed 600+ nursing home neglect cases. The abuse hides in patterns across months of flowsheets. A resident gets marked "refused care" for showers eight times in three weeks. AI counts refusals. A nurse reads refusal charting as staff taking shortcuts or a resident with worsening dementia who needs a different approach. When that same resident develops a fungal rash in skin folds and ends up septic, the "refusal" pattern becomes your proof of neglect. AI does not recognize that this resident has severe cognitive impairment per the MDS assessment and the care plan requires staff-assisted hygiene, making "refusal" documentation nonsensical. You need clinical eyes on those details.
+
+**Use AI For Speed But Not For Strategy**
+
+I use AI tools daily. They sort records, pull lab values, and build chronologies in minutes instead of hours. They save your expert review budget for the analysis that wins cases. But I would never let AI tell me whether you have a case worth filing. I reviewed a fall case last month where AI summary said "no negligence identified." The patient fell reaching for the urinal placed on the left side. He had a right hemiparesis from a previous stroke documented on the admission H&P. The care plan stated all items within right-hand reach. Someone put the urinal on his paralyzed side. He fell and fractured his hip. AI read the fall report. It did not cross-reference the neuro exam, the care plan, and the incident details. A clinical reviewer does that automatically.
+
+**Your Case Value Lives In The Details AI Cannot Interpret**
+
+Attorneys who use AI without clinical review leave money on the table. The defense will hire nurses who find what AI missed. Your damages expert needs the full clinical picture to value future care needs. AI tells you a patient needs a wheelchair. A legal nurse consultant tells you the patient needs a power wheelchair with tilt-in-space features, pressure-relieving cushion, and 24-hour attendant care for positioning, adding \$4 million to the life care plan. Speed means nothing if you miss the value.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-23",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Industry Insights",
+    readTime: "4 min read",
+    metaDescription: "AI medical record review speeds document sorting but misses clinical patterns that win cases. Why attorneys need legal nurse consultants.",
+    keywords: ["AI medical record review","legal nurse consultant","medical malpractice case review","nursing home neglect cases","medical record analysis","clinical expertise"],
+  },
+  {
     slug: "the-continuing-education-requirements-keeping-your-legal-nurse-current",
     title: "The Continuing Education Requirements Keeping Your Legal Nurse Current",
     excerpt: "Legal nurse consultants earn 12-45 contact hours annually in clinical updates, medication changes, and standard of care shifts you need for trial.",
