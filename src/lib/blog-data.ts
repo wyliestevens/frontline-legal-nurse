@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-to-expect-from-a-legal-nurse-consultants-initial-case-screening-report",
+    title: "What to Expect from a Legal Nurse Consultant's Initial Case Screening Report",
+    excerpt: "Your first screening report tells you whether to invest time and money in a case. Here's what belongs in it and what doesn't.",
+    content: `
+You send medical records to a legal nurse consultant. You wait. You get back a report. The question is whether it gives you what you need to make a go or no-go decision on the case.
+
+**The Liability Assessment Comes First**
+
+The screening report starts with a direct statement about whether the standard of care was breached. I don't bury this on page four. You see it in the first paragraph. The nurse identifies the specific deviation from accepted practice, names the responsible party, and cites the applicable standard. For example: "The emergency department physician failed to order a CT scan despite the patient presenting with severe headache, nuchal rigidity, and photophobia. The standard of care requires neuroimaging to rule out subarachnoid hemorrhage in this clinical presentation." You know immediately whether you have a case worth pursuing.
+
+**Causation Gets Equal Weight**
+
+A breach means nothing without causation. The report connects the deviation directly to the injury. I trace the chain of events in clinical terms. The ED physician missed the subarachnoid hemorrhage. The patient was discharged. The aneurysm ruptured twelve hours later. The delay caused irreversible brain damage. The report separates what the negligence caused from what the underlying condition caused. You need this distinction before you spend another dollar on the case.
+
+**Damages Quantification Gives You Settlement Range**
+
+The screening report lists every injury, every complication, every deficit. I separate temporary from permanent injuries. I identify ongoing care needs: physical therapy three times weekly, pain management, home health aides, adaptive equipment. I note lost earning capacity when a 40-year-old electrician loses fine motor control and cannot return to his trade. I flag future surgeries the records already mention. You use these specifics when you talk numbers with opposing counsel or your client.
+
+**Red Flags and Deal Breakers Appear in Plain Language**
+
+I tell you about problems in your case. Pre-existing conditions complicate causation. The patient was noncompliant with medications. The plaintiff gave conflicting histories to different providers. The timeline doesn't support the claimed mechanism of injury. Documentation shows the patient refused recommended treatment. You need to know these issues before you file. Better to hear them from me before defense counsel puts them in a motion.
+
+**The Missing Records List Tells You What to Demand**
+
+The report identifies gaps in the medical records you sent. The hospital chart references an outside cardiology workup I don't see. The progress notes mention imaging studies you didn't provide. The discharge summary refers to a skilled nursing facility stay. The medication list includes prescriptions from providers whose notes are absent. You go back to the client or issue subpoenas. Complete records change case value.
+
+**Expert Specialty Recommendations Save You Time**
+
+The screening report names the expert specialty you need. A delay in diagnosing cauda equina syndrome requires a neurosurgeon. A missed myocardial infarction needs a cardiologist or emergency medicine physician. A birth injury involving shoulder dystocia requires an obstetrician, not a family practice doctor. The report identifies which defendant each expert addresses. You start your expert search with precision instead of making ten wrong calls.
+
+**Supporting Documentation Includes Relevant Guidelines and Literature**
+
+The report cites clinical practice guidelines, hospital policies, and medical literature supporting the standard of care analysis. I reference the American College of Emergency Physicians guidelines on headache evaluation. I pull the hospital's policy on fetal monitoring interpretation. I cite studies on antibiotic timing in sepsis management. You use these exhibits in demand letters and expert disclosure. Defense counsel sees you came prepared.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-24",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultant screening reports identify liability, causation, damages, and case problems. Learn what belongs in your first case review.",
+    keywords: ["legal nurse consultant","case screening report","medical record review","standard of care","medical malpractice case review","nursing expert witness"],
+  },
+  {
     slug: "ai-medical-record-review-works-until-it-misses-your-case",
     title: "AI Medical Record Review Works Until It Misses Your Case",
     excerpt: "AI speeds up document review but fails where medical malpractice cases are won or lost. Here's what breaks down.",
