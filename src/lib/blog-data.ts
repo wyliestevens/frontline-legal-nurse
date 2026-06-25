@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-budget-legal-nurse-consulting-on-contingency-cases",
+    title: "How to Budget Legal Nurse Consulting on Contingency Cases",
+    excerpt: "Calculate LNC costs as a percentage of projected recovery and front-load expertise where it protects your investment.",
+    content: `
+**Calculate Your Budget as a Percentage of Projected Settlement Value**
+
+Your LNC budget should represent 1-3% of the projected case value. A moderate traumatic brain injury case worth \$800,000 justifies spending \$8,000 to \$24,000 on legal nurse consulting services. A birth injury case worth \$3 million supports a \$30,000 to \$90,000 investment. This formula keeps your case costs proportional to recovery while ensuring you purchase the expertise needed to maximize damages. Most attorneys underinvest in record review and pay for it during settlement negotiations when opposing counsel exploits gaps in their medical understanding. I have reviewed cases where attorneys spent \$200 on record organization for a \$2 million claim and left \$400,000 on the table because they missed a preventable complication documented in nursing notes.
+
+**Front Load Your LNC Investment During Case Screening and Merit Review**
+
+Spend 40-50% of your total LNC budget in the first 90 days after signing your client. Early investment in comprehensive record chronologies and merit analysis prevents you from sinking \$30,000 into a case with no proximate cause. I reviewed a pressure ulcer case where the attorney had already spent \$18,000 on expert depositions before discovering the Stage IV ulcer developed at a different facility. Spend \$2,500 to \$5,000 upfront to identify deal-breakers: pre-existing conditions, compliance with standard of care, alternative causation, or gaps in documentation. This investment either kills a bad case early or builds the foundation for a strong demand package.
+
+**Allocate Funds for Medical Chronologies and Damage Itemization**
+
+A detailed medical chronology costs \$800 to \$3,500 depending on the volume of records and complexity of the medical course. Simple motor vehicle accident cases with 200 pages of emergency department and orthopedic records run \$800 to \$1,200. Complex medical malpractice cases with 3,000 pages spanning multiple hospitalizations, surgical revisions, and specialty consultations cost \$2,500 to \$3,500. Budget an additional \$1,500 to \$2,500 for itemized damages analysis linking each medical expense and future care need to the defendant's negligence. I worked a case where the attorney had excellent liability but presented damages as a lump sum. We created a line-item breakdown of 47 separate damages categories and increased the settlement by \$680,000.
+
+**Reserve Budget for Expert Witness Coordination and Deposition Preparation**
+
+Legal nurse consultants reduce your expert witness costs by 30-40% through targeted case preparation. Budget \$1,200 to \$2,500 for an LNC to prepare exhibit binders, deposition outlines, and clinical summaries for your expert witness. This preparation cuts expert review time from eight hours to three hours. An expert charging \$500 per hour saves you \$2,500 in review fees. Budget another \$1,500 to \$2,000 for an LNC to attend depositions of medical experts and treating providers. The LNC identifies medical inconsistencies in real time and drafts follow-up questions while the witness is still under oath. I attended a neurosurgeon deposition where the doctor claimed the patient's nerve damage was pre-existing. I handed the attorney a nursing note from two days pre-op documenting normal sensation and strength in all extremities. The doctor reversed his opinion before we broke for lunch.
+
+**Plan for Literature Research and Standard of Care Analysis**
+
+Budget \$800 to \$1,800 for literature research and standard of care packages. Your LNC pulls current clinical practice guidelines, peer-reviewed journal articles, and hospital policy standards proving your defendant deviated from accepted practice. Medical malpractice cases require this foundation before any expert will take your case. I compiled a 34-page standard of care package for a delayed sepsis diagnosis case. The package included the Surviving Sepsis Campaign guidelines, three studies on early goal-directed therapy, and the hospital's own sepsis protocol. Two experts agreed to testify after reviewing the package. Both cited our research in their reports.
+
+**Track Case Costs Against Anticipated Recovery Throughout Litigation**
+
+Review your LNC spending every 90 days against updated case value projections. Discovery sometimes reveals facts reducing case value or uncovering additional defendants and damages. Adjust your LNC budget accordingly. A birth injury case I reviewed started with a projected value of \$1.2 million based on Apgar scores and umbilical cord pH. Record review revealed the child now has spastic quadriplegic cerebral palsy requiring lifetime care. The case value jumped to \$4.8 million. The attorney increased his LNC budget from \$15,000 to \$60,000 for life care planning and economic damages analysis. He settled for \$4.2 million.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-25",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Budget legal nurse consulting costs at 1-3% of case value. Front-load spending on screening and chronologies to maximize contingency case recovery.",
+    keywords: ["legal nurse consulting budget","contingency case costs","LNC services pricing","medical record review costs","legal nurse consultant fees","case investment strategy"],
+  },
+  {
     slug: "what-to-expect-from-a-legal-nurse-consultants-initial-case-screening-report",
     title: "What to Expect from a Legal Nurse Consultant's Initial Case Screening Report",
     excerpt: "Your first screening report tells you whether to invest time and money in a case. Here's what belongs in it and what doesn't.",
