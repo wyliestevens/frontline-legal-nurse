@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-defense-firms-hire-legal-nurse-consultants-to-review-their-own-cases",
+    title: "Why Defense Firms Hire Legal Nurse Consultants to Review Their Own Cases",
+    excerpt: "Defense attorneys use nurse consultants to find weaknesses before you do. Here's what they're looking for in medical records.",
+    content: `
+I've worked both sides. Defense firms call us to find the holes in their cases before plaintiff counsel does. They want to know where the nursing documentation falls apart, where the physician orders contradict the progress notes, and where the standard of care clearly broke down. They're looking for the same red flags you should be hunting.
+
+**Defense Teams Want Early Case Valuation**
+
+Defense counsel needs to tell their carrier what the case is worth within 30 to 60 days. They send us the complete medical record, not just the hospital chart. We review everything: emergency department records, ambulance run sheets, primary care notes from six months prior, pharmacy records, imaging reports. We flag causation issues, pre-existing conditions, gaps in treatment, and non-compliance. A 58-year-old plaintiff claims a fall at work caused lumbar radiculopathy requiring fusion surgery. We find MRI reports from 18 months earlier showing L4-L5 degenerative disc disease with foraminal stenosis. Defense knows the case value drops by 60 percent. They adjust reserves and strategy accordingly.
+
+**They're Hunting for Missed Alternative Causes**
+
+Defense firms want every possible alternative explanation for the plaintiff's injuries. We dig through lab values, medication lists, social history documentation, and specialist consultations. A plaintiff alleges septic shock from a delayed diagnosis. We find poorly controlled diabetes with HbA1c of 11.2, chronic kidney disease stage 3, and documentation of medication non-adherence across four provider notes. We identify MRSA colonization documented three months before the alleged negligent event. Defense builds alternative causation arguments before deposition. You need to eliminate these arguments before you even file.
+
+**Nursing Documentation Tells the Real Story**
+
+Nurse's notes show what actually happened at the bedside. Physicians round once daily. Nurses chart every two to four hours. Defense wants to know if nursing documentation contradicts the plaintiff's version of events. A plaintiff claims she fell because no one answered her call light for 45 minutes. Nursing flow sheets show q2h rounding with documentation at 1400, 1545, and 1615. Call light response time logged at three minutes. The fall occurred at 1618. Defense uses this documentation to destroy credibility at deposition. If you haven't reviewed nursing documentation with someone who understands charting workflows, you're walking into an ambush.
+
+**They're Calculating Your Damages Before You Finalize Them**
+
+Defense reviews medical records to challenge every dollar of your damages claim. We examine whether treatments were related to the incident or pre-existing conditions. We identify when the plaintiff reached maximum medical improvement. We note when the plaintiff missed physical therapy appointments or refused recommended treatment. A plaintiff claims \$340,000 in future medical costs for pain management. We review the pain management records and find the plaintiff missed 11 of 22 scheduled appointments, failed three urine drug screens, and was discharged from the practice for aberrant behavior. Defense expert testifies future treatment isn't warranted. Your damages claim collapses.
+
+**Expert Witness Selection Depends on Clinical Details**
+
+Defense uses nurse consultants to identify which medical specialty should serve as their expert witness. The clinical details in the medical record determine whether they need an emergency medicine physician, a hospitalist, an intensivist, or a specialist. We identify the exact standard of care issues in play. A plaintiff alleges failure to diagnose compartment syndrome post-operatively. We review the record and find the orthopedic surgeon documented neurovascular checks every hour for six hours, with normal findings. The first abnormal finding appeared at hour seven, and the patient was back in the OR within 90 minutes. Defense knows they need an orthopedic traumatologist who handles compartment syndrome cases weekly, not a general orthopedist. Your expert better be equally specific.
+
+**Medical Chronologies Reveal Timeline Weaknesses**
+
+Defense orders detailed chronologies to find gaps and inconsistencies in the plaintiff's timeline. We create minute-by-minute breakdowns of critical events. We note when medications were ordered versus when they were administered. We document when lab results were available in the system versus when the physician acknowledged them. A plaintiff claims a two-hour delay in stroke treatment. The chronology shows the patient arrived at 0342, triage vital signs completed at 0347, physician at bedside at 0355, CT ordered at 0358, CT completed at 0411, results available at 0423, neurology consulted at 0425, and tPA administered at 0512. Total time: 90 minutes, within the standard of care. Defense moves for summary judgment.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-06-30",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Industry Insights",
+    readTime: "4 min read",
+    metaDescription: "Defense firms hire legal nurse consultants to find case weaknesses first. Learn what they're looking for in medical records and damages claims.",
+    keywords: ["legal nurse consultant","defense attorneys","medical records review","case valuation","nursing documentation","damages calculation"],
+  },
+  {
     slug: "why-virtual-legal-nurse-consulting-delivers-the-same-quality-as-on-site-review",
     title: "Why Virtual Legal Nurse Consulting Delivers the Same Quality as On-Site Review",
     excerpt: "Twenty years of medical record review proves remote analysis produces identical results to in-person consultation when done right.",
