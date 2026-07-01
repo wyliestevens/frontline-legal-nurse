@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-strengthen-ada-medical-claims",
+    title: "How Legal Nurse Consultants Strengthen ADA Medical Claims",
+    excerpt: "ADA cases demand proof of disability, functional limitations, and causation. LNCs translate medical records into courtroom evidence.",
+    content: `
+Your ADA case lives or dies on medical proof. You need to show a qualifying disability, document functional limitations, and establish what accommodations the medical evidence supports. I've reviewed hundreds of ADA claims where attorneys lost because they missed critical clinical details buried in progress notes, diagnostic reports, and treatment records.
+
+**Establishing the Medical Definition of Disability**
+
+The ADA requires proof of a physical or mental impairment substantially limiting one or more major life activities. Legal nurse consultants dissect the medical records to identify documented impairments and map them to major life activities. We flag diagnostic codes, functional capacity evaluations, occupational therapy assessments, and physician statements about work restrictions. When opposing counsel argues your client's condition is temporary or minor, we pull the objective clinical data showing chronicity, treatment failure, and progressive decline. We've seen cases turn on a single physical therapy note documenting bilateral hand grip strength at 20% of normal, proving the client's inability to perform manual tasks.
+
+**Quantifying Functional Limitations With Clinical Evidence**
+
+Vague complaints of pain or fatigue lose cases. You need measurable functional deficits. Legal nurse consultants extract objective findings from range of motion studies, gait assessments, cognitive testing, and activities of daily living evaluations. We translate medical jargon into courtroom language. A neuropsychological evaluation showing processing speed at the 2nd percentile becomes proof your client needs extended time for tasks. Pulmonary function tests showing FEV1 at 45% predicted demonstrate why your client requires frequent breaks. We create chronologies showing how functional capacity declined despite treatment, building the narrative of substantial limitation. In one employment discrimination case, we identified vestibular function test results proving the client's balance impairment made standing for eight-hour shifts medically impossible.
+
+**Connecting Accommodations to Medical Necessity**
+
+Employers challenge whether requested accommodations are medically necessary. Legal nurse consultants review the complete medical record to show which accommodations physicians recommended, prescribed, or documented as essential. We identify orders for assistive devices, work restrictions signed by treating providers, and specialists' opinions about workplace modifications. When your client requested a sit-stand desk, we find the orthopedic surgeon's note stating prolonged sitting exacerbates lumbar radiculopathy. When your client needed a service animal, we locate the psychiatrist's letter documenting the therapeutic necessity for PTSD symptom management. We've strengthened dozens of cases by finding accommodation requests embedded in medical records months before the employer denied them, proving your client acted on medical advice, not personal preference.
+
+**Identifying Gaps and Contradictions Before Deposition**
+
+Defense attorneys exploit inconsistencies between your client's testimony and medical documentation. Legal nurse consultants review records to identify potential problems before depositions. We flag dates your client reported working full duty when medical records show work restrictions. We catch discrepancies between disability applications claiming total incapacity and treatment notes documenting improvement. We prepare you to address these contradictions head-on rather than discovering them during cross-examination. In medical malpractice and personal injury cases bleeding into ADA claims, we track how injuries evolved into permanent disabilities, creating a cohesive medical timeline.
+
+**Evaluating Independent Medical Examinations**
+
+IME reports often contradict your client's treating physicians. Legal nurse consultants analyze IME findings against the longitudinal medical record. We identify when IME physicians ignore documented diagnoses, dismiss objective test results, or mischaracterize treatment history. We've caught IME doctors claiming conditions resolved when subsequent MRI reports showed worsening pathology. We pinpoint when IME examiners spend 20 minutes with your client but contradict specialists who treated them for years. We prepare targeted questions for deposing IME physicians, focusing on their incomplete review of records and departure from clinical standards. One defense IME claimed a client's rheumatoid arthritis was mild, but we documented 47 office visits showing aggressive treatment with biologic agents, joint deformities, and elevated inflammatory markers.
+
+**Calculating Economic Damages From Medical Barriers**
+
+ADA cases involve lost wages, future earning capacity, and costs of ongoing medical care. Legal nurse consultants work with your economists by providing clinical context for damage calculations. We identify which treatments your client requires long-term, what medical equipment needs replacement, and which specialists provide ongoing care. We review life care plans for accuracy and completeness. When defense experts claim your client will return to work, we extract medical opinions stating otherwise, including functional capacity evaluations showing your client functions below sedentary work levels. We've added six figures to settlements by identifying未documented but medically necessary future treatments, from joint replacements to psychiatric care.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-01",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants strengthen ADA claims by documenting disabilities, functional limitations, and medical necessity for accommodations.",
+    keywords: ["ADA medical claims","legal nurse consultant","disability documentation","functional limitations","medical accommodations","ADA case review"],
+  },
+  {
     slug: "why-defense-firms-hire-legal-nurse-consultants-to-review-their-own-cases",
     title: "Why Defense Firms Hire Legal Nurse Consultants to Review Their Own Cases",
     excerpt: "Defense attorneys use nurse consultants to find weaknesses before you do. Here's what they're looking for in medical records.",
