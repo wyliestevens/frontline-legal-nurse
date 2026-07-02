@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "legal-nurse-consultants-win-long-term-disability-insurance-disputes",
+    title: "Legal Nurse Consultants Win Long-Term Disability Insurance Disputes",
+    excerpt: "Insurance carriers deny valid disability claims by misreading medical records. Legal nurse consultants identify the clinical evidence you need to win.",
+    content: `
+**Insurance Carriers Hire Physicians to Deny Claims**
+
+Every long-term disability insurer employs physicians to review medical records and find reasons to deny or terminate benefits. These physicians work from incomplete records, cherry-pick findings, and ignore functional limitations documented in treatment notes. I review 40 to 50 disability files every month. At least half of the denials I see misrepresent what the medical record states. The insurance company physician claims the claimant has no restrictions when the treating neurologist documented severe cervical radiculopathy with bilateral upper extremity weakness. The peer reviewer states the claimant performs activities of daily living independently when nursing notes show the patient requires assistance with bathing and dressing. Your legal nurse consultant reads every page of the medical record and identifies these discrepancies before you file suit.
+
+**Functional Capacity Evaluations Tell Half the Story**
+
+Insurance carriers love functional capacity evaluations. They send claimants to physical therapists who perform standardized lifting, carrying, and manipulation tests over two days. The FCE report states the claimant demonstrated maximal effort and functions at the sedentary level. The insurance carrier terminates benefits, claiming the claimant returns to sedentary work. What the FCE does not capture: the claimant spent three days in bed after the evaluation with increased pain and fatigue. The treating rheumatologist documented a severe flare of lupus symptoms requiring oral prednisone. Your legal nurse consultant reviews the treatment records before and after the FCE and builds the timeline showing the evaluation does not reflect the claimant's sustained functional capacity.
+
+**Treating Physicians Document What Insurance Doctors Ignore**
+
+Treating physicians see patients every four to twelve weeks. They document medication changes, side effects, disease progression, and treatment failures. Insurance company physicians read a one-time independent medical examination and claim they understand the case better than the physician who treated the patient for seven years. I reviewed a multiple sclerosis case where the treating neurologist documented progressive cognitive decline, bladder dysfunction, and gait instability over 18 months. The insurance neurologist examined the claimant for 45 minutes and stated she retained capacity for full-time work. The insurer terminated benefits. We went through the treating neurologist's notes and pulled direct quotes describing functional decline. The carrier reinstated benefits before deposition.
+
+**Medication Records Prove Symptom Severity**
+
+Pharmacy records show what medications the claimant takes, how often they refill prescriptions, and when physicians change treatment regimens. A claimant taking gabapentin 3600 mg daily, duloxetine 120 mg daily, and fentanyl patches 75 mcg every 72 hours experiences significant chronic pain. A claimant prescribed four different antipsychotics over 18 months demonstrates treatment-resistant psychiatric illness. Insurance carriers ignore medication lists. Your legal nurse consultant creates a medication timeline showing dose escalations, failed trials, and polypharmacy. This timeline proves symptom severity and supports your claim for continuing disability.
+
+**Vocational Opinions Fail Without Clinical Foundation**
+
+Vocational experts testify about jobs the claimant performs with stated restrictions. The vocational report assumes the claimant sits six hours per day, stands two hours per day, and lifts ten pounds occasionally. Where do these restrictions come from? Often the vocational expert takes them from the insurance physician's report. The treating physician never cleared the claimant for six hours of sitting. The treating physician stated the claimant tolerates sitting 15 to 20 minutes before needing to change position. Your legal nurse consultant compares the vocational expert's assumptions against the actual treatment records. You depose the vocational expert with specific medical records showing their foundation is wrong.
+
+**Residual Functional Capacity Forms Need Clinical Support**
+
+You send the treating physician a residual functional capacity form asking about lifting, sitting, standing, and environmental restrictions. The physician checks boxes stating the claimant sits less than two hours and stands less than two hours in an eight-hour day. The insurance carrier's attorney argues the form is a litigation document with no clinical support. Your legal nurse consultant reviews five years of treatment notes and pulls the clinical findings supporting each restriction. Lumbar MRI shows L4-L5 and L5-S1 disc herniations with nerve root compression. EMG demonstrates chronic lumbosacral radiculopathy. Pain management notes document failed epidural steroid injections and ongoing use of opioid analgesics. Physical therapy discharge summary states the patient tolerates 30 minutes of activity before requiring rest. You attach these records to the RFC form and destroy the carrier's argument.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-02",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify medical evidence insurance carriers ignore in long-term disability disputes. Get clinical support for your claim.",
+    keywords: ["legal nurse consultant","long-term disability insurance","disability insurance disputes","medical record review","insurance claim denial","functional capacity evaluation"],
+  },
+  {
     slug: "how-legal-nurse-consultants-strengthen-ada-medical-claims",
     title: "How Legal Nurse Consultants Strengthen ADA Medical Claims",
     excerpt: "ADA cases demand proof of disability, functional limitations, and causation. LNCs translate medical records into courtroom evidence.",
