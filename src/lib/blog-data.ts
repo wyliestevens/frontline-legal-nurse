@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "present-legal-nurse-consultant-findings-to-juries-in-plain-language",
+    title: "Present Legal Nurse Consultant Findings to Juries in Plain Language",
+    excerpt: "Juries lose cases when medical testimony confuses them. Here is how to translate complex nursing findings into verdict-winning language.",
+    content: `
+**The Jury Lost You at Hypoxic Ischemic Encephalopathy**
+
+I reviewed a birth injury case where the attorney used our report verbatim during opening statements. He said "hypoxic ischemic encephalopathy" three times before the first witness took the stand. We won, but two jurors told him afterward they had no idea what killed the baby until day three of trial. You left money on the table because you waited too long to translate. The legal nurse consultant gives you medical facts. Your job is to turn those facts into images a jury sees in their minds. Start this translation the day you receive our report.
+
+**Replace Every Medical Term With What the Patient Felt**
+
+When I write "the patient experienced acute myocardial infarction with ST-segment elevation," you tell the jury "his heart muscle died because the artery was completely blocked." When I document "third-degree pressure ulcer with exposed subcutaneous tissue," you say "the nursing home left her in the same position so long that her skin rotted down to the fat layer." I gave you the clinical standard. You give them the human consequence. Read through our chronology and highlight every medical term. Write the plain English version next to it. Test your translations on your legal assistant, not another attorney. If they pause to think about what you said, you need simpler words.
+
+**Show the Timeline As Failed Checkpoints, Not Timestamps**
+
+Juries do not track timestamps. They track missed chances to prevent harm. I document exact times in my reports because you need them for expert testimony. You present those times as opportunities the defendant threw away. In a sepsis case, I noted: "0320: Temperature 101.8°F, heart rate 118. 0445: Temperature 102.9°F, heart rate 132, blood pressure 88/52. 0800: No physician notification documented." You say: "The nurse checked on him at 3:20 in the morning and saw warning signs. She checked again at 4:45 and those warnings got worse. She finished her shift at 8:00 AM and never called the doctor. He coded at noon." You turned my timestamps into three chances she had to save his life.
+
+**Turn Lab Values Into Before and After Pictures**
+
+I reference lab values because they prove deviation from the standard of care. Juries glaze over when you recite numbers. You need to paint what those numbers mean for the patient's body. A hemoglobin drop from 12.1 to 6.8 means nothing to a juror. Tell them: "She came into surgery with normal blood levels. She left with half the blood she needed to carry oxygen to her brain. She was drowning on dry land." A creatinine rise from 0.9 to 4.2 becomes: "His kidneys were filtering waste perfectly on Monday. By Thursday, they were failing. By Saturday, they were dead." Give them the visual consequence of every number I cite.
+
+**Explain the Nursing Standard Through What Should Have Happened**
+
+I tell you the defendant nurse violated facility policy and national standards. You tell the jury what they were supposed to do instead. When I write "the nurse failed to perform neurovascular checks every two hours post-operatively per protocol," you demonstrate what those checks look like. Bring a stopwatch. Show them two hours. Say: "Every two hours, the nurse walks into the room and checks five things: Can you feel this touch? Can you move your toes? Are your toes pink or blue? Are they warm or cold? Does the cast feel too tight?" Walk through each check. Tell them: "She did this zero times in eight hours. His foot died because she never walked into the room."
+
+**Use Our Exhibit Suggestions to Build Your Demonstrative Evidence**
+
+Every chronology I deliver includes exhibit recommendations. I flag the records you blow up for the jury. The medication administration record showing three missed doses. The nursing notes with two-hour gaps. The physician orders the staff ignored. I mark these because I have seen what wins. You take those pages and turn them into poster-sized exhibits with red circles around the critical entries. In a delayed cancer diagnosis case, I noted the radiologist's report sat in the chart for 47 days with no documented physician review. You show the jury that report with a calendar counting down those 47 days while the tumor grew. The visual makes our findings impossible to forget.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-07",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultant findings must translate to plain language for juries. Seven strategies from 20 years of medical-legal case work.",
+    keywords: ["legal nurse consultant","jury presentation","medical testimony","trial strategy","medical records review","expert witness preparation"],
+  },
+  {
     slug: "managing-legal-nurse-consultant-vendors-without-losing-control-of-your-cases",
     title: "Managing Legal Nurse Consultant Vendors Without Losing Control of Your Cases",
     excerpt: "Law firm administrators who treat LNC vendors like paralegals instead of expert witnesses destroy case timelines and budgets.",
