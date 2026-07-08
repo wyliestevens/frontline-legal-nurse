@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-your-firm-needs-a-standard-process-for-medical-record-review",
+    title: "Why Your Firm Needs a Standard Process for Medical Record Review",
+    excerpt: "Most attorneys review medical records the same way every time: inconsistently. Here's what systematic review finds.",
+    content: `
+I've watched attorneys lose six-figure cases because they missed a single nursing note on page 847 of 1,200. The note documented a fall two hours before the plaintiff's recorded fall. Defense used it to argue pre-existing injury. Your intake paralegal never saw it. Your associate skimmed the records looking for the incident report. You settled for \$180,000. The case was worth \$650,000.
+
+**Most Firms Review Records the Same Way: Badly**
+
+You get medical records. Someone on your team reads through them. They pull out what seems important. They write a summary. You move forward. This approach misses critical information in 70% of cases I review. Medication administration records get ignored. Physician orders get separated from nursing notes. Lab values sit uninterpreted. Your team doesn't know what normal creatinine levels look like, so they don't flag acute kidney injury three days before the plaintiff coded. The nephrologist you hire six months later bills you \$4,500 to tell you what a systematic review would have caught on day one.
+
+**A Standard Process Catches What Reading Misses**
+
+Systematic review means the same steps happen on every case, in the same order, by someone who reads medical records in clinical context. You start with a chronology that plots every medication change, every vital sign abnormality, every provider encounter. You cross-reference physician orders against nursing documentation to find failures to follow orders. You compare pre-incident records against post-incident records to isolate new findings. You identify every provider who touched the patient and map their roles. This isn't reading. This is clinical analysis. I've found undiagnosed compartment syndrome, missed pulmonary embolisms, and undocumented code events using this method. Your associates won't find these because they don't know what compartment pressures should be.
+
+**Volume Buries the Needle You Need**
+
+A three-day hospital admission generates 400 to 600 pages of records. A nursing home case spanning two years produces 2,000 to 4,000 pages. Your wrongful death plaintiff spent six weeks in ICU before dying. You're looking at 8,000 pages minimum. Somewhere in those records sits the documentation proving your case or destroying it. The ED physician wrote "discussed risks including death" in his note. You didn't see it because it appeared in a template paragraph on page 340. Defense counsel found it during their expert review. Your informed consent argument died. A standard process puts that language in your chronology on page two.
+
+**Standards Create Leverage With Experts**
+
+Experts charge \$500 to \$800 per hour. You send them disorganized records and a vague question. They bill you for six hours reading records before they start answering your question. You pay \$3,200 for two hours of actual analysis. A systematic review creates an indexed chronology, flags deviations from standard of care, and identifies specific questions for your expert. Your expert opens a 40-page report instead of 2,000 pages of raw records. They answer targeted questions. You pay for expertise, not reading. I've helped firms cut expert review time by 60% to 70% using this approach.
+
+**Missing Records Tell You Where to Push**
+
+Systematic review reveals what's missing. Your plaintiff went to the ED at 2:00 PM. The first nursing note appears at 4:45 PM. Where are the triage notes? Where's the initial assessment? The hospital "lost" them or they never existed. Both scenarios help your case. You don't find missing records by reading what you have. You find them by knowing what should be there. I've identified missing transfusion records, missing anesthesia notes, and missing informed consent documents by comparing what standard care requires against what the defendant produced. Your subpoena duces tecum gets specific because your review revealed specific gaps.
+
+**Defense Counsel Has a System**
+
+Insurance defense firms review every record systematically because their carriers require it. They use nurses. They use chronologies. They flag every weakness in your case before you know the weaknesses exist. You're fighting an opponent who has already mapped the medical evidence while you're still reading the discharge summary. Build your own system or keep losing to theirs. The choice costs you nothing to make and thousands per case to ignore.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-08",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical record review without a standard process costs attorneys six figures per case. Here's what systematic review finds.",
+    keywords: ["medical record review","legal nurse consultant","medical malpractice","personal injury cases","medical chronology","attorney case review"],
+  },
+  {
     slug: "present-legal-nurse-consultant-findings-to-juries-in-plain-language",
     title: "Present Legal Nurse Consultant Findings to Juries in Plain Language",
     excerpt: "Juries lose cases when medical testimony confuses them. Here is how to translate complex nursing findings into verdict-winning language.",
