@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-build-winning-guardianship-and-conservatorship-cases",
+    title: "How Legal Nurse Consultants Build Winning Guardianship and Conservatorship Cases",
+    excerpt: "Medical evidence decides capacity disputes. Here's what legal nurse consultants find in the records your expert witness needs.",
+    content: `
+You file a guardianship petition for an 82-year-old woman with dementia. The adult children fight you at every turn, claiming mom is fine. Your expert psychiatrist needs ammunition. The medical records sit in a four-inch stack on your desk. This is where most attorneys waste 15 billable hours or miss the details that win the case.
+
+**We Identify the Clinical Markers of Incapacity**
+
+Your guardianship case lives or dies on proving incapacity. I review the Mini-Mental State Examination scores, the Montreal Cognitive Assessment results, and the documented ADL deficits. I pull every instance where the proposed ward failed to recognize family members, missed medications, left the stove on, or wandered from home. I create a timeline showing cognitive decline with specific dates and clinical findings. The Adult Protective Services reports matter less than the treating physician's notes documenting your client's inability to manage finances, consent to treatment, or maintain personal safety. I extract these details and organize them for your expert witness deposition.
+
+**We Catch the Red Flags in Medication Management**
+
+Poor medication compliance screams incapacity to judges. I document every emergency room visit for medication overdose, every hospital admission for missed insulin doses, every UTI from forgotten antibiotics. I track polypharmacy issues where your proposed ward takes 15 medications and fills prescriptions at three different pharmacies. The pill counts from home health nursing notes tell the real story. I find the discharge instructions marked "patient unable to comprehend medication schedule" and the pharmacy records showing dangerous drug interactions your ward never questioned. These details prove your case better than any psychological evaluation.
+
+**We Uncover Financial Exploitation Through Medical Records**
+
+Medical records reveal financial abuse. I look for lapses in routine medical care when bank accounts drain. I document the cancelled neurology appointments after a new "caretaker" enters the picture. I track the missed dialysis sessions, the unfilled prescriptions, the skipped physical therapy. The wound care clinic notes showing stage 3 pressure ulcers in a person with a six-figure bank account expose neglect. I compare the quality of medical care before and after the suspected exploitation began. Emergency room records often document the exploiter's presence and their statements to medical staff. I pull these verbatim quotes for your case file.
+
+**We Evaluate Contested Capacity Assessments**
+
+Opposing counsel brings their own expert claiming your proposed ward has capacity. I review their evaluation with a clinical eye. I check whether they reviewed the complete medical history or relied on a single office visit. I identify cognitive tests administered during the ward's "good" hours instead of sundowning periods. I note missing neuroimaging, ignored laboratory values, and skipped collateral interviews. I find the hospitalization records from two weeks before the evaluation showing confusion, agitation, and disorientation. I spot the diagnoses their expert failed to address: vascular dementia, normal pressure hydrocephalus, chronic subdural hematoma. I give you the clinical ammunition to destroy their expert on cross-examination.
+
+**We Document the Medical Necessity of Placement**
+
+Your guardianship petition seeks placement in memory care. The family wants to keep grandma at home with weekly visits. I pull the EMS run reports showing four falls in six months. I document the 911 calls for gas left running, doors left open in winter, and wandering episodes. I track the home health nursing notes showing medication non-compliance despite repeated teaching. I find the hospital social work assessments recommending 24-hour supervision. I extract the treating physician's letters stating home is no longer safe. I organize the discharge planning notes, the physical therapy evaluations showing gait instability, and the occupational therapy assessments documenting safety awareness deficits. This evidence makes placement inevitable.
+
+**We Prepare Your Expert Witness for Testimony**
+
+I create a comprehensive medical chronology highlighting every clinical finding supporting incapacity. I write a summary organized by body system and diagnosis. I flag the contradictions in the opposing expert's report. I identify the specific medical records your expert must review before deposition. I provide clinical context for laboratory values, imaging findings, and specialist consultations. Your neuropsychologist gets a package showing the complete medical picture, not scattered records they spend hours organizing. Your expert walks into testimony prepared to defend every opinion with specific chart documentation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-10",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify capacity markers, medication failures, and exploitation evidence in guardianship cases attorneys miss.",
+    keywords: ["legal nurse consultant","guardianship proceedings","conservatorship cases","capacity assessment","medical record review","elder law attorney"],
+  },
+  {
     slug: "why-your-firm-needs-a-standard-process-for-medical-record-review",
     title: "Why Your Firm Needs a Standard Process for Medical Record Review",
     excerpt: "Most attorneys review medical records the same way every time: inconsistently. Here's what systematic review finds.",
