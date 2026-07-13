@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-a-legal-nurse-consultant-prepares-your-day-in-the-life-video",
+    title: "How a Legal Nurse Consultant Prepares Your Day in the Life Video",
+    excerpt: "A legal nurse consultant identifies the clinical details your videographer misses and builds the medical foundation jurors need to see.",
+    content: `
+Your videographer knows lighting and camera angles. They do not know the difference between a Stage 3 and Stage 4 pressure ulcer or why filming your client's morning bowel program matters more than the afternoon physical therapy session. I have worked with attorneys on dozens of day in the life videos. The ones who involve a legal nurse consultant before the camera crew arrives walk away with evidence juries remember. The ones who skip this step get expensive footage of someone looking sad in a wheelchair.
+
+**We Identify Which Care Tasks Translate to Damages**
+
+Your client's wife performs seventeen separate medical interventions before noon. She irrigates the suprapubic catheter. She performs passive range of motion exercises to prevent contractures. She administers four scheduled medications through a PEG tube and monitors for aspiration. She turns him every two hours to inspect skin integrity. She suctions his tracheostomy when secretions build. The videographer films her folding laundry and making lunch. We review the care plan, the medication administration records, and the physician orders. We tell you which tasks demonstrate skilled nursing care versus custodial care. We map each intervention to your life care plan line items. We script the medical narrative your videographer captures.
+
+**We Translate Clinical Findings Into Visual Evidence**
+
+I worked on a traumatic brain injury case where the attorney wanted to show cognitive deficits. The videographer planned to film the client struggling with a puzzle. We reviewed the neuropsychological testing. The records showed profound executive function deficits and short-term memory loss scoring in the first percentile. We scripted a sequence showing the client unable to follow a three-step command to retrieve his medication, open the bottle, and take the pills with water. We filmed him asking his caregiver the same question six times in twenty minutes. We documented sundowning behavior with agitation requiring PRN Ativan. The jury saw clinical findings, not entertainment.
+
+**We Time the Filming to Capture Peak Symptom Burden**
+
+Your spinal cord injury client tolerates mornings better than afternoons. Your chronic pain client experiences breakthrough pain despite scheduled opioids at predictable times. Your MS client fatigues after minimal exertion. We review medication schedules, therapy notes, and nursing assessments. We identify when symptoms peak and when interventions occur. We create an hour-by-hour filming schedule. You capture the 3 AM pressure relief turn. You film the forty-five-minute morning bowel program. You document the afternoon fatigue requiring a two-hour rest period. You show the evening medication routine requiring crushed pills through a feeding tube.
+
+**We Script the Medical Narration**
+
+Your client's mother describes care tasks in lay terms. She says she helps him go to the bathroom. The medical record shows she performs digital stimulation for neurogenic bowel, monitors stool consistency, and documents output. She says she gives him medicine. The orders show scheduled baclofen for spasticity, gabapentin for neuropathic pain, and PRN oxycodone for breakthrough pain. We translate her daily routine into medical terminology your life care planner uses. We write talking points she delivers on camera. We make sure she names the intervention, states the frequency, and explains the consequence of missing it.
+
+**We Cross-Reference Video Content With Your Life Care Plan**
+
+The life care planner allocates \$47,000 annually for skilled nursing care. Your video needs to show \$47,000 worth of skilled nursing care. We compare the filmed interventions against the life care plan categories. We verify you captured evidence of medication management, wound care, catheter maintenance, feeding tube management, and aspiration precautions. We identify gaps before you leave the location. I reviewed a day in the life video where the attorney spent \$8,000 on production but failed to film a single scene supporting the \$2.3 million attendant care projection. We prevent that.
+
+**We Prepare Your Client and Caregivers for Deposition Defense**
+
+Defense counsel will compare your video to the medical records and depose the caregiver. They will identify every inconsistency. We review the footage against nursing notes, therapy logs, and physician orders. We prepare your caregiver to explain why the Tuesday morning routine differs from the filmed Saturday routine. We document any atypical interventions the camera captured. We create a shot list with timestamps cross-referenced to medical records. Your caregiver walks into deposition with clinical support for every frame.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-13",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify clinical details for day in the life videos that translate medical records into compelling visual trial evidence.",
+    keywords: ["day in the life video","legal nurse consultant","trial preparation","medical evidence","life care plan","personal injury"],
+  },
+  {
     slug: "how-legal-nurse-consultants-build-winning-guardianship-and-conservatorship-cases",
     title: "How Legal Nurse Consultants Build Winning Guardianship and Conservatorship Cases",
     excerpt: "Medical evidence decides capacity disputes. Here's what legal nurse consultants find in the records your expert witness needs.",
