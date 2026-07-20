@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-mediation-preparation-with-a-legal-nurse-consultant-leads-to-higher-settleme",
+    title: "Why Mediation Preparation With a Legal Nurse Consultant Leads to Higher Settlements",
+    excerpt: "Mediations fail when opposing counsel spots weaknesses you missed in the medical records. A legal nurse consultant finds them first.",
+    content: `
+I watched an attorney walk into mediation last month with a pressure ulcer case he valued at \$400,000. The defense opened at \$75,000. By lunch, he settled for \$325,000. The difference? He brought a chronology I built showing 47 missed turning and repositioning entries across 12 nursing shifts. The defense medical expert had no response.
+
+**Your Medical Timeline Must Withstand Clinical Scrutiny**
+
+Defense counsel will attack your causation argument at the cellular level. When you present a surgical site infection case, you need to identify the exact breach in sterile technique, the organism cultured, the antibiotic sensitivities, and the progression from colonization to systemic sepsis. I pull this from operative notes, microbiology reports, and nursing flowsheets. Your opposing counsel will have their own nurse reviewing records. If your timeline shows a MRSA infection starting on post-op day three but the actual culture date was day five, you lose credibility on everything else.
+
+**Demonstrative Exhibits Win Mediations Before Anyone Speaks**
+
+You need visual proof the moment you sit down. I create medication error grids showing exactly when your client received 10 mg of IV morphine instead of 1 mg, the respiratory rate documented 15 minutes later at 8 breaths per minute, and the two-hour delay before naloxone administration. The defense sees this before opening statements. They do the math on their liability exposure. I have watched defense counsel excuse themselves to call their carrier within 20 minutes of viewing a well-constructed medical exhibit.
+
+**Standard of Care Violations Must Connect to Damages**
+
+You will find nursing documentation errors in every single medical chart. Not all of them matter. What matters is the failure to assess pedal pulses post-cardiac catheterization, the subsequent compartment syndrome, and the fasciotomy your client now lives with. I separate the meaningful breaches from the noise. I show you which omissions directly caused harm and which ones make you look like you are reaching. Defense counsel smells desperation when you throw every minor documentation gap into your demand package.
+
+**Your Demand Package Needs Clinical Translation**
+
+Attorneys write about pain and suffering. I write about the L4-L5 laminectomy, the permanent foot drop, the EMG studies showing denervation of the tibialis anterior, and the AFO brace your client wears for life. The mediator reads both versions. Mine gives them the ammunition to pressure the defense. I have reviewed demand packages where the attorney listed "back surgery" without specifying the levels fused, the hardware placed, or the ROM limitations documented at MMI. The defense offered nuisance value. They had no reason to offer more.
+
+**Preemptive Rebuttal Neutralizes Defense Experts**
+
+You already know what the defense medical expert will say. They will claim the fall was low-impact. They will argue the hip fracture was pathological from pre-existing osteoporosis. I pull the DEXA scan from three months before showing a T-score of -1.8, which is osteopenia, not osteoporosis. I cite the radiology report describing the fracture pattern as acute traumatic, not pathological. I hand you the specific medical literature the defense expert will ignore. You walk into mediation with their rebuttal already dismantled.
+
+**Complex Cases Require Specialist Nurse Consultant Review**
+
+Some cases need more than a generalist legal nurse consultant. Your birth injury case needs a labor and delivery nurse who reads fetal monitoring strips daily. Your ECMO failure case needs a critical care nurse who managed ECMO circuits in a level one trauma center. I have seen attorneys lose traction in mediation because they presented a ventilator management argument built by someone who last touched a vent in 2003. Medical technology and standards evolve. Your consultant's clinical knowledge must reflect current practice. I built my team with this reality in mind. You get the specialist your case requires, not whoever happens to be available.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-20",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants find medical record weaknesses before defense does. Mediation preparation with clinical experts leads to higher settlements.",
+    keywords: ["legal nurse consultant","mediation preparation","medical malpractice settlement","medical records review","case preparation","medical chronology"],
+  },
+  {
     slug: "legal-nurse-consultants-in-state-medical-board-complaint-proceedings",
     title: "Legal Nurse Consultants in State Medical Board Complaint Proceedings",
     excerpt: "State medical boards rely on clinical experts to evaluate complaints. Here's how legal nurse consultants strengthen your case before the board.",
