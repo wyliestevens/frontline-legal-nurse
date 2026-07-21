@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-win-social-security-disability-cases",
+    title: "How Legal Nurse Consultants Win Social Security Disability Cases",
+    excerpt: "Social Security Disability cases demand precise medical evidence. Legal nurse consultants translate records into the functional limitations SSA needs to see.",
+    content: `
+Most attorneys submit Social Security Disability claims with incomplete medical narratives. The records sit in your file. The diagnosis appears clear. But the Administrative Law Judge denies the claim because you failed to connect the medical impairments to specific functional limitations. This gap costs your client benefits they deserve.
+
+**The RFC Assessment Needs Clinical Translation**
+
+The Residual Functional Capacity assessment decides your case. SSA does not award benefits based on diagnosis alone. They award benefits when medical evidence proves your client cannot perform sustained work activity eight hours per day, five days per week. I review cases where attorneys submit records showing severe lumbar radiculopathy but fail to document the client cannot sit longer than 15 minutes without position change. The MRI shows disc herniation at L4-L5 with nerve root compression. The EMG confirms radiculopathy. But without clinical notes detailing sitting tolerance, standing tolerance, lifting restrictions, and positional limitations, the ALJ finds your client retains sedentary work capacity. A legal nurse consultant extracts these functional limitations from physical therapy notes, pain management records, and physician narrative reports. We translate radiculopathy into the grid rule language SSA uses to determine disability.
+
+**Mental Impairments Require Specific Functional Examples**
+
+Psychiatric records overwhelm most attorneys with diagnostic codes and medication lists. Your client has major depressive disorder, generalized anxiety disorder, and PTSD. The psychiatrist prescribes sertraline, buspirone, and prazosin. None of this wins the case. SSA needs documentation of concentration deficits, social functioning limitations, and adaptation difficulties. I pull these examples from therapy notes where your client describes inability to complete household tasks, panic attacks in crowded spaces, and medication side effects causing sedation during work hours. The mental status exam showing poor eye contact, psychomotor retardation, and flat affect supports the RFC limitation to simple, routine tasks with minimal public contact. Legal nurse consultants identify which therapy sessions contain usable functional statements and which records waste your time.
+
+**Missing Records Destroy Continuity of Treatment**
+
+Gaps in treatment history give ALJs reason to deny claims. Your client stopped seeing the cardiologist for eight months. The record shows no explanation. The ALJ interprets this as improved symptoms. I review the emergency department visit buried in a 400-page file where your client presented with chest pain but left against medical advice because he lost his insurance. That single ED note explains the gap and proves ongoing symptoms. Legal nurse consultants audit your medical timeline for missing records. We identify which providers your client mentioned in intake forms but never produced records from. We spot referrals to specialists with no follow-up documentation. We tell you exactly which records to subpoena before the hearing.
+
+**Medication Side Effects Strengthen Disability Arguments**
+
+Your client takes gabapentin 1800 mg three times daily for neuropathic pain. The pharmacy records prove compliance. But you need the clinical documentation showing the side effects prevent sustained work activity. I locate progress notes where your client reports dizziness, cognitive dulling, and daytime somnolence severe enough to limit driving. The physician documented these complaints and continued the medication because pain relief outweighed side effects. This creates a no-win scenario for work capacity. Uncontrolled pain prevents work. Controlled pain with these medication side effects also prevents work. Legal nurse consultants build this argument by extracting specific side effect complaints from nursing telephone triage notes, prescription refill visits, and specialist consultations. We cross-reference the medication list with documented side effects throughout the treatment timeline.
+
+**Expert Medical Opinions Need Supporting Clinical Data**
+
+You pay a physician to write a favorable RFC opinion. The doctor states your client cannot stand longer than two hours in an eight-hour workday and requires unscheduled breaks every 45 minutes. The ALJ gives this opinion little weight because it lacks supporting clinical findings. I review the complete medical file and create a chronological summary linking objective findings to the RFC limitations. The 2019 nerve conduction study showing bilateral peroneal neuropathy supports the standing limitation. The 2021 tilt table test showing orthostatic hypotension supports the need for unscheduled position changes. The serial echocardiograms documenting declining ejection fraction from 45% to 30% support the exertional limitations. Your medical expert needs this clinical foundation before writing the opinion. Legal nurse consultants provide the supporting data your expert uses to write a defensible RFC assessment.
+
+**Consultative Examination Reports Need Rebuttal Evidence**
+
+SSA sends your client to a consultative examiner who spends 15 minutes performing a cursory physical examination. The CE report states your client has full range of motion, normal gait, and no acute distress. This one-time snapshot contradicts two years of treating source documentation. I prepare a point-by-point rebuttal using your client's treatment records. The orthopedic surgeon documented limited lumbar flexion to 40 degrees in three separate visits. The physical therapist measured hip internal rotation at 15 degrees bilaterally. The pain management physician noted antalgic gait with assistive device at every appointment. Legal nurse consultants create rebuttal summaries highlighting the contradiction between a 15-minute CE and longitudinal treating source evidence. We prepare you for cross-examination of the medical expert at hearing.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-21",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants translate Social Security Disability medical records into the functional limitations SSA requires to approve claims.",
+    keywords: ["social security disability","legal nurse consultant","RFC assessment","disability medical evidence","SSA claims","functional limitations"],
+  },
+  {
     slug: "why-mediation-preparation-with-a-legal-nurse-consultant-leads-to-higher-settleme",
     title: "Why Mediation Preparation With a Legal Nurse Consultant Leads to Higher Settlements",
     excerpt: "Mediations fail when opposing counsel spots weaknesses you missed in the medical records. A legal nurse consultant finds them first.",
