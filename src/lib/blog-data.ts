@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-veteran-disability-attorneys-need-from-legal-nurse-consultants",
+    title: "What Veteran Disability Attorneys Need From Legal Nurse Consultants",
+    excerpt: "Veterans disability cases require precise medical chronologies and clinical translation. Here's what works.",
+    content: `
+**Link Service Connection to Current Diagnoses Through Medical Evidence**
+
+You need a chronology tracing the veteran's condition from service through today. I map every VA medical record, private treatment note, and service medical record to show continuity of symptoms. Your expert needs dates, treating physicians, diagnostic test results, and medication changes laid out in timeline format. I identify gaps in care and explain why they happened: rural location, VA backlog, psychiatric barriers to treatment, financial hardship. The VA ratings examiner reads these gaps as recovery. You prove they reflect access problems, not improvement.
+
+**Translate VA C&P Exam Findings Into Ratings Language**
+
+Compensation and Pension exams use specific terminology VA raters apply to the ratings schedule. I pull the functional limitations from exam notes and match them to diagnostic codes. Range of motion measurements matter. Pain on passive motion versus active motion matters. Whether the veteran uses assistive devices matters. I extract every clinical finding and phrase it in language VA understands. When the C&P examiner writes "veteran reports" instead of documenting objective findings, I flag it. You need ammunition for independent medical examinations. I give you the specific deficiencies in the VA exam.
+
+**Identify Secondary Conditions the VA Missed**
+
+The veteran's knee injury caused limping for 15 years. Now he has degenerative disc disease and hip osteoarthritis. The VA treats these as separate conditions. I document the biomechanical connection through gait analysis notes, orthopedic exams, and radiology reports showing uneven joint wear. Depression stems from chronic pain and service-connected PTSD. I trace medication records showing antidepressant initiation after pain became unmanageable. Sleep apnea developed alongside service-connected obesity and PTSD nightmares. I build the clinical chain linking primary service-connected disabilities to every secondary condition. This turns a 30% rating into 70% or 100%.
+
+**Quantify Functional Limitations for TDIU Claims**
+
+Total Disability Individual Unemployability claims require proof the veteran cannot maintain substantially gainful employment. You need more than a diagnosis. I pull work restrictions from treatment notes: no prolonged standing, no overhead reaching, no exposure to loud noises, requires frequent breaks. I document emergency room visits, hospitalizations, and exacerbations during employment attempts. Employer accommodation requests go in the timeline. I cross-reference medication side effects with job requirements. Opioids preclude driving and operating machinery. Antipsychotics cause sedation during work hours. You need functional capacity language, not diagnostic labels. I give you both.
+
+**Challenge Inadequate Medical Opinions With Clinical Evidence**
+
+VA examiners write opinions without reviewing the full record. I compare their opinions against the actual treatment history. The examiner states no current disability. I show ongoing treatment with three specialists and two medication adjustments in the past six months. The examiner claims the condition predates service. I document normal entrance exam findings and first symptom onset during deployment. The examiner finds symptoms insufficient for the next rating level. I pull identical symptom descriptions from the rating schedule and highlight them in treatment notes. You need specific contradictions with page numbers and dates. I deliver them ready for your appeal brief.
+
+**Organize Complex Multi-System Records Into Usable Evidence**
+
+Veterans with Gulf War Syndrome, burn pit exposure, or Agent Orange claims have records spanning decades and multiple body systems. I separate relevant medical evidence from routine care. Your diabetic veteran with peripheral neuropathy needs records showing onset timeline, progression despite treatment, and functional decline. I eliminate wellness visits and acute illnesses unrelated to the claim. I tab critical imaging reports, specialist consultations, and disability assessments. You get a chronology organized by body system with cross-references to service exposure documentation. The veteran's 3,000 pages become 200 pages of evidence VA cannot ignore.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-22",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Veteran disability attorneys need medical chronologies, C&P exam translation, secondary conditions, and TDIU functional assessments from legal nurse consultants.",
+    keywords: ["veteran disability attorney","legal nurse consultant","VA disability claims","C&P exam review","TDIU claims","veterans medical records"],
+  },
+  {
     slug: "how-legal-nurse-consultants-win-social-security-disability-cases",
     title: "How Legal Nurse Consultants Win Social Security Disability Cases",
     excerpt: "Social Security Disability cases demand precise medical evidence. Legal nurse consultants translate records into the functional limitations SSA needs to see.",
