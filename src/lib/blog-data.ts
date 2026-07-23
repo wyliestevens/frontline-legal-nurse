@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-legal-nurse-consultants-support-child-abuse-and-neglect-cases",
+    title: "How Legal Nurse Consultants Support Child Abuse and Neglect Cases",
+    excerpt: "Legal nurse consultants identify injury patterns, timeline inconsistencies, and medical findings attorneys miss in child abuse cases.",
+    content: `
+Child abuse and neglect cases demand medical precision. You face complex injuries, shifting parent statements, and medical records filled with clinical terminology your opposing counsel will weaponize. A legal nurse consultant translates the medicine into evidence you use at trial.
+
+**Distinguishing Accidental from Inflicted Injuries**
+
+Bruises tell stories when you know how to read them. A legal nurse consultant identifies patterned injuries that match specific objects: belt buckles leave rectangular marks, loop cords create paired linear bruises, and hand slaps create petechiae in distinct finger patterns. We flag bruises in protected areas like the inner thighs, ears, neck, and genitals. Infants with bruising anywhere need investigation because pre-mobile children do not bruise themselves. We review bone scans and identify metaphyseal corner fractures, posterior rib fractures, and complex skull fractures that do not happen from short falls onto carpet. The radiology reports contain dating language your expert needs. We pull those sentences into your timeline.
+
+**Analyzing Injury Timelines Against Caregiver Statements**
+
+Parents give you a two-hour window. The medical evidence shows injuries spanning three days. We build chronological injury maps using hospital admission notes, CT scans with timestamps, and lab values showing progression of organ damage. Subdural hematomas age differently than fresh bleeds. Retinal hemorrhages present in specific layers depending on mechanism. We cross-reference bruise color charts against the pediatric literature showing yellow bruising appears after 18 hours, not the six hours the defendant claims. Your timeline must withstand medical cross-examination. We give you the clinical citations backing every hour you argue.
+
+**Identifying Failure to Thrive and Medical Neglect**
+
+Growth charts do not lie. We plot weight, height, and head circumference against CDC percentiles and identify the exact visit where curves plummet. A child dropping from the 50th to the 5th percentile in three months while in one caregiver's custody shows failure to thrive. We review feeding logs, medication administration records, and missed appointment patterns. Diabetic children admitted in DKA because caregivers withheld insulin. Asthmatic children intubated because inhalers stayed empty for months. We document every prescription filled, every dose missed, and every specialist appointment the parent skipped. The medical records contain your neglect case if you know where to look.
+
+**Decoding Abusive Head Trauma Evidence**
+
+Shaking cases live or die on medical detail. We review the triad: subdural hematoma, retinal hemorrhages, and encephalopathy. Your defense will claim short falls or old blood or genetic disorders. We identify the hypoxic-ischemic changes on MRI showing brain tissue died from oxygen loss during shaking. We document the severity and distribution of retinal hemorrhages across posterior pole, periphery, and layers. We note associated injuries: rib fractures from chest compression, cord injuries from hyperextension, and ligamentous damage to the neck. The neurosurgery consult notes matter. The ophthalmology drawings matter. We pull every piece into your medical narrative.
+
+**Reviewing Child Protective Services and Hospital Records**
+
+CPS investigations generate medical encounters you need. We obtain records from every hospital visit, urgent care trip, and pediatrician appointment going back years. Previous injuries labeled as accidents form your pattern. Prior CPS reports mentioning dirty homes, absent supervision, or substance abuse build your neglect case. We identify mandatory reporters who saw something and said nothing. School nurse visits for unexplained bruises. Dental records showing untreated decay and abscesses. Immunization records showing gaps. Emergency department visits where parents gave inconsistent histories. Every record strengthens your case or exposes defense lies.
+
+**Preparing Medical Chronologies for Court**
+
+Judges and juries need clear medical stories. We create chronologies showing every injury, every medical visit, every caregiver statement, and every clinical finding on one timeline. You see the pattern immediately. The three-year-old with five fractures across eight months, each explained as a fall. The failure-to-thrive infant who gains two pounds in one week of foster care. We highlight lab values showing dehydration, malnutrition, and untreated infections. We note which parent was present at which visit and what each one said. Your chronology becomes your opening statement.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-23",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Legal nurse consultants identify injury patterns, timeline gaps, and medical evidence attorneys need in child abuse and neglect cases.",
+    keywords: ["legal nurse consultant","child abuse cases","medical records review","abusive head trauma","failure to thrive","inflicted injuries"],
+  },
+  {
     slug: "what-veteran-disability-attorneys-need-from-legal-nurse-consultants",
     title: "What Veteran Disability Attorneys Need From Legal Nurse Consultants",
     excerpt: "Veterans disability cases require precise medical chronologies and clinical translation. Here's what works.",
