@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "50-medical-terms-every-attorney-needs-to-know-right-now",
+    title: "50 Medical Terms Every Attorney Needs to Know Right Now",
+    excerpt: "The medical terminology you see in every chart and deposition. Learn what they mean and why they matter to your case value.",
+    content: `
+**Vital Signs and Physical Assessment Terms**
+
+Your client's vital signs tell the story of deterioration or stability. BP means blood pressure, written as systolic over diastolic (120/80). HR is heart rate. RR is respiratory rate. O2 sat is oxygen saturation, the percentage of oxygen in the blood. Tachycardia means fast heart rate, bradycardia means slow. Tachypnea means rapid breathing, dyspnea means shortness of breath. Hypotension means low blood pressure and frequently signals shock or internal bleeding. Hypertension means elevated blood pressure. Febrile means fever, afebrile means no fever. These numbers document your client's condition minute by minute.
+
+**Diagnostic and Laboratory Abbreviations**
+
+CBC is complete blood count. It shows WBC (white blood cells), RBC (red blood cells), hemoglobin, hematocrit, and platelets. Elevated WBC signals infection. Low hemoglobin indicates anemia or blood loss. BMP is basic metabolic panel. It measures electrolytes, glucose, and kidney function. CMP is comprehensive metabolic panel and adds liver function tests. PT/INR and PTT measure blood clotting time. ESR and CRP measure inflammation. Troponin measures heart muscle damage. BNP measures heart failure. Every number outside the reference range matters to causation.
+
+**Levels of Consciousness and Neurological Status**
+
+GCS is Glasgow Coma Scale, scored 3 to 15. A score below 8 means severe brain injury. LOC means loss of consciousness or level of consciousness depending on context. A&O x 3 means alert and oriented to person, place, and time. A&O x 4 adds situation awareness. Stuporous means barely responsive. Obtunded means decreased alertness. Lethargic means drowsy but arousable. Comatose means unconscious and unresponsive. CVA is cerebrovascular accident, what you call a stroke. TIA is transient ischemic attack, a mini-stroke. These terms document brain function decline in nursing home falls, medication errors, and delayed diagnosis cases.
+
+**Infection and Wound Documentation**
+
+Cellulitis is skin infection. Sepsis is life-threatening infection in the bloodstream. Septic shock means sepsis with dangerously low blood pressure. MRSA is methicillin-resistant staph aureus, a drug-resistant bacteria. C. diff is Clostridium difficile, a hospital-acquired diarrheal infection. URI is upper respiratory infection. UTI is urinary tract infection. Wound care notes describe wounds by stage. Stage 1 is redness. Stage 2 involves partial skin loss. Stage 3 extends into tissue. Stage 4 reaches muscle or bone. Unstageable means covered by dead tissue. Purulent means pus. Necrotic means dead tissue. Document these terms on your chronology because they prove negligent care.
+
+**Medication Routes and Administration**
+
+PO means by mouth. IV means intravenous, directly into the vein. IM means intramuscular injection. SubQ or SC means subcutaneous, under the skin. SL means sublingual, under the tongue. PR means per rectum. NPO means nothing by mouth. PRN means as needed. BID means twice daily. TID means three times daily. QID means four times daily. Q4H means every four hours. Stat means immediately. These abbreviations appear in every medication error case. The route determines absorption time and drug concentration.
+
+**Cardiopulmonary Terms**
+
+MI is myocardial infarction, a heart attack. CHF is congestive heart failure. COPD is chronic obstructive pulmonary disease. PE is pulmonary embolism, a blood clot in the lung. DVT is deep vein thrombosis, a blood clot in a leg vein. AFib is atrial fibrillation, irregular heartbeat. EKG or ECG is electrocardiogram. Echo is echocardiogram, an ultrasound of the heart. Intubation means placing a breathing tube. Extubation means removing it. Code Blue means cardiac arrest. DNR means do not resuscitate. These terms appear in wrongful death and delayed treatment files.
+
+**Body Systems and Surgical Terminology**
+
+Hemiplegia means paralysis on one side of the body. Paraplegia means paralysis of both legs. Quadriplegia means paralysis of all four limbs. Hematoma means blood collection outside vessels. Edema means swelling. Ischemia means lack of blood flow to tissue. Necrosis means tissue death. Debridement means surgical removal of dead tissue. Incision and drainage means cutting open to drain infection. Laparotomy means opening the abdomen. Laparoscopy means minimally invasive surgery through small incisions. NPO status before surgery prevents aspiration during anesthesia. Post-op means after surgery. Intra-op means during surgery. Read operative reports with these terms flagged because surgeons describe what they found and what went wrong in procedural language.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-28",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Medical terminology for attorneys: 50 essential terms you need to understand medical records, depositions, and expert reports in personal injury cases.",
+    keywords: ["medical terminology","medical records review","legal nurse consulting","personal injury attorney","medical malpractice","medical abbreviations"],
+  },
+  {
     slug: "why-every-personal-injury-attorney-needs-a-legal-nurse-consultant-on-speed-dial",
     title: "Why Every Personal Injury Attorney Needs a Legal Nurse Consultant on Speed Dial",
     excerpt: "Medical records hide the evidence you need. A legal nurse consultant finds it before opposing counsel does.",
