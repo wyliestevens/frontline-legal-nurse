@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-a-hospital-chart-without-a-medical-degree",
+    title: "How to Read a Hospital Chart Without a Medical Degree",
+    excerpt: "Master the structure and language of medical records to spot red flags, build timelines, and strengthen your cases.",
+    content: `
+**Start With the Discharge Summary**
+
+The discharge summary tells you everything the hospital believes happened. Read it first. This document synthesizes the entire admission into 2-4 pages. You get the admission diagnosis, hospital course, procedures performed, complications, discharge medications, and follow-up instructions. When I review a 400-page hospital record, I start here because it reveals what the providers thought went right and wrong. The discharge summary also shows you what they chose to omit. Those omissions matter.
+
+**Build Your Timeline From Nursing Notes**
+
+Nursing notes document what happened hour by hour. Nurses chart vital signs, patient complaints, medications given, and provider notifications. I see attorneys skip these pages because they're repetitive. That's a mistake. The timeline you need lives in these notes. Look for changes in blood pressure, heart rate, respiratory rate, oxygen saturation, and pain scores. Watch for when the nurse paged the physician and how long the response took. A two-hour delay before addressing dropping blood pressure tells a story. Document every timestamp.
+
+**Physician Orders Reveal Decision Points**
+
+Physician orders show you what the doctor decided to do and when. These pages contain medication orders, lab orders, imaging orders, and consult requests. Compare order times against nursing documentation of patient deterioration. If the patient showed signs of sepsis at 1400 hours but the physician didn't order blood cultures until 1800 hours, you found a four-hour delay. Look for verbal orders versus written orders. Verbal orders during emergencies get documented later and sometimes the timestamps don't match the nursing notes. Those discrepancies matter in medical malpractice cases.
+
+**Lab Values and Imaging Reports Show Objective Evidence**
+
+Lab results don't lie. Learn the normal ranges for complete blood count, basic metabolic panel, liver function tests, and coagulation studies. Abnormal values appear flagged with an H for high or L for low. When I see a hemoglobin of 6.5 g/dL (normal is 12-16 g/dL for women, 14-18 g/dL for men), I know the patient needed a blood transfusion. Check whether the physician ordered the transfusion and when. Imaging reports give you radiologist interpretations plus the actual images. Read the impression section first. A radiologist who writes "acute fracture" versus "possible fracture" gives you different ammunition.
+
+**Medication Administration Records Document What the Patient Actually Received**
+
+The MAR shows every medication given, the dose, the route, and the time. Physicians order medications but nurses administer them. Sometimes those two things don't align. I reviewed a case where a physician ordered Dilaudid 1 mg IV every 3 hours for post-surgical pain. The MAR showed the nurse gave 2 mg every 2 hours. The patient stopped breathing. That overdose lived in the MAR, not in the physician orders. Check for missed doses too. If a patient didn't receive ordered antibiotics for 8 hours, the infection spread. The MAR proves it.
+
+**Progress Notes Contain Admissions and Contradictions**
+
+Physician progress notes document daily assessments and treatment plans. Read these for changes in clinical thinking. A physician who writes "patient stable, continue current management" on Monday but "patient declining, transfer to ICU" on Tuesday moved fast. What happened between those two notes? I find the most useful information in specialty consult notes. The cardiologist who writes "patient should have received beta blockers on admission" contradicts the hospitalist. Those statements become exhibits. Look for phrases like "difficult case," "unexpected complication," or "family very upset." Providers document defensively when they know something went wrong.
+
+**Incident Reports Won't Appear in Your Chart**
+
+Hospitals don't include incident reports in medical records they produce during discovery. Incident reports document falls, medication errors, equipment failures, and staff injuries. You need to request these separately and expect a fight. When nursing notes mention "incident report filed" or "risk management notified," you know one exists. I've seen cases where the medical record showed a routine transfer but the incident report described the patient falling during the move and fracturing a hip. The chart gave you a hint. You still need to demand the actual report. State your request specifically and early.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-29",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Learn to read hospital charts like a medical expert. Navigate nursing notes, physician orders, labs, and medication records to build stronger cases.",
+    keywords: ["hospital chart review","reading medical records","medical record analysis","nursing notes","physician orders","medical malpractice evidence"],
+  },
+  {
     slug: "50-medical-terms-every-attorney-needs-to-know-right-now",
     title: "50 Medical Terms Every Attorney Needs to Know Right Now",
     excerpt: "The medical terminology you see in every chart and deposition. Learn what they mean and why they matter to your case value.",
