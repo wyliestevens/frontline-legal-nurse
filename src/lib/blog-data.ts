@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-icd-10-codes-mean-and-how-they-affect-your-case-strategy",
+    title: "What ICD-10 Codes Mean and How They Affect Your Case Strategy",
+    excerpt: "ICD-10 codes tell you what the provider documented, what they billed, and where the gaps are in your case. Here's how to read them.",
+    content: `
+**ICD-10 Codes Document What the Provider Saw and What Insurance Paid**
+
+ICD-10 codes are diagnosis codes. Every medical encounter generates at least one. The provider assigns them based on clinical findings, symptoms, and documented conditions. Insurance companies use these codes to determine reimbursement. Medicare, Medicaid, and private insurers all require them. You find these codes on billing statements, encounter forms, UB-04s, and CMS-1500s. They appear as alphanumeric strings like S72.001A or M79.604. The code structure tells you exactly what the provider documented at the time of service.
+
+**The Code Structure Reveals Specificity and Timeline**
+
+ICD-10 codes follow a specific pattern. The first character is always a letter indicating the body system or category. Characters two and three narrow the diagnosis. Characters four through seven add clinical detail about laterality, severity, and encounter type. The seventh character matters most to you. An "A" means initial encounter. A "D" means subsequent encounter for routine healing. An "S" means sequela or late effect. I reviewed a slip and fall case where the ER coded L03.115A for cellulitis of right lower limb, initial encounter. Three months later, the same patient saw a wound specialist who coded L03.115D. The timeline matched. When the defense claimed the infection was pre-existing, the codes proved them wrong.
+
+**Missing or Inconsistent Codes Expose Documentation Problems**
+
+You need to compare the narrative documentation with the assigned codes. They should match. When they don't, you have ammunition. I reviewed a nursing home pressure ulcer case where the wound care notes described a Stage 4 sacral ulcer with exposed bone. The billing department coded it as L89.153, Stage 3 sacral ulcer. The facility undercoded to avoid quality metrics penalties. We used that discrepancy to show deliberate misrepresentation. Defense counsel settled during mediation. Look for codes the provider should have assigned but didn't. A motor vehicle collision patient with documented neck pain, headaches, and paresthesias should have codes for cervicalgia, post-traumatic headache, and radiculopathy. If the records only show one generic pain code, the provider either didn't document properly or didn't examine thoroughly.
+
+**Placeholder and Unspecified Codes Signal Incomplete Workup**
+
+Some codes end in "9" or contain the word "unspecified." These are placeholder codes. Providers use them when they don't have enough information to assign a specific code. R07.9 means chest pain, unspecified. R51 means headache, unspecified. These codes tell you the provider didn't work up the symptom adequately. I reviewed a wrongful death case involving a 58-year-old man who presented to the ED with chest pain. The attending coded R07.9 and discharged him with antacids. He died six hours later from a massive MI. The unspecified code showed the ED never completed cardiac workup. No troponins, no EKG monitoring beyond initial screen, no cardiology consult. The code supported our failure to diagnose claim.
+
+**External Cause Codes Tell You How the Injury Happened**
+
+Chapter 20 codes describe the mechanism and place of injury. They start with V, W, X, or Y. These codes appear in addition to the injury codes. W19.XXXA means unspecified fall, initial encounter. V43.52XA means car driver injured in collision with sport utility vehicle in traffic accident. Y92.009 means unspecified place in single-family house. Defense attorneys ignore these codes. You shouldn't. I worked a premises liability case where the plaintiff claimed she fell on a wet grocery store floor. The ER coded her ankle fracture with W18.30XA, fall on same level, unspecified. No code for W01.111A, which specifies fall on same level from slipping on wet surface in grocery store. When we deposed the plaintiff, she admitted the floor wasn't wet. The missing specificity in the code matched the lack of specificity in her story.
+
+**Code Changes Between Visits Map Disease Progression**
+
+Track how codes evolve across the treatment timeline. Initial codes should progress to more specific codes as the diagnostic picture clears. Acute injury codes should transition to healing codes and eventually sequela codes. I reviewed a workers compensation case where the orthopedic surgeon initially coded M25.561 for right knee pain. Three months later, after MRI, he should have upgraded to M23.205A for posterior horn medial meniscus tear. He didn't. He kept using the same nonspecific pain code for eight months. This coding pattern showed he never reviewed the imaging or adjusted his treatment plan. We used it to support our claim of inadequate care and unnecessary surgical delay.
+
+**Chronic Condition Codes Versus Acute Injury Codes Separate Pre-Existing from New**
+
+You need to distinguish between chronic and acute codes. M81.0 means age-related osteoporosis without current pathological fracture. M80.08XA means age-related osteoporosis with current pathological fracture of vertebra, initial encounter. The difference matters in your causation analysis. Defense counsel will point to every chronic disease code to diminish damages. Your job is to show which codes represent acute injuries directly caused by the incident. I worked a medical malpractice case involving a surgical site infection. The patient had diabetes coded as E11.9. Defense argued the diabetes caused the infection. We showed the infection code A41.51, sepsis due to MRSA, was an acute code with initial encounter designation. The diabetes was chronic. The MRSA was new. The timeline proved hospital-acquired infection.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-30",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "ICD-10 codes reveal what providers documented, billed, and missed. Learn how to use diagnosis codes to strengthen your medical-legal case strategy.",
+    keywords: ["ICD-10 codes","medical billing codes","diagnosis codes","case strategy","medical records review","legal nurse consultant"],
+  },
+  {
     slug: "how-to-read-a-hospital-chart-without-a-medical-degree",
     title: "How to Read a Hospital Chart Without a Medical Degree",
     excerpt: "Master the structure and language of medical records to spot red flags, build timelines, and strengthen your cases.",
