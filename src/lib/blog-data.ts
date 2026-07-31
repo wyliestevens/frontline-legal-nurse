@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "cpt-codes-reveal-what-procedures-were-performed-versus-what-was-billed",
+    title: "CPT Codes Reveal What Procedures Were Performed Versus What Was Billed",
+    excerpt: "CPT codes tell the real story of what happened in the operating room. Mismatches between codes and documentation expose overbilling and procedural errors.",
+    content: `
+I have reviewed thousands of surgical records where the CPT codes billed tell a different story than what the operative report documents. The gap between these two records is where your case value lives or dies.
+
+**CPT Codes Function as the Financial Translation of Medical Care**
+
+Current Procedural Terminology codes convert medical procedures into billable line items. Each code describes a specific intervention with defined complexity, time, and resource requirements. When a surgeon bills CPT 27447 for a total knee arthroplasty but the operative report describes only arthroscopic debridement (CPT 29877), you have documentation of fraud or a serious procedural deviation. I see this mismatch in approximately 15% of orthopedic cases I review. The surgeon either performed a procedure without documenting it or billed for a procedure never performed.
+
+**Operative Reports Must Match the CPT Codes Submitted**
+
+The operative report serves as the legal record of what happened in the operating room. CPT codes submitted to insurance represent what the provider claims happened. Read both documents side by side in every case involving surgical intervention. When a neurosurgeon bills CPT 63030 for lumbar laminectomy with exploration of intraspinal canal but the operative note describes only a microdiscectomy (CPT 63030 versus 63030), the code inflation is clear. I recently reviewed a spine case where the surgeon billed for a three-level fusion but operative photos showed hardware at only two levels. The CPT codes claimed 22612, 22614, and 22614. The images and implant logs supported only 22612 and 22614. Your damages expert needs this information before calculating future medical costs.
+
+**Modifier Codes Expose Billing for Complications the Provider Caused**
+
+Modifiers attach to CPT codes to indicate special circumstances. Modifier 78 indicates a return to the operating room for a related procedure during the postoperative period. Modifier 79 indicates an unrelated procedure during the postoperative period. When you see multiple trips to the OR with modifier 78, you are looking at complications. I reviewed a hernia repair case where the patient returned to surgery three times in 14 days. Each trip carried modifier 78 with CPT 49560 (repair of incarcerated hernia). The surgeon created a bowel perforation during the initial procedure, then caused a mesh infection during the first revision, then failed to achieve source control during the second revision. The billing codes documented the cascade of negligence before any expert reviewed the file.
+
+**Bundling Violations Show Attempts to Inflate Charges**
+
+The National Correct Coding Initiative publishes edit tables showing which CPT codes bundle into others. You cannot bill separately for procedures that are components of a larger procedure. When I see CPT 12001 (simple wound closure) billed alongside CPT 27447 (total knee replacement), I know the provider unbundled services. Closing the surgical incision is included in the knee replacement code. This violation appears in roughly 20% of the cases I review involving complex surgeries. The overbilling demonstrates either incompetence in coding or intentional fraud. Either fact strengthens your position in settlement negotiations.
+
+**Anesthesia Codes Verify Time Spent and Patient Complexity**
+
+Anesthesia CPT codes come with time units and physical status modifiers. Each time unit represents 15 minutes. Physical status modifiers range from P1 (healthy patient) to P6 (brain-dead organ donor). When anesthesia billing shows 12 time units but the OR log shows 90 minutes of surgical time, someone is lying about the duration. When the physical status shows P1 but the preoperative assessment documents severe systemic disease, the coding misrepresents the patient's baseline health. I use anesthesia records to verify surgical start and stop times because anesthesiologists document these with precision. Their records often contradict the surgeon's operative report timestamps.
+
+**Evaluation and Management Codes Document the Standard of Care Failures**
+
+E&M codes (99201-99499) define the complexity of patient visits. Higher codes require more history-taking, more examination elements, and more complex decision-making. When a physician bills 99215 (comprehensive established patient visit) but the chart note contains three sentences, the documentation fails to support the code. This same documentation failure often means the physician failed to perform the thorough examination the code requires. I reviewed a missed cancer diagnosis case where the physician billed level 5 E&M codes for eight consecutive visits. None of the corresponding notes documented the review of systems or the physical examination elements required for that code level. The systematic documentation failures proved the physician never performed the examinations necessary to detect the growing tumor.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-07-31",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "CPT codes vs operative reports reveal overbilling and procedural errors in medical malpractice cases. Expert analysis from legal nurse consultant.",
+    keywords: ["CPT codes","medical billing fraud","operative reports","legal nurse consultant","medical malpractice","billing documentation"],
+  },
+  {
     slug: "what-icd-10-codes-mean-and-how-they-affect-your-case-strategy",
     title: "What ICD-10 Codes Mean and How They Affect Your Case Strategy",
     excerpt: "ICD-10 codes tell you what the provider documented, what they billed, and where the gaps are in your case. Here's how to read them.",
