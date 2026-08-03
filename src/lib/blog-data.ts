@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-a-pathology-report-and-understand-tumor-staging",
+    title: "How to Read a Pathology Report and Understand Tumor Staging",
+    excerpt: "Pathology reports determine case value in cancer litigation. Learn what every section means and how staging impacts damages.",
+    content: `
+**The Pathology Report Controls Your Case Value**
+
+I have reviewed pathology reports in delayed cancer diagnosis cases worth seven figures and reports in cases worth nothing. The difference sits in four pages of dense medical terminology most attorneys gloss over. The pathology report tells you when the cancer started, how aggressive it behaves, and whether earlier diagnosis would have mattered. Miss these details and you miss the case. The tumor type, grade, stage, margins, and lymph node involvement dictate survival rates, treatment options, and economic damages. Your expert needs this data. Your economist needs this data. You need to understand it first.
+
+**Specimen Type and Gross Description Mean More Than You Think**
+
+The first section lists what the pathologist received. A needle biopsy gives less tissue than an excisional biopsy. A lumpectomy specimen differs from a mastectomy specimen. The size and weight of the specimen matter. I worked a breast cancer case where the defendant claimed the tumor was small and early stage. The gross description listed a 4.2 cm mass with skin involvement. The defense expert had based his opinion on radiology alone. We used the pathology report to destroy his testimony. The gross description also notes if the specimen arrived fresh, in formalin, or fragmented. Fragmentation limits what the pathologist sees and introduces reasonable doubt you need to address.
+
+**Microscopic Description Reveals Tumor Behavior**
+
+This section describes what the pathologist sees under the microscope. The histologic type tells you what kind of cancer you have. Adenocarcinoma, squamous cell carcinoma, and small cell carcinoma all behave differently. The tumor grade measures how abnormal the cells look. Grade 1 means well-differentiated and slow-growing. Grade 3 means poorly differentiated and aggressive. I reviewed a colon cancer case where the defendant claimed a six-month delay caused no harm. The pathology showed grade 3 adenocarcinoma with lymphovascular invasion. High-grade tumors metastasize fast. That six months mattered. The microscopic section also documents lymphovascular invasion, perineural invasion, and necrosis. Each finding increases the risk of spread and worsens prognosis.
+
+**Margins Determine Whether the Surgeon Got It All**
+
+Margins tell you if cancer cells sit at the edge of what the surgeon removed. Negative margins mean clear tissue surrounds the tumor. Positive margins mean cancer cells touch the inked edge. Close margins fall in between and require more surgery. I handled a melanoma case where the initial excision had positive deep margins. The pathologist noted melanoma cells at the base. The surgeon told the patient everything looked fine. The cancer recurred eight months later and metastasized. Positive margins require re-excision. Failure to perform re-excision or inform the patient about positive margins gives you a malpractice case. The pathology report specifies margins in millimeters. Learn what margins your cancer type requires.
+
+**TNM Staging Predicts Survival and Proves Causation**
+
+The TNM system stages almost every solid tumor. T describes tumor size and local invasion. N describes lymph node involvement. M describes distant metastasis. A T1N0M0 tumor means small, no nodes, no spread. A T4N2M1 tumor means large, multiple nodes, distant metastasis. Stage 1 and Stage 2 tumors have good survival rates. Stage 3 and Stage 4 tumors do not. I worked a lung cancer case where the plaintiff was diagnosed at Stage 4. We obtained records showing a lung nodule on CT scan 18 months earlier. A radiologist missed it. We hired a pulmonologist who testified the nodule was Stage 1A at the time of the missed CT. Stage 1A lung cancer has an 80 percent five-year survival rate. Stage 4 has a 10 percent rate. The staging difference proved causation and damages.
+
+**Immunohistochemistry and Molecular Markers Guide Treatment**
+
+Modern pathology reports include immunohistochemistry stains and genetic testing. These tests identify proteins and mutations inside cancer cells. Breast cancer reports list estrogen receptor, progesterone receptor, and HER2 status. Lung cancer reports list EGFR, ALK, and PD-L1 status. Colon cancer reports list KRAS and microsatellite instability. These markers determine which chemotherapy and targeted therapy the patient receives. I reviewed a breast cancer case where the pathology showed HER2-positive disease. The oncologist never ordered Herceptin. The patient recurred and died. HER2-positive breast cancer requires Herceptin. The pathology report proved the standard of care. Molecular markers also affect prognosis independent of stage. Triple-negative breast cancer behaves more aggressively than hormone receptor-positive disease.
+
+**Synoptic Reports Give You Every Detail in Checklist Form**
+
+Most pathology reports now use synoptic formatting. The College of American Pathologists created templates for every cancer type. Synoptic reports list every prognostic factor in a standardized checklist. Tumor size, histologic type, grade, margins, lymph nodes examined, lymph nodes positive, lymphovascular invasion, perineural invasion, and TNM stage all appear in separate labeled fields. I prefer synoptic reports because nothing gets buried in paragraph form. You see every critical detail at a glance. Some older reports use narrative format. You must read every word. Defense attorneys hope you will not. I have found case-winning details in the eighth paragraph of a ten-paragraph pathology report.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-03",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "5 min read",
+    metaDescription: "Pathology reports determine cancer case value. Learn tumor staging, margins, grade, and molecular markers from an experienced legal nurse consultant.",
+    keywords: ["pathology report","tumor staging","cancer litigation","medical malpractice","delayed diagnosis","legal nurse consultant"],
+  },
+  {
     slug: "cpt-codes-reveal-what-procedures-were-performed-versus-what-was-billed",
     title: "CPT Codes Reveal What Procedures Were Performed Versus What Was Billed",
     excerpt: "CPT codes tell the real story of what happened in the operating room. Mismatches between codes and documentation expose overbilling and procedural errors.",
