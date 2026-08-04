@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-a-complete-blood-count-reveals-in-medical-litigation",
+    title: "What a Complete Blood Count Reveals in Medical Litigation",
+    excerpt: "The CBC is the most ordered lab test in medicine. It exposes infection, bleeding, anemia, and treatment delays your opposing counsel hopes you miss.",
+    content: `
+I have reviewed thousands of cases where a single CBC panel told the entire story of negligence. The complete blood count is ordered in nearly every emergency department visit, every hospital admission, and every surgical workup. When you know how to read it, you spot the infection your defendant missed, the internal bleeding no one addressed, and the medication reaction someone ignored.
+
+**White Blood Cell Count Shows Infection and Immune Response**
+
+The WBC count ranges from 4,000 to 11,000 cells per microliter in healthy adults. Values above 15,000 signal significant infection or inflammation. I worked a nursing home case where the resident's WBC climbed from 9,000 to 22,000 over three days while staff documented "stable condition." She died of sepsis from an untreated urinary tract infection. The CBC values proved the staff ignored obvious warning signs. Extremely low WBC counts below 2,000 indicate bone marrow suppression or chemotherapy effects. Your client's compromised immune system makes routine infections life-threatening. Document every WBC trend across the treatment timeline.
+
+**Hemoglobin and Hematocrit Track Blood Loss**
+
+Hemoglobin measures oxygen-carrying capacity. Normal values run 12-16 g/dL for women and 14-18 g/dL for men. Hematocrit shows the percentage of blood volume occupied by red cells. A hemoglobin drop of 2 g/dL or more indicates active bleeding. I reviewed a post-surgical case where the patient's hemoglobin fell from 13.5 to 8.2 over six hours. The surgical team ordered repeat CBCs but never transfused blood or returned to the OR. The patient arrested and suffered permanent anoxic brain injury. The CBC documented the bleeding. The medical records documented the failure to act. Each CBC timestamp becomes a decision point you highlight in your narrative.
+
+**Platelet Counts Reveal Clotting Function**
+
+Platelets form clots and stop bleeding. Normal platelet counts range from 150,000 to 400,000 per microliter. Counts below 50,000 create spontaneous bleeding risk. Counts below 20,000 are critical. I worked a case where a patient on heparin developed thrombocytopenia with platelets at 18,000. The physician continued the heparin for two more days. The patient developed a massive intracranial hemorrhage. The CBC showed the danger. The treatment records showed deliberate indifference. Low platelets also result from chemotherapy, autoimmune disorders, and certain medications. High platelet counts above 500,000 increase clot risk and appear in inflammatory conditions and some cancers.
+
+**Mean Corpuscular Volume Identifies Anemia Type**
+
+MCV measures red blood cell size. Normal range is 80-100 femtoliters. Low MCV indicates iron deficiency anemia or chronic blood loss. High MCV points to vitamin B12 or folate deficiency. I reviewed records where a patient complained of fatigue for eight months. The CBC showed MCV of 110 with low B12 levels. The provider never ordered B12 testing or supplementation. The patient developed permanent neurological damage from subacute combined degeneration of the spinal cord. The MCV pointed directly to the diagnosis. The records showed nobody looked.
+
+**Serial CBCs Document Response to Treatment**
+
+One CBC gives you a snapshot. Serial CBCs across days or weeks show whether treatment worked. The WBC should trend down with antibiotics. The hemoglobin should stabilize after transfusion or surgical repair. The platelets should recover when you stop the offending medication. I worked a sepsis case where the patient received antibiotics but the WBC climbed from 18,000 to 28,000 over four days. Nobody changed the antibiotic. Nobody ordered cultures. Nobody consulted infectious disease. The patient died. The CBC trend screamed treatment failure. Pull every CBC from admission to discharge. Graph the values. The trend line either supports or destroys the defense narrative.
+
+**The Differential Count Breaks Down White Cell Types**
+
+The CBC differential separates white cells into neutrophils, lymphocytes, monocytes, eosinophils, and basophils. Neutrophils fight bacterial infection. A left shift with immature neutrophils indicates severe infection. Lymphocytes respond to viral infections. Eosinophils elevate with allergic reactions and parasitic infections. I reviewed an appendicitis case where the differential showed 92% neutrophils with a left shift. The emergency physician diagnosed gastroenteritis and sent the patient home. The appendix ruptured eight hours later. The differential pointed to bacterial infection requiring surgical evaluation. Read the differential on every CBC. The percentages tell you what the body is fighting.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-04",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Complete blood count interpretation for medical litigation. Learn what CBC values reveal about infection, bleeding, and treatment failures in your case.",
+    keywords: ["complete blood count","CBC interpretation","medical malpractice","lab values litigation","hemoglobin hematocrit","WBC count"],
+  },
+  {
     slug: "how-to-read-a-pathology-report-and-understand-tumor-staging",
     title: "How to Read a Pathology Report and Understand Tumor Staging",
     excerpt: "Pathology reports determine case value in cancer litigation. Learn what every section means and how staging impacts damages.",
