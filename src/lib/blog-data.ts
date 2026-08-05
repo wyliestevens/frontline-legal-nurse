@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-an-ekg-report-in-cardiac-malpractice-cases",
+    title: "How to Read an EKG Report in Cardiac Malpractice Cases",
+    excerpt: "EKG reports contain critical evidence in cardiac malpractice cases. Here's what to look for when liability turns on those squiggly lines.",
+    content: `
+**The EKG Report Has Three Parts You Need to Understand**
+
+Every EKG report contains raw tracings, automated computer interpretations, and physician overreads. The raw tracings show the actual electrical activity of the heart across 12 leads. The automated interpretation prints at the top and flags abnormalities using programmed algorithms. The physician overread—often handwritten or typed below—represents the final clinical interpretation. All three matter in your case. I've seen defense counsel destroy plaintiffs who relied solely on computer interpretations without understanding the physician overread contradicted the findings.
+
+**Normal Sinus Rhythm Means the Heart Beats Correctly**
+
+Normal sinus rhythm appears on reports as "NSR." The heart rate falls between 60 and 100 beats per minute. The electrical impulse originates in the sinoatrial node where it should. Each QRS complex—the sharp spike representing ventricular contraction—follows a P wave representing atrial contraction. When you see NSR documented at 10:00 AM and ventricular tachycardia documented at 10:45 AM, you have a 45-minute window where something went wrong. That timeline wins or loses your case.
+
+**ST Segment Elevation Means Active Heart Attack**
+
+ST elevation on an EKG indicates myocardial infarction in progress. The ST segment sits between the S wave and T wave on the tracing. Elevation of 1mm or more in two contiguous leads meets diagnostic criteria for STEMI—ST elevation myocardial infarction. The leads showing elevation tell you which coronary artery is blocked. Elevation in leads II, III, and aVF indicates inferior wall MI from right coronary artery occlusion. Elevation in V1 through V4 indicates anterior wall MI from left anterior descending artery occlusion. When the ED physician documents "nonspecific ST changes" on a report showing 3mm elevation in three contiguous leads, you have your breach.
+
+**T Wave Inversions and Q Waves Show Old Damage**
+
+Deep T wave inversions indicate ischemia or prior infarction. Pathological Q waves—wider than 0.04 seconds or deeper than one-third the QRS height—indicate old myocardial infarction with permanent scar tissue. These findings matter because they establish prior cardiac history. Defense will argue your client had pre-existing disease. You need to compare current EKGs with prior tracings. I reviewed a wrongful death case where the decedent had inferior Q waves on every EKG for five years, but new anterior T wave inversions appeared on the date of the missed MI. Those new findings proved acute injury despite old disease.
+
+**Atrial Fibrillation Increases Stroke Risk Five-Fold**
+
+Atrial fibrillation appears as an irregularly irregular rhythm with no discernible P waves. The baseline shows fibrillatory waves instead of organized atrial activity. Ventricular rate varies wildly. AFib creates stroke risk because blood pools in the fibrillating atria and forms clots. The CHA2DS2-VASc score quantifies stroke risk and guides anticoagulation decisions. When your nursing home resident develops new AFib and staff fails to notify the physician for three days, then the resident strokes out, the EKG documenting new AFib proves the failure to act. I've worked six cases with this exact fact pattern.
+
+**Bundle Branch Blocks Change How You Read STEMIs**
+
+Left bundle branch block appears as wide QRS complexes exceeding 0.12 seconds with specific patterns in V1 and V6. LBBB makes STEMI diagnosis difficult because it creates ST segment abnormalities on its own. The Sgarbossa criteria help identify STEMI in the presence of LBBB. Concordant ST elevation of 1mm or more in leads with positive QRS complexes meets criteria. ST depression of 1mm or more in V1 through V3 meets criteria. When the ED physician sends home a patient with chest pain and LBBB because "the EKG is uninterpretable," you have substandard care. Serial troponins and cardiology consultation become mandatory.
+
+**Every EKG Gets a Timestamp and the Timeline Kills Defendants**
+
+The timestamp on each EKG builds your timeline of deterioration. A patient presents with chest pain at 14:30. First EKG at 14:45 shows NSR with nonspecific changes. Second EKG at 16:20 shows new ST elevation. The patient went to CT scan at 15:30 for suspected pulmonary embolism and returned at 16:15. The MI happened while the patient was off the monitor getting the wrong test. I've seen this sequence in emergency department malpractice cases a dozen times. The timestamps prove when the providers lost the thread and stopped thinking about acute coronary syndrome.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-05",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "EKG interpretation for malpractice attorneys: ST elevation, bundle branch blocks, atrial fibrillation, and cardiac findings from 20 years of case reviews.",
+    keywords: ["EKG interpretation","cardiac malpractice","STEMI diagnosis","medical malpractice","EKG reports","legal nurse consultant"],
+  },
+  {
     slug: "what-a-complete-blood-count-reveals-in-medical-litigation",
     title: "What a Complete Blood Count Reveals in Medical Litigation",
     excerpt: "The CBC is the most ordered lab test in medicine. It exposes infection, bleeding, anemia, and treatment delays your opposing counsel hopes you miss.",
