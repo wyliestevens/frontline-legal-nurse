@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-mri-and-ct-findings-mean-in-traumatic-brain-injury-litigation",
+    title: "What MRI and CT Findings Mean in Traumatic Brain Injury Litigation",
+    excerpt: "Imaging findings tell different stories in TBI cases. Know which findings prove objective injury and which defense experts will attack.",
+    content: `
+**CT Scans Show Acute Hemorrhage and Skull Fractures**
+
+Defense loves a negative head CT. They use it to argue your client walked away fine. You need to know what CT does and does not show. CT imaging excels at detecting acute bleeding, skull fractures, and midline shift within hours of trauma. I have reviewed hundreds of cases where the emergency department CT came back normal but the client developed significant neurological deficits weeks later. CT misses diffuse axonal injury, small contusions, and microscopic shearing forces. The negative CT from the night of the accident does not mean your client escaped brain injury.
+
+**MRI Reveals Injury CT Cannot Detect**
+
+MRI sequences detect the cellular damage CT misses. FLAIR sequences light up white matter injury and edema. Gradient echo and susceptibility weighted imaging show microhemorrhages from shearing forces during acceleration-deceleration injuries. Diffusion tensor imaging reveals axonal injury by mapping disrupted nerve fiber tracts. I have worked cases where defense hired radiologists to read the MRI as normal, then our neuroradiologist found multiple microhemorrhages and white matter changes consistent with traumatic brain injury. Timing matters. MRI performed within 72 hours of injury captures acute changes. MRI done months later shows chronic findings like encephalomalacia and gliosis.
+
+**Diffuse Axonal Injury Appears on MRI Not CT**
+
+Diffuse axonal injury kills cases when you do not recognize it on imaging. DAI results from rotational forces that stretch and tear axons throughout the brain. Look for small hemorrhagic lesions at gray-white matter junctions, corpus callosum, brainstem, and deep gray matter. These lesions appear as hypointense spots on T2 and gradient echo sequences. I reviewed a motorcycle accident case where the initial CT showed no acute findings. MRI three days later revealed dozens of microhemorrhages throughout both hemispheres. The client never returned to work. Defense argued malingering until we had a neuroradiologist map every single lesion.
+
+**Contusions and Hemorrhages Establish Mechanism and Severity**
+
+Location of contusions tells you the mechanism of injury. Frontal and temporal contusions result from the brain slamming against bony prominences inside the skull during rapid deceleration. Coup injuries appear at the impact site. Contrecoup injuries show up opposite the impact. Subdural hematomas indicate tearing of bridging veins from acceleration-deceleration forces. Epidural hematomas usually involve skull fractures and middle meningeal artery damage. Volume and location of hemorrhage correlate with outcomes. I have seen defense minimize small subdurals, but layered hemorrhage with midline shift requires surgical evacuation and predicts worse functional recovery.
+
+**White Matter Changes Separate TBI From Normal Aging**
+
+Defense experts love blaming white matter hyperintensities on age, hypertension, or migraines. You need to distinguish traumatic white matter injury from chronic small vessel disease. Traumatic lesions appear at gray-white junctions, corpus callosum, and dorsolateral brainstem. Vascular changes cluster in periventricular regions and deep white matter. Pattern recognition matters. Sequential imaging proves progression. I worked a slip and fall case where defense claimed the frontal white matter changes predated the fall. We obtained records from a prior hospitalization showing normal MRI two years before. The new lesions matched the site of impact.
+
+**Negative Imaging Does Not Defeat Your TBI Case**
+
+Thousands of legitimate TBI cases involve completely normal imaging. Concussion is a clinical diagnosis based on mechanism, symptoms, and functional impairment. Neuropsychological testing documents cognitive deficits. Vestibular and vision testing objectifies balance and oculomotor dysfunction. I have reviewed cases with Glasgow Coma Scale scores of 13, loss of consciousness, post-traumatic amnesia, and devastating cognitive deficits where every scan came back normal. Defense will argue no objective findings exist. You counter with mechanism of injury, immediate symptoms, clinical course, functional decline, and expert testimony explaining why imaging does not capture all brain injuries.
+
+**Get the Right Expert to Read the Films**
+
+The radiologist who dictated the report rarely testifies well. Hospital radiologists rush through readings and miss subtle findings. You need a board-certified neuroradiologist who specializes in trauma imaging. Send the actual DICOM images, not just the written report. I have seen cases turn on findings the original radiologist called unremarkable. Your expert reviews every sequence, measures lesion volumes, and compares studies over time. Defense will hire their own radiologist. Prepare for battle of the experts. The attorney who understands the imaging wins.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-06",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "MRI and CT findings in TBI litigation: what imaging shows, what it misses, and how to counter defense experts attacking your brain injury case.",
+    keywords: ["traumatic brain injury","MRI findings","CT scan","diffuse axonal injury","TBI litigation","brain injury imaging"],
+  },
+  {
     slug: "how-to-read-an-ekg-report-in-cardiac-malpractice-cases",
     title: "How to Read an EKG Report in Cardiac Malpractice Cases",
     excerpt: "EKG reports contain critical evidence in cardiac malpractice cases. Here's what to look for when liability turns on those squiggly lines.",
