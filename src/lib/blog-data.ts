@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-infection-markers-in-sepsis-and-hai-cases",
+    title: "How to Read Infection Markers in Sepsis and HAI Cases",
+    excerpt: "Learn which lab values prove infection timeline and hospital negligence in sepsis cases.",
+    content: `
+Your client went into the hospital for routine surgery. She died from septic shock five days later. The defense claims she arrived septic. You need to prove the infection started in their facility. The lab values tell you exactly when.
+
+**White Blood Cell Count Tells You When the Infection Started**
+
+WBC count is your timeline anchor. Normal range sits between 4,000 and 11,000 cells per microliter. Above 12,000 signals infection or inflammation. Above 15,000 means active bacterial infection. I review admission labs first, then track every CBC ordered during the hospitalization. A WBC of 8,000 on admission that jumps to 18,000 on day three proves hospital acquisition. The defense will argue the patient was immunocompromised or stressed from surgery. You counter with the differential count. Neutrophils above 70% with bandemia (immature neutrophils above 10%) confirms acute bacterial infection, not stress response.
+
+**Procalcitonin Separates Bacterial Infection from Everything Else**
+
+ProCalcitonin (PCT) rises only in bacterial infections. Viral infections, autoimmune conditions, and post-surgical inflammation do not elevate it. Normal PCT stays below 0.05 ng/mL. Above 0.5 indicates possible bacterial infection. Above 2.0 means severe bacterial infection or sepsis. Above 10.0 signals septic shock. I look for hospitals that failed to order PCT when a patient showed early infection signs. Fever of 101.5, elevated WBC, and decreased mental status on post-op day two demands PCT testing. Failure to order it means they missed the narrow window to prevent progression. When you see PCT ordered and ignored, you have your negligence. A PCT of 3.2 with no antibiotic order for eight hours is indefensible.
+
+**Lactic Acid Measures Tissue Perfusion and Sepsis Severity**
+
+Lactate tells you if the infection caused organ damage. Normal lactate runs below 2.0 mmol/L. Between 2.0 and 4.0 indicates tissue hypoperfusion. Above 4.0 defines septic shock and predicts mortality above 40%. Lactate clearance matters more than a single value. Proper sepsis treatment drops lactate by 10% every hour. I flag cases where lactate stayed elevated or rose despite fluid resuscitation. A lactate of 4.2 at hour zero and 4.8 at hour six proves inadequate resuscitation. The Surviving Sepsis Campaign guidelines require lactate remeasurement within six hours if initial value exceeds 2.0. Missing that follow-up lactate is a documentation failure worth examining.
+
+**Blood Culture Timing Proves or Destroys Your Causation**
+
+Blood cultures taken before antibiotics identify the organism and source. Cultures drawn after antibiotics administration often come back negative or show contaminants. I see hospitals skip cultures and start broad-spectrum antibiotics blindly. This destroys your ability to prove the infection source. You need cultures drawn from two separate sites within 45 minutes of sepsis recognition. Positive cultures from a central line tip and blood sample prove central line-associated bloodstream infection (CLABSI). Positive cultures growing E. coli or Pseudomonas with matching antibiograms from urine and blood prove the UTI caused the sepsis. The microbiology report timestamps everything. Use it.
+
+**C-Reactive Protein and ESR Track Inflammation Trends**
+
+CRP rises within six hours of infection or inflammation. ESR rises more slowly over days. Normal CRP stays below 10 mg/L. Infection pushes it above 50 mg/L. I use CRP trends to show worsening infection despite treatment. A CRP of 45 on day one, 120 on day three, and 200 on day five demonstrates failed source control or wrong antibiotic choice. ESR matters less in acute cases but supports chronic infection claims. An ESR above 100 mm/hr suggests abscess, osteomyelitis, or endocarditis. Combine elevated ESR with positive blood cultures and imaging findings to prove the infection was brewing before admission or developed during hospitalization.
+
+**The Sequential Organ Failure Assessment Score Quantifies Negligence**
+
+SOFA score uses six objective measures: respiratory function (PaO2/FiO2 ratio), coagulation (platelet count), liver function (bilirubin), cardiovascular status (mean arterial pressure and vasopressor need), neurological status (Glasgow Coma Scale), and renal function (creatinine and urine output). Each organ system scores 0 to 4 points. A two-point increase from baseline defines sepsis-induced organ dysfunction. I calculate SOFA scores from the medical record when the hospital failed to document them. A SOFA score of 8 means 15% mortality risk. A score of 12 means 40% mortality risk. When nursing notes show decreased urine output, confusion, low blood pressure, and oxygen requirement but the provider documented none of it and calculated no SOFA score, you have failure to recognize and treat.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-07",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Infection markers in sepsis cases: WBC, procalcitonin, lactate, blood cultures, CRP and SOFA scores attorneys must know to prove hospital negligence.",
+    keywords: ["sepsis","hospital-acquired infection","infection markers","medical malpractice","procalcitonin","lactic acid"],
+  },
+  {
     slug: "what-mri-and-ct-findings-mean-in-traumatic-brain-injury-litigation",
     title: "What MRI and CT Findings Mean in Traumatic Brain Injury Litigation",
     excerpt: "Imaging findings tell different stories in TBI cases. Know which findings prove objective injury and which defense experts will attack.",
