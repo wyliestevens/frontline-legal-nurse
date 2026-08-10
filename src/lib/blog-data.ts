@@ -13,6 +13,40 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-the-glasgow-coma-scale-in-head-injury-cases",
+    title: "Understanding the Glasgow Coma Scale in Head Injury Cases",
+    excerpt: "The Glasgow Coma Scale reveals brain injury severity and prognosis. Learn what the scores mean for your case value and liability exposure.",
+    content: `
+**The GCS Score Determines Everything in Your TBI Case**
+
+The Glasgow Coma Scale dictates treatment decisions, admission to ICU versus floor, and the severity classification defense counsel will hammer in depositions. I have reviewed thousands of head injury cases where attorneys missed critical GCS documentation patterns. The scale measures three responses: eye opening, verbal response, and motor response. Scores range from 3 (deep coma) to 15 (fully alert). A score of 13-15 indicates mild TBI, 9-12 moderate, and 8 or below severe. EMS documents the first GCS at scene. Emergency department staff repeat it on arrival. Trauma nurses reassess every 15 minutes initially, then hourly. Any drop of 2 points triggers immediate physician notification and often a repeat CT scan.
+
+**Defense Counsel Will Attack Inconsistent GCS Documentation**
+
+I see this in every case: paramedics document GCS 14 at scene, ED triage nurse records 15, then the physician charts 13 twenty minutes later. Defense uses these inconsistencies to argue your client was never truly impaired. The truth is different providers assess differently, especially verbal response in intubated patients or patients with language barriers. Look for the qualifier "T" after the score, meaning intubated and unable to provide verbal response. A score of "10T" tells me the patient got 4 points for eye opening and 6 for motor, but verbal response was untestable. I have seen defense experts claim improving GCS scores prove minimal injury when the patient was simply emerging from sedation. You need a legal nurse consultant to map every GCS score across the entire hospital stay and explain the clinical significance of each change.
+
+**Each Component Reveals Specific Brain Injury Patterns**
+
+Eye opening scores range from 1 (no response) to 4 (spontaneous). Your client who opens eyes only to painful stimulus (score of 2) has significantly impaired consciousness. Verbal response ranges from 1 (no sounds) to 5 (oriented). A score of 3 means inappropriate words, not random sounds but not coherent conversation either. I reviewed a case where ED notes documented "patient states name but not location or date" and scored verbal response as 4 (confused). This is critical for your damages narrative. Motor response ranges from 1 (no movement) to 6 (obeys commands). A score of 4 means withdrawal from pain but not purposeful movement. Decorticating posture scores 3, decerebrate posture scores 2. Both indicate severe brain injury with poor prognosis. I have used isolated decorticating episodes documented by night shift nurses to establish severity when daytime GCS scores looked better.
+
+**Serial GCS Scores Show Progression and Complications**
+
+A patient admitted with GCS 13 who drops to 8 twelve hours later is herniating or bleeding. This is an emergency. The nursing notes will show increasing restlessness, then lethargy, then unresponsiveness. I look for the exact time of deterioration because it tells me if imaging was ordered promptly and if surgical intervention was delayed. In nursing home falls, I have caught cases where certified nursing assistants noted "resident less responsive" but never quantified it with a GCS score. The physician was not notified for six hours. Your damages multiplied because of delayed transfer. Rising GCS scores show recovery but also establish baseline. When your client's GCS reached 15 on hospital day three but he still needed maximum assistance with self-care, you have proof the injury caused functional deficits beyond consciousness level.
+
+**GCS Limitations Your Expert Witness Must Address**
+
+The scale does not measure cognition, judgment, or behavior. I have reviewed cases where patients scored GCS 15 but were combative, confused, and attempting to pull out IV lines. The nursing narrative is critical here. Document every restraint application, every redirect, every family member brought to bedside for reorientation. GCS does not assess cranial nerve function. Your client with facial droop and dilated pupil scores the same as someone without these signs. The neuro checks documented alongside GCS scores reveal the complete picture. Intoxication and sedation confound GCS scoring. I look for blood alcohol levels and medication administration records to contextualize low scores in the ED. Defense will argue alcohol caused the low score, not the head injury. You need toxicology results and serial scores showing improvement correlated with sobriety.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-10",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Glasgow Coma Scale interpretation for traumatic brain injury cases. Understand GCS scoring patterns and documentation issues affecting case value.",
+    keywords: ["Glasgow Coma Scale","GCS score","traumatic brain injury","head injury cases","TBI litigation","medical record review"],
+  },
+  {
     slug: "how-to-read-infection-markers-in-sepsis-and-hai-cases",
     title: "How to Read Infection Markers in Sepsis and HAI Cases",
     excerpt: "Learn which lab values prove infection timeline and hospital negligence in sepsis cases.",
