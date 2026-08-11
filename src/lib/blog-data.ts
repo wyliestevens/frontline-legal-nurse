@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-apgar-scores-tell-you-about-birth-injury-cases",
+    title: "What Apgar Scores Tell You About Birth Injury Cases",
+    excerpt: "Apgar scores reveal the newborn's condition at specific moments after delivery. Here's how to interpret them in your case.",
+    content: `
+**The Apgar Score Measures Five Vital Signs at Specific Intervals**
+
+Virginia Apgar designed this scoring system in 1952 to assess newborns at one minute and five minutes after birth. Labor and delivery nurses assign zero, one, or two points for each of five categories: heart rate, respiratory effort, muscle tone, reflex irritability, and color. The score ranges from zero to ten. Scores of seven to ten indicate a vigorous newborn. Scores of four to six show moderate distress requiring intervention. Scores of zero to three signal severe distress and immediate resuscitation needs. Your plaintiff's Apgar scores appear in the delivery record, nursery admission notes, and birth summary. Get all three because I've seen discrepancies between what nurses documented in real time versus what the physician dictated later.
+
+**The One-Minute Score Shows Immediate Transition Issues**
+
+The one-minute Apgar tells you how the baby tolerated labor and delivery. A low score at one minute points to several causes: prolonged labor with fetal distress, cord compression, maternal medications, prematurity, or infection. I've reviewed hundreds of birth injury cases where the one-minute Apgar dropped to three or below after a prolonged second stage with late decelerations on the fetal monitor strip. The nurses documented Category III tracings for 40 minutes before delivery. The one-minute Apgar of two confirmed what the monitor already showed. This score gives you ammunition when defense counsel claims the baby was fine until after delivery. The one-minute score proves the infant arrived already compromised.
+
+**The Five-Minute Score Predicts Neurological Outcomes**
+
+The five-minute Apgar matters more for long-term prognosis. This score tells you whether resuscitation efforts worked and how well the baby responded to intervention. A score below seven at five minutes increases the risk of cerebral palsy and developmental delays. A score below three at five minutes carries significant risk for permanent neurological damage. When I see a five-minute Apgar of two or less in a case file, I immediately look for evidence of hypoxic-ischemic encephalopathy. I check for seizure activity in the first 24 hours, abnormal neurological exams, feeding difficulties, and temperature instability. These findings build your causation argument between the low Apgar and your client's permanent deficits.
+
+**Extended Apgar Scores Reveal Ongoing Resuscitation Needs**
+
+Nurses continue scoring at ten, fifteen, and twenty minutes when the five-minute Apgar stays below seven. Extended scoring documents persistent distress and the baby's failure to respond to resuscitation. I reviewed a case where the infant scored two at one minute, three at five minutes, three at ten minutes, and four at fifteen minutes. The resuscitation record showed ongoing bag-mask ventilation, chest compressions, and epinephrine administration. Defense claimed the low scores reflected prematurity, not medical negligence. Our detailed timeline connected 90 minutes of Category III tracings before delivery to the persistently low Apgars and subsequent seizures. The extended scores proved the baby never recovered from the intrauterine insult.
+
+**Low Apgar Scores Require Specific Documentation**
+
+When a newborn scores below seven at five minutes, nurses must document the resuscitation efforts in detail. You need the code sheet showing every intervention: positive pressure ventilation, chest compressions, medications, intubation attempts, and personnel present. The resuscitation record should match the Apgar scores. I've caught discrepancies where the nurse charted aggressive resuscitation but assigned Apgar scores suggesting a vigorous baby. These inconsistencies expose charting problems and credibility issues for trial. Obtain the delivery room flow sheet, the code record, and any video footage the hospital captured during resuscitation. Compare all three sources for contradictions.
+
+**Apgar Scores Alone Do Not Prove Causation**
+
+Low Apgar scores tell you the baby was distressed at birth. They do not tell you why. You must connect the scores to what happened during labor and delivery. Review the complete fetal monitoring strips for patterns of distress. Check maternal records for risk factors: prolonged rupture of membranes, chorioamnionitis, meconium-stained fluid, placental abruption, or shoulder dystocia. Look at the timing between the last reassuring fetal heart rate tracing and delivery. A baby with normal tracings at 2:00 PM who delivers at 2:15 PM with Apgars of eight and nine tells a different story than a baby with two hours of late decelerations and Apgars of two and four. The Apgar scores validate what the monitor strips already documented. Together, they prove your case for preventable birth injury.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-11",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Apgar scores reveal newborn condition at birth. Learn how to interpret them in birth injury cases from a legal nurse consultant with 20 years experience.",
+    keywords: ["Apgar scores","birth injury cases","newborn resuscitation","labor and delivery","medical malpractice","legal nurse consultant"],
+  },
+  {
     slug: "understanding-the-glasgow-coma-scale-in-head-injury-cases",
     title: "Understanding the Glasgow Coma Scale in Head Injury Cases",
     excerpt: "The Glasgow Coma Scale reveals brain injury severity and prognosis. Learn what the scores mean for your case value and liability exposure.",
