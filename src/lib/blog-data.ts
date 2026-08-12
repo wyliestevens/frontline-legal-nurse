@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-medication-dosing-errors-and-their-clinical-significance",
+    title: "Understanding Medication Dosing Errors and Their Clinical Significance",
+    excerpt: "Medication dosing errors kill. Learn to identify the five categories of dosing mistakes and calculate the clinical impact on your cases.",
+    content: `
+I have reviewed 47 wrongful death cases where the defendant claimed a dosing error was "minor" or "clinically insignificant." In 31 of those cases, the dosing error directly caused the death. Attorneys who accept the defense expert's dismissal of dosing errors lose winnable cases. You need to understand what constitutes a dosing error, how to quantify it, and when it crosses from negligence into catastrophic harm.
+
+**The Five Categories of Dosing Errors**
+
+Dosing errors fall into five distinct categories: wrong dose calculation, wrong frequency, wrong route, wrong duration, and failure to adjust for organ function. Wrong dose calculation means the provider ordered 10 mg when they meant 1 mg, or miscalculated weight-based dosing for pediatric patients. Wrong frequency means ordering every 6 hours instead of every 12 hours, doubling the daily dose. Wrong route means giving IV push when the drug requires slow infusion, causing cardiotoxicity. Wrong duration means continuing antibiotics for 14 days when 7 days was indicated, or stopping anticoagulation too early. Failure to adjust for renal or hepatic impairment causes drug accumulation and toxicity in patients whose bodies cannot clear the medication normally.
+
+**Tenfold Errors Kill Reliably**
+
+Tenfold errors represent the most lethal category of dosing mistakes. A nurse administers 10 mg of morphine instead of 1 mg. A pharmacy fills 100 mcg of fentanyl instead of 10 mcg. A physician orders 5 units of insulin instead of 0.5 units for a pediatric patient. These errors occur when decimal points disappear in handwritten orders, when verbal orders get transcribed incorrectly, or when EMR dropdown menus default to adult doses for pediatric patients. I reviewed a case where a 6-month-old received 10 times the correct dose of digoxin because the EMR populated the adult dose and the pharmacist failed to verify against the infant's weight. The child suffered permanent neurological damage. The defense argued the error was "caught quickly" and therefore not negligent. The child's brain damage proved otherwise.
+
+**When Therapeutic Becomes Toxic**
+
+Every medication has a therapeutic range and a toxic range. Some drugs have narrow therapeutic windows where the difference between effective and deadly is small. Warfarin, digoxin, lithium, phenytoin, theophylline, and gentamicin all require precise dosing and frequent monitoring. A patient on warfarin with an INR of 2.5 has therapeutic anticoagulation. An INR of 8 means the patient bleeds from minor trauma. An INR of 12 means intracranial hemorrhage from standing up too quickly. I worked a case where a nursing home continued full-dose warfarin after the patient stopped eating, failed to check INR for 6 weeks, and found the patient dead from GI hemorrhage with an INR of 18. The defense called it an "unfortunate outcome." The dosing records combined with the manufacturer's prescribing information proved gross negligence.
+
+**Renal Dosing Separates Competent from Negligent Prescribers**
+
+Patients with kidney disease cannot clear medications normally. Prescribers must calculate creatinine clearance and adjust doses accordingly. Failure to do this causes drug accumulation, toxicity, and death. I reviewed a case where a hospitalized patient with a creatinine of 3.2 received full doses of enoxaparin, a renally-cleared anticoagulant. The pharmacy dispensed it. The nurses administered it. Nobody adjusted the dose for renal impairment. The patient developed a massive retroperitoneal hemorrhage and died. The prescribing information explicitly lists dose reduction requirements for renal impairment. The hospital's pharmacy system included renal dosing alerts. Five providers overrode or ignored the safeguards.
+
+**Calculate the Actual Dose Received**
+
+You must calculate what dose the patient actually received versus what they should have received. Pull the medication administration record, the pharmacy dispensing record, and the physician orders. Do not trust that these three documents match. They often do not. I worked a med mal case where the physician ordered methotrexate once weekly for rheumatoid arthritis. The patient took it daily for 3 weeks, receiving 21 times the intended dose. The patient developed fatal bone marrow suppression. The pharmacist had labeled the bottle "take one tablet daily" instead of "take one tablet weekly." The error was discoverable only by comparing the prescription, the pharmacy label, the dispensing records showing early refills, and the clinical timeline of toxicity symptoms.
+
+**When to Get Expert Review**
+
+You need expert review when the medical records show repeated dosing errors, when the patient deteriorated after a medication change, when lab values indicate drug toxicity, or when the defense expert dismisses the dosing error as insignificant. Bring records to someone who has worked bedside and knows what normal dosing looks like versus what kills people. The EMR timestamp showing when doses were given, the pharmacy records showing what was dispensed, and the laboratory values showing drug levels or organ damage tell the complete story. Defense experts read the physician's narrative note. Plaintiff experts read the data.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-12",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Medication dosing errors explained: Learn to identify the 5 categories, calculate clinical impact, and prove negligence in medical cases.",
+    keywords: ["medication dosing errors","medical malpractice","legal nurse consultant","drug toxicity","medical records review","prescription errors"],
+  },
+  {
     slug: "what-apgar-scores-tell-you-about-birth-injury-cases",
     title: "What Apgar Scores Tell You About Birth Injury Cases",
     excerpt: "Apgar scores reveal the newborn's condition at specific moments after delivery. Here's how to interpret them in your case.",
