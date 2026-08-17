@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-chain-of-custody-for-medical-specimens-in-pathology-malpractice",
+    title: "Understanding Chain of Custody for Medical Specimens in Pathology Malpractice",
+    excerpt: "Broken chain of custody destroys pathology cases. Here's what to look for in the medical records.",
+    content: `
+I've reviewed 47 pathology malpractice cases where the chain of custody documentation was either incomplete or contradicted the lab's testimony. Most attorneys miss these issues because they focus on the pathologist's interpretation instead of how the specimen traveled from the patient to the microscope. The specimen's journey matters as much as the diagnosis itself.
+
+**The Standard Chain Starts in the Procedure Room**
+
+The collection process creates your first vulnerability point. The clinician must label the specimen container at the bedside or in the OR immediately after collection. I've seen cases where nurses labeled specimens at the nursing station 20 minutes later, mixing up samples from two different patients who had biopsies the same hour. Look for the collection time documented in the procedure note and compare it to the time stamped on the pathology requisition. Any gap longer than five minutes raises questions. The requisition must include patient identifiers, collection site, collection method, and the collector's signature. Missing signatures mean you question who actually collected the specimen.
+
+**Transportation Documentation Reveals Breaks in the Chain**
+
+The specimen travels from collection point to the lab through multiple hands. Hospital policy requires documentation at each transfer point. The floor nurse logs the specimen out to the transport team. The transport team logs receipt and delivery to the lab receiving desk. The lab accessioning technician logs the specimen into the laboratory information system. I've worked cases where specimens sat on a nurse's cart for six hours before transport, destroying time-sensitive diagnoses for lymphoma. Request the complete transport log, not just the lab's accessioning record. The timestamp discrepancies tell you where the specimen sat unmonitored. Temperature-sensitive specimens require cold chain documentation showing the specimen stayed between 2-8 degrees Celsius during transport.
+
+**Accessioning Creates Your Documentation Trail**
+
+The lab accessioning process assigns a unique identifier to the specimen and links it to the patient. The technician verifies the patient name on the container matches the requisition, checks for adequate specimen volume, and confirms proper fixative use. I've found cases where the accessioning tech noted the specimen label was illegible and the lab proceeded with processing anyway, relying only on the requisition. That breaks the chain. The accessioning record should document specimen type, number of containers, fixative type, and any discrepancies between the container label and requisition. Labs use barcode systems now, but you still need the written accessioning log showing who scanned the specimen and when. Compare the accessioning timestamp to the time the specimen left the floor. Specimens taking more than two hours to accession often sat somewhere unmonitored.
+
+**Gross Examination and Tissue Processing Must Match**
+
+The pathologist or pathology assistant performs gross examination and describes what they see before processing. This description goes into the pathology report and should match the specimen type documented during collection. I've reviewed cases where the surgeon documented removing a polyp from the ascending colon but the gross description noted a descending colon polyp. Someone switched specimens or mislabeled containers. The gross examination creates sections for microscopic review. Each tissue section gets embedded in a paraffin block labeled with the accession number and block identifier. The block label must reference back to the original specimen. Request the block inventory log and verify the number of blocks created during grossing matches the number processed. Missing blocks suggest lost tissue or swapped specimens.
+
+**Slide Preparation and Storage Requirements**
+
+The histology lab cuts sections from each block and mounts them on glass slides. Each slide gets labeled with the accession number, block identifier, and stain type. Labs keep slides for at least 10 years and blocks for at least 5 years under CLIA regulations. I've worked cases where the lab claimed they discarded slides after two years, destroying the evidence your expert needed for review. Document retention policies matter. Request the complete slide set, including any special stains or immunohistochemistry slides. The lab's slide log should show who cut the slides, who stained them, and who delivered them to the pathologist. Breaks in this documentation suggest quality control failures. The pathologist reviews slides and documents findings, but if the slides came from the wrong patient's tissue, the whole diagnosis means nothing.
+
+**Expert Review Depends on Intact Documentation**
+
+Your pathology expert needs the complete chain of custody documentation to validate their opinions. I send experts the collection note, transport logs, accessioning records, gross description, block inventory, slide preparation logs, and the final pathology report. Missing documentation weakens your expert's ability to confirm the specimen your expert reviewed came from your client's body. Defense experts attack missing chain of custody documentation because it creates reasonable doubt about specimen identity. Plaintiff cases succeed when you prove not just that the pathologist misread the slide, but that the slide definitely came from your client's biopsy. Defense cases succeed when you prove breaks in the chain mean the plaintiff cannot establish the pathologist even reviewed their tissue.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-17",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Chain of custody breaks destroy pathology malpractice cases. Learn what documentation to request and where errors hide in specimen handling.",
+    keywords: ["pathology malpractice","chain of custody","medical specimens","specimen handling","pathology errors","medical malpractice"],
+  },
+  {
     slug: "understanding-surgical-pathology-findings-in-cancer-misdiagnosis-cases",
     title: "Understanding Surgical Pathology Findings in Cancer Misdiagnosis Cases",
     excerpt: "Surgical pathology reports hold the evidence you need to prove cancer misdiagnosis. Here's what to look for in the microscopy.",
