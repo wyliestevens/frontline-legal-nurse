@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "american-heart-association-guidelines-define-cardiac-malpractice-standard-of-car",
+    title: "American Heart Association Guidelines Define Cardiac Malpractice Standard of Care",
+    excerpt: "AHA guidelines establish the clinical benchmarks your cardiac cases live or die on. Know what nurses and physicians must follow.",
+    content: `
+The American Heart Association publishes clinical guidelines every five years. Every cardiologist, emergency physician, and cardiac nurse in this country learns these protocols. When they deviate and your client suffers harm, you have a malpractice case.
+
+**AHA Guidelines Establish Your Standard of Care Baseline**
+
+The AHA Advanced Cardiovascular Life Support (ACLS) guidelines dictate exactly how medical teams respond to cardiac emergencies. These protocols specify drug dosages, shock delivery timing, airway management steps, and post-cardiac arrest care. I have reviewed hundreds of code blue records where staff failed to follow these precise algorithms. The guidelines are not suggestions. Hospitals credential providers based on ACLS certification. When a nurse pushes epinephrine at the wrong interval or a physician delays defibrillation, you compare their actions against the published AHA algorithms. The expert witness testimony writes itself.
+
+**Door-to-Balloon Time Violations Kill Plaintiffs**
+
+AHA guidelines mandate 90 minutes or less from emergency department arrival to percutaneous coronary intervention for ST-elevation myocardial infarction patients. I see this deadline blown in case after case. The ED physician dismisses chest pain as anxiety. The nurse documents atypical presentation and delays the EKG. The interventional cardiologist takes 45 minutes to arrive after the cath lab activation. Each delay is documented in time-stamped records. You calculate the exact minutes between triage and balloon inflation. When that number exceeds 90 minutes without valid clinical justification, you have breach of duty. The resulting myocardial damage shows up on echocardiograms and troponin levels.
+
+**Post-Cardiac Arrest Hypothermia Protocols Separate Winners from Losers**
+
+The AHA guidelines require targeted temperature management for comatose patients after return of spontaneous circulation. The protocol calls for cooling to 32-36 degrees Celsius for at least 24 hours. Most hospitals have written policies implementing these guidelines. I pull those policies in every cardiac arrest case. Then I check the nursing flow sheets for documented temperature monitoring and cooling interventions. When hospitals skip this neuroprotective treatment, patients wake up with devastating anoxic brain injuries. The medical records show whether staff initiated cooling, maintained target temperature, and followed rewarming protocols. Missing documentation equals missing treatment.
+
+**Medication Errors Stand Out Against AHA Drug Protocols**
+
+ACLS algorithms specify exact medication sequences, dosages, and timing. Epinephrine 1 mg IV every 3-5 minutes during cardiac arrest. Amiodarone 300 mg IV bolus for refractory ventricular fibrillation. Atropine for symptomatic bradycardia. I have seen nurses administer ten times the recommended epinephrine dose. I have seen physicians skip amiodarone entirely. I have seen pharmacy mix the wrong concentration. The medication administration record tells the story. You compare what the AHA algorithm requires against what the MAR documents. The gaps represent departures from standard care.
+
+**Stroke Center Certification Creates Higher Duty Standards**
+
+Hospitals pursuing Joint Commission stroke center certification must demonstrate AHA guideline compliance. They implement protocols for rapid CT imaging, neurologist consultation, and tPA administration within specified timeframes. Once certified, these hospitals advertise their advanced stroke capabilities to the community. They bill at higher rates. They accept the duty to provide guideline-concordant care. When stroke patients arrive and staff fail to follow their own AHA-based protocols, you have stronger liability exposure. The hospital held itself out as meeting elite standards, then fell short.
+
+**Expert Witnesses Live and Die on Guideline Knowledge**
+
+Every competent cardiology expert knows the current AHA guidelines. Defense experts will cite them to justify the defendant's actions. Your expert must know them better. I have seen attorneys lose cases because their expert referenced outdated guidelines. The AHA updates resuscitation science constantly. The 2020 guidelines changed compression depth recommendations and epinephrine timing compared to 2015. Your expert must specify which guideline version applied when the malpractice occurred. The publication dates matter. I provide attorneys with the exact guideline citations and version numbers before expert depositions. You cross-examine defense experts on specific algorithm steps they claim the defendant followed.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-18",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "AHA guidelines establish cardiac malpractice standards. Learn how door-to-balloon times, ACLS protocols, and hypothermia requirements define breach of duty.",
+    keywords: ["cardiac malpractice","AHA guidelines","standard of care","door-to-balloon time","ACLS protocols","medical malpractice"],
+  },
+  {
     slug: "understanding-chain-of-custody-for-medical-specimens-in-pathology-malpractice",
     title: "Understanding Chain of Custody for Medical Specimens in Pathology Malpractice",
     excerpt: "Broken chain of custody destroys pathology cases. Here's what to look for in the medical records.",
