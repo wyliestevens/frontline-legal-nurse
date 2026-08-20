@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-ventilator-settings-reveal-about-respiratory-care-decisions",
+    title: "What Ventilator Settings Reveal About Respiratory Care Decisions",
+    excerpt: "Ventilator settings document every clinical decision made for your client. Learn what the numbers mean and where providers fail.",
+    content: `
+The ventilator flow sheet tells you everything about the standard of care your client received. I have reviewed thousands of records where ventilator management made the difference between a defensible case and a seven-figure settlement. The settings document clinical decision-making in real time. They show you whether the respiratory therapist and physician responded appropriately to your client's deteriorating condition or ignored clear warning signs.
+
+**Mode Settings Show the Level of Support**
+
+The ventilator mode determines how much work the machine does versus how much the patient does. AC (assist-control) delivers full breaths when the patient triggers the machine or when they fail to breathe within the set rate. SIMV (synchronized intermittent mandatory ventilation) forces fewer breaths and makes the patient work harder. Switching from AC to SIMV too early exhausts patients who are not ready. I see this in cases where facilities push weaning protocols to meet insurance pressure or discharge targets. Pressure support ventilation requires the patient to initiate every breath. Switching to PSV when your client had marginal respiratory drive leads to respiratory arrest.
+
+**FiO2 and PEEP Expose Oxygenation Failures**
+
+FiO2 is the fraction of inspired oxygen, ranging from 21% (room air) to 100%. PEEP is positive end-expiratory pressure measured in centimeters of water. These two settings work together to oxygenate the blood. An FiO2 above 60% for more than 48 hours causes oxygen toxicity and lung damage. When I see sustained high FiO2 without adequate PEEP adjustment, I know the team failed to optimize ventilator strategy. Proper management increases PEEP to recruit collapsed alveoli before maxing out oxygen. Charts showing FiO2 at 100% for days while PEEP remains at 5 tell me nobody adjusted the plan.
+
+**Tidal Volume and Plateau Pressure Predict Lung Injury**
+
+Tidal volume is the amount of air delivered with each breath, measured in milliliters. The standard is 6-8 mL per kilogram of ideal body weight. I have worked cases where providers used 10-12 mL/kg because they followed outdated protocols or never calculated ideal body weight. High tidal volumes cause volutrauma. Plateau pressure should stay below 30 cm H2O to prevent barotrauma. When I see plateau pressures above 30 with no intervention documented, I know the team caused or worsened acute respiratory distress syndrome. The ventilator records this data automatically. The absence of pressure checks in the chart means nobody looked.
+
+**Alarm Limits and Response Times Define Negligence**
+
+Ventilators alarm when parameters fall outside set limits. High pressure alarms indicate the patient is biting the tube, the circuit is kinked, or secretions are obstructing the airway. Low pressure alarms mean disconnection or tube displacement. The chart must show what time the alarm triggered and what time staff responded. I worked a wrongful death case where the ventilator disconnected at 0320. The alarm log showed continuous alarming for 12 minutes before a nurse entered the room. Your client suffered anoxic brain injury during those 12 minutes. The ventilator data proved it.
+
+**Weaning Parameters Reveal Premature Extubation**
+
+Before removing the breathing tube, the team must document specific criteria. Rapid shallow breathing index (RSBI) should be below 105. Negative inspiratory force should be stronger than -20 cm H2O. The patient must handle a spontaneous breathing trial for 30-120 minutes without distress. I see cases where none of these parameters were checked or documented. The physician extubated based on time goals rather than clinical readiness. Your client was reintubated within hours, suffering aspiration pneumonia or hypoxic injury during the failed extubation. The absence of documented weaning parameters proves the team skipped steps.
+
+**ABG Results Must Match Ventilator Adjustments**
+
+Arterial blood gas results show pH, PaCO2, PaO2, and bicarbonate levels. These values tell you whether the ventilator settings are working. A PaO2 below 60 or oxygen saturation below 88% requires immediate intervention. Rising PaCO2 means the patient is not ventilating adequately. When I review charts, I compare the timestamp of abnormal ABG results to the timestamp of ventilator changes. Gaps of two, four, or six hours between critical lab values and intervention prove delayed response. I worked a case where the ABG showed pH 7.21 and PaCO2 of 68 at 1400. The ventilator settings were not changed until 1830. Your client arrested at 1645. The timing proved causation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-20",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Ventilator settings document clinical decisions in real time. Learn what FiO2, PEEP, tidal volume, and alarm responses reveal about your case.",
+    keywords: ["ventilator settings","respiratory care","medical malpractice","ventilator management","legal nurse consultant","medical records review"],
+  },
+  {
     slug: "how-to-read-antibiotic-sensitivity-reports-in-infection-mismanagement-cases",
     title: "How to Read Antibiotic Sensitivity Reports in Infection Mismanagement Cases",
     excerpt: "Antibiotic sensitivity reports tell you whether your client received the right drug at the right time. Here's what to look for.",
