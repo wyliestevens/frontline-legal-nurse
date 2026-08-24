@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-the-rancho-los-amigos-scale-reveals-about-brain-injury-recovery",
+    title: "What the Rancho Los Amigos Scale Reveals About Brain Injury Recovery",
+    excerpt: "The Rancho Scale predicts which TBI clients recover and which face permanent deficits. Here's how to read it.",
+    content: `
+**The Rancho Scale Documents Cognitive Recovery in Real Time**
+
+The Rancho Los Amigos Scale tracks cognitive function in traumatic brain injury patients from coma to community reintegration. I see this assessment tool in nearly every significant TBI file I review. Therapists, physicians, and rehabilitation nurses use it to score patients on a scale of I through VIII, with Level I representing no response and Level VIII representing purposeful and appropriate behavior. The score changes as the patient progresses or plateaus. When you see repeated entries at the same Rancho level across months of treatment, you are looking at permanent impairment. The progression pattern tells you whether your client walked out functional or needs lifetime care.
+
+**Levels I Through IV Mean Your Client Was Severely Injured**
+
+Level I is no response to pain, touch, sound, or sight. Your client was in a coma. Level II is generalized response to stimuli, meaning the patient reacts to pain but nothing is purposeful. Level III is localized response where the patient turns toward sound or pulls away from pain. Level IV is confused and agitated. I have reviewed hundreds of records where patients get stuck at Level IV for weeks. They thrash, strike staff, pull out tubes, and require restraints or sedation. This agitation phase is medically documented proof of severe brain trauma. Juries understand this because it contradicts any defense narrative that the injury was minor. The longer your client stayed below Level V, the worse the outcome and the higher the damages.
+
+**Level V Is Where Families See the Person They Lost**
+
+At Level V, the patient is confused and inappropriate but not agitated. They respond to simple commands. They cannot learn new information. They wander if not supervised. I see family statements at this level describing how their loved one does not recognize them or says bizarre things. This is the stage where nursing notes document repeated attempts to leave the facility, inappropriate sexual comments, and zero insight into deficits. Your client at Level V needs 24-hour supervision forever. They will never drive, work, or live independently. The records will show this through failed attempts at even basic self-care tasks. The occupational therapy notes become your damages blueprint.
+
+**Level VI Through VIII Defines Functional Capacity**
+
+Level VI is confused but appropriate. The patient follows directions and recognizes family but has severe memory problems. Level VII is automatic and appropriate, meaning the patient functions in familiar settings but needs structure and supervision in new situations. Level VIII is purposeful and appropriate. At Level VIII, your client still has deficits but functions independently in society. The distance between Level VI and Level VIII determines whether your client returns to their prior job or collects disability for life. I review vocational records alongside Rancho scores to show attorneys exactly where earning capacity was destroyed. A construction foreman stuck at Level VII cannot supervise crews or handle job site decisions. The Rancho level predicts this before vocational experts ever test the client.
+
+**Plateaus and Regressions Change Settlement Value**
+
+Most TBI recovery happens in the first six months. When I see a client move from Level IV to Level VI in 90 days, then stay at Level VI for the next year, they plateaued. The medical records will stop showing Rancho level improvements. Therapy notes shift from progress to maintenance. Life care planners use this plateau point to project lifetime costs. Regressions are worse. I have seen clients drop from Level VII back to Level V after a seizure, infection, or second injury. These regressions appear in nursing assessments and incident reports. They prove the brain injury created permanent vulnerability. You use this to defeat arguments about future decline being speculative.
+
+**The Missing Rancho Score Means Someone Did Not Document**
+
+You need documented Rancho levels throughout the acute and rehabilitation phases. When I review records and see no Rancho scores, I know the facility failed to assess properly or the records are incomplete. Both scenarios benefit your case. Missing assessments support negligence claims in nursing home or rehabilitation malpractice. Incomplete records force the defense to admit they cannot prove your client's true cognitive status at critical points. I flag every missing Rancho score in my chronologies because these gaps become leverage points in discovery and testimony. The absence of documentation is documentation of failure.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-24",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Rancho Los Amigos Scale levels predict TBI recovery and damages. Learn how to read cognitive scores in brain injury cases.",
+    keywords: ["Rancho Los Amigos Scale","traumatic brain injury","TBI prognosis","brain injury recovery","cognitive assessment","medical record review"],
+  },
+  {
     slug: "what-ventilator-settings-reveal-about-respiratory-care-decisions",
     title: "What Ventilator Settings Reveal About Respiratory Care Decisions",
     excerpt: "Ventilator settings document every clinical decision made for your client. Learn what the numbers mean and where providers fail.",
