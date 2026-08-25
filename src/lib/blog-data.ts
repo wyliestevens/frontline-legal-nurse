@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-a-burn-assessment-using-the-rule-of-nines",
+    title: "How to Read a Burn Assessment Using the Rule of Nines",
+    excerpt: "The Rule of Nines determines burn severity and prognosis. Here's what attorneys need to know when reviewing burn injury records.",
+    content: `
+**The Rule of Nines Determines Damages Before You File**
+
+The Rule of Nines is a body surface area calculation system paramedics and emergency physicians use to assess burn severity. Each body region equals 9% or a multiple of 9% of total body surface area (TBSA). Head and neck: 9%. Each arm: 9%. Front torso: 18%. Back torso: 18%. Each leg: 18%. Genitals: 1%. When you see "23% TBSA" in an ER note, you know exactly which body parts burned and what the treating physician expected for recovery. This number drives every damage calculation in your case.
+
+**Second Degree Burns Above 20% TBSA Require ICU Admission**
+
+Burn depth matters more than size for liability purposes. First degree burns are superficial and heal without scarring. Second degree partial thickness burns blister, weep, and require debridement. Third degree full thickness burns destroy all skin layers and need grafting. When I review burn records, I look for documentation of depth assessment at initial presentation and at 48-72 hours post-injury. Burn depth evolves. A second degree burn converts to third degree when infection sets in or blood supply fails. The failure to reassess and escalate care creates liability. Your expert witness needs those serial assessments documented or missing from the chart.
+
+**Look for Inhalation Injury Documentation in Closed Space Burns**
+
+Any burn in an enclosed space requires airway evaluation. The ER physician should document singed nasal hairs, soot in the oropharynx, carbonaceous sputum, stridor, or wheezing. Bronchoscopy findings belong in the record within hours of admission for significant smoke exposure. I see plaintiffs with 15% TBSA burns who die from inhalation injury because the treating team missed the diagnosis. The patient looked stable initially, then crashed 12-24 hours later when airway edema peaked. Your wrongful death case hinges on what the initial assessment documented about respiratory status and whether the team protected the airway early enough.
+
+**Fluid Resuscitation Formulas Appear in ICU Flow Sheets**
+
+The Parkland Formula drives fluid resuscitation for burns above 20% TBSA: 4mL x patient weight in kg x %TBSA burned for the first 24 hours. Half goes in the first 8 hours from time of injury, not time of arrival. When I see a patient who arrived 3 hours post-burn and received inadequate fluids in that critical first 8-hour window, I know the case has merit. Look at hourly urine output documentation. Target is 0.5mL/kg/hour for adults. Outputs below this threshold with no fluid adjustment show negligence. The ICU flowsheet tells you if the nursing staff recognized inadequate perfusion and whether the physician responded.
+
+**Burn Center Transfer Criteria Are Not Suggestions**
+
+The American Burn Association publishes mandatory transfer criteria. Partial thickness burns over 10% TBSA require burn center care. Third degree burns at any age need specialized treatment. Burns to face, hands, feet, genitals, perineum, or major joints go to burn centers. Inhalation injury, electrical burns, and chemical burns need specialized units. When I review a case where a community hospital kept a patient who met transfer criteria, I document every hour of delay. Each hour the patient stayed at an unequipped facility is an hour of substandard care. Your liability expert will connect that delay to worse scarring, more surgeries, longer recovery, and higher damages.
+
+**Scarring Photographs Need Timestamp Documentation**
+
+Burn litigation requires photo documentation at specific intervals: initial injury, post-debridement, post-grafting, 6 months, 12 months, and 24 months. The medical record should contain photos with dates. Most facilities now use digital systems with automatic timestamps. When photos are missing, your case value drops because the defense will argue the scarring looks better than the plaintiff claims. I have worked cases where the only photos came from the patient's phone because the hospital failed to document wound appearance. Get your own photographer involved early. The 6-month and 12-month photos show whether the patient received proper scar management, pressure garments, and reconstructive surgery referrals.
+
+**Compartment Syndrome Develops in Circumferential Deep Burns**
+
+Circumferential third degree burns to limbs cut off circulation. Escharotomy must happen within hours. The surgical note should document the location and depth of the escharotomy incisions. Vascular checks need hourly documentation post-procedure: pulses, capillary refill, sensation, and movement. I worked a case where a 17-year-old with circumferential arm burns waited 9 hours for escharotomy. He lost function in three fingers permanently. The nursing notes showed decreased pulses at hour 4. No physician documented seeing the patient until hour 8. The 9-hour delay was indefensible.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-25",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Rule of Nines explained for burn injury litigation. Learn to read burn assessments, TBSA calculations, and medical records in burn cases.",
+    keywords: ["Rule of Nines","burn injury litigation","TBSA calculation","burn assessment","medical malpractice","burn center transfer criteria"],
+  },
+  {
     slug: "what-the-rancho-los-amigos-scale-reveals-about-brain-injury-recovery",
     title: "What the Rancho Los Amigos Scale Reveals About Brain Injury Recovery",
     excerpt: "The Rancho Scale predicts which TBI clients recover and which face permanent deficits. Here's how to read it.",
