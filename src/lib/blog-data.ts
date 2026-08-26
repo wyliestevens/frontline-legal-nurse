@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-the-tnm-staging-system-in-cancer-misdiagnosis-cases",
+    title: "Understanding the TNM Staging System in Cancer Misdiagnosis Cases",
+    excerpt: "The TNM staging system determines treatment, prognosis, and damages in cancer misdiagnosis cases. Here's what you need to know.",
+    content: `
+The TNM staging system appears in every cancer diagnosis record you review. T describes tumor size and local invasion. N describes lymph node involvement. M describes distant metastasis. The staging determines treatment options, survival rates, and the full scope of your client's damages.
+
+**The Staging System Dictates Treatment and Prognosis**
+
+Stage I breast cancer receives lumpectomy and radiation. Stage III breast cancer requires mastectomy, axillary node dissection, chemotherapy, and radiation. The difference between Stage I and Stage III means months of additional treatment, permanent disfigurement, and a 40% drop in five-year survival. I have reviewed hundreds of breast cancer cases where delayed diagnosis moved the patient from Stage I to Stage III. The medical records show the tumor was visible on imaging six months earlier. The radiologist missed it. Your client lost breast tissue, hair, fertility, and years of life expectancy.
+
+**How Delayed Diagnosis Changes Staging**
+
+Colon cancer grows predictably. A Stage I tumor invades the submucosa. Stage II penetrates the muscle wall. Stage III spreads to regional lymph nodes. Stage IV metastasizes to liver or lungs. Each stage shift takes months to years. When colonoscopy results sit unfollowed in an electronic health record for eight months, Stage I becomes Stage III. I see this pattern repeatedly. The gastroenterologist performed the scope. The pathology showed adenocarcinoma. Nobody called the patient. The tumor grew. Lymph nodes became positive. Your damages calculation must account for the difference between 90% five-year survival and 65% five-year survival.
+
+**Reading Pathology Reports for Staging Information**
+
+Pathology reports contain the raw data for TNM staging. Look for tumor size in centimeters. Look for depth of invasion through tissue layers. Look for the number of lymph nodes examined and the number positive for malignancy. Look for lymphovascular invasion and perineural invasion. These microscopic findings determine the final stage. In lung cancer cases, I compare the initial biopsy report to the surgical pathology report. The tumor size doubled. The nodes went from negative to positive. The treatment plan changed from wedge resection to pneumonectomy plus chemotherapy. The pathology reports prove the delay caused the stage progression.
+
+**Restaging After Delayed Diagnosis**
+
+Oncologists restage cancer when new symptoms appear or treatment fails. Restaging scans reveal disease progression. I reviewed a melanoma case where the dermatologist dismissed a changing mole for 14 months. The initial presentation showed characteristics of Stage IA disease. The delayed biopsy showed 3.2mm depth and ulceration, making it Stage IIB. Six months after excision, PET scan showed liver metastases. Stage IV. The restaging documentation proves the cascade of harm. You need the original clinical photos, the delayed pathology report, and the restaging scans to show the jury what the delay cost.
+
+**Survival Statistics Tied to Staging**
+
+Every cancer type has published survival data by stage. The National Cancer Institute maintains the SEER database with five-year and ten-year survival rates. Stage IA non-small cell lung cancer has 92% five-year survival. Stage IIIA drops to 36%. You use these statistics to calculate lost years of life. I worked a case where a 48-year-old man presented with persistent cough and weight loss. The chest X-ray showed a mass. The primary care physician attributed it to pneumonia and prescribed antibiotics. No follow-up imaging. Twelve months later, the patient returned with bone pain. CT showed widespread metastases. He died 14 months after the missed diagnosis. The SEER data showed he lost 15 to 20 years of life expectancy.
+
+**Expert Witnesses Must Address Staging Progression**
+
+Your oncology expert must testify about staging at the time of negligence versus staging at actual diagnosis. The expert must explain how the delay allowed progression. The expert must connect the staging progression to worse outcomes, more invasive treatment, and decreased survival. I have seen defense experts claim the cancer was already aggressive and would have progressed regardless of timely diagnosis. Your expert needs the pathology slides, the imaging studies, and the tumor markers to prove otherwise. Tumor doubling time, mitotic rate, and Ki-67 proliferation index tell you how fast the cancer was growing. This data defeats the defense claim of inevitable progression.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-26",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "TNM staging system determines treatment and damages in cancer misdiagnosis cases. Learn how to use staging to prove delayed diagnosis harm.",
+    keywords: ["cancer misdiagnosis","TNM staging system","delayed cancer diagnosis","medical malpractice","cancer staging","pathology reports"],
+  },
+  {
     slug: "how-to-read-a-burn-assessment-using-the-rule-of-nines",
     title: "How to Read a Burn Assessment Using the Rule of Nines",
     excerpt: "The Rule of Nines determines burn severity and prognosis. Here's what attorneys need to know when reviewing burn injury records.",
