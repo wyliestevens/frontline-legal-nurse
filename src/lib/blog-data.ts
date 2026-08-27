@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-pediatric-growth-charts-reveal-about-failure-to-thrive-in-child-neglect-cas",
+    title: "What Pediatric Growth Charts Reveal About Failure to Thrive in Child Neglect Cases",
+    excerpt: "Growth charts document malnutrition patterns that separate neglect from medical conditions. Learn what the percentiles mean for your case.",
+    content: `
+I have reviewed hundreds of pediatric records where a child's growth chart told the entire story of neglect before a single witness testified. The Centers for Disease Control and Prevention growth charts plot weight, height, and head circumference against age-specific percentiles. When those lines drop across two or more percentile curves, you have documented evidence of failure to thrive. The pattern of decline matters more than a single data point.
+
+**The Z-Score Tells You Severity of Malnutrition**
+
+Pediatricians use Z-scores to quantify how far a child's measurements deviate from the norm. A Z-score of -2 means the child falls below the 2nd percentile for their age and sex. Anything below -3 indicates severe malnutrition. I have seen cases where a child's weight-for-age Z-score dropped from -1 to -4 over six months while living with the defendant. That mathematical progression proves deterioration under specific custody. Look for the Z-scores in pediatric notes, hospital discharge summaries, and WIC program records.
+
+**Weight-for-Length Ratio Separates Acute from Chronic Neglect**
+
+A child who loses weight rapidly shows acute malnutrition. Their weight-for-length percentile drops while height remains stable. I reviewed a case where an 18-month-old went from the 50th percentile for weight-for-length to below the 3rd percentile in four months after removal from foster care and return to biological parents. The height percentile stayed at the 40th percentile. This pattern excludes genetic short stature and points directly to caloric deprivation. Chronic neglect shows both weight and height falling together over years.
+
+**Head Circumference Reveals Developmental Neglect in Infants**
+
+Brain growth drives head circumference in children under age three. Severe malnutrition during this critical window stunts neurodevelopment permanently. I worked a case where an infant's head circumference dropped from the 75th percentile at birth to the 5th percentile by 10 months old. The foster placement records showed head circumference returning to the 40th percentile within six months of removal from the home. That rebound growth proved the original decline resulted from environmental deprivation, not genetic factors or underlying disease.
+
+**Compare Growth During Different Custody Periods**
+
+The most powerful evidence comes from plotting growth during time with the defendant versus time in protective custody or with another caregiver. I have seen children gain two pounds per month in foster care after gaining two pounds total in the previous year at home. Request records from every healthcare encounter: well-child visits, emergency department trips, school nurse visits, and specialist appointments. Plot every weight and height measurement on a CDC growth chart with custody periods marked. The visual presentation makes the correlation undeniable to a jury.
+
+**Rule Out Organic Causes with Laboratory Values and Specialist Notes**
+
+Defense counsel will argue the child has celiac disease, cystic fibrosis, or another organic cause for poor growth. The medical records either support or destroy this defense. Normal sweat chloride tests rule out cystic fibrosis. Negative tissue transglutaminase antibodies rule out celiac disease. Normal thyroid function tests exclude endocrine causes. I look for whether the defendant attended recommended specialist appointments or followed up on abnormal test results. Missed appointments and untreated medical conditions still constitute neglect.
+
+**Document the Catch-Up Growth After Removal**
+
+Children who experience neglect-related failure to thrive demonstrate rapid catch-up growth when given adequate nutrition and care. I have tracked children who gained more weight in the first month of foster care than in the previous six months combined. This rebound growth serves as retrospective proof of previous deprivation. Obtain all growth measurements from the new placement setting. The pediatric literature defines catch-up growth as weight gain velocity exceeding the normal rate for age. Your medical expert needs these post-removal records to establish causation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-27",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Pediatric growth charts document failure to thrive in child neglect cases. Learn what percentiles and Z-scores prove about malnutrition.",
+    keywords: ["failure to thrive","child neglect cases","pediatric growth charts","malnutrition documentation","legal nurse consulting","medical record review"],
+  },
+  {
     slug: "understanding-the-tnm-staging-system-in-cancer-misdiagnosis-cases",
     title: "Understanding the TNM Staging System in Cancer Misdiagnosis Cases",
     excerpt: "The TNM staging system determines treatment, prognosis, and damages in cancer misdiagnosis cases. Here's what you need to know.",
