@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "medical-examiner-findings-versus-hospital-death-summary",
+    title: "Medical Examiner Findings Versus Hospital Death Summary",
+    excerpt: "These documents answer different questions. Confusing them costs you the case.",
+    content: `
+I pulled the hospital death summary. It said respiratory failure. The medical examiner's report listed cause of death as blunt force trauma to the chest. The family's attorney had spent six months barking up the wrong tree because he treated these documents as interchangeable. They are not.
+
+**The Hospital Death Summary Documents Treatment Failure**
+
+The hospital death summary reflects the terminal event. The patient stopped breathing. The heart stopped. Multi-organ failure ensued. This document tells you what the medical team tried to reverse and what physiological process they lost the battle against. It does not tell you why the patient arrived at that point. A death summary listing "cardiopulmonary arrest" after a motor vehicle collision is clinically accurate and legally useless. The summary focuses on the final cascade of events during hospitalization. Review it to understand what interventions were attempted, which organs failed first, and whether the hospital missed opportunities to prevent deterioration. Do not expect it to establish liability in your underlying case.
+
+**The Medical Examiner Determines Cause and Manner**
+
+The medical examiner investigates why the person died and classifies the manner of death. Cause of death is the injury or disease that started the lethal sequence. Manner of death is the circumstances: natural, accident, suicide, homicide, or undetermined. The ME performs an independent autopsy, reviews medical records, investigates the scene, and toxicology results. This is forensic medicine, not clinical medicine. The ME's job is to determine if trauma, poisoning, or another external factor caused death. When the hospital says "acute respiratory distress syndrome" and the ME says "fentanyl toxicity," you have different professionals answering different questions about the same death.
+
+**Timing Explains the Discrepancy**
+
+The hospital documents what it sees during active treatment. The patient arrives. The team stabilizes, treats, and documents. Death occurs. The summary gets dictated within days, sometimes hours. The medical examiner's investigation takes weeks or months. Toxicology alone takes four to six weeks. Microscopic tissue analysis adds more time. Neuropathology consultation extends the timeline further. I have seen final ME reports issued six months after death. The hospital works in real time with incomplete information. The medical examiner works retrospectively with complete information. Both are accurate within their scope. Neither is wrong. They serve different functions.
+
+**Toxicology and Tissue Pathology Change Everything**
+
+The hospital runs a basic drug screen. The medical examiner sends specimens to a forensic toxicology lab. The difference is staggering. Hospital screens miss designer drugs, specific metabolites, and substances outside the standard panel. The ME tests for hundreds of compounds with precise quantification. I reviewed a case where the hospital noted "seizure of unknown etiology." The ME's toxicology identified brodifacoum, a long-acting anticoagulant rodenticide, in lethal concentration. The hospital treats what it sees. The medical examiner discovers what the hospital never tested for. Tissue pathology at autopsy reveals microscopic findings invisible on imaging. Fat embolism, early infection, and micro-infarcts show up under the microscope, not on the death summary.
+
+**Conflicting Narratives Are Evidence**
+
+When these documents diverge, you have leverage. The hospital death summary said septic shock from pneumonia. The ME listed ligature strangulation with petechial hemorrhages in the conjunctivae and thyroid cartilage fracture. The nursing home had documented aspiration pneumonia to cover the pressure injuries and neck bruising. The ME's findings demolished their narrative. Get both documents. Compare them. The contradictions tell you where to dig. If the hospital describes a natural disease process and the ME identifies trauma, someone failed to recognize or report injuries. If the hospital lists complications of surgery and the ME finds no surgical pathology, the operative intervention was unnecessary.
+
+**Use Both Documents for Different Purposes**
+
+The hospital death summary builds your standard of care case. It shows what the medical team knew, when they knew it, and how they responded. It documents delays, missed diagnoses, and failure to escalate care. The ME report establishes your causation. It answers whether the drug caused the arrhythmia, whether the fall caused the subdural hematoma, and whether the infection was present before or after the procedure. I structure my chronology using hospital records and prove the mechanism of injury using the ME's findings. This approach has identified compensable claims in deaths initially written off as natural. Your expert witnesses need both documents. The medical expert opines on standard of care using hospital records. The forensic pathologist opines on causation using the ME's findings.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-28",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Medical examiner findings vs hospital death summary: why these documents differ and how to use both in wrongful death cases.",
+    keywords: ["medical examiner report","hospital death summary","wrongful death cases","cause of death","autopsy findings","medical legal investigation"],
+  },
+  {
     slug: "what-pediatric-growth-charts-reveal-about-failure-to-thrive-in-child-neglect-cas",
     title: "What Pediatric Growth Charts Reveal About Failure to Thrive in Child Neglect Cases",
     excerpt: "Growth charts document malnutrition patterns that separate neglect from medical conditions. Learn what the percentiles mean for your case.",
