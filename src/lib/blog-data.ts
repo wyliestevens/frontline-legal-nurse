@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-wound-classification-systems-in-surgical-site-infection-cases",
+    title: "Understanding Wound Classification Systems in Surgical Site Infection Cases",
+    excerpt: "Wound classification determines baseline infection risk and exposes deviation from standard care in SSI litigation.",
+    content: `
+**The Four-Class System Controls Your Entire SSI Case**
+
+Every surgical wound gets classified at the time of surgery. The surgeon assigns it to one of four categories: clean, clean-contaminated, contaminated, or dirty-infected. This classification predicts infection risk and dictates prophylactic antibiotic protocols. When I review surgical site infection cases, the documented wound class tells me immediately whether the infection rate falls within expected parameters or signals a breach in sterile technique. You need this baseline before you determine liability. A 2% infection rate in clean cases becomes a red flag. A 15% rate in dirty-infected cases sits within normal range. The classification lives in the operative report, the anesthesia record, and the surgical services documentation.
+
+**Clean Wounds Carry the Lowest Infection Threshold**
+
+Clean wounds involve no break in sterile technique, no entry into respiratory, alimentary, or genitourinary tracts, and no inflammation encountered. Examples include hernia repairs, breast biopsies, total joint replacements, and cardiac catheterizations. The expected infection rate runs 1-2%. I have reviewed cases where a clean total knee replacement developed MRSA infection three days post-op. The wound classification forced the defense to explain how a patient in a controlled environment with proper antibiotic prophylaxis developed such an aggressive infection. The low baseline infection rate shifts the burden to the hospital or surgeon to account for the deviation. Your expert uses this classification to establish that something went wrong with sterile technique, instrument processing, or environmental controls.
+
+**Clean-Contaminated Wounds Enter Controlled Body Cavities**
+
+Clean-contaminated procedures involve controlled entry into respiratory, alimentary, or genitourinary tracts without significant spillage. Cholecystectomies, hysterectomies, appendectomies for non-ruptured appendix, and cesarean sections fall here. Expected infection rates run 3-10%. I worked a case where a routine C-section resulted in an abdominal wall abscess requiring three debridements. The defense argued that infection falls within expected range for clean-contaminated wounds. We demonstrated inadequate preoperative antibiotic timing—the cefazolin was given 15 minutes before incision instead of the required 30-60 minutes. The wound class helped establish the standard of care violation. Your interrogatories must demand exact antibiotic administration times documented in the anesthesia record.
+
+**Contaminated Wounds Show Gross Spillage or Acute Inflammation**
+
+Contaminated wounds involve major breaks in sterile technique, gross spillage from gastrointestinal tract, penetrating trauma less than four hours old, or acute nonpurulent inflammation. A perforated appendix, traumatic open fracture, or surgery entering infected urine qualifies. Infection rates reach 15-20%. I reviewed a case where the operative report documented fecal spillage during colon resection but classified the wound as clean-contaminated. This misclassification meant the patient received single-dose antibiotic prophylaxis instead of the multi-day therapeutic antibiotics required for contaminated wounds. The infection developed into necrotizing fasciitis. The incorrect wound classification created a direct line from documentation error to treatment failure to catastrophic outcome. You look for these discrepancies between operative findings and assigned classification.
+
+**Dirty-Infected Wounds Contain Existing Infection or Devitalized Tissue**
+
+Dirty-infected wounds involve existing clinical infection, perforated viscera, or traumatic wounds more than four hours old with devitalized tissue. Debridement of gangrenous tissue, drainage of abscess, and repair of traumatic wounds with fecal contamination fit this class. Expected infection rates exceed 30-40%. The classification shifts the entire treatment protocol from prophylaxis to treatment. I worked a wrongful death case where a patient with perforated diverticulitis and peritonitis underwent surgery classified as clean-contaminated. The surgeon used single-dose cefazolin instead of broad-spectrum antibiotics covering anaerobes. The patient developed septic shock and died 48 hours post-op. The misclassification proved the surgeon either misunderstood the intraoperative findings or failed to adjust the care plan to match the severity of contamination.
+
+**Documentation Discrepancies Expose the Weakness in Defense**
+
+You find wound classification in multiple locations throughout the medical record. The operative report, the surgeon's post-op note, the surgical services billing documentation, and the infection control records all reference it. Discrepancies between these sources signal confusion about intraoperative conditions or retrospective documentation changes. I have seen operative reports describe purulent fluid and inflamed tissue while the wound class stays listed as clean. I have seen wound classifications change between the operative note and the discharge summary. These inconsistencies give you leverage in deposition. The surgeon must explain why different parts of the record tell different stories about the same surgical field. Your records request must demand all versions of operative documentation, including any addendums or late entries.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-08-31",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Wound classification systems determine infection risk baselines in surgical site infection cases and expose standard of care violations.",
+    keywords: ["surgical site infection","wound classification","SSI litigation","medical malpractice","infection rates","standard of care"],
+  },
+  {
     slug: "medical-examiner-findings-versus-hospital-death-summary",
     title: "Medical Examiner Findings Versus Hospital Death Summary",
     excerpt: "These documents answer different questions. Confusing them costs you the case.",
