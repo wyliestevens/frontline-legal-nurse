@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-the-wells-score-and-d-dimer-results-prove-in-missed-blood-clot-cases",
+    title: "What the Wells Score and D-dimer Results Prove in Missed Blood Clot Cases",
+    excerpt: "These two clinical tools reveal exactly when the standard of care was breached in your DVT and PE cases.",
+    content: `
+**The Wells Score Is a Clinical Decision Rule, Not a Suggestion**
+
+The Wells Score quantifies pretest probability for deep vein thrombosis and pulmonary embolism. Every emergency physician and hospitalist knows it. The score assigns points based on objective clinical findings: active cancer, paralysis, recent immobilization, localized tenderness along deep veins, entire leg swelling, calf swelling more than 3 cm compared to the other leg, pitting edema, and collateral superficial veins. A score of 2 or higher triggers mandatory testing. When you see a Wells Score documented at 2 or above and no D-dimer ordered, you have a breach. The physician ignored the clinical decision rule designed specifically to prevent missed blood clots.
+
+**D-dimer Results Tell You Exactly When to Image**
+
+D-dimer measures fibrin degradation products in the blood. A negative D-dimer in a low-risk Wells Score patient rules out venous thromboembolism with 99% certainty. An elevated D-dimer requires imaging. Period. I have reviewed charts where the D-dimer came back at 2,000 ng/mL (normal is under 500), and the physician discharged the patient with instructions to follow up with their primary care doctor in a week. The patient died three days later from a massive pulmonary embolism. The autopsy showed bilateral pulmonary emboli. The radiologist's preliminary read on the chest X-ray stated "recommend CT angiography if clinically indicated." The D-dimer alone made it clinically indicated.
+
+**When Physicians Cherry-Pick Components of the Score**
+
+I see this repeatedly. The nurse documents swelling, tenderness, and recent surgery in the nursing assessment. The physician's note mentions only one component or skips the formal Wells Score calculation entirely. The medical record contains all the elements for a high-risk score, but the physician failed to synthesize them. Your expert witness reconstruction of the Wells Score from the documented clinical findings becomes powerful evidence. The data existed. The physician ignored it. A jury understands this failure when you present it clearly.
+
+**The Modified Wells Score Changes the Threshold**
+
+The original Wells Score uses different cutoffs than the modified version. The original categorizes patients as low, moderate, or high probability. The modified Wells Score uses a two-tier system: DVT likely or DVT unlikely, with the threshold at 2 points. Most hospitals use the modified version. Check which version your defendant's institution adopted in their protocols. The protocol manual lives in the medical records department or quality assurance department. Subpoena it. The institution's own protocol becomes your standard of care document. When the physician violated their own hospital's protocol, you have both breach and causation tied directly to institutional policy.
+
+**Age-Adjusted D-dimer Values Complicate Your Case**
+
+D-dimer increases with age. Some institutions use age-adjusted D-dimer cutoffs: patient's age times 10 for patients over 50 years old. A 70-year-old patient with a D-dimer of 650 ng/mL falls below the age-adjusted threshold of 700 ng/mL. Defense counsel will argue the physician followed evidence-based medicine by using age adjustment. Your expert needs to address whether age adjustment was appropriate given the clinical context. High Wells Scores override age-adjusted D-dimer values. If your patient had a Wells Score of 4 and a D-dimer of 650, imaging was still required. The combination of moderate to high pretest probability plus any D-dimer elevation demands definitive testing.
+
+**Documentation Gaps Create Credibility Problems for Defense**
+
+When the medical record contains no Wells Score calculation and no mention of D-dimer, the defense will claim the physician performed an adequate clinical assessment without formal scoring. This defense collapses when the patient presented with classic symptoms. Leg swelling, pain, warmth, and erythema are venous thromboembolism until proven otherwise. The absence of documentation means the physician either failed to perform the assessment or failed to document it. Both scenarios represent substandard care. Your legal nurse consultant reconstructs what should have been documented based on the nursing notes, vital signs, and patient complaints. The gap between what was documented and what should have been documented becomes your breach.
+
+**Timing of the D-dimer Order Matters for Causation**
+
+A D-dimer drawn eight hours after presentation when the patient complained at triage carries different weight than a D-dimer drawn immediately. I reviewed a case where the patient reported leg swelling at 1400 hours. The physician ordered the D-dimer at 2200 hours. The result returned at 2300 hours showing 1,800 ng/mL. The physician ordered a venous duplex ultrasound for the next morning. The patient arrested at 0400 hours from a pulmonary embolism. The eight-hour delay between complaint and testing, followed by another delay before imaging, directly contributed to death. The timestamps in the electronic medical record provide your timeline. Extract every timestamp: triage, physician assessment, order entry, lab collection time, result time, and imaging order time.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-01",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Wells Score and D-dimer results prove breach and causation in missed DVT and PE cases. Clinical decision rules your expert witness uses.",
+    keywords: ["Wells Score","D-dimer","missed blood clot","DVT","pulmonary embolism","medical malpractice"],
+  },
+  {
     slug: "understanding-wound-classification-systems-in-surgical-site-infection-cases",
     title: "Understanding Wound Classification Systems in Surgical Site Infection Cases",
     excerpt: "Wound classification determines baseline infection risk and exposes deviation from standard care in SSI litigation.",
