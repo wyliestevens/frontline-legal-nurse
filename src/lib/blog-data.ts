@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-a-spirometry-report-in-occupational-lung-disease-litigation",
+    title: "How to Read a Spirometry Report in Occupational Lung Disease Litigation",
+    excerpt: "Spirometry reports contain the objective data needed to prove occupational lung disease. Most attorneys miss the critical values buried in the printout.",
+    content: `
+I have reviewed spirometry reports in hundreds of occupational lung disease cases. Silicosis, asbestosis, coal workers' pneumoconiosis, chronic beryllium disease, hypersensitivity pneumonitis. The spirometry report contains objective measurements of lung function decline. You need to know what the numbers mean and which values matter for your case.
+
+**The FEV1/FVC Ratio Determines the Pattern of Lung Disease**
+
+Look at the FEV1/FVC ratio first. FEV1 is forced expiratory volume in one second. FVC is forced vital capacity, the total volume of air the patient exhales. A ratio below 70% indicates obstructive lung disease like chronic obstructive pulmonary disease or asthma. A normal or elevated ratio with reduced FVC indicates restrictive lung disease. Restrictive patterns show up in asbestosis, silicosis, and other occupational pneumoconioses. The pattern tells you what type of lung damage occurred.
+
+**Percent Predicted Values Show Severity of Impairment**
+
+Every spirometry report lists measured values alongside percent predicted values. The percent predicted accounts for age, sex, height, and race. An FEV1 of 80% or above is normal. Values between 70-79% indicate mild obstruction. 60-69% is moderate. 50-59% is moderately severe. Below 50% is severe obstruction. I reviewed a case involving a sandblaster with 20 years of silica exposure. His FEV1 was 42% predicted. That single number established severe impairment and drove the settlement value.
+
+**The Flow-Volume Loop Graph Reveals the Problem Visually**
+
+Most spirometry reports include a flow-volume loop graph. This shows the rate of airflow plotted against lung volume. A scooped-out or concave appearance on the expiratory curve indicates obstruction. A normal shape with reduced total volume indicates restriction. I have seen defense experts ignore the numeric data and focus on a normal-appearing flow-volume loop to claim no impairment. Your pulmonologist needs to address this graph in their opinion.
+
+**Pre and Post Bronchodilator Testing Matters for Causation**
+
+Complete spirometry testing includes measurements before and after bronchodilator administration. If FEV1 improves by 12% or 200 mL after bronchodilator, the obstruction is reversible. This suggests asthma rather than fixed obstruction from occupational exposures. Defense attorneys use reversibility to argue the impairment stems from smoking or non-occupational asthma. You need a complete occupational history showing workplace triggers. I worked a case where a shipyard worker showed reversibility, but his attacks only occurred at work when grinding through old paint. His bronchodilator response did not defeat causation.
+
+**Compare Serial Spirometry Reports to Show Decline**
+
+One spirometry report shows impairment. Multiple reports over years show progressive decline. Get every spirometry report from the date of first exposure forward. I reviewed medical records for a coal miner with tests from 1998, 2003, 2008, 2013, and 2018. His FEV1 dropped from 92% predicted to 48% predicted over 20 years. The trajectory proved ongoing occupational damage. Serial testing defeats the defense argument about pre-existing disease.
+
+**Quality Grades and Repeatability Affect Credibility**
+
+Spirometry reports include quality grades from A to F. Grade A means three acceptable maneuvers with repeatability within 150 mL. Grades D and F indicate poor technique or effort. Defense attorneys attack poor-quality spirometry to claim the patient did not give full effort. Look for the repeatability values listed on the report. If the three best FVC values differ by more than 150 mL, the test lacks reliability. Your expert needs to address quality issues or obtain repeat testing before trial.
+
+**The Interpretation Section Is Not Binding**
+
+Most spirometry reports end with an automated interpretation section. These statements say things like "mild obstructive defect" or "within normal limits." The automated interpretation uses algorithms based on the percent predicted cutoffs. These interpretations do not account for occupational history, imaging findings, or clinical context. I have seen defense counsel quote the "within normal limits" language to a jury while ignoring an FEV1 of 78% in a 45-year-old former underground miner with silicosis on CT scan. Your pulmonologist interprets the data, not the machine.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-02",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Spirometry reports contain critical data for occupational lung disease cases. Learn which values prove impairment and what defense attorneys attack.",
+    keywords: ["spirometry report","occupational lung disease","FEV1 FVC ratio","occupational pneumoconiosis","silicosis","asbestosis"],
+  },
+  {
     slug: "what-the-wells-score-and-d-dimer-results-prove-in-missed-blood-clot-cases",
     title: "What the Wells Score and D-dimer Results Prove in Missed Blood Clot Cases",
     excerpt: "These two clinical tools reveal exactly when the standard of care was breached in your DVT and PE cases.",
