@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-the-curb-65-score-in-pneumonia-mismanagement-cases",
+    title: "Understanding the CURB-65 Score in Pneumonia Mismanagement Cases",
+    excerpt: "The CURB-65 score determines pneumonia severity and admission decisions. Missing it costs lives and wins cases.",
+    content: `
+**The CURB-65 Score Determines Who Gets Admitted and Who Gets Sent Home to Die**
+
+The CURB-65 score is a clinical prediction tool for pneumonia mortality risk. Emergency physicians and hospitalists use it to decide whether a patient needs inpatient admission or outpatient treatment. Each letter represents one point: Confusion (new onset), Urea (BUN greater than 19 mg/dL), Respiratory rate (30 or more breaths per minute), Blood pressure (systolic less than 90 or diastolic less than 60), and 65 (age 65 or older). A score of 0-1 means low risk, suitable for outpatient treatment. A score of 2 means moderate risk and warrants short inpatient observation or close outpatient monitoring. A score of 3-5 means high risk and requires hospitalization, often in intensive care.
+
+**Your Client's Medical Records Tell You If the Score Was Calculated or Ignored**
+
+Look for the CURB-65 documentation in the ED physician notes, nursing assessments, and admission orders. Many electronic health records auto-calculate this score when vital signs and labs populate the system. When you see a score of 2 or higher with a discharge disposition, you have a red flag. I have reviewed hundreds of pneumonia death cases where the CURB-65 was either never calculated or calculated and then disregarded. The patient walks out with a Z-pack prescription and dies at home three days later. The family finds them unresponsive in bed. The autopsy confirms severe bilateral pneumonia with sepsis.
+
+**Confusion Gets Missed Because Nobody Tests Orientation Properly**
+
+The confusion component requires new-onset disorientation to person, place, or time. Nurses often document "alert and oriented times three" without actually testing it. Your 78-year-old client presents to the ED with pneumonia symptoms and seems conversational. The nurse checks the A&O x3 box. The family tells you later the patient thought it was 1985 and called the nurse by her dead sister's name. That missed confusion point changes the CURB-65 from 2 to 3. That single point means the difference between mandatory admission and a judgment call. When I review these records, I look at the entire narrative. A patient who is described as "lethargic" or "slow to respond" or "difficult to arouse" has altered mental status. The provider failed to score it correctly.
+
+**Respiratory Rate Is the Vital Sign Everyone Forgets to Measure**
+
+Respiratory rate determines admission. A rate of 30 or above scores a point. Nurses routinely document respiratory rates of 18 or 20 without counting. They eyeball it or copy forward from the previous shift. Your expert witness needs to address this in deposition. Ask the defendant nurse how long they observed the patient's breathing. Ask if they counted for a full 60 seconds or used a 15-second count multiplied by four. Ask if the patient was speaking during the assessment, which artificially lowers the observed rate. I have seen records where the documented rate is 18, but the patient is described as "tachypneic" or "short of breath" or "using accessory muscles." Those clinical descriptions contradict the documented number.
+
+**The Defense Will Argue the Patient Looked Stable**
+
+Defense attorneys present pneumonia deaths as unpredictable deteriorations. They argue the patient had reassuring vital signs and normal mentation at discharge. Your rebuttal is the CURB-65 score. This tool exists precisely because physicians cannot predict pneumonia outcomes by gestalt. A patient with a CURB-65 of 3 has a 15-20% mortality risk. A patient with a score of 4-5 has a 40% mortality risk. These are not rare outcomes. These are predictable deaths from a failure to follow evidence-based triage. Pull the hospital's own pneumonia protocols during discovery. Most facilities have policies requiring CURB-65 documentation and admission for scores of 2 or higher. When the defendant violated their own protocol, your case strengthens.
+
+**The Standard of Care Is Not Aspirational**
+
+National guidelines from the Infectious Diseases Society of America and the American Thoracic Society recommend using severity scores like CURB-65 for all pneumonia patients. The Surviving Sepsis Campaign bundles include early recognition and admission for high-risk pneumonia. These are not suggestions. These are the standards your expert cites. When I prepare case summaries for attorneys, I include the specific guideline citations with publication dates. I highlight where the defendant's documentation falls below the standard. You need this specificity in your demand letters and complaints. The insurance adjuster reads "failure to calculate CURB-65" and knows the case has merit.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-03",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "CURB-65 score pneumonia cases: Learn how this clinical tool determines admission and why missing it creates liability in wrongful death claims.",
+    keywords: ["CURB-65 score","pneumonia mismanagement","medical malpractice","wrongful death","emergency medicine","hospital negligence"],
+  },
+  {
     slug: "how-to-read-a-spirometry-report-in-occupational-lung-disease-litigation",
     title: "How to Read a Spirometry Report in Occupational Lung Disease Litigation",
     excerpt: "Spirometry reports contain the objective data needed to prove occupational lung disease. Most attorneys miss the critical values buried in the printout.",
