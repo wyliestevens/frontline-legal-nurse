@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-the-meld-score-reveals-in-liver-transplant-litigation",
+    title: "What the MELD Score Reveals in Liver Transplant Litigation",
+    excerpt: "The MELD score determines who lives and who dies on the transplant list. Here's what it tells you about damages and liability.",
+    content: `
+**The MELD Score Puts a Number on Liver Failure**
+
+The Model for End-Stage Liver Disease score ranks transplant candidates from 6 to 40. Higher numbers mean higher mortality risk. The formula uses three lab values: creatinine, bilirubin, and INR. A score of 15 means 6% mortality risk within three months. A score of 30 means 52% mortality risk. Your client's MELD score at the time of alleged negligence or exposure tells you exactly how sick they were and how urgently they needed intervention. I've reviewed cases where a two-week delay in referral moved a patient from MELD 18 to MELD 28, dropping them into critical territory.
+
+**MELD Score Changes Map the Timeline of Deterioration**
+
+You need serial MELD scores throughout the treatment period. A steady climb from 12 to 22 over six months shows progressive decompensation. A sudden jump from 15 to 25 in two weeks flags an acute event like variceal bleeding or spontaneous bacterial peritonitis. I've seen defense counsel argue that liver disease was stable based on one snapshot lab value. The MELD trajectory destroys this argument. Pull every lab result from the entire treatment period and calculate MELD at each point. The pattern reveals whether providers recognized and responded to declining function.
+
+**Exception Points Expose Transplant Delays**
+
+Some conditions get MELD exception points because the standard score underestimates mortality risk. Hepatocellular carcinoma gets exceptions starting at MELD 22 equivalent, increasing every three months without transplant. Hepatopulmonary syndrome qualifies for exceptions at lower calculated MELD scores. If your client qualified for exception points but the transplant center failed to file for them, you have a delay claim. I reviewed a case where a hepatologist diagnosed HCC but never requested exception points. The patient waited nine extra months and the tumor exceeded Milan criteria. He became untransplantable.
+
+**The Score Documents Severity for Damages Calculations**
+
+MELD score at listing translates directly to life expectancy without transplant. A patient listed at MELD 35 has weeks to live. A patient at MELD 15 has months to years. If toxic exposure or medical negligence accelerated your client's MELD progression, you quantify the shortened lifespan. The score also correlates with post-transplant complications. Patients transplanted at MELD above 30 have higher surgical mortality and longer ICU stays. Higher MELD at transplant means higher medical bills and worse outcomes. The defense will argue pre-existing disease. The MELD progression proves causation.
+
+**MELD Determines Who Gets Organs Under UNOS Policy**
+
+The United Network for Organ Sharing allocates livers to the sickest patients first within each donation service area. MELD 38 beats MELD 22 every time. If your client's MELD was artificially suppressed by improper dialysis timing or lab reporting errors, they lost position on the list. I've examined records where labs were drawn immediately after dialysis, artificially lowering creatinine and dropping MELD by 4 points. That difference moves a patient down dozens of spots in their region. Deaths on the waiting list are not always acts of God.
+
+**Missing MELD Documentation Signals Substandard Care**
+
+Transplant hepatologists calculate and document MELD at every visit. If the medical records lack MELD scores during months of treatment, the provider was not monitoring appropriately. UNOS requires transplant centers to update MELD scores at specific intervals. Missing updates mean the center violated its own protocols. I flag every gap in MELD documentation because it shows the provider lost track of disease progression. Juries understand numbers. A missing number during a critical period raises questions the defense cannot answer cleanly.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-04",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "MELD score analysis reveals liver disease progression, transplant delays, and damages in medical malpractice and toxic tort cases.",
+    keywords: ["MELD score","liver transplant litigation","hepatology malpractice","transplant delay","toxic tort liver damage","medical record review"],
+  },
+  {
     slug: "understanding-the-curb-65-score-in-pneumonia-mismanagement-cases",
     title: "Understanding the CURB-65 Score in Pneumonia Mismanagement Cases",
     excerpt: "The CURB-65 score determines pneumonia severity and admission decisions. Missing it costs lives and wins cases.",
