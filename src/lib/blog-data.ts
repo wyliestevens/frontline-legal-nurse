@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-the-american-spinal-injury-association-scale-proves-about-spinal-cord-damag",
+    title: "What the American Spinal Injury Association Scale Proves About Spinal Cord Damage",
+    excerpt: "The ASIA scale gives you objective proof of spinal cord injury severity. Learn how to use it to establish damages in litigation.",
+    content: `
+**The ASIA Scale Converts Subjective Complaints Into Objective Medical Evidence**
+
+The American Spinal Injury Association (ASIA) Impairment Scale transforms your client's spinal cord injury from a story into quantifiable medical proof. This five-level classification system (A through E) measures motor function, sensory function, and neurological preservation at specific dermatome levels. I have reviewed hundreds of spinal cord injury cases where the ASIA score determined whether the case settled for \$200,000 or \$2 million. The difference is documentation. When a physiatrist or neurologist performs a formal ASIA examination within days of injury, you have baseline evidence defense experts struggle to refute. When no ASIA exam exists in the acute care records, you fight an uphill battle proving the injury's true severity.
+
+**ASIA A Proves Complete Motor and Sensory Loss**
+
+An ASIA A classification means no motor or sensory function exists below the neurological level of injury, including the sacral segments S4-S5. This is complete spinal cord injury. Your client has no voluntary anal contraction, no deep anal pressure sensation. In my case reviews, ASIA A injuries result from complete cord transection, severe cord contusion with necrosis, or epidural hematoma with prolonged compression. These clients need lifetime attendant care, specialized wheelchairs, home modifications, and bowel/bladder management programs. Life care plans for ASIA A injuries regularly exceed \$5 million. The medical records show Foley catheters, pressure ulcer prevention protocols, and consultations with spinal cord injury rehabilitation specialists within the first 72 hours. When I see delayed transfer to a specialized SCI unit, I flag it as a missed opportunity for optimal recovery.
+
+**ASIA B Through D Show Measurable Incomplete Injuries**
+
+ASIA B means sensory function remains below the injury level, but motor function is completely absent. Your client feels touch and pinprick but has no voluntary movement in the lower extremities. ASIA C indicates motor function below the injury level exists, but more than half of key muscle groups have a grade less than 3 out of 5. ASIA D shows motor function is preserved, and at least half of key muscle groups score 3 or better. These distinctions matter in damages calculations. I reviewed a case where the initial exam documented ASIA C, but six months of aggressive therapy moved the client to ASIA D. The defense argued the injury was never severe. The plaintiff's attorney used serial ASIA exams to prove meaningful recovery occurred because of \$180,000 in therapy costs the defense now had to cover. Each letter grade represents functional differences your client lives with daily.
+
+**ASIA E Means Normal Motor and Sensory Function**
+
+ASIA E indicates motor and sensory function is normal in all segments. The client had spinal cord injury symptoms initially but recovered completely. Defense attorneys love ASIA E classifications. They argue no permanent injury exists, so no future damages apply. I have seen this argument collapse when the medical records show temporary ASIA D classification during hospitalization with documented spinal cord edema on MRI. Even clients who progress to ASIA E often have persistent neuropathic pain, sexual dysfunction, or bowel/bladder urgency. The ASIA scale does not measure these subjective complaints, but the medical records document them. You pair the ASIA score with functional capacity evaluations, neuropsychological testing, and treating physician opinions about permanent restrictions.
+
+**Serial ASIA Exams Prove Injury Progression or Negligent Delays**
+
+I look for ASIA exams performed at admission, 72 hours post-injury, at discharge, and at follow-up appointments. Changes in ASIA classification tell the story of your case. I reviewed records where a client entered the emergency department with ASIA D but deteriorated to ASIA B within eight hours. The trauma team missed an expanding epidural hematoma. The delay in surgical decompression caused permanent paralysis. Serial ASIA exams provided timestamps proving when the injury worsened. In another case, the rehabilitation hospital documented weekly ASIA exams showing steady improvement from ASIA B to ASIA D over 90 days. The life care planner used these scores to demonstrate the client's response to therapy and justify continued treatment costs. When ASIA exams are missing from the records, I note it in my report. It suggests incomplete neurological assessment during the acute phase.
+
+**Key Muscle Groups and Dermatome Testing Create Objective Benchmarks**
+
+The ASIA exam tests ten key muscle groups on each side of the body: elbow flexors (C5), wrist extensors (C6), elbow extensors (C7), finger flexors (C8), finger abductors (T1), hip flexors (L2), knee extensors (L3), ankle dorsiflexors (L4), long toe extensors (L5), and ankle plantar flexors (S1). Each muscle receives a grade from 0 to 5. Sensory testing covers 28 dermatomes bilaterally using light touch and pinprick. These specific data points eliminate vague medical opinions. When I see documentation stating "decreased sensation in lower extremities," I know the exam was inadequate. When I see "absent pinprick sensation at L3 bilaterally, intact at L2, absent light touch L4 through S5," I know the neurological deficit is precisely mapped. This precision wins cases. You depose the defense expert and ask them to explain why your client has absent sensation in specific dermatomes if the spinal cord injury is "mild" or "temporary."
+
+**Missing ASIA Exams Signal Substandard Neurological Assessment**
+
+When acute care records lack formal ASIA examination after known or suspected spinal cord injury, the medical team failed to meet the standard of care. The Consortium for Spinal Cord Medicine clinical practice guidelines state ASIA exams should be performed on all patients with spinal cord injury at initial assessment and serially thereafter. I have reviewed cases where the emergency department documented "moving all extremities" but never performed motor grading or sensory level testing. Three days later, the client had complete paralysis. Without baseline ASIA documentation, you struggle to prove when the neurological decline occurred and whether earlier intervention would have changed the outcome. Defense attorneys exploit these gaps.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-07",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "5 min read",
+    metaDescription: "ASIA scale documentation proves spinal cord injury severity. Learn how ASIA classifications A through E establish objective damages in litigation.",
+    keywords: ["ASIA scale","spinal cord injury","American Spinal Injury Association","neurological assessment","spinal cord damage","medical malpractice"],
+  },
+  {
     slug: "what-the-meld-score-reveals-in-liver-transplant-litigation",
     title: "What the MELD Score Reveals in Liver Transplant Litigation",
     excerpt: "The MELD score determines who lives and who dies on the transplant list. Here's what it tells you about damages and liability.",
