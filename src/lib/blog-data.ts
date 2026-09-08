@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-a-bone-density-scan-report-in-fracture-cases",
+    title: "How to Read a Bone Density Scan Report in Fracture Cases",
+    excerpt: "Bone density reports reveal whether your client's fracture was preventable. Here's what the numbers mean for your case.",
+    content: `
+**The T-Score Tells You Everything About Standard of Care**
+
+The T-score compares your client's bone density to a healthy 30-year-old adult of the same sex. A T-score of -1.0 or above is normal. A T-score between -1.0 and -2.5 means osteopenia. A T-score of -2.5 or lower means osteoporosis. When I see a plaintiff with a hip fracture and a pre-existing T-score of -3.2 and no treatment prescribed, I flag it immediately. The physician knew the patient was at high fracture risk and did nothing.
+
+**The Z-Score Reveals Age-Related Expectations**
+
+The Z-score compares your client's bone density to others of the same age, sex, and body size. A Z-score of -2.0 or lower means bone loss is worse than expected for the patient's age group. This score matters when opposing counsel argues that bone loss was normal for an elderly plaintiff. I've reviewed records where a 68-year-old woman had a Z-score of -2.3, meaning her bones were significantly weaker than other 68-year-old women. The doctor never ordered follow-up testing or started bisphosphonate therapy. She fractured her spine six months later.
+
+**DEXA Scan Locations Matter for Different Injuries**
+
+Dual-energy X-ray absorptiometry scans measure bone density at specific sites. The lumbar spine, femoral neck, and total hip are the three critical measurement sites. A patient who fractured L2 after a fall needs a lumbar spine T-score below -2.5 to prove the bone was already compromised. I've seen defense experts dismiss a vertebral fracture claim because the plaintiff's hip T-score was only -1.8. They ignored the lumbar spine T-score of -3.1 listed three lines above. Know which anatomical site corresponds to your client's injury.
+
+**The 10-Year Fracture Risk Percentage Establishes Foreseeability**
+
+Most DEXA reports include FRAX scores, which calculate the 10-year probability of major osteoporotic fracture and hip fracture. The report uses T-scores plus clinical risk factors like age, previous fractures, glucocorticoid use, and smoking status. A 10-year hip fracture risk above 3% or major osteoporotic fracture risk above 20% triggers treatment guidelines from the National Osteoporosis Foundation. I worked a nursing home fall case where the resident had a 34% 10-year major fracture risk documented eight months before she broke her femur. The facility never implemented a fracture prevention protocol. The report proved they knew the risk.
+
+**Serial DEXA Scans Show Progression and Missed Intervention Points**
+
+Compare multiple DEXA scans to track bone density decline over time. A loss of more than 3-5% at the spine or hip between scans indicates significant bone loss requiring intervention. Look for the "least significant change" value on the report, which tells you the minimum change needed to be clinically meaningful. I reviewed records for a woman who had three DEXA scans over five years showing progressive decline from T-score -1.9 to -2.1 to -2.7. Her physician documented each result but never prescribed medication. She sustained bilateral wrist fractures and a vertebral compression fracture before age 72.
+
+**Medication History Cross-Referenced With Scan Results Builds Causation**
+
+Certain medications accelerate bone loss. Prednisone and other corticosteroids, proton pump inhibitors, some diabetes drugs, and anticonvulsants all decrease bone density. When I see a plaintiff on long-term prednisone for rheumatoid arthritis with no baseline or monitoring DEXA scans, I know the treating physician violated the standard of care. The American College of Rheumatology recommends bone density testing for anyone starting long-term corticosteroid therapy. Cross-reference the medication list with the timing of DEXA scans. The absence of monitoring in high-risk patients strengthens your case.
+
+**The Radiologist's Impression Section Provides Admissible Documentation**
+
+The radiologist's written impression at the end of the DEXA report often includes treatment recommendations. Phrases like "recommend evaluation for pharmacologic therapy" or "results consistent with osteoporosis requiring treatment" create a documented duty to act. I've used these impressions to prove the ordering physician received explicit guidance to treat and ignored it. The impression also notes technical limitations, positioning errors, or artifacts from spinal hardware. These notations tell you if the scan results are reliable or need to be repeated with better technique.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-08",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Bone density scan reports reveal fracture risk and standard of care violations. Learn to read T-scores, Z-scores, and FRAX results in injury cases.",
+    keywords: ["bone density scan","DEXA scan interpretation","osteoporosis fracture cases","T-score legal cases","medical malpractice osteoporosis","fracture risk assessment"],
+  },
+  {
     slug: "what-the-american-spinal-injury-association-scale-proves-about-spinal-cord-damag",
     title: "What the American Spinal Injury Association Scale Proves About Spinal Cord Damage",
     excerpt: "The ASIA scale gives you objective proof of spinal cord injury severity. Learn how to use it to establish damages in litigation.",
