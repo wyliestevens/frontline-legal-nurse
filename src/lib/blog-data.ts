@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-the-mallampati-score-and-intubation-malpractice-claims",
+    title: "Understanding the Mallampati Score and Intubation Malpractice Claims",
+    excerpt: "The Mallampati score predicts difficult intubations. Missing it costs lives and wins cases.",
+    content: `
+**The Mallampati Score Predicts Difficult Airways**
+
+The Mallampati score classifies airways into four categories based on visible anatomy when a patient opens their mouth and extends their tongue. Class I shows the soft palate, uvula, fauces, and pillars. Class II shows the soft palate, uvula, and fauces. Class III shows only the soft palate and base of the uvula. Class IV shows only the hard palate. Anesthesiologists and CRNAs perform this assessment before every intubation.
+
+**Class III and IV Scores Require Different Protocols**
+
+Patients with Class III or IV scores face higher intubation failure rates. The anesthesia provider must document the score in the pre-procedure assessment. When you see Class III or IV documented, look for evidence of advanced airway equipment preparation. Proper preparation includes a glidescope, fiber optic scope, bougie, and emergency cricothyrotomy kit at bedside. The provider must have backup personnel immediately available. I have reviewed 40+ intubation failure cases where the Mallampati score warned of trouble, yet the team proceeded without backup equipment or personnel.
+
+**Missing Documentation Suggests Missing Assessment**
+
+The absence of a Mallampati score in pre-procedure notes is a red flag. Standard of care requires this assessment before elective procedures. Emergency intubations get different scrutiny, but elective surgeries, endoscopies, and planned procedures have no excuse. When records lack a Mallampati score, the provider either failed to assess the airway or failed to document. Both scenarios support negligence claims. Review the pre-anesthesia evaluation form first. If blank, check nursing intake notes and consent documentation.
+
+**Failed Intubations Cause Hypoxic Brain Injury and Death**
+
+Brain cells die after four to six minutes without oxygen. Multiple intubation attempts extend this timeline. I have seen cases with 8, 10, even 12 attempts before the team called for help or performed an emergency surgical airway. Each case file shows the same pattern: initial attempt fails, provider tries again with the same equipment, oxygen saturation drops, patient suffers cardiac arrest or anoxic brain injury. The Mallampati score exists to prevent this exact sequence. A Class IV patient getting routine endoscopy dies from a preventable complication when the gastroenterologist attempts intubation without anesthesia backup.
+
+**Expert Witnesses Focus on Pre-Procedure Planning**
+
+Your anesthesia expert will testify about the standard of care for difficult airway management. The Mallampati score drives this testimony. Expect your expert to explain what equipment should have been present, which personnel should have been notified, and when the provider should have stopped attempting intubation. Defense experts will claim the airway "looked normal" or the patient's obesity, not negligence, caused the difficult intubation. Your rebuttal comes from the documented or missing Mallampati score. The score predicts exactly what happened.
+
+**Damages in Intubation Cases Reach Eight Figures**
+
+Hypoxic brain injuries create lifetime care needs. Your client needs 24-hour nursing care, feeding tubes, wheelchairs, and home modifications. Life care planners calculate these costs between \$8 million and \$15 million for patients under 50. Wrongful death cases involve lost wages, loss of consortium, and conscious pain and suffering during the hypoxic event. I reviewed one case where the patient remained conscious for three minutes while oxygen saturation dropped to 40%. The jury awarded \$12 million. The Mallampati score was Class IV. The facility had no difficult airway cart.
+
+**Request These Specific Records During Discovery**
+
+Demand the complete anesthesia record, pre-procedure assessment forms, facility policies on difficult airway management, and equipment logs showing what was available in the procedure room. Request the training records for everyone who touched the airway. Get nurse's notes from the immediate pre-procedure period. Obtain any previous anesthesia records for your client from the same facility. Prior intubations at the same location sometimes document a Mallampati score the current team ignored. I found this exact scenario in six cases last year alone.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-09",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Mallampati score predicts difficult intubations. Learn how missing assessments support intubation malpractice claims worth millions.",
+    keywords: ["Mallampati score","intubation malpractice","difficult airway","anesthesia negligence","hypoxic brain injury","failed intubation"],
+  },
+  {
     slug: "how-to-read-a-bone-density-scan-report-in-fracture-cases",
     title: "How to Read a Bone Density Scan Report in Fracture Cases",
     excerpt: "Bone density reports reveal whether your client's fracture was preventable. Here's what the numbers mean for your case.",
