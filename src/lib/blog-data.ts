@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-the-richmond-agitation-sedation-scale-reveals-about-icu-sedation-practices",
+    title: "What the Richmond Agitation-Sedation Scale Reveals About ICU Sedation Practices",
+    excerpt: "The RASS score in ICU records tells you whether sedation was appropriate, excessive, or dangerously mismanaged.",
+    content: `
+The Richmond Agitation-Sedation Scale appears in ICU flow sheets every two to four hours. This ten-point scale runs from +4 (combative) through 0 (alert and calm) down to -5 (unarousable). Nurses document a RASS score before administering sedatives and after titrating doses. The pattern of these scores tells you whether the ICU team followed sedation protocols or allowed a patient to remain oversedated, undersedated, or improperly restrained.
+
+**RASS Scores Document Sedation Depth and Response**
+
+A RASS of -2 (light sedation, briefly awakens to voice) represents the target for most mechanically ventilated patients. Scores of -4 or -5 mean deep sedation or unarousability. You see these deeper levels during therapeutic paralysis or immediately post-intubation. Sustained scores at -4 or -5 without clinical justification indicate oversedation. The medical records must contain orders specifying target RASS ranges. When they do not, you have your first red flag.
+
+**Oversedation Leads to Measurable Complications**
+
+Prolonged deep sedation extends mechanical ventilation time. Extended ventilation increases the risk of ventilator-associated pneumonia, delirium, and ICU-acquired weakness. I have reviewed cases where patients remained at RASS -4 for days while receiving continuous propofol and fentanyl infusions. The ventilator days doubled. The patient developed pressure ulcers and critical illness polyneuropathy. None of this was necessary. The standard of care requires daily sedation interruption trials for most ICU patients. When nursing notes show no documentation of these trials despite sustained low RASS scores, the facility violated its own protocols.
+
+**Undersedation Creates Different but Predictable Problems**
+
+RASS scores of +2 (agitated, frequent non-purposeful movement) or higher indicate inadequate sedation. Agitated patients fight the ventilator. They desaturate. They self-extubate. I see nurses charting RASS +3 (very agitated, pulls at tubes) for hours before the physician responds. The records show repeated boluses of sedatives without adjusting the continuous infusion rate. This pattern demonstrates reactive rather than proactive management. Your expert will testify that the team failed to optimize sedation parameters. The patient's self-extubation becomes foreseeable rather than accidental.
+
+**Missing RASS Scores Suggest Documentation Failures or Worse**
+
+Gaps in RASS documentation during critical periods raise questions. ICU protocols require RASS assessment with every sedative adjustment and at regular intervals. When scores disappear from the record for eight or twelve hours, the nursing staff either failed to assess the patient or failed to document their assessments. Neither explanation helps the defense. I have seen cases where RASS documentation stops completely during a code event or during a period when the patient develops neurological decline. The absence of scores prevents you from establishing the patient's level of consciousness during the critical window. Your LNC reconstruction of the timeline makes this absence conspicuous to the jury.
+
+**RASS Scores Connect to Delirium Screening and Outcomes**
+
+ICU protocols pair RASS assessment with CAM-ICU (Confusion Assessment Method for the ICU) screening. You perform CAM-ICU only when the patient reaches RASS -3 or higher. When records show RASS scores cycling between -5 and -1 without consistent CAM-ICU documentation, the team failed to screen for delirium. ICU delirium increases mortality, extends hospital stays, and predicts long-term cognitive impairment. Your damages expert needs this data. The defense will argue pre-existing dementia or underlying illness. The RASS and CAM-ICU flow sheets establish what the ICU team knew in real time and when they knew it.
+
+**How to Use RASS Documentation in Litigation**
+
+Pull every ICU flow sheet and create a chronological grid. Column one lists date and time. Column two shows RASS score. Column three shows sedative medications and doses. Column four notes clinical events like desaturation, agitation, or ventilator dyssynchrony. This grid reveals patterns invisible in narrative notes. Your LNC identifies deviations from the facility's sedation protocol and calculates the duration of inappropriate sedation. The defense relies on you not doing this work. We do this work in every ICU case we review.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-10",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "RASS scores in ICU records reveal oversedation, undersedation, and protocol violations. Learn what to look for in medical-legal cases.",
+    keywords: ["Richmond Agitation-Sedation Scale","RASS score","ICU sedation","medical records review","legal nurse consultant","mechanical ventilation"],
+  },
+  {
     slug: "understanding-the-mallampati-score-and-intubation-malpractice-claims",
     title: "Understanding the Mallampati Score and Intubation Malpractice Claims",
     excerpt: "The Mallampati score predicts difficult intubations. Missing it costs lives and wins cases.",
