@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-interpret-nerve-conduction-study-results-in-peripheral-nerve-injury-cases",
+    title: "How to Interpret Nerve Conduction Study Results in Peripheral Nerve Injury Cases",
+    excerpt: "Nerve conduction studies provide objective evidence of peripheral nerve damage. Learn what the numbers mean for your case value.",
+    content: `
+**Normal Values Establish Your Baseline**
+
+Nerve conduction velocity ranges from 50 to 60 meters per second in healthy motor nerves. Sensory nerves conduct slightly faster at 50 to 70 meters per second. Your expert witness compares your plaintiff's results against these established norms. A reduction of more than 10 meters per second indicates demyelination. A drop below 40 meters per second signals severe nerve damage. The report lists these values for each nerve tested. Find them in the summary table on page one or two of the study.
+
+**Amplitude Tells You About Axonal Loss**
+
+Amplitude measures the strength of the electrical response. Motor nerve amplitudes range from 4 to 20 millivolts in normal patients. Sensory nerve amplitudes measure 10 to 80 microvolts. Reduced amplitude means axonal death. This damage becomes permanent. Your plaintiff loses function. I have reviewed records where amplitude dropped to zero in complete nerve transection cases. Those cases settle or win at trial because the objective data shows irreversible injury. Compare bilateral studies when available. A 50% amplitude reduction on the injured side versus the healthy side proves causation.
+
+**Distal Latency Measures Nerve Conduction Time**
+
+Distal latency represents the time from stimulus to response. Normal distal motor latency measures 3 to 4 milliseconds for median nerve, 2.5 to 3.5 milliseconds for ulnar nerve, and 4.5 to 5.5 milliseconds for peroneal nerve. Prolonged latency indicates nerve compression or demyelination. Carpal tunnel syndrome cases show median nerve distal latencies exceeding 4.5 milliseconds. I see this pattern in every workplace repetitive motion case involving wrist injury. Your plaintiff's latency measurements appear in the data columns next to each stimulation site. Look for values marked with asterisks or flags. Those exceed normal limits.
+
+**F-Wave Studies Detect Proximal Nerve Damage**
+
+F-waves test the entire length of the nerve from spinal cord to muscle and back. Normal F-wave latency for median nerve measures 25 to 32 milliseconds. Ulnar nerve F-waves range from 25 to 32 milliseconds. Prolonged F-waves with normal distal latencies point to proximal nerve injury near the spine. I reviewed a fall case where the plaintiff had normal distal studies but prolonged F-waves. The defense argued no injury existed based on the distal values. We proved cervical radiculopathy through the F-wave data alone. The case settled for seven figures. Your neurologist or physiatrist must address F-wave findings in their report.
+
+**Timing of Studies Affects Interpretation and Case Value**
+
+Nerve conduction studies performed within 72 hours of injury miss axonal damage. Wallerian degeneration takes 7 to 10 days to appear on electrodiagnostic testing. Your plaintiff needs studies at three weeks post-injury minimum. Serial studies document progression or permanence. I see defense experts attack early negative studies to argue no injury occurred. You counter this with properly timed repeat testing. Order studies at three months, six months, and one year. Stable abnormalities at six months establish permanence. This timing affects your economic damages calculation and your impairment rating.
+
+**Compare Both Sides to Prove Causation**
+
+Bilateral comparison studies eliminate pre-existing condition arguments. Your plaintiff's injured median nerve shows conduction velocity of 38 meters per second. The contralateral median nerve conducts at 55 meters per second. The 17-point difference proves the injury caused the deficit. Defense medical experts claim degenerative changes cause bilateral symptoms. Unilateral abnormalities on nerve conduction studies destroy this defense. I have worked 200-plus peripheral nerve cases. The ones with bilateral comparison data settle for multiples of those without. Request bilateral studies at the initial electrodiagnostic appointment. You need this data before your expert writes their report.
+
+**Absence of H-Reflex Indicates S1 Radiculopathy**
+
+The H-reflex tests the S1 nerve root through the tibial nerve. Normal H-reflex latency measures 28 to 35 milliseconds. Absent H-reflex on the injured side with present H-reflex on the healthy side proves S1 radiculopathy. This finding matters in lumbar disc herniation cases. Sciatic nerve injury from hip surgery also produces absent H-reflex. The study differentiates between radiculopathy and peripheral nerve damage based on other findings. Your physiatrist reads the entire report in context. I reviewed a rear-end collision case where absent H-reflex proved disc herniation caused the leg pain. The defense argued soft tissue injury only. We used the electrodiagnostic data to prove structural damage worth \$1.2 million at trial.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-11",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Nerve conduction study interpretation guide for attorneys. Learn velocity, amplitude, latency values to prove peripheral nerve injury cases.",
+    keywords: ["nerve conduction study","peripheral nerve injury","electrodiagnostic testing","nerve damage cases","medical record review","legal nurse consultant"],
+  },
+  {
     slug: "what-the-richmond-agitation-sedation-scale-reveals-about-icu-sedation-practices",
     title: "What the Richmond Agitation-Sedation Scale Reveals About ICU Sedation Practices",
     excerpt: "The RASS score in ICU records tells you whether sedation was appropriate, excessive, or dangerously mismanaged.",
