@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-an-echocardiogram-stress-test-in-missed-cardiac-diagnosis-cases",
+    title: "How to Read an Echocardiogram Stress Test in Missed Cardiac Diagnosis Cases",
+    excerpt: "The echo stress test holds critical clues attorneys miss. Learn what to look for when cardiologists fail to catch the warning signs.",
+    content: `
+I have reviewed hundreds of missed cardiac diagnosis cases. The echocardiogram stress test sits in the medical records like a loaded gun. Most attorneys hand me the file and ask if the cardiologist missed something. The answer is almost always in the echo stress test report, buried in clinical language you need to understand.
+
+**The Two-Part Structure You Must Know**
+
+The echo stress test combines two distinct studies. The resting echocardiogram captures baseline heart function. The stress portion uses treadmill exercise or pharmacologic agents like dobutamine to elevate heart rate to 85% of maximum predicted value. The comparison between rest and stress images reveals ischemia that resting studies miss. Your expert needs both parts to identify negligence. I have seen defense attorneys argue that a normal resting echo rules out cardiac disease. That argument collapses when the stress images show clear wall motion abnormalities.
+
+**Wall Motion Abnormalities Tell the Story**
+
+The left ventricle divides into 17 segments on echo imaging. Each segment gets scored: 1 for normal, 2 for hypokinetic (reduced movement), 3 for akinetic (no movement), 4 for dyskinetic (paradoxical movement), and 5 for aneurysmal. A segment that moves normally at rest but becomes hypokinetic or akinetic during stress screams ischemia. I reviewed a wrongful death case where the cardiologist documented "apical hypokinesis with stress" but called the test negative. The patient coded three days later. The LAD was 95% occluded at autopsy. That wall motion abnormality was visible ischemia, and the cardiologist missed it.
+
+**Ejection Fraction Changes Under Stress**
+
+The ejection fraction measures how much blood the left ventricle pumps with each contraction. Normal is 55% to 70%. Your red flag is when EF drops during stress or fails to rise appropriately. A healthy heart increases its EF during exercise. A drop of more than 5% during stress indicates severe ischemia or significant coronary disease. I have seen multiple cases where the resting EF was 60% but dropped to 45% at peak stress. The cardiologist wrote "adequate exercise tolerance" and sent the patient home. Look at the numbers yourself. Do not rely on the conclusion paragraph alone.
+
+**The Duke Treadmill Score Appears Nowhere in the Report**
+
+Many cardiologists fail to calculate or document the Duke Treadmill Score, which stratifies cardiac risk using exercise time, ST-segment deviation, and angina index. A score below negative 11 indicates high risk and demands catheterization. I worked a case where the patient achieved only 4 METS, had 2mm ST depression, and stopped for chest pain. The Duke score was negative 15. High risk. The cardiologist documented "nondiagnostic study" because the patient did not reach target heart rate. The patient died two weeks later from massive MI. The failure to calculate and act on the Duke score was indefensible.
+
+**ST-Segment Depression Gets Downplayed**
+
+The EKG portion of the stress test tracks ST-segment changes during exercise. Horizontal or downsloping ST depression of 1mm or more indicates ischemia. I see cardiologists dismiss significant ST changes as "nonspecific" or "baseline abnormalities." Look at the actual EKG tracings yourself. In one medical malpractice case I reviewed, the report mentioned "mild ST changes" but the tracings showed 3mm of horizontal ST depression in leads V3 through V6. That is transmural ischemia. The cardiologist cleared the patient for surgery. The patient arrested on the operating table.
+
+**Pharmacologic Stress Tests Have Different Failure Modes**
+
+When patients cannot exercise, cardiologists use dobutamine or regadenoson. Dobutamine increases heart rate and contractility, mimicking exercise. Regadenoson dilates coronary arteries, revealing perfusion defects. I have seen multiple cases where patients developed chest pain, hypotension, or arrhythmias during pharmacologic stress but the test was called negative. Those symptoms during stress are clinical endpoints. They indicate the test is positive regardless of imaging findings. The cardiologist who ignores these symptoms and relies solely on wall motion assessment commits malpractice.
+
+**Get the Images and Videos, Not Just the Report**
+
+The written report summarizes findings but editing happens. I request the actual echo images and video clips through your records subpoena. I have found wall motion abnormalities visible on the videos that never made it into the report. In three separate cases, my reviewing cardiologist identified clear akinetic segments on the stress videos that the original cardiologist missed or ignored. Your expert needs to see what the machine recorded, not what the defendant chose to document. The images do not lie.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-14",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Learn to read echo stress tests in missed cardiac diagnosis cases. Wall motion abnormalities, EF changes, and ST depression reveal malpractice.",
+    keywords: ["echocardiogram stress test","missed cardiac diagnosis","wall motion abnormalities","ejection fraction","Duke Treadmill Score","medical malpractice"],
+  },
+  {
     slug: "how-to-interpret-nerve-conduction-study-results-in-peripheral-nerve-injury-cases",
     title: "How to Interpret Nerve Conduction Study Results in Peripheral Nerve Injury Cases",
     excerpt: "Nerve conduction studies provide objective evidence of peripheral nerve damage. Learn what the numbers mean for your case value.",
