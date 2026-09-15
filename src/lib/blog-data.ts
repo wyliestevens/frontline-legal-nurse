@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "understanding-the-cage-questionnaire-in-medication-prescribing-cases",
+    title: "Understanding the CAGE Questionnaire in Medication Prescribing Cases",
+    excerpt: "The CAGE questionnaire reveals substance abuse history that changes liability in prescribing cases. Here's what to look for in the chart.",
+    content: `
+**The CAGE Questionnaire Appears in Every Controlled Substance Case**
+
+The CAGE questionnaire is a four-question screening tool for alcohol abuse. You find it buried in intake forms, nursing assessments, and pre-operative clearances. The four questions ask about Cutting down, Annoyance by criticism, Guilty feelings, and Eye-openers (morning drinks). Two or more positive answers indicate alcohol dependence. Your prescribing cases hinge on whether this tool was administered, scored correctly, and acted upon. I review charts where physicians prescribed opioids to patients with documented CAGE scores of 3 or 4. The defense wants those pages to disappear.
+
+**What CAGE Scores Tell You About Prescribing Standards**
+
+A positive CAGE score creates a red flag for controlled substance prescribing. Standard of care requires heightened monitoring, shorter prescription intervals, and consideration of non-narcotic alternatives. The medical literature going back decades establishes this. When your plaintiff has a CAGE score of 2 or higher and the defendant prescribed a 90-day supply of hydrocodone, you have deviation. Look for the prescription monitoring program checks next. They usually don't exist. The physician who ignores a positive CAGE and prescribes without additional safeguards has breached the standard.
+
+**Where CAGE Documentation Hides in Medical Records**
+
+The CAGE questionnaire lives in multiple locations. Check the initial patient history forms from the front desk. Look at nursing intake assessments, especially in hospital admissions. Surgical centers bury it in pre-anesthesia evaluations. Substance abuse treatment records contain repeated CAGE screenings. Some electronic health records auto-populate CAGE scores into problem lists. Others hide them in scanned PDFs of paper forms. I have seen defense counsel produce records missing the intake packet where a CAGE score of 4 was documented. Your records request must specify all intake forms, screening tools, and assessment questionnaires.
+
+**CAGE Results Change Causation Arguments**
+
+Defense experts claim the patient would have developed addiction regardless of the prescription. A negative CAGE score at the start of treatment destroys this argument. The patient had no history of alcohol dependence before your defendant prescribed. The timeline matters. Get the exact date of the CAGE administration. Compare it to the first prescription date. A patient with CAGE 0 at baseline who develops opioid use disorder after six months of prescribed narcotics shows clear causation. The defense will argue about genetic predisposition and family history. Your negative CAGE score, documented by their own intake nurse, cuts through the noise.
+
+**Missing CAGE Screens Create Spoliation Issues**
+
+Every controlled substance prescriber should administer substance abuse screening. The CAGE takes 30 seconds. When the chart contains no CAGE questionnaire, you have two possibilities. Either the provider never screened for substance abuse (breach of standard), or the documentation existed and vanished (spoliation). Both strengthen your case. Medical practices follow intake protocols. Every new patient gets the same packet. If 50 other patients from the same practice have CAGE questionnaires in their charts and yours doesn't, someone removed it. Subpoena the blank intake forms the practice uses. The CAGE questions will be printed right there.
+
+**CAGE Scores in Wrongful Death Cases**
+
+Wrongful death cases involving prescription drug overdoses always involve substance abuse history. The decedent's CAGE scores tell the complete story. A patient with consistently negative CAGE screens who dies from prescribed fentanyl shows physician-created addiction. The family's damages argument becomes straightforward. This person had no substance abuse history. The defendant's prescriptions created the dependence. The defendant's continued prescribing caused the death. I have reviewed charts where annual CAGE scores went from 0 to 3 over two years of opioid prescriptions. The physician documented the rising scores and increased the morphine equivalent daily dose. The jury sees those numbers and understands exactly what happened.
+
+**Expert Review Requires CAGE Score Analysis**
+
+Your nursing expert must address the CAGE questionnaire in every prescribing case. The opinion should state whether screening occurred, whether the score was calculated correctly, and whether the prescribing response was appropriate. A positive CAGE score with subsequent controlled substance prescribing requires detailed analysis of monitoring protocols, urine drug screens, pill counts, and prescription database checks. Your expert's report needs specific citations to prescribing guidelines from the CDC, medical boards, and specialty societies. These guidelines explicitly reference substance abuse screening tools including CAGE. The literature connecting CAGE scores to prescribing risk goes back to the 1980s.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-15",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "CAGE questionnaire screening reveals substance abuse history in medication prescribing cases. What attorneys must know about documentation.",
+    keywords: ["CAGE questionnaire","medication prescribing cases","controlled substance prescribing","opioid prescribing liability","substance abuse screening","medical malpractice"],
+  },
+  {
     slug: "how-to-read-an-echocardiogram-stress-test-in-missed-cardiac-diagnosis-cases",
     title: "How to Read an Echocardiogram Stress Test in Missed Cardiac Diagnosis Cases",
     excerpt: "The echo stress test holds critical clues attorneys miss. Learn what to look for when cardiologists fail to catch the warning signs.",
