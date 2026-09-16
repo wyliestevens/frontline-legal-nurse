@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-hemoglobin-a1c-values-prove-about-diabetes-management-over-time",
+    title: "What Hemoglobin A1C Values Prove About Diabetes Management Over Time",
+    excerpt: "A1C results tell you whether your diabetic client controlled their blood sugar for the past three months or ignored their condition entirely.",
+    content: `
+**The A1C Test Measures Three Months of Blood Sugar Control**
+
+Hemoglobin A1C measures average blood glucose over the previous 90 days. Red blood cells live approximately three months, and glucose molecules attach to the hemoglobin inside them throughout their lifespan. When you see an A1C of 9.5% in medical records, you know your client walked around with dangerously elevated blood sugar for at least three months before the test date. The defendant cannot claim the patient suddenly became noncompliant two weeks before an incident. The A1C proves otherwise.
+
+**Normal Versus Diabetic A1C Values**
+
+A normal A1C sits below 5.7%. Prediabetes ranges from 5.7% to 6.4%. Diabetes diagnosis begins at 6.5% or higher on two separate tests. Most endocrinologists target an A1C below 7.0% for diabetic patients, though individualized targets vary based on age and comorbidities. I review records where nursing home residents show A1C values of 11%, 12%, or higher. These numbers represent gross failure to manage diabetes. Each percentage point above 7% increases the risk of diabetic complications exponentially.
+
+**A1C Results Expose Gaps in Medical Supervision**
+
+Physicians order A1C tests every three months for poorly controlled diabetics and every six months for stable patients. When you spot a twelve-month gap between A1C tests in your client's chart, you have documentation of substandard care. I worked a wrongful death case where the decedent's A1C jumped from 7.2% to 10.8% over eighteen months with no intervening tests. The defense argued the patient refused treatment. We proved the physician never ordered the quarterly monitoring required by diabetes treatment guidelines. The facility never called the patient back. The patient died from diabetic ketoacidosis at age fifty-three.
+
+**Declining A1C Values Prove Treatment Compliance**
+
+When A1C drops from 9.0% to 7.5% to 6.8% over successive tests, the records prove your client followed medical advice. Defense attorneys love to blame diabetic complications on patient noncompliance. Serial A1C results destroy this defense. I reviewed records for a below-knee amputation case where the plaintiff's A1C remained between 6.5% and 7.1% for four years before a vascular surgeon missed critical signs of peripheral artery disease. The consistent A1C values demolished the defense theory of noncompliance. The surgeon failed to perform adequate vascular assessment. We proved it.
+
+**Rising A1C Values Document Treatment Failure**
+
+When A1C climbs from 7.0% to 8.2% to 9.5% across consecutive tests, someone failed to adjust the treatment plan. Physicians must intensify diabetes management when A1C rises above target. This means increasing medication doses, adding new medications, or referring to an endocrinologist. I see charts where primary care physicians document rising A1C values visit after visit without changing anything. They note "continue current medications" while the patient marches toward kidney failure and blindness. These cases settle quickly once we lay out the A1C trend and the provider's inaction.
+
+**A1C Levels Correlate Directly With Diabetic Complications**
+
+An A1C above 9% predicts retinopathy, nephropathy, neuropathy, and cardiovascular disease. The UK Prospective Diabetes Study established that each 1% reduction in A1C cuts the risk of microvascular complications by 37%. When your client develops diabetic foot ulcers or requires dialysis, pull every A1C result from their records. Document how long they remained above 8% or 9%. Calculate the months or years of poor control. Expert witnesses use this timeline to establish causation between inadequate diabetes management and your client's permanent injuries.
+
+**Point-of-Care A1C Testing Eliminates Excuses**
+
+Many clinics and nursing homes now use point-of-care A1C devices. These machines produce results in ten minutes from a finger stick. The defense cannot claim the patient missed their lab appointment or the facility faced transportation barriers. The technology exists to test A1C at every diabetic visit. When facilities fail to use available testing methods, they choose not to monitor. I worked a pressure ulcer case where the nursing home owned a point-of-care A1C analyzer but tested residents only twice yearly. The standard of care requires quarterly testing for poorly controlled diabetics. We proved they had the equipment and simply refused to use it properly.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-16",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Hemoglobin A1C values prove diabetes management over 90 days. Learn how A1C results expose medical negligence in your cases.",
+    keywords: ["hemoglobin A1C","diabetes management","medical malpractice","nursing home negligence","diabetic complications","legal nurse consultant"],
+  },
+  {
     slug: "understanding-the-cage-questionnaire-in-medication-prescribing-cases",
     title: "Understanding the CAGE Questionnaire in Medication Prescribing Cases",
     excerpt: "The CAGE questionnaire reveals substance abuse history that changes liability in prescribing cases. Here's what to look for in the chart.",
