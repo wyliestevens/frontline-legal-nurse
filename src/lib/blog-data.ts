@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-read-a-nursing-assessment-and-why-it-matters-more-than-the-physician-note",
+    title: "How to Read a Nursing Assessment and Why It Matters More Than the Physician Note",
+    excerpt: "Nursing assessments document what really happened at the bedside. Physicians document after the fact.",
+    content: `
+**Nursing Assessments Document Real-Time Patient Status**
+
+You want the truth about what happened to your client at 2:00 AM when they crashed. The nursing assessment tells you. I have reviewed thousands of medical malpractice and personal injury files where the physician's progress note says "patient stable, continue current plan" while the nursing notes from six hours earlier document a blood pressure of 80/40, decreased level of consciousness, and three calls to the physician that went unreturned. The nurse documents in real time. The physician documents when they finally show up or from memory at the end of their shift. The nursing assessment is your timeline.
+
+**Know the Components of a Complete Nursing Assessment**
+
+Every nursing assessment follows a systems-based approach. You need to look for neuro status (Glasgow Coma Scale score, pupil reaction, orientation level), cardiovascular (vital signs, capillary refill, peripheral pulses), respiratory (oxygen saturation, lung sounds, work of breathing), gastrointestinal (bowel sounds, last bowel movement, abdominal tenderness), genitourinary (urine output, color, catheter status), and skin (wounds, pressure injuries with staging, color and temperature of extremities). When any of these sections say "not assessed" or remain blank, you have a nursing negligence issue. I have won cases on missing hourly neuro checks alone after a fall.
+
+**Nursing Flow Sheets Show Patterns Physicians Miss**
+
+The physician sees your client once daily on hospital rounds. The nurse assesses every four hours minimum, every hour for critical patients. You must pull the nursing flow sheets and graph the vital signs yourself. I worked a sepsis case where the physician note said "afebrile, stable" but the nursing flow sheet showed temperature climbing from 99.1 to 101.8 over eight hours, heart rate rising from 88 to 132, and blood pressure dropping from 128/76 to 94/58. The nurse documented these trends. The physician ignored them. Your damages flow from that gap.
+
+**Pain Assessment Documentation Builds Your Damages Case**
+
+Nurses assess and document pain every single time they enter the room. They record the pain score (0-10 scale), location, quality, what makes it better or worse, and what interventions they provided. I have reviewed nursing notes documenting pain scores of 8, 9, 10 out of 10 for three consecutive days post-surgery while the physician note says "pain well controlled." Your client told the nurse the truth. The nurse believed them and wrote it down. Bring those nursing notes to mediation. Defense counsel sees 72 hours of documented severe pain and their offer changes.
+
+**Nursing Notes Document What the Patient and Family Said**
+
+Nurses spend hours at the bedside. They document direct quotes from your client and family members. I have found case-changing statements in nursing notes: "Patient states 'I told them I was allergic to penicillin in the ER.'" "Wife reports patient seems more confused than yesterday, keeps asking the same questions." "Patient crying, states 'something feels really wrong inside.'" The physician never heard these statements. The nurse documented them in real time. These quotes establish your client reported symptoms, voiced concerns, or communicated critical information that staff ignored.
+
+**Missing Nursing Assessments Equal Nursing Negligence**
+
+Your nursing home abuse case depends on whether the certified nursing assistants completed required assessments. I review nursing home records where regulations require turning and repositioning every two hours to prevent pressure ulcers. The flow sheet shows 12 consecutive hours with no documentation. Either the staff failed to assess the resident, or they assessed and found a problem they did not want to document. Both scenarios support your neglect claim. Missing assessments prove understaffing, inadequate supervision, and failure to provide basic care. I have never seen a defense team successfully explain away eight hours of missing vital signs.
+
+**Reading Between the Lines of Vague Documentation**
+
+Nurses who sense they are covering up for physician errors or anticipating litigation write defensively. Watch for vague language: "appears comfortable" instead of specific pain scores, "no acute distress" instead of actual assessment findings, "physician aware" without documentation of what information the nurse communicated. I have identified nurse-physician communication breakdowns by comparing what the nursing note says the nurse reported versus what the physician note says they were told. The discrepancies prove your failure to communicate claim. When nursing notes become suddenly vague after a bad outcome, you know the staff recognized the error in real time.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-18",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Nursing assessments document real-time patient status physicians miss. Learn to read nursing notes to build stronger medical malpractice cases.",
+    keywords: ["nursing assessment","medical records review","nursing documentation","medical malpractice","legal nurse consultant","nursing notes"],
+  },
+  {
     slug: "how-to-interpret-lumbar-puncture-results-in-meningitis-misdiagnosis-cases",
     title: "How to Interpret Lumbar Puncture Results in Meningitis Misdiagnosis Cases",
     excerpt: "CSF analysis reveals what the ER missed. Know the difference between viral and bacterial patterns to prove negligent delay.",
