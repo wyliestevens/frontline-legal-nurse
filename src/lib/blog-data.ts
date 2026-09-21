@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "trauma-center-vs-community-hospital-records-tell-different-stories",
+    title: "Trauma Center vs Community Hospital Records Tell Different Stories",
+    excerpt: "The documentation depth, specialist involvement, and protocol rigor differ drastically between trauma centers and community hospitals.",
+    content: `
+**The Documentation Gap Is Real and It Costs You Cases**
+
+Trauma centers document everything. Community hospitals document what they think matters. I've reviewed both for 20 years, and the difference is staggering. A Level I trauma center chart for a motor vehicle collision with a femur fracture runs 300-500 pages in the first 24 hours. The same injury at a community hospital generates 75-100 pages. This gap affects your ability to prove mechanism of injury, timing of complications, and standard of care deviations. You need to know what you're missing before you file.
+
+**Trauma Centers Use Protocols That Create Your Timeline**
+
+Trauma centers operate on strict Advanced Trauma Life Support protocols with documentation at every decision point. You get a trauma activation sheet with vital signs every 5-15 minutes. You get a primary survey, secondary survey, and tertiary survey documented separately by different providers. You get time stamps for CT scans, labs, and specialist consultations built into the workflow. Community hospitals treat injuries, but they don't follow the same rigid protocols. Their emergency department notes often lump assessment and treatment into narrative paragraphs. This matters when you need to prove your client deteriorated at 14:23, not 15:45.
+
+**Specialist Documentation Tells You What Standard of Care Looks Like**
+
+Trauma centers have orthopedic surgeons, neurosurgeons, and trauma surgeons in-house or within 30 minutes. Their notes appear in the chart within hours. These specialists document their assessment, their recommendations, and their follow-up plan in detail. Community hospitals call consultants who arrive when they arrive. Sometimes you get a phone consult documented as "discussed with Dr. Smith, agrees with plan." No assessment. No differential diagnosis. No documentation of what the specialist actually saw or recommended. This sparse documentation makes it harder to prove what a reasonable specialist would have done.
+
+**Nursing Documentation Density Exposes Gaps in Monitoring**
+
+Trauma center nurses chart every 15 minutes to every hour based on patient acuity. You get Glasgow Coma Scale scores, pain scores, neuro checks, and circulation checks documented repeatedly. You get intake and output measured precisely. You get vital signs trended on flow sheets. Community hospital nursing notes vary wildly in quality. I've seen charts where a post-operative patient has one nursing note in a four-hour period. I've seen pressure ulcers develop with no skin assessments documented for 12-hour stretches. This sparse nursing documentation becomes your proof of neglect.
+
+**Imaging and Lab Results Come With Different Interpretation Standards**
+
+Trauma centers have radiologists and pathologists available 24/7 for immediate reads. The preliminary read happens within 30 minutes. The final read includes detailed measurements, descriptions, and comparison to prior studies. Community hospitals often rely on preliminary reads from the emergency physician with final radiologist interpretation the next day. I've seen cases where a fracture was missed because the ED physician didn't see it on X-ray and the radiologist's correction came 18 hours later. Your client's treatment delay stems directly from this interpretation gap.
+
+**Transfer Documentation Reveals What the First Hospital Missed**
+
+When a community hospital transfers your client to a trauma center, read the transfer documentation with a critical eye. The trauma center receiving physician documents their findings on arrival. This documentation often reveals injuries the community hospital missed or minimized. I reviewed a case where a community hospital diagnosed a simple wrist fracture and the trauma center found a compartment syndrome requiring emergency fasciotomy within two hours of arrival. The trauma center's admission H&P spelled out the standard of care violation without naming it.
+
+**Community Hospitals Often Lack Policies That Trauma Centers Follow**
+
+Trauma centers operate under American College of Surgeons verification requirements. They maintain policies for every clinical scenario. You request their policies and you get a massive protocol manual. Community hospitals create policies, but they don't follow the same verification process. Their policies are often vague or outdated. This difference matters when you're proving the hospital deviated from its own standards. Request the specific policy for your client's injury and compare it to what the chart shows. The gap is your case.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-21",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Trauma center vs community hospital records differ drastically in documentation depth, specialist notes, and protocol adherence. Here's why it matters.",
+    keywords: ["trauma center records","community hospital documentation","medical records review","trauma center vs hospital","nursing documentation","medical malpractice records"],
+  },
+  {
     slug: "how-to-read-a-nursing-assessment-and-why-it-matters-more-than-the-physician-note",
     title: "How to Read a Nursing Assessment and Why It Matters More Than the Physician Note",
     excerpt: "Nursing assessments document what really happened at the bedside. Physicians document after the fact.",
