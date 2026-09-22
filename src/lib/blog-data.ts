@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-vital-sign-trends-tell-you-about-patient-monitoring-failures",
+    title: "What Vital Sign Trends Tell You About Patient Monitoring Failures",
+    excerpt: "Vital sign documentation patterns reveal exactly when nurses missed deterioration. Here's what to look for in the chart.",
+    content: `
+**The Pattern Tells the Story Before the Code**
+
+You see a patient code at 0900. The record shows vitals checked at 0600, then nothing until the code. This gap tells you everything. Proper monitoring means documented vital signs at intervals appropriate to the patient's acuity level. Stable medical-surgical patients get vitals every four hours minimum. Intermediate care patients need them every two hours. ICU patients require continuous monitoring with documented assessments hourly or more frequently. When I review charts where patients deteriorated or died, I find these gaps consistently.
+
+**Trending Abnormal Values Requires Action**
+
+A single blood pressure of 88/52 gets written off as a bad reading. Two consecutive BPs of 88/52 and 84/48 over four hours demands intervention. The defense will argue the first reading was an outlier. Your case strengthens when you show three or four progressively worsening values with no documented physician notification, no repeat checks, no intervention. I reviewed a sepsis case where the nurse documented temps of 101.2, 101.8, 102.4, and 103.1 over eight hours with heart rates climbing from 98 to 127. No provider got called. The patient arrested six hours later. The trending made the breach obvious.
+
+**Missing Vitals During Critical Windows**
+
+The medical record shows vitals at 1400, then the next entry is at 2200 with the patient unresponsive. Eight hours with no documented checks on a post-op day one patient. The nurse charted pain medications at 1600 and 2000, which proves she entered the room but took no vitals. This demonstrates willful omission, not just negligence. Look for medication administration times. If nurses gave narcotics, blood pressure medications, or IV pushes without checking vitals first, you have clear violations of standard practice.
+
+**Electronic Charting Shows Exactly When Nurses Falsified Records**
+
+Electronic health records timestamp everything. I see vitals entered all at once at 0645 for times listed as 2200, 0200, and 0600. The metadata proves the nurse never took those readings at the documented times. Pull the audit trail. When vitals show identical values across multiple time points or show impossibly perfect patterns, they are fabricated. I worked a case where a nurse entered twelve hours of vital signs in a three-minute window at shift change. The patient had already been found dead. The timestamps proved she backdated false documentation.
+
+**Vital Sign Combinations Reveal Missed Shock States**
+
+Hypotension alone gets dismissed. Hypotension plus tachycardia plus dropping oxygen saturation equals shock, and any floor nurse should recognize this. When I see BP trending down from 118/76 to 94/58 while heart rate climbs from 82 to 118 and oxygen saturation drops from 96% to 91%, I know we have progressive decompensation. These three values together trigger rapid response team criteria at every hospital. If the record shows this triad developing over hours with no intervention, your liability case builds itself. The nurse had the data points but failed to interpret them as a pattern.
+
+**Documentation Frequency Tells You What They Knew**
+
+Vital signs checked every thirty minutes indicate the nurse recognized instability. When you see tight monitoring documented from 1800 to 2000, then a sudden return to every-four-hours checks, something changed in how they assessed the situation. Either the patient truly stabilized or the nurse made a bad call. Compare those vital values. If the patient's pressures still ran low but the nurse decreased monitoring frequency anyway, she misjudged acuity. I reviewed a stroke case where neuro checks went from every fifteen minutes to every four hours despite the patient's continued altered mental status. The frequency change showed the nurse stopped treating the patient as high-risk when she should have escalated care.
+
+**The Defense Will Argue Acceptable Vital Ranges**
+
+Defense experts claim a blood pressure of 92/58 falls within normal limits. Your expert needs to explain why that pressure is dangerous for this specific patient. A baseline hypertensive patient whose normal BP runs 140/90 is profoundly hypotensive at 92/58. The percentage drop from baseline matters more than the absolute number. I worked a CHF exacerbation case where the patient's BP dropped from his baseline of 156/94 to 98/62. The defense called 98/62 acceptable. We showed the 37% drop in systolic pressure represented cardiogenic shock. Know your patient's baseline. Compare every abnormal vital sign to their admission values and their documented norms from previous hospitalizations.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-22",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Vital sign trends reveal monitoring failures in medical malpractice cases. Learn what patterns prove negligence from a legal nurse consultant.",
+    keywords: ["vital sign documentation","patient monitoring standards","medical malpractice","nursing negligence","legal nurse consultant","medical record review"],
+  },
+  {
     slug: "trauma-center-vs-community-hospital-records-tell-different-stories",
     title: "Trauma Center vs Community Hospital Records Tell Different Stories",
     excerpt: "The documentation depth, specialist involvement, and protocol rigor differ drastically between trauma centers and community hospitals.",
