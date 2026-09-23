@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-radiology-reports-contradict-treating-physician-documentation",
+    title: "When Radiology Reports Contradict Treating Physician Documentation",
+    excerpt: "Radiologists read one thing. Treating physicians document another. Both records sit in your file. Here's how to spot and use these discrepancies.",
+    content: `
+I reviewed a slip and fall case last month where the emergency physician documented "no acute fracture" in his discharge summary. The radiologist's report from the same visit identified a non-displaced L2 compression fracture. The plaintiff went untreated for six weeks. Defense argued the delayed treatment worsened the injury. The radiologist's report was right there in the chart the whole time.
+
+**The Radiologist Sees What the Physician Misses**
+
+Radiologists spend eight years training to read images. They sit in dark rooms and examine every film slice by slice. Emergency physicians, orthopedists, and primary care doctors read radiology reports between patient visits, procedures, and documentation. They scan. They miss things. I have seen emergency physicians document normal imaging when the radiology report clearly states acute subdural hematoma, small bowel obstruction, or pulmonary embolism. The treating physician reads the preliminary interpretation or relies on their own quick look at the images. The final radiology report tells a different story. Your plaintiff's treatment delays start here.
+
+**Timing Creates the Gap**
+
+Preliminary radiology interpretations come fast. The emergency physician sees "preliminary read: no acute findings" and discharges your client. The final radiology report posts six hours later with critical findings. The emergency physician never sees it. No follow-up happens. No phone call goes out. Your client goes home with a missed fracture, a small pneumothorax, or early signs of ischemic stroke. Three months later, you get the complete medical records. Both reports sit in the file. The preliminary report and the final report contradict each other. The treating physician relied on the wrong one.
+
+**The Language Tells You Everything**
+
+Radiologists hedge with specific phrases. "Cannot exclude" means they see something concerning but need clinical correlation. "Recommend clinical correlation" means the imaging findings require action. "Suggest short interval follow-up imaging" means they found something worrisome. Treating physicians read these phrases and do nothing. They document "imaging unremarkable" or "X-ray negative." Pull both reports. Compare the language word for word. The radiologist uses qualifiers. The treating physician uses absolutes. The gap between "no definite acute fracture visualized" and "no fracture" defines your causation argument.
+
+**CT Reports Versus Clinical Assessment**
+
+I worked a wrongful death case where a 54-year-old man presented to the ED with abdominal pain. The ED physician documented "CT abdomen and pelvis negative for acute pathology." The radiologist's report identified mesenteric fat stranding and small bowel wall thickening concerning for early ischemic bowel. The patient went home. He returned 18 hours later in septic shock from necrotic bowel. The radiologist flagged the findings as urgent. The ED physician never acknowledged them in the treatment record. The discharge instructions mentioned gastroenteritis. The imaging told the real story before the catastrophic outcome occurred.
+
+**How to Use These Discrepancies**
+
+Get the complete imaging file. Order the actual DICOM images, not just the reports. Hire a radiologist to provide an independent interpretation. I arrange these reviews regularly. The independent radiologist will tell you what the images showed on the date of service. You now have three interpretations: the original radiology report, the treating physician's documented assessment, and your expert's reading. The original radiologist becomes your witness. They documented the findings in real time. They put the treating physician on notice. The treating physician ignored or missed the findings. Your causation timeline starts at the moment the radiology report posted to the medical record.
+
+**The Records Tell You Who Read What and When**
+
+Electronic health records track every login, every page view, every document opened. Subpoena the audit trail. The metadata shows whether the treating physician ever opened the final radiology report. I reviewed a case where the orthopedic surgeon never accessed the MRI report showing a complete rotator cuff tear. He documented "partial tear" and recommended physical therapy. The audit trail proved he relied on his own image review and never read the radiologist's interpretation. The delayed surgery gave us a stronger case. The records system handed us the proof.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-23",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Radiology reports often contradict treating physician notes. Learn how to spot these discrepancies and strengthen your medical malpractice case.",
+    keywords: ["radiology reports","medical malpractice","imaging discrepancies","medical records review","treating physician documentation","legal nurse consultant"],
+  },
+  {
     slug: "what-vital-sign-trends-tell-you-about-patient-monitoring-failures",
     title: "What Vital Sign Trends Tell You About Patient Monitoring Failures",
     excerpt: "Vital sign documentation patterns reveal exactly when nurses missed deterioration. Here's what to look for in the chart.",
