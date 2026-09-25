@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-discharge-summaries-hide-and-how-to-find-the-real-story",
+    title: "What Discharge Summaries Hide and How to Find the Real Story",
+    excerpt: "Discharge summaries sanitize errors and omit critical details. Here's where to look for what really happened during your client's hospital stay.",
+    content: `
+Discharge summaries are written to protect the hospital. The attending physician dictates them days or weeks after your client leaves. They summarize the admission in the cleanest possible terms. They omit nursing observations. They skip complications. They reframe errors as unfortunate outcomes.
+
+**The Discharge Summary Tells You the Official Story**
+
+You need the official story because it reveals what the defense will say happened. Read it first. Note the admitting diagnosis, the treatment plan, and the stated reason for discharge. Note what medications are listed and what consultations are mentioned. Then put it aside and start looking for contradictions. The discharge summary is the end point of a narrative the hospital wants to tell. Your job is to find where the narrative breaks.
+
+**Nursing Notes Show Real-Time Deterioration**
+
+Nurses document every two to four hours on the floor. They record vital signs, pain levels, intake and output, mental status changes, and patient complaints. When your client's condition declined, the bedside nurse saw it first and wrote it down. Look for repeated documentation of uncontrolled pain, increasing heart rate, dropping blood pressure, or confusion. Look for calls to the physician that went unanswered or resulted in no change in orders. I have reviewed charts where the discharge summary says the patient "tolerated the procedure well" while nursing notes show three days of 10/10 pain, tachycardia, and requests for imaging the physician ignored.
+
+**Progress Notes Reveal Delayed Decisions**
+
+Physicians write progress notes daily, sometimes multiple times per day if the patient is critical. Compare the timestamps on these notes to nursing documentation. A physician writing a note at 2 p.m. stating "patient stable" means nothing if nursing called about hypotension at 6 a.m. and again at 10 a.m. with no response. Look for vague language like "continue to monitor" or "will reassess" when objective findings show deterioration. These phrases mean the physician saw a problem and chose to wait. When waiting causes harm, you have delayed diagnosis or delayed treatment.
+
+**Medication Administration Records Expose Gaps in Care**
+
+The MAR shows every medication given, every dose held, and every PRN medication requested. It shows pain medication given every hour because your client's pain was uncontrolled. It shows antibiotics started late because pharmacy delayed the order or nursing was short-staffed. It shows scheduled medications not given because the patient was off the floor for procedures. The discharge summary will say "patient received appropriate antibiotics." The MAR shows the first dose was given eight hours after the order because the pharmacy was backlogged. Eight hours matters in sepsis.
+
+**Consult Notes and Specialty Reports Contain the Warnings**
+
+When the attending physician calls for a consult, the specialist documents their findings and recommendations in a separate note. These notes are detailed. They state the clinical concern, the objective findings, and the recommended intervention. Read them. Then look at the attending physician's subsequent progress notes to see if the recommendations were followed. I have seen consult notes from infectious disease recommending an immediate change in antibiotics while the attending continued the ineffective medication for three more days. The discharge summary lists the consult. It does not mention the ignored recommendations.
+
+**Incident Reports Are Never in the Chart but Nursing Notes Hint at Them**
+
+Incident reports are filed separately and are not part of the medical record. You will not get them in discovery from the hospital. But nursing notes written around the same time often contain clues. Look for phrases like "physician notified," "risk management notified," or "family updated on change in condition." Look for falls documented with detailed descriptions of the scene. Look for medication errors followed by immediate reassessment and physician notification. These entries mean something went wrong and the nurse initiated the hospital's internal reporting process. Depose the nurse about what they reported and to whom.
+
+**Laboratory and Imaging Results Do Not Lie**
+
+Lab values and radiology reports are objective. A white blood cell count of 18,000 means infection. A lactate of 4.2 means sepsis. A chest X-ray showing pulmonary edema means fluid overload. The discharge summary might say "patient developed hospital-acquired pneumonia, treated successfully." The chest X-ray report dated two days before treatment started shows infiltrates the radiologist called "concerning for pneumonia, recommend clinical correlation." The physician did not correlate. The patient got sicker. Two days matters.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-25",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Discharge summaries hide errors and omit critical details. Learn where to find the real story in nursing notes, progress notes, and lab results.",
+    keywords: ["discharge summary","medical records review","nursing notes","hospital negligence","medical malpractice","delayed diagnosis"],
+  },
+  {
     slug: "why-operative-reports-are-the-most-underused-evidence-in-surgical-malpractice-ca",
     title: "Why Operative Reports Are the Most Underused Evidence in Surgical Malpractice Cases",
     excerpt: "Operative reports document what surgeons do behind closed doors. Most attorneys treat them as checklists instead of evidence goldmines.",
