@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-intake-and-triage-records-reveal-about-emergency-room-malpractice",
+    title: "What Intake and Triage Records Reveal About Emergency Room Malpractice",
+    excerpt: "Intake and triage documentation exposes the critical failures behind ER malpractice. Here's what to look for.",
+    content: `
+**The Triage Timestamp Tells the Real Story**
+
+You need the exact time the patient hit the door and the exact time a nurse completed the initial assessment. I've reviewed cases where a 20-minute delay in triage turned a salvageable MI into wrongful death. The Emergency Severity Index score sits right there in the triage note. A chest pain patient triaged as ESI 3 instead of ESI 2 gets pushed down the queue. Thirty minutes becomes two hours. The LAD occludes completely. Your client codes in the waiting room. The triage nurse's failure to recognize ACS red flags becomes your liability anchor.
+
+**Chief Complaint Documentation Exposes Assessment Failures**
+
+The chief complaint section reveals what the patient said and what the nurse heard. I've seen triage notes where a patient reported "crushing chest pressure radiating to the jaw" reduced to "chest discomfort." One word change. Massive difference in urgency perception. Look for direct quotes versus nursing interpretation. A 40-year-old woman presenting with epigastric pain, nausea, and diaphoresis gets documented as "upset stomach." She walks out AMA after a four-hour wait. She dies at home from an inferior wall MI. The triage record proves the nurse missed or minimized textbook anginal equivalents in women.
+
+**Vital Signs Document Physiologic Deterioration**
+
+Triage vitals establish the baseline. You compare them to every subsequent set in the ED record. A patient arrives with BP 88/52, HR 118, and the triage note says "appears uncomfortable but alert." No sepsis screening initiated. No physician notification documented. The patient sits in the waiting room for 90 minutes while developing septic shock. I've worked cases where the triage vitals showed a MAP below 65, yet the nurse assigned ESI 3 and sent the patient back to wait. This violates every sepsis protocol written in the last decade. Those initial vitals prove the nurse recognized hemodynamic instability and did nothing.
+
+**Reassessment Documentation Reveals Monitoring Gaps**
+
+Emergency department policy manuals dictate reassessment intervals based on ESI level. ESI 2 patients get reassessed every 30 minutes while waiting. I pull the policy during record review. Then I pull the triage record. I look for documented reassessments. I've seen cases with six-hour ED waits and zero reassessment documentation for ESI 2 patients. Your stroke case walked in at 1400 with facial droop and slurred speech. Triage documented it. The patient waited until 1730 for a room. No nurse checked on them once. The CT at 1800 showed the hemorrhage expanded. The triage record proves they knew. The absence of reassessment notes proves they abandoned.
+
+**Pain Scale Documentation Creates Liability**
+
+The initial pain score sits in the triage record. A 10/10 headache in a patient with no history of migraines demands immediate workup. I've reviewed cases where triage documented "worst headache of life, 10/10" and the patient waited three hours. The nurse gave the patient Tylenol at triage. No physician evaluation. No CT ordered. The patient had a Hunt and Hess Grade 3 subarachnoid hemorrhage. The bleed extended. The patient went from awake and talking to obtunded. Your case hinges on the triage nurse's documentation of severe, sudden-onset headache without appropriate escalation.
+
+**Medical History Sections Reveal Screening Failures**
+
+The medical history portion of triage exposes what the nurse asked and what they ignored. Current medications tell you what conditions the patient has. Warfarin means anticoagulation. A fall plus warfarin demands head imaging. I've worked cases where the triage nurse documented warfarin use and the patient hit their head. The nurse triaged them ESI 4. No physician saw them for five hours. The subdural evolved. The patient seized. Look for documented allergies, previous surgeries, and current prescriptions. These details establish what the nurse knew. What the nurse knew establishes what the nurse should have done.
+
+**Standing Order Execution Shows Protocol Compliance**
+
+Many EDs run standing order protocols at triage. Chest pain gets an EKG within 10 minutes. Fever in an immunocompromised patient gets blood cultures and empiric antibiotics. The triage record shows if these orders were placed. I've seen dozens of cases where the triage nurse documented classic MI symptoms but no EKG appears in the record until 90 minutes later. The first EKG shows tombstone ST elevations. The door-to-balloon time blows past 90 minutes. The triage record timestamps when the nurse should have initiated the STEMI protocol. The absence of standing orders executed at triage proves protocol violation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-28",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Emergency room malpractice cases hinge on triage records. Learn what intake documentation reveals about nursing negligence and protocol failures.",
+    keywords: ["emergency room malpractice","triage records","ER negligence","medical malpractice","nursing negligence","emergency department liability"],
+  },
+  {
     slug: "what-discharge-summaries-hide-and-how-to-find-the-real-story",
     title: "What Discharge Summaries Hide and How to Find the Real Story",
     excerpt: "Discharge summaries sanitize errors and omit critical details. Here's where to look for what really happened during your client's hospital stay.",
