@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-pharmacy-records-expose-dangerous-drug-interactions-missed-by-prescribers",
+    title: "How Pharmacy Records Expose Dangerous Drug Interactions Missed by Prescribers",
+    excerpt: "Pharmacy records reveal the polypharmacy disasters providers miss. These records hold evidence of causation many attorneys never obtain.",
+    content: `
+I reviewed a wrongful death case last month where the decedent's physician prescribed tramadol without checking what the patient already took. The pharmacy records showed seven concurrent prescriptions from four different providers. Two drugs together triggered serotonin syndrome. The patient died within 72 hours. The medical chart never mentioned the other medications. The pharmacy records told the complete story.
+
+**Pharmacy Records Show What Providers Miss**
+
+Providers rely on patient self-reporting for medication histories. Patients forget drugs. They omit over-the-counter medications and supplements. They see multiple specialists who don't communicate. Pharmacy records bypass this unreliable chain. These records list every filled prescription with exact dates, dosages, and quantities dispensed. You see overlapping prescriptions that create dangerous combinations. I have found SSRI antidepressants prescribed alongside tramadol, creating serotonin toxicity risk. I have found warfarin prescribed with NSAIDs, leading to hemorrhage. The pharmacy records document what was actually dispensed, not what the provider claims they prescribed or what the patient says they took.
+
+**The Fill Date Proves Concurrent Use**
+
+Medical charts show prescription dates. Pharmacy records show fill dates and refill dates. This timeline matters in causation. A patient injured on June 15th who filled two interacting medications on June 1st and June 8th shows concurrent exposure. I have used pharmacy records to prove a patient was actively taking both drugs when symptoms began. Defense counsel argues the patient stopped one medication before starting another. The pharmacy refill dates destroy this defense. You trace each refill through the injury date. You establish continuous exposure to both drugs during the relevant time period. This evidence survives summary judgment motions.
+
+**Quantity Dispensed Reveals Dosing Errors**
+
+Pharmacy records list quantity dispensed and days supply. A prescription written for 30 days but refilled every 15 days shows the patient doubled their dose. I have seen this pattern with opioids and benzodiazepines. The patient runs out early. They call for early refills. The provider authorizes it without question. The cumulative dose reaches toxic levels. The chart documentation shows appropriate prescribing. The pharmacy records show excessive dispensing. You calculate total milligrams received over time. You prove the actual exposure exceeded safe limits.
+
+**Multiple Pharmacies Hide Polypharmacy**
+
+Patients use different pharmacies for different prescriptions. I reviewed a case where the plaintiff filled prescriptions at three separate chains. No single pharmacy saw the complete picture. Each pharmacist believed they were filling the only prescriptions. The drug interaction screening software never triggered warnings. You subpoena records from every pharmacy the patient used. Check big box stores, grocery chains, independent pharmacies, and mail-order services. I have found critical interacting drugs by requesting records from all pharmacies within a 20-mile radius of the patient's home. One case turned on a prescription filled at a pharmacy inside a clinic the patient visited once.
+
+**Pharmacist Warnings Create Provider Liability**
+
+Pharmacy records include notation fields. Pharmacists document when they call providers about drug interactions. I have seen notes reading "Called Dr. Smith re: interaction between Prozac and tramadol. Dr. Smith states continue both medications." The pharmacist identified the danger. The provider ignored the warning. The patient suffered injury. These notes establish the provider had actual knowledge of the risk. Your negligence case becomes stronger. The pharmacist fulfilled their duty. The provider breached theirs. Request complete pharmacy records including all notation fields and communication logs.
+
+**Pull Records From Every Source**
+
+Request records from retail pharmacies, hospital discharge pharmacies, specialty pharmacies for compounded medications, and online pharmacies. Obtain prescription drug monitoring program reports from the state database. These PDMP reports compile controlled substance prescriptions across all pharmacies statewide. I have found overlapping opioid prescriptions from multiple providers that no single pharmacy detected. The PDMP showed the complete picture. You need both the PDMP report and the individual pharmacy records. The PDMP gives you the roadmap. The detailed pharmacy records give you the evidence.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-29",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Pharmacy records expose drug interactions providers miss. Learn how these records prove causation in medical malpractice and wrongful death cases.",
+    keywords: ["pharmacy records","drug interactions","medical malpractice","polypharmacy","prescription records","medication errors"],
+  },
+  {
     slug: "what-intake-and-triage-records-reveal-about-emergency-room-malpractice",
     title: "What Intake and Triage Records Reveal About Emergency Room Malpractice",
     excerpt: "Intake and triage documentation exposes the critical failures behind ER malpractice. Here's what to look for.",
