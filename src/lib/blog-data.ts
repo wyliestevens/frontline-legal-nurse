@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-physical-therapy-records-are-critical-evidence-in-personal-injury-cases",
+    title: "Why Physical Therapy Records Are Critical Evidence in Personal Injury Cases",
+    excerpt: "Physical therapy documentation reveals injury progression, compliance patterns, and functional limitations attorneys miss in medical records alone.",
+    content: `
+I have reviewed thousands of personal injury cases where attorneys submitted demand packages without physical therapy records. They lost tens of thousands in settlement value because they missed the most detailed documentation of pain, function, and disability in the entire medical file.
+
+**Physical Therapy Notes Document What Physicians Miss**
+
+Your client sees their orthopedist for 15 minutes every six weeks. The physician documents range of motion measurements and writes a prescription for continued PT. Your client sees their physical therapist for 45 minutes three times per week. The PT documents pain levels at rest and with activity, functional limitations during ADLs, gait abnormalities, muscle strength measurements, and exactly which movements cause symptoms. PT records show the grinding daily reality of your client's injury. Physician notes show snapshots. I pull PT records first when building a demand because they contain the most granular evidence of suffering and disability.
+
+**Compliance Patterns Make or Break Credibility**
+
+Defense attorneys examine PT attendance records with a microscope. I have seen cases where plaintiffs claimed debilitating pain but PT records showed they missed 40 percent of scheduled appointments. I have also seen cases where defense counsel argued the plaintiff exaggerated symptoms, but PT records proved the client attended 47 out of 48 sessions despite living 35 miles from the clinic. Attendance logs, cancellation reasons, and therapist notes about barriers to care tell the story of someone fighting to recover versus someone building a lawsuit. You need these records to prove credibility before the defense raises questions you cannot answer.
+
+**Functional Limitations Translate Directly to Economic Damages**
+
+PT records quantify what your client cannot do. The initial evaluation documents your client's inability to lift their child, climb stairs without a rail, sit for longer than 20 minutes, or reach overhead to retrieve dishes. Progress notes track whether these limitations improve, plateau, or worsen. Discharge summaries identify permanent restrictions. I use these functional assessments to build life care plans and demonstrate lost earning capacity. A physician's note saying "limited ROM" means nothing to a jury. A PT note stating "patient unable to complete 8-hour workday in current occupation due to pain with prolonged standing" wins damages.
+
+**Pain Documentation Appears in Real Time**
+
+Physicians ask about pain. Physical therapists measure it multiple times per session. PT records contain pain scales at the start of treatment, during specific exercises, after modalities, and at discharge. They document which positions, movements, and activities trigger symptoms. They record pain quality descriptors: sharp, burning, shooting, aching, stabbing. I have reviewed cases where the physician's records mentioned pain three times across six months of treatment. The PT records documented pain levels at 180 different data points. This repetitive, consistent documentation defeats defense arguments about symptom magnification.
+
+**Treatment Gaps Get Explained or Exposed**
+
+Defense counsel will find every gap in treatment and argue your client recovered or fabricated symptoms. PT records explain these gaps. I have seen therapist notes documenting that the client missed two weeks because their car broke down, because they had surgery for an unrelated condition, or because insurance authorization lapsed. I have also seen gaps where the PT notes show the client stopped coming because symptoms resolved, then returned three months later claiming the pain never stopped. You need to know which scenario exists in your case before the defense depositions your client.
+
+**Home Exercise Compliance Demonstrates Mitigation of Damages**
+
+Every PT assigns home exercises. Every PT documents whether the patient performs them. Defense attorneys argue plaintiffs failed to mitigate damages by not following treatment recommendations. PT records show whether your client completed their home exercise program, purchased recommended equipment, and followed activity restrictions. These records prove your client did everything possible to recover. I have seen cases settle for double the initial offer after we provided PT documentation showing strict adherence to all treatment recommendations despite minimal improvement.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-09-30",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Physical therapy records document pain levels, functional limitations, and treatment compliance that physicians miss in personal injury cases.",
+    keywords: ["physical therapy records","personal injury evidence","medical record review","legal nurse consultant","functional limitations documentation","treatment compliance"],
+  },
+  {
     slug: "how-pharmacy-records-expose-dangerous-drug-interactions-missed-by-prescribers",
     title: "How Pharmacy Records Expose Dangerous Drug Interactions Missed by Prescribers",
     excerpt: "Pharmacy records reveal the polypharmacy disasters providers miss. These records hold evidence of causation many attorneys never obtain.",
