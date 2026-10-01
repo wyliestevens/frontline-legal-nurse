@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "billing-records-expose-treatment-gaps-your-client-never-mentioned",
+    title: "Billing Records Expose Treatment Gaps Your Client Never Mentioned",
+    excerpt: "Billing codes tell you what treatments were billed. Chart notes tell you what was documented. The gap between them wins cases.",
+    content: `
+**Billing Records Document What Providers Wanted Paid For**
+
+Every CPT code on a billing statement represents a claim for reimbursement. Providers bill for procedures performed, time spent, supplies used, and medications administered. When you see CPT 99285 for a high-complexity emergency department visit, the provider billed for specific work. When you see J2001 for lidocaine injection, someone charged for administering that drug. The billing record is a financial fingerprint of treatment. I review billing statements first in every case because they reveal the skeleton of care before I dive into the narrative.
+
+**Missing Codes Expose Missing Treatments**
+
+Your client claims the emergency physician never performed a neurological exam after the head injury. The chart note describes a full neuro assessment. The billing shows CPT 99283 for a low-complexity visit. That code requires a limited exam of one body system. The physician documented an exam he did not bill for, or he billed for a service below what he documented. Either way, you have ammunition. I have seen defense attorneys crumble when confronted with the absence of CPT 96372 for a therapeutic injection the nurse swore she administered. No billing code means no reimbursement was sought. No reimbursement sought raises the question of whether the treatment happened.
+
+**Duplicate Codes Reveal Phantom Treatments**
+
+A nursing home bills CPT 97110 for therapeutic exercise three times in one day for your bedbound plaintiff. The therapy notes show the physical therapist was on vacation. The billing department submitted charges anyway. I found this pattern in a pressure ulcer case where the facility billed for wound care supplies every single day for six months. The wound care nurse resigned four months into that period. No replacement was hired. The billing continued without pause. Follow the codes across the timeline of care and compare them to staffing records and progress notes. Phantom billing is fraud, and it destroys credibility.
+
+**Medication Billing Shows What Was Actually Administered**
+
+Chart documentation states the nurse gave morphine 4 mg IV at 1400 hours. The pharmacy billing shows no charge for morphine on the date of service. The medication administration record shows a nurse signature. Something is wrong. Either the pharmacy failed to charge, the nurse charted a medication she did not give, or the morphine came from a source outside normal inventory. I have seen all three. In one wrongful death case, the decedent's family claimed the hospital overprescribed opioids. The billing records showed the total morphine equivalent units charged over the admission. The amount was half what the chart documentation suggested. The discrepancy meant either poor charting or diversion. Neither helped the defense.
+
+**Time-Based Codes Expose Impossible Timelines**
+
+CPT 99291 bills for the first 30 to 74 minutes of critical care time. CPT 99292 bills for each additional 30 minutes. Your plaintiff's chart shows the intensivist billed for 99291 and three units of 99292, claiming 164 minutes of critical care. The physician also billed for a 45-minute family meeting under CPT 99366 during the same shift. Add in the time documented for procedures, and the physician claims 250 minutes of work in a four-hour period. Impossible. I reconstructed the timeline using billing codes, procedure start times, and the physician's sign-in logs. He was present for 90 minutes total. The overbilling exposed fabricated documentation.
+
+**Supply Charges Tell You What Equipment Touched the Patient**
+
+The defendant hospital claims they used sterile technique during the central line placement. The billing record shows no charge for a central line kit. It shows individual charges for a catheter, guidewire, and suture. That means they did not use a sterile procedural kit. The CDC and Joint Commission require sterile maximal barrier precautions for central line insertion. Individual supply billing suggests improvisation. I cross-reference supply charges with infection control policies to find violations. In one sepsis case, the absence of a chlorhexidine prep charge proved the nurse skipped skin antisepsis before inserting a Foley catheter. The patient developed urosepsis 48 hours later.
+
+**Revenue Codes Place Your Client in Specific Care Settings**
+
+Revenue code 0450 bills for emergency department services. Revenue code 0120 bills for intensive care. Your client's family claims he never received ICU-level care despite being charged ICU rates. The billing record shows three days of revenue code 0120 charges. The nursing notes show nurse-to-patient ratios of 1:4, which is med-surg staffing, not ICU. The telemetry strips are missing. No arterial line charges appear. No ventilator charges appear. The facility billed ICU rates for a patient in a monitored bed. I have seen hospitals bill ICU room charges while providing step-down care. The revenue codes do not lie, but they do not always match the care delivered.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-01",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Billing records expose treatment gaps, phantom treatments, and impossible timelines. Learn what CPT codes reveal about your medical malpractice case.",
+    keywords: ["billing records","CPT codes","medical malpractice","medical records review","treatment documentation","legal nurse consulting"],
+  },
+  {
     slug: "why-physical-therapy-records-are-critical-evidence-in-personal-injury-cases",
     title: "Why Physical Therapy Records Are Critical Evidence in Personal Injury Cases",
     excerpt: "Physical therapy documentation reveals injury progression, compliance patterns, and functional limitations attorneys miss in medical records alone.",
