@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-fetal-monitoring-strips-really-show-in-birth-injury-litigation",
+    title: "What Fetal Monitoring Strips Really Show in Birth Injury Litigation",
+    excerpt: "Electronic fetal monitoring strips tell the story of oxygen deprivation. Here's what to look for in the tracings.",
+    content: `
+**The Baseline Heart Rate Tells You When Hypoxia Started**
+
+Fetal heart rate baseline sits between 110 and 160 beats per minute in a healthy fetus. When you see baseline tachycardia above 160, the fetus is compensating for decreased oxygen. Persistent tachycardia for 30 minutes or more means the insult started at least that long ago. Bradycardia below 110 signals severe compromise. I've reviewed cases where attorneys missed this because they didn't understand that a baseline of 175 at 2:00 PM means the injury process began well before the crash cesarean at 3:30 PM. The strip timestamps your liability window.
+
+**Variability Disappears Before Permanent Brain Damage Occurs**
+
+Moderate variability shows fluctuations of 6 to 25 beats per minute. This proves the fetal brain is receiving adequate oxygen. Minimal variability drops to 5 beats or less. Absent variability is a flat line with no fluctuations. The progression from moderate to minimal to absent variability tracks progressive hypoxia. I've seen strips where variability disappeared for 45 minutes before delivery. Those babies have cerebral palsy. Your expert needs to mark the exact time variability was lost because that's when the CNS damage began. The nursing notes claiming "reassuring strip" at the same timestamp destroy credibility.
+
+**Late Decelerations Show Uteroplacental Insufficiency**
+
+Late decelerations start after the contraction peaks and return to baseline after the contraction ends. They look innocent at first. One or two late decels mean the placenta isn't delivering enough oxygen during contractions. Repetitive late decelerations with every contraction mean the fetus never recovers between contractions. I've worked cases where nurses documented "occasional late decels" for two hours. The strip showed late decels with every single contraction for 90 minutes. Your labor and delivery nurse consultant spots these discrepancies instantly. Defense experts will claim the decels were variable, not late. The timing relative to contraction onset proves otherwise.
+
+**Variable Decelerations Point to Cord Compression**
+
+Variable decelerations drop suddenly, often to 60 or 70 beats per minute. They vary in timing, depth, and duration. Mild variables happen. Severe variables dropping below 60 for longer than 60 seconds indicate cord compromise. When variables become deeper and wider over time, umbilical blood flow is progressively restricted. I've reviewed strips showing severe variables every 2 to 3 minutes for an hour before delivery. The baby had an umbilical cord wrapped around the neck three times. Your obstetric expert needs to address why the team continued Pitocin while severe variables worsened. The strip shows they increased the Pitocin dose twice.
+
+**Category II and Category III Designations Drive Standard of Care**
+
+Category I tracings are normal. Category II tracings are indeterminate and require increased surveillance and intervention. Category III tracings are abnormal and require immediate delivery. Most birth injury cases involve Category II strips that deteriorated into Category III. The nursing staff should document their communication with the physician when the strip becomes Category II. I've seen cases where the strip was Category III for 20 minutes with no documentation of physician notification. Your expert witnesses need to identify the exact time the strip became Category II and Category III. The standard of care requires intrauterine resuscitation measures first, then preparation for delivery if the strip doesn't improve.
+
+**Pitocin Administration During Non-Reassuring Strips Creates Liability**
+
+Pitocin increases contraction frequency and intensity. Stronger, closer contractions reduce placental blood flow. When the strip shows late decelerations or minimal variability, the standard requires stopping Pitocin immediately. I've reviewed dozens of cases where nurses continued or increased Pitocin while the strip deteriorated. The strip shows late decels starting at 1:15 PM. The Pitocin dose increased at 1:30 PM. The physician wasn't notified until 2:00 PM. The baby was delivered at 2:45 PM with Apgar scores of 2 and 4. Your damages expert uses the strip timeline to calculate the duration of hypoxia. Defense counsel argues the injury happened during delivery. The strip proves the injury began 90 minutes earlier while the team ignored a Category II tracing and pushed more Pitocin.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-05",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Attorney Education",
+    readTime: "4 min read",
+    metaDescription: "Fetal monitoring strips reveal oxygen deprivation timelines in birth injury cases. Learn what variability, decelerations, and Categories mean.",
+    keywords: ["fetal monitoring strips","birth injury litigation","electronic fetal monitoring","late decelerations","fetal heart rate variability","birth injury cases"],
+  },
+  {
     slug: "missing-pages-and-incomplete-medical-records-destroy-cases-at-trial",
     title: "Missing Pages and Incomplete Medical Records Destroy Cases at Trial",
     excerpt: "Learn the clinical red flags and documentation gaps nurse experts catch before opposing counsel does.",
