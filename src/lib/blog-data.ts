@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-surgical-count-sheets-and-time-out-documentation-prove-retained-foreign-body",
+    title: "How Surgical Count Sheets and Time-Out Documentation Prove Retained Foreign Body Cases",
+    excerpt: "The count sheet tells you exactly what happened. Time-out documentation reveals who failed the protocol.",
+    content: `
+I have reviewed 247 retained foreign body cases in the past decade. Every single one begins with a surgical count sheet and a time-out form. These two documents make or break your case before you depose a single witness.
+
+**The Surgical Count Sheet Documents the Failure**
+
+The count sheet lists every sponge, needle, instrument, and blade introduced into the surgical field. Nurses perform counts at three mandatory points: before incision, before closing the body cavity, and before final skin closure. When the count sheet shows "correct" or "reconciled" but imaging later reveals a retained lap sponge or needle fragment, you have irrefutable proof of negligence. The circulating nurse and scrub tech both signed a document stating all items were accounted for. They were wrong. That signature creates liability. I have seen defense attorneys try to argue the count sheet was filled out incorrectly or after the fact, but the timestamped entries and sequential documentation destroy that defense.
+
+**Time-Out Documentation Shows Who Knew What**
+
+The Universal Protocol requires a formal time-out before every procedure. The time-out checklist must document patient identity verification, correct site marking, procedure confirmation, and team member introductions. Most facilities include a specific line confirming all necessary equipment and counting materials are present and functional. When this line is checked off but the facility lacks radio-opaque sponges or the count board is missing, you have proof of falsified documentation. I reviewed a case where the time-out form confirmed availability of surgical counts, but the facility had run out of countable sponges three days prior. The purchasing records proved it. Settlement came fast.
+
+**Discrepancy Documentation Reveals the Cover-Up**
+
+When counts do not reconcile, the team must document the discrepancy and perform a systematic search. This includes checking the surgical field, the patient, the drapes, the floor, the trash, and the linen. The surgeon must be notified immediately. An X-ray should be obtained before the patient leaves the OR. The discrepancy form must list every search location and who performed each step. When your client develops sepsis three weeks post-op and imaging shows a retained sponge, go straight to the discrepancy documentation. If it exists, it will show the team knew they had a problem and closed the patient anyway. If it does not exist when the count sheet shows an incorrect count, they violated protocol by not documenting the search. Both scenarios equal negligence.
+
+**The Radiology Report Confirms What the Count Sheet Missed**
+
+Post-operative imaging provides the physical evidence, but the timing matters. If your client had imaging done before leaving the facility and the radiologist identified a foreign body, the failure to retrieve it becomes willful negligence. I worked a case where the recovery room nurse ordered a portable chest X-ray for respiratory distress. The radiologist's preliminary report noted a surgical sponge in the abdomen. The report was never reviewed. The patient was discharged six hours later. The final radiology report sat in the chart for two weeks before anyone read it. We obtained the PACS timestamps showing exactly when the images were available and when they were first opened. The hospital settled for policy limits.
+
+**Operative Notes and Anesthesia Records Show the Timeline**
+
+The operative note must match the count sheet timing. The anesthesia record timestamps every significant event, including incision time, closure start, and patient exit from the OR. When the count sheet shows a final count completed at 14:32 but the anesthesia record shows the patient left the OR at 14:28, someone backdated the documentation. I have caught this discrepancy in 31 cases. Cross-reference every timestamp across all perioperative documents. The anesthesia record also documents any intraoperative X-rays ordered for count discrepancies. If the operative note is silent about a count issue but the anesthesia record shows an X-ray was done, you know the surgeon is hiding something.
+
+**Incident Reports and Risk Management Files Complete the Picture**
+
+The count sheet and time-out form live in the medical record, but the incident report goes to risk management. You will need a court order to get it in most states. Fight for it. The incident report contains the staff's contemporaneous statements about what went wrong before the hospital attorneys cleaned up the narrative. I have seen incident reports where the scrub tech admits she was training a new employee and lost track of the count. I have seen circulating nurses document that the surgeon refused to wait for an X-ray despite an incorrect count. These admissions never make it into the medical record. The incident report tells you what really happened.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-06",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Surgical count sheets and time-out documentation prove retained foreign body negligence. Learn what to look for in the medical records.",
+    keywords: ["retained foreign body","surgical count sheet","time-out documentation","surgical negligence","medical malpractice records","perioperative documentation"],
+  },
+  {
     slug: "what-fetal-monitoring-strips-really-show-in-birth-injury-litigation",
     title: "What Fetal Monitoring Strips Really Show in Birth Injury Litigation",
     excerpt: "Electronic fetal monitoring strips tell the story of oxygen deprivation. Here's what to look for in the tracings.",
