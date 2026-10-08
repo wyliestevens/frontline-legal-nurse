@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-ambulance-run-reports-reveal-about-prehospital-care-failures",
+    title: "What Ambulance Run Reports Reveal About Prehospital Care Failures",
+    excerpt: "Ambulance run reports expose critical gaps in prehospital assessment, treatment delays, and documentation failures worth six figures.",
+    content: `
+I've reviewed over 3,000 ambulance run reports where prehospital care failures changed the entire trajectory of a case. These documents tell you whether your client received appropriate care in the critical minutes after injury or illness. They also tell you when paramedics missed obvious red flags, delayed transport, or failed to communicate findings to the receiving facility.
+
+**GCS Scores Expose Neurological Decline**
+
+The Glasgow Coma Scale score documents your client's level of consciousness at scene and during transport. When you see a GCS dropping from 15 to 12 to 9, you're watching a brain injury evolve in real time. Paramedics who fail to recognize this decline, who don't expedite transport, or who transport to a non-stroke center or non-trauma center have altered your client's outcome. I've seen cases where a 22-minute transport stretched to 47 minutes because the crew stopped to start a second IV line instead of loading and going. Those 25 minutes meant the difference between full recovery and permanent disability.
+
+**Vital Sign Trends Show Hemorrhagic Shock**
+
+You need serial vital signs, not single measurements. A blood pressure of 110/70 looks acceptable until you see it was 140/90 ten minutes earlier and 90/60 ten minutes later. Rising heart rate with falling blood pressure screams internal bleeding. Paramedics who miss this pattern, who fail to establish large-bore IV access, or who transport to a community hospital instead of a trauma center have contributed to preventable death. Look for documentation of skin signs: cool, pale, diaphoretic skin combined with thready pulse and altered mental status. When these clinical findings appear in the run report but the crew transported to the nearest facility instead of the appropriate facility, you have a viable claim.
+
+**Treatment Protocols and Medication Administration**
+
+Run reports document every medication given, the dose, the route, and the time. Compare what the crew documented against their agency's written protocols. I've found cases where paramedics gave morphine to hypotensive patients, administered contraindicated medications, or failed to give indicated medications entirely. One case involved a STEMI patient who received aspirin 45 minutes after the 12-lead ECG showed ST elevation. The delay occurred because the paramedic called medical control for an order instead of following the standing protocol. That patient lost viable myocardium during the delay. The run report proved it.
+
+**Scene Time and Transport Decisions**
+
+Document every timestamp. Time of dispatch. Time of arrival on scene. Time of departure from scene. Time of arrival at facility. Scene times exceeding 20 minutes for trauma patients violate standard practice. I've reviewed cases where crews spent 40 minutes on scene attempting to stabilize patients who needed a surgeon, not field stabilization. The run report narrative often reveals why: prolonged extrication, difficulty with IV access, multiple failed intubation attempts. Your expert needs these timestamps to calculate whether the crew followed the platinum ten minutes rule for critical trauma.
+
+**Communication Failures Between EMS and Emergency Department**
+
+The run report documents what information the crew relayed to the receiving facility. Compare the radio report and verbal handoff against the ED nursing notes. When paramedics report routine transport of a motor vehicle collision victim but fail to mention steering wheel deformity, unrestrained occupant status, or positive loss of consciousness, the ED nurse triages the patient to the waiting room instead of the trauma bay. I've seen three cases where this exact scenario led to missed aortic injuries. The run report contained the mechanism details. The ED documentation showed the information never transferred.
+
+**Missing or Altered Documentation**
+
+Late entries, different ink colors, different handwriting, and multiple strikethroughs raise immediate red flags. Electronic run reports show you every timestamp, every edit, every user who accessed the record. I've testified in cases where paramedics added information after learning about adverse outcomes. The metadata exposed the additions made three days post-incident. Paper run reports with white-out, torn pages, or missing sections tell you someone destroyed evidence. Demand the computer-aided dispatch logs, the radio transmissions, and the hospital copies. Discrepancies between versions prove tampering.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-08",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Ambulance run reports expose prehospital care failures, documentation gaps, and treatment delays worth six figures in medical-legal cases.",
+    keywords: ["ambulance run reports","prehospital care","EMS documentation","paramedic negligence","medical-legal cases","trauma care failures"],
+  },
+  {
     slug: "why-informed-consent-documents-rarely-prove-what-defense-claims",
     title: "Why Informed Consent Documents Rarely Prove What Defense Claims",
     excerpt: "Defense waves a signed consent form. Your case looks weaker. Here's what 20 years of medical record review taught me about these documents.",
