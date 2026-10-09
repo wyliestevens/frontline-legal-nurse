@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "analyzing-medication-reconciliation-for-prescribing-errors-in-medical-malpractic",
+    title: "Analyzing Medication Reconciliation for Prescribing Errors in Medical Malpractice Cases",
+    excerpt: "Medication reconciliation documents expose prescribing errors, drug interactions, and dosing mistakes your opposing counsel hopes you miss.",
+    content: `
+Medication reconciliation is where prescribing errors live in black and white. I have reviewed thousands of these documents. Most attorneys skip right past them to read the physician notes. This is a mistake. The med rec tells you what drugs the patient took, what the provider knew, and what the provider ignored.
+
+**Start With the Admission Reconciliation**
+
+The admission medication reconciliation lists every drug the patient took before entering the facility. Compare this list to the discharge summary from any prior hospitalization within 90 days. Look for discrepancies. A patient discharged on warfarin 5 mg daily who arrives at the new facility without warfarin on their med rec creates immediate questions. Did the patient stop taking it? Did someone fail to ask? Did the admitting provider miss it? I have seen strokes occur because no one reconciled anticoagulation across care transitions. The admission med rec shows you what the provider knew or should have known.
+
+**Identify Duplicate Therapy and Drug Interactions**
+
+Scan for duplicate medications with different names. A patient on both Norvasc and amlodipine receives double the intended dose because these are the same drug. I have seen this exact error cause hypotensive episodes requiring ICU admission. Check for dangerous combinations. A patient prescribed tramadol while already taking sertraline faces serotonin syndrome risk. Warfarin plus aspirin plus clopidogrel creates bleeding risk the prescriber must document and justify. If you see these combinations without any note addressing the interaction, you have evidence of substandard prescribing.
+
+**Cross-Reference Doses Against Standard Ranges**
+
+Verify every dose against standard prescribing guidelines. Grab a current PDR or use Micromedex, Lexicomp, or UpToDate. A patient with Stage 4 chronic kidney disease (GFR under 30) prescribed gabapentin 300 mg three times daily receives triple the safe dose. Gabapentin requires significant renal dose adjustment. I have worked cases where this exact error caused altered mental status, falls, and fractures. Look at geriatric patients prescribed medications on the Beers Criteria list. Benzodiazepines, anticholinergics, and sedative-hypnotics appear on this list because they create fall risk and cognitive impairment in elderly patients. If your 82-year-old plaintiff took diphenhydramine 50 mg at bedtime and fell six hours later, the med rec proves the causation chain.
+
+**Track Changes Between Reconciliation Points**
+
+Pull every medication reconciliation document from the entire medical record. Hospitals perform med rec at admission, transfer between units, and discharge. Skilled nursing facilities reconcile on admission, after every hospitalization, and quarterly. Line them up chronologically. Look for unexplained changes. A patient on metoprolol 50 mg twice daily who suddenly receives metoprolol 100 mg twice daily without any blood pressure or heart rate documentation raises questions. I have seen this dosing error cause bradycardia requiring pacemaker placement. Unexplained discontinuations matter too. A diabetic patient whose insulin disappears from the med rec without explanation faces hyperglycemia risk. The provider must document the clinical reasoning. No documentation means no justification.
+
+**Look for Allergy Conflicts**
+
+The allergy section of the med rec lists documented drug allergies and reactions. Compare this section to the active medication list on the same document. A patient with a documented penicillin allergy who receives Augmentin (amoxicillin-clavulanate) exposes clear negligence. I have reviewed records where nurses administered antibiotics despite allergy alerts firing in the electronic medical record. The med rec proves everyone knew about the allergy. Some facilities list "no known drug allergies" despite prior records documenting allergies. This reconciliation failure creates liability. Cross-reference the allergy list against every medication administration record for the entire admission.
+
+**Examine High-Risk Medication Management**
+
+Certain medications require monitoring. Warfarin needs INR checks. Digoxin needs drug levels and renal function tests. Lithium needs serum levels every three to six months. Vancomycin needs trough levels. Pull lab results and match them to the medication timeline. A patient on warfarin without an INR check for 45 days faces bleeding or clotting risk from unmonitored therapy. I worked a wrongful death case where a facility continued digoxin despite a rising creatinine and no drug level monitoring. The patient died from digoxin toxicity. The med rec showed continuous prescribing. The lab results showed no monitoring. The combination proved gross negligence.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-09",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medication reconciliation analysis reveals prescribing errors, drug interactions, and dosing mistakes in medical malpractice cases.",
+    keywords: ["medication reconciliation","prescribing errors","medical malpractice","drug interactions","medication errors","legal nurse consultant"],
+  },
+  {
     slug: "what-ambulance-run-reports-reveal-about-prehospital-care-failures",
     title: "What Ambulance Run Reports Reveal About Prehospital Care Failures",
     excerpt: "Ambulance run reports expose critical gaps in prehospital assessment, treatment delays, and documentation failures worth six figures.",
