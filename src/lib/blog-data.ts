@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-nutritional-assessments-reveal-in-nursing-home-malnutrition-cases",
+    title: "What Nutritional Assessments Reveal in Nursing Home Malnutrition Cases",
+    excerpt: "The clinical markers and documentation failures defense attorneys hope you miss in malnutrition cases.",
+    content: `
+I have reviewed hundreds of nursing home malnutrition cases. The nutritional assessments tell me within minutes whether you have a strong case or a waste of time. Most attorneys miss the clinical red flags buried in these documents. Defense counsel counts on this.
+
+**The MDS Section K Tells You When the Facility Knew**
+
+The Minimum Data Set Section K tracks weight loss, nutritional approaches, and percentage of food consumed. Look at the assessment dates first. Federal regulations require completion within 14 days of admission, then quarterly. If Section K3 shows significant weight loss but the care plan stays unchanged for three months, you have proof of deliberate indifference. I see this pattern in 60% of cases where residents lose 15 pounds or more. The MDS coordinator signed off on declining nutritional status while the care team did nothing. Your expert witness builds the timeline from these dates.
+
+**Body Mass Index Documentation Exposes the Decline**
+
+BMI below 21 triggers mandatory nutritional intervention under Medicare guidelines. Pull every recorded height and weight measurement from admission forward. Chart them yourself. I have seen residents drop from BMI 23 to BMI 17 over six months while monthly progress notes describe them as "stable." The numbers do not lie. When you see BMI dropping below 19 with no dietitian consult ordered, you have written evidence of neglect. Defense experts struggle to explain why a facility ignored its own protocols.
+
+**Albumin and Prealbumin Levels Prove Protein Depletion**
+
+Albumin below 3.5 g/dL indicates malnutrition. Prealbumin below 15 mg/dL screams acute protein deficiency. These labs show up in hospital records after transfer, not in nursing home charts. Why? Because the facility never ordered them. I reviewed a case last year where a resident transferred to the hospital with albumin at 2.1 g/dL. The nursing home had not checked labs in eight months despite documented weight loss of 22 pounds. The hospital labs become your proof of how severe the malnutrition became while the facility looked away.
+
+**Food Intake Records Show Fabricated Documentation**
+
+CNAs document percentage of each meal consumed. Look for patterns. When records show 75% to 100% intake for every meal across two weeks, then the resident transfers to the hospital severely malnourished, someone falsified documentation. Real intake percentages vary. I have compared dietary aide notes to CNA flow sheets and found completely different numbers for the same meals. Pull both sets of records. The inconsistencies prove your case. Facilities with accurate monitoring show declining intake percentages that trigger care plan changes. Facilities committing fraud show suspiciously consistent numbers while the resident wastes away.
+
+**Weight Loss Calculations Your Expert Witness Uses**
+
+Five percent weight loss in one month or 10% in six months meets the clinical definition of significant weight loss. Do the math for the jury. A 150-pound resident who loses 15 pounds in four months has lost 10% of body weight. This triggers automatic high-risk nutritional status. The facility's own policies require dietitian referral, physician notification, and care plan revision. When none of these things happen, you prove the facility violated its own standards of care. I write these calculations into every malnutrition demand letter I review.
+
+**Dietary Consult Notes Reveal What the Experts Recommended**
+
+When dietitian notes exist, they outline specific interventions. High-calorie supplements between meals. Fortified foods. Dietary preferences to increase consumption. Adaptive equipment. Then look at physician orders. If the dietitian recommended Ensure three times daily and no order appears for six weeks, you have a breakdown in communication that caused harm. I have seen cases where excellent dietitian recommendations sat unimplemented for months. The facility had the solution in writing and ignored it. Your damages increase when you prove the facility knew how to fix the problem.
+
+**The Speech Therapy Swallow Evaluation Changes Everything**
+
+Dysphagia causes malnutrition when residents cannot safely consume regular food. The speech language pathologist documents swallowing function and recommends texture modifications. Residents placed on mechanical soft or pureed diets often refuse to eat because the food looks unappetizing. If speech therapy recommended nectar-thick liquids but staff served thin liquids for three months, you have proof of non-compliance. I reviewed records where a resident aspirated twice, speech therapy ordered honey-thick liquids, and dietary continued serving water. The aspiration pneumonia that followed was preventable and predictable.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-12",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Nursing home malnutrition cases hinge on nutritional assessments. Learn what MDS data, BMI, labs, and intake records reveal about neglect.",
+    keywords: ["nursing home malnutrition","nutritional assessment","MDS Section K","albumin levels","nursing home neglect","legal nurse consultant"],
+  },
+  {
     slug: "analyzing-medication-reconciliation-for-prescribing-errors-in-medical-malpractic",
     title: "Analyzing Medication Reconciliation for Prescribing Errors in Medical Malpractice Cases",
     excerpt: "Medication reconciliation documents expose prescribing errors, drug interactions, and dosing mistakes your opposing counsel hopes you miss.",
