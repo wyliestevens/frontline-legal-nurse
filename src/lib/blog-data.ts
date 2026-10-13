@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-telemetry-records-prove-cardiac-monitoring-failures",
+    title: "How Telemetry Records Prove Cardiac Monitoring Failures",
+    excerpt: "Telemetry strips expose gaps in cardiac monitoring. Here's what to look for in the records.",
+    content: `
+Your client coded in the telemetry unit. The hospital claims they responded appropriately. The telemetry strips tell a different story. I've reviewed hundreds of these cases. The evidence sits in those jagged lines and time stamps.
+
+**The Telemetry Record Components You Need**
+
+Demand the complete telemetry event log, not just the printed strips the hospital volunteers. The event log shows every alarm, every parameter change, every silence command. You need the continuous strips for the entire shift, not the five-second snapshot from the code. Request the monitor settings documentation showing what parameters were programmed and when they changed. The central station printouts reveal which nurse was assigned to watch your client's rhythm and what other patients competed for their attention. I've seen cases fall apart because attorneys accepted incomplete telemetry packets.
+
+**Alarm Fatigue Documentation Builds Your Case**
+
+Telemetry alarms fire constantly in every unit. The records show how many alarms sounded in the hour before your client's event. Pull the central station log. Count them. I've seen logs with 40 alarms in 30 minutes from a single 12-bed unit. The nurse physically cannot respond to every alarm. When ventricular tachycardia hits, it becomes one more bell in a symphony of noise. Look for repeat alarms from your client's monitor that went unaddressed. The time stamps expose the pattern. The nurse charted she checked on your client at 1400. The telemetry log shows three unacknowledged alarms between 1345 and 1400. The math doesn't lie.
+
+**Parameter Settings Reveal Dangerous Shortcuts**
+
+Nurses silence alarms by widening the acceptable parameters. The monitor was set to alarm for heart rates below 50 or above 120. Someone changed it to 40 and 140. The settings change appears in the log at 0200. No physician order exists for this change. Your client's heart rate climbed to 135 at 0430. No alarm sounded. The altered parameters masked a deteriorating condition. I've reviewed cases where nurses disabled specific alarm types entirely. The telemetry record stores every settings modification with a time stamp and user ID. Your expert needs this data to show the monitoring system was deliberately undermined.
+
+**The Gap Between Alarm and Response**
+
+The ventricular tachycardia alarm triggered at 1847. The code was called at 1853. Six minutes passed. The telemetry log shows the alarm was acknowledged at 1848, meaning someone at the central station saw it and pressed a button. The nurse didn't enter the room until 1852. The bedside documentation states the nurse found your client unresponsive. The telemetry strip shows V-tach began at 1847 and deteriorated to ventricular fibrillation at 1851. Your client was in a lethal rhythm for four minutes before anyone touched them. These time discrepancies hand you the liability.
+
+**Continuous Monitoring Gaps You Find in Discovery**
+
+The physician ordered continuous telemetry monitoring. The telemetry record shows the leads were disconnected at 0900 for a shower. They weren't reconnected until 0945. No documentation explains the 45-minute gap. Hospital policy requires a nurse to stay with patients during monitoring interruptions. The staffing records show the nurse was charting on other patients during this window. Your client's arrhythmia began during the unmonitored period. The family heard the monitor alarming from the hallway. When they found the nurse, she was in another room. The event log confirms the alarm history. The nursing notes omit any mention of the disconnection.
+
+**Technical Failures the Hospital Tries to Hide**
+
+The telemetry system failed to transmit your client's rhythm to the central station. The bedside monitor recorded the strips. The central station received nothing. The transmission log shows a system error at 0300. The biomedical engineering logs reveal this transmitter had seven malfunction reports in three months. No one replaced it. No one transferred your client to a monitored bed with functioning equipment. The strip from the bedside monitor shows sustained V-tach at 0615. The central station nurse charted she observed normal sinus rhythm at 0615 because she was reading data from the wrong patient. The hospital knew the equipment was broken and left your client connected to it.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-13",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Telemetry records expose cardiac monitoring failures. Learn what attorneys need to demand in discovery to prove hospital negligence.",
+    keywords: ["telemetry records","cardiac monitoring","hospital negligence","medical malpractice","nursing negligence","alarm fatigue"],
+  },
+  {
     slug: "what-nutritional-assessments-reveal-in-nursing-home-malnutrition-cases",
     title: "What Nutritional Assessments Reveal in Nursing Home Malnutrition Cases",
     excerpt: "The clinical markers and documentation failures defense attorneys hope you miss in malnutrition cases.",
