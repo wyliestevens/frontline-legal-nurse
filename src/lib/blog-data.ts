@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-blood-bank-records-prove-or-disprove-transfusion-reaction-claims",
+    title: "How Blood Bank Records Prove or Disprove Transfusion Reaction Claims",
+    excerpt: "Blood bank documentation reveals the truth about transfusion reactions. Here's what to request and where attorneys miss critical evidence.",
+    content: `
+Your client received a blood transfusion and suffered complications. The hospital claims proper protocol. Your expert needs proof. Blood bank records contain the timeline, the testing, and the procedural gaps you need to establish liability or walk away from a weak case.
+
+**The Critical Documents Live in the Blood Bank**
+
+Attorneys request nursing notes and physician orders. You miss the evidence. Blood bank records include the type and crossmatch results, the visual inspection log, the temperature monitoring sheets, and the chain of custody documentation. These records show whether the blood product arrived intact, stayed at proper temperature, and went to the correct patient. I have seen cases collapse because counsel requested only the transfusion consent form and bedside nursing documentation. The blood bank keeps separate records under different protocols. Subpoena them specifically.
+
+**Timing Proves Everything in Acute Reactions**
+
+Acute hemolytic reactions occur within minutes to hours. The blood bank records timestamp when the unit left the blood bank, when nursing picked it up, and when the transfusion started. Nursing documentation timestamps vital signs before, during, and after transfusion. Your expert compares these records. Fever, hypotension, tachycardia, and back pain appearing within 15 minutes of transfusion start time points to acute reaction. I reviewed a case where nursing documented normal vitals at 1400 hours, transfusion start at 1405 hours, and fever with rigors at 1420 hours. The blood bank record showed the unit sat at room temperature for 47 minutes before transfusion. The hospital settled.
+
+**Visual Inspection Documentation Reveals Contamination**
+
+Blood bank technicians must visually inspect each unit before release. They document normal appearance or note discoloration, clots, or cloudiness. Bedside nurses repeat this inspection before hanging the unit. I have reviewed hundreds of transfusion cases. When both inspections show normal appearance but the patient develops sepsis within hours, you investigate bacterial contamination. When the blood bank documents normal but nursing notes pink plasma or purple discoloration, you have a refrigeration failure or hemolysis issue. These visual inspection entries live in separate logs. Most attorneys never see them.
+
+**Crossmatch Records Show ABO Incompatibility**
+
+ABO incompatibility causes the most severe reactions. Blood bank records include the patient's blood type from current testing, historical blood type if available, and the crossmatch results between patient plasma and donor red cells. The records show who performed the testing and who verified it. Type and crossmatch requires two separate technicians to verify patient identification. I worked a case where the blood bank issued O negative blood to an A positive patient during an emergency. The patient developed acute hemolytic reaction. The blood bank records showed only one technician signed off on patient identification. The second signature line was blank. That blank line was worth seven figures.
+
+**Post-Reaction Investigation Files Close the Loop**
+
+When a transfusion reaction occurs, hospitals must follow protocol. The blood bank retrieves the remaining blood product and the administration set. They retest the patient's blood type and repeat the crossmatch. They culture the blood product for bacteria. They document all findings in a transfusion reaction investigation report. This report names the investigating staff, lists the repeat test results, and states the probable cause. I have seen these reports blame nursing for incorrect patient identification, blame the blood supplier for contaminated units, and blame the blood bank for clerical errors. Your opposing counsel will not hand you this report without a fight. It decides your case.
+
+**Request These Specific Documents**
+
+Demand the complete blood bank file including type and screen results, crossmatch worksheets, blood product inspection logs, temperature monitoring records, unit issue records with timestamps, transfusion reaction investigation reports, and all quality assurance reviews related to the transfusion date. Request the policies and procedures in effect on the date of transfusion. Request the training records for all blood bank staff who handled your patient's specimens or blood products. These documents live in different departments under different custodians. Generic medical record requests will not capture them.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-15",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Blood bank records prove transfusion reaction claims. Learn which documents attorneys miss and how timing, crossmatch data, and inspection logs decide cases.",
+    keywords: ["blood bank records","transfusion reaction","medical malpractice","hemolytic reaction","ABO incompatibility","medical records review"],
+  },
+  {
     slug: "what-psychiatric-records-show-about-involuntary-hold-violations",
     title: "What Psychiatric Records Show About Involuntary Hold Violations",
     excerpt: "Psychiatric holds require strict legal and clinical standards. The records tell you exactly where facilities failed.",
