@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-anesthesia-records-reveal-about-intraoperative-complications",
+    title: "What Anesthesia Records Reveal About Intraoperative Complications",
+    excerpt: "Anesthesia records document every critical moment during surgery. Here's what to look for when building your case.",
+    content: `
+I've reviewed thousands of surgical cases where the anesthesia record told a completely different story than the operative report. The anesthesiologist documents vital signs, medications, fluids, and events in real time. These records don't lie. They show exactly what happened on the table and when the provider knew something was wrong.
+
+**The Vital Signs Grid Tells You When Things Went Wrong**
+
+Your anesthesia record contains a time-stamped grid of vital signs recorded every five minutes. Look for sudden drops in blood pressure, oxygen saturation below 90%, heart rate spikes above 120 or drops below 50, and end-tidal CO2 changes. I've seen records where oxygen saturation dropped to 82% for twelve minutes while the operative report claimed an uneventful procedure. The grid doesn't lie. When you see a gap in documentation or values that contradict the narrative, you have evidence of either a complication or falsified records.
+
+**Medication Administration Timing Reveals Response to Crisis**
+
+The medication section shows every drug given, the dose, the time, and the route. Ephedrine, phenylephrine, and epinephrine treat dropping blood pressure. Atropine treats bradycardia. Succinylcholine and rocuronium given as repeat doses suggest difficulty with intubation or patient movement. I worked a case where the anesthesiologist gave three doses of succinylcholine in eight minutes. The operative report mentioned nothing about intubation difficulty. The patient suffered anoxic brain injury. Those medication times proved the provider struggled for nearly ten minutes to secure the airway.
+
+**Fluid and Blood Product Documentation Shows Hemorrhage**
+
+Estimated blood loss appears on every anesthesia record. Compare this number to the surgeon's operative report. Massive discrepancies point to either poor communication or deliberate underreporting. Track crystalloid, colloid, and blood product administration. When you see 4000 mL of crystalloid, six units of packed red blood cells, four units of fresh frozen plasma, and two units of platelets, you're looking at a massive hemorrhage. The anesthesia record quantifies the severity of bleeding better than any operative note. I've used these numbers to prove a routine hysterectomy turned into a life-threatening hemorrhage that required ICU admission.
+
+**The Anesthesia Events Section Documents Everything They Want to Hide**
+
+Most anesthesia records include an events section where providers note significant occurrences. Difficult intubation, aspiration, medication errors, equipment malfunction, and awareness all belong here. Read what's written. Then read what's missing. I reviewed a case where a patient reported awareness during a cesarean section. The anesthesia record showed no documentation of patient movement, no increase in heart rate or blood pressure, no additional anesthetic agents given during the critical fifteen-minute period she described. The absence of documentation when vital signs showed physiologic responses to pain proved her claim.
+
+**Temperature Monitoring Reveals Negligence in Warming Protocols**
+
+Core body temperature drops during surgery. The standard of care requires active warming for procedures longer than 30 minutes. The anesthesia record shows whether the provider monitored temperature and what warming devices were used. Temperatures below 35°C cause coagulopathy, increased surgical site infections, and cardiac complications. I worked a case where a patient's temperature dropped to 33.8°C during a four-hour spine surgery. No forced air warming device was documented. The patient developed a deep wound infection requiring three additional surgeries. That temperature line proved breach of standard of care.
+
+**Emergence and Extubation Details Predict Postoperative Complications**
+
+The end of the anesthesia record documents emergence from anesthesia and extubation. Look for delayed emergence, the need for reversal agents like naloxone or flumazenil, reintubation, or transfer to ICU instead of PACU. These details predict and explain postoperative complications. When a patient arrives in PACU with a blood pressure of 88/52 and oxygen saturation of 89% on high-flow oxygen, the anesthesia record shows whether these problems started in the operating room. I've used these final entries to prove that providers handed off unstable patients without proper warning or preparation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-16",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Anesthesia records document vital signs, medications, and complications in real time. Learn what to look for in medical malpractice cases.",
+    keywords: ["anesthesia records","intraoperative complications","medical malpractice","surgical negligence","anesthesia malpractice","medical records review"],
+  },
+  {
     slug: "how-blood-bank-records-prove-or-disprove-transfusion-reaction-claims",
     title: "How Blood Bank Records Prove or Disprove Transfusion Reaction Claims",
     excerpt: "Blood bank documentation reveals the truth about transfusion reactions. Here's what to request and where attorneys miss critical evidence.",
