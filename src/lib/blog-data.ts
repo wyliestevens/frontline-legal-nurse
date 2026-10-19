@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-infection-control-logs-prove-hospital-acquired-infection-claims",
+    title: "How Infection Control Logs Prove Hospital-Acquired Infection Claims",
+    excerpt: "Infection control documentation reveals the exact timeline and source of hospital-acquired infections when you know where to look.",
+    content: `
+I reviewed a case last year where a patient developed a surgical site infection after a routine knee replacement. The hospital insisted the patient brought MRSA into the facility. The infection control log showed three other orthopedic patients on the same unit developed MRSA infections during the same two-week period. The case settled before trial.
+
+**Infection Control Logs Document Outbreak Patterns**
+
+Every hospital maintains infection control surveillance logs. These logs track infection rates by unit, type of infection, and organism. When multiple patients develop the same type of infection in the same location during the same timeframe, the log creates a pattern. You want logs going back 90 days before your client's admission and 30 days after discharge. Request unit-specific logs, not hospital-wide summaries. The broader the data, the easier it is for defense counsel to hide a cluster. I have seen hospitals attempt to break up damaging patterns by reporting infections across multiple units or time periods.
+
+**Hand Hygiene Audits Reveal Compliance Failures**
+
+Hospitals conduct hand hygiene observations and record compliance rates by unit and shift. Rates below 90% indicate serious problems. Rates below 80% are dangerous. I reviewed records from a case involving a central line-associated bloodstream infection where the ICU hand hygiene compliance rate was 67% during the week of the infection. The infection control committee meeting minutes showed nursing leadership knew about the problem for three months. Your subpoena needs to request hand hygiene audit data, observation logs, and all infection control committee minutes. These documents exist. Hospitals use them to track Joint Commission compliance.
+
+**Environmental Culture Results Link Infections to Sources**
+
+When a hospital identifies a hospital-acquired infection, the infection control team swabs surfaces and equipment to identify the source. These environmental cultures go into the infection control file. I worked a case where a patient developed Pseudomonas pneumonia after ventilator support. Environmental cultures found the same strain of Pseudomonas in the humidifier attached to the ventilator. The respiratory therapy department had no cleaning log for the humidifier. The culture results proved the source. Your records request must specifically ask for all environmental culture results related to your client's room, unit, and any shared equipment.
+
+**Antibiograms Show Organism-Specific Resistance Patterns**
+
+Hospitals publish antibiograms showing which antibiotics work against which organisms in their facility. These reports show resistance patterns unique to the hospital's bacterial population. When your client develops an infection with a multi-drug resistant organism, the antibiogram shows whether this resistance pattern is common in the facility. I used an antibiogram to prove a patient's resistant E. coli infection came from the hospital, not the community. The antibiogram showed 40% of E. coli infections in the hospital were resistant to fluoroquinolones. Community rates were under 15%.
+
+**Epidemiologic Investigation Reports Document Root Causes**
+
+When hospitals experience infection clusters, they conduct root cause analyses and epidemiologic investigations. These reports identify exactly what went wrong. I have read investigation reports documenting broken sterilization equipment, improperly trained staff, and contaminated supplies. The hospital buries these reports in quality improvement files and claims peer review protection. You fight this. These reports are discoverable when they document investigations into specific incidents affecting patient safety. The investigation report is the roadmap to liability.
+
+**Central Line and Catheter Logs Track Device-Related Infections**
+
+Hospitals track every central line, urinary catheter, and ventilator by patient and day. Device days become the denominator for infection rate calculations. The logs show which devices your client had, who inserted them, and how long they stayed in place. I reviewed a case where a patient developed a catheter-associated urinary tract infection. The catheter log showed the device stayed in place for nine days post-operatively with no documented medical indication after day three. The infection control standard is to remove urinary catheters as soon as clinically appropriate. Nine days for a routine post-op patient is excessive. The log proved the prolonged duration.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-19",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Infection control logs document hospital-acquired infections. Learn which records prove causation in HAI medical malpractice claims.",
+    keywords: ["hospital-acquired infections","infection control logs","medical malpractice","HAI claims","hospital negligence","legal nurse consultant"],
+  },
+  {
     slug: "what-anesthesia-records-reveal-about-intraoperative-complications",
     title: "What Anesthesia Records Reveal About Intraoperative Complications",
     excerpt: "Anesthesia records document every critical moment during surgery. Here's what to look for when building your case.",
