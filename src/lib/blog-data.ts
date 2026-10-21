@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-hospice-records-are-used-and-misused-in-wrongful-death-cases",
+    title: "How Hospice Records Are Used and Misused in Wrongful Death Cases",
+    excerpt: "Hospice documentation creates both powerful evidence and dangerous traps for wrongful death attorneys who don't understand what they're reading.",
+    content: `
+Defense counsel loves hospice records. They wave the election form and claim your client chose comfort care, so death was expected. They point to DNR orders and morphine administration logs to argue the facility did nothing wrong. I've watched attorneys lose six-figure cases because they accepted this narrative without digging deeper into what hospice documentation actually reveals.
+
+**Hospice Election Does Not Equal Permission to Kill**
+
+Your client's family member enrolled in hospice with a prognosis of six months or less. The election form confirms this. What the form does not do is authorize neglect, medication errors, or substandard care. I reviewed a case where a nursing home enrolled a resident in hospice after a fall caused a subdural hematoma. The hospice notes documented ongoing confusion and agitation. The nursing home stopped monitoring vitals and discontinued fall precautions because the resident was "on hospice." The resident fell three more times in five days and died. Defense argued hospice enrollment meant the family accepted death. We showed the hospice plan of care required continued safety measures. The case settled for \$450,000.
+
+**The Revocation Right Everyone Ignores**
+
+Families revoke hospice elections every day. They see their loved one improve or they disagree with the care plan. Medicare rules require hospices to honor revocations immediately. I've seen cases where families verbally requested revocation but staff failed to process the paperwork. The patient remained under hospice orders for days or weeks. Full medical intervention was withheld based on an election that no longer existed. Pull communication logs, nurse's notes, and social worker documentation. Search for any mention of family dissatisfaction or requests for more aggressive treatment. One email or nurse's note stating "daughter wants everything done" torpedoes the defense that hospice election was informed and ongoing consent.
+
+**Medication Administration Records Tell the Real Story**
+
+Morphine, lorazepam, and scopolamine appear in nearly every hospice death. Defense presents this as appropriate comfort care. You need to examine dosing schedules, time intervals, and the clinical assessments preceding each administration. Hospice protocols require documented symptoms before administering these medications. Your nurse reviewer should identify any PRN medications given without corresponding documented pain, anxiety, or respiratory distress. I pulled records in a case where a nursing home administered morphine every two hours for 36 straight hours. The nurse's notes stated "patient resting comfortably" and "no signs of distress" for most of those shifts. This was not comfort care. This was respiratory depression leading to death. The facility paid seven figures.
+
+**Hospice Admission Timing Raises Red Flags**
+
+Nursing homes enroll residents in hospice to reduce their own liability exposure and regulatory scrutiny. Hospice patients are excluded from certain quality metrics. Facilities also use hospice to explain away decline from their own negligence. Look at what happened in the 48 to 72 hours before hospice enrollment. I find pressure ulcers that suddenly appeared, weight loss from missed feedings, aspiration pneumonia from improper positioning, or sepsis from untreated UTIs. The facility enrolls the resident in hospice and frames the decline as disease progression. Compare the hospice face-to-face assessment with nursing home records from the previous week. Discrepancies in wound staging, functional status, or mental status reveal the truth.
+
+**Hospice Charting Standards Differ From Hospital Standards**
+
+Hospice nurses document differently than hospital nurses. They focus on comfort, caregiver education, and quality of life. They chart less frequently about vitals, intake and output, and physical assessment findings. This creates gaps your defense will exploit. They will point to missing documentation and claim nothing was wrong. Your legal nurse consultant cross-references hospice visit notes with nursing home records, pharmacy logs, and physician orders. We build a timeline showing what really happened between hospice visits. Most hospice nurses visit two to three times per week. The nursing home remained responsible for daily care. Missing or inadequate documentation from facility staff shows neglect, not appropriate hospice care.
+
+**The Attending Physician Certification Hides Critical Information**
+
+Every hospice enrollment requires physician certification of terminal diagnosis and six-month prognosis. Read these certifications closely. Physicians often list vague diagnoses like "failure to thrive" or "adult failure to thrive." These are not terminal diagnoses. They are descriptions of decline. The underlying cause matters. If the decline resulted from facility neglect, the hospice enrollment was inappropriate from day one. I reviewed certifications listing sepsis as the terminal diagnosis when the sepsis came from Stage 4 pressure ulcers the facility allowed to develop. The hospice medical director never questioned the appropriateness of the referral. Both entities shared liability.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-21",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Hospice records in wrongful death cases create traps for attorneys. Learn what legal nurse consultants find in hospice documentation.",
+    keywords: ["hospice records","wrongful death cases","legal nurse consultant","hospice documentation","medical records review","nursing home negligence"],
+  },
+  {
     slug: "how-infection-control-logs-prove-hospital-acquired-infection-claims",
     title: "How Infection Control Logs Prove Hospital-Acquired Infection Claims",
     excerpt: "Infection control documentation reveals the exact timeline and source of hospital-acquired infections when you know where to look.",
