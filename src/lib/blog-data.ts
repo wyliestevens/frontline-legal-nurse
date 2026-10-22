@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-patient-safety-event-reports-reveal-through-discovery",
+    title: "What Patient Safety Event Reports Reveal Through Discovery",
+    excerpt: "Patient safety reports contain admissions hospitals never put in medical records. Here's what I find when we get them.",
+    content: `
+**The Reports Hospitals Try to Protect**
+
+Patient safety event reports go by different names at different facilities. Incident reports, occurrence reports, event reports, safety reports. Call them what you want. These documents contain the unvarnished truth about what went wrong. I have reviewed thousands of these reports after attorneys fought to get them through discovery. The gap between what nursing staff documents in real time on a safety report and what ends up in the official medical record is where your case lives. Hospitals claim these reports exist to improve quality and deserve protection. That's precisely why you need them.
+
+**What Staff Document in the Moment**
+
+Nurses complete safety reports within hours of an event. They write while adrenaline still flows and memory stays fresh. A nurse documents that she found your client on the floor at 0340 but did not discover him until she made rounds because the bed alarm was never activated. The medical record shows a fall with no mention of the disabled alarm. A respiratory therapist writes that the ventilator alarm was silenced for 20 minutes during a code response in another room. The chart says only that the patient experienced respiratory distress. The safety report tells you the patient received 10 units of insulin instead of 10 units of Lantus because the order was unclear and pharmacy was closed. The medication administration record shows the correct drug. These reports capture the chaos of the moment before risk management smooths it over.
+
+**Who Files Reports and Why**
+
+Frontline staff file most patient safety reports. Nurses, respiratory therapists, radiology techs, and patient care assistants. They document because policy requires it and because they know something went wrong. I've seen reports filed by staff who never touched the patient but witnessed the event. A nursing assistant reports that she told the RN three times about blood in the Foley catheter but the RN did not assess the patient for two hours. A monitor tech reports that he called the nurse about runs of ventricular tachycardia six times before anyone responded. Environmental services reports that the room was never terminally cleaned between patients despite MRSA precautions. These witnesses disappear by the time you file suit. The report preserves their observations.
+
+**The Information Missing from Medical Records**
+
+Safety reports contain facts that never make it into nursing notes or physician documentation. Equipment failures. Staffing shortages. Communication breakdowns. Protocol violations. A report states that the epidural pump malfunctioned and over-infused pain medication for three hours before anyone noticed. The nurse describes the unit as critically short-staffed with 8 patients each and no charge nurse. A physician writes that he was never notified about abnormal lab values despite hospital policy. The recovery room nurse documents that the surgical team rushed to close because the OR schedule was backed up. You will not find these admissions in the medical record. Hospitals scrub them out. The safety report captures them before the scrubbing begins.
+
+**Root Cause Analysis Documents**
+
+Serious events trigger root cause analysis. The hospital convenes a team to investigate. They interview staff, review policies, examine the sequence of events. The RCA document lays out exactly what failed and why. I have reviewed RCAs that identify system failures the hospital knew about for months. Broken equipment not replaced. Mandatory training not completed. Policies not followed. RCAs often recommend changes the hospital never implements. When the same type of event happens again, that RCA becomes powerful evidence. The hospital knew. The hospital did nothing. You prove it with their own investigation.
+
+**How Hospitals Respond to Events**
+
+Safety reports show what happened after the event. Who was notified and when. What immediate actions staff took. Whether the physician was called. Whether the supervisor responded. A report shows the house supervisor arrived 45 minutes after a patient fall with head injury. Another shows the attending physician was never paged about declining neurological status. The hospitalist was called but did not come to bedside for two hours. Blood bank was notified about the transfusion reaction but sent more of the same blood type. These response failures compound the original harm. The report gives you a timeline.
+
+**The Patterns Across Multiple Reports**
+
+Request all patient safety reports for the unit where your client was harmed. Request reports for the six months before and after the incident. Patterns emerge. The same nurse involved in multiple medication errors. The same broken equipment reported repeatedly. The same staffing complaints. Falls on the same unit during the same shift. You prove this was not an isolated incident. The hospital had notice. The hospital's own reporting system documented the problem. The jury hears that the hospital knew and failed to fix it.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-22",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Patient safety event reports contain admissions hospitals hide. Learn what 20 years of reviewing incident reports reveals about medical negligence cases.",
+    keywords: ["patient safety event reports","incident reports","medical malpractice discovery","hospital incident reports","root cause analysis","medical negligence evidence"],
+  },
+  {
     slug: "how-hospice-records-are-used-and-misused-in-wrongful-death-cases",
     title: "How Hospice Records Are Used and Misused in Wrongful Death Cases",
     excerpt: "Hospice documentation creates both powerful evidence and dangerous traps for wrongful death attorneys who don't understand what they're reading.",
