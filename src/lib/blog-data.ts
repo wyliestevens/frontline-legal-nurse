@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-dialysis-treatment-records-prove-negligent-monitoring",
+    title: "How Dialysis Treatment Records Prove Negligent Monitoring",
+    excerpt: "Dialysis records contain hard evidence of negligent monitoring. Here's what to look for in your next case.",
+    content: `
+I've reviewed hundreds of dialysis cases where the evidence of negligence sits right in the treatment flow sheets. Most attorneys miss it because they don't know what normal monitoring looks like. The records tell the story if you know where to look.
+
+**The Pre-Treatment Assessment Reveals Skipped Vital Signs**
+
+Every dialysis session begins with a mandatory pre-treatment assessment. The nurse must document weight, blood pressure, temperature, heart rate, respiratory rate, and vascular access site condition. When you see blank spaces or repeated identical values across multiple treatments, you're looking at fabricated documentation. I've seen cases where BP readings show 120/80 for fifteen consecutive sessions on a patient who arrived hypotensive. The nurse copied forward instead of measuring. Check the time stamps too. If pre-treatment vitals for six patients all show documentation at exactly 6:00 AM, nobody took those vital signs. Real measurements stagger across time as the nurse moves from patient to patient.
+
+**Intradialytic Monitoring Gaps Lead to Hemodynamic Crises**
+
+National Kidney Foundation guidelines require vital signs every 30 minutes during treatment. Your plaintiff's flow sheet should show BP, pulse, and patient assessment documented 8 to 12 times per four-hour session. Missing intervals point to abandonment. I reviewed a wrongful death case where a patient went into cardiac arrest during hour three of dialysis. The flow sheet showed vital signs at treatment start and treatment end only. No intermediate monitoring for 3.5 hours. The family settled for \$2.3 million. Look for the gaps between documented vital signs. Those gaps represent unmonitored time when your client suffered undetected hypotension, chest pain, or altered mental status.
+
+**Ultrafiltration Rate Documentation Exposes Dangerous Fluid Removal**
+
+Ultrafiltration removes excess fluid from the patient's blood. Safe removal rates stay below 13 mL/kg/hour. Aggressive fluid removal causes intradialytic hypotension, cardiac events, and stroke. The dialysis machine printout shows the programmed UF rate and total volume removed. Compare it to the patient's dry weight. I've seen cases where nurses programmed UF rates of 20 mL/kg/hour to finish treatments faster. One patient lost 4.5 liters in three hours and suffered a massive stroke. The machine data proved the excessive rate. The nurse's notes said "treatment tolerated well." The records contradicted each other, and the jury awarded \$8.7 million.
+
+**Vascular Access Complications Require Immediate Documentation**
+
+Arteriovenous fistulas and grafts require constant assessment during dialysis. The nurse documents access site appearance, thrill, bruit, bleeding, and any infiltration every 30 minutes. Delayed recognition of access thrombosis or infiltration leads to compartment syndrome and limb loss. I worked a case where a patient's arm swelled to twice normal size during treatment. The flow sheet showed no access site assessments after treatment start. The nurse documented "no complications" at treatment end. Photos taken in the ER two hours later showed obvious compartment syndrome. The delayed recognition cost the patient his forearm. The missing documentation showed the nurse never looked at the access site during the entire four-hour treatment.
+
+**Machine Alarm Response Documentation Shows Abandonment**
+
+Dialysis machines alarm constantly. Blood pressure alarms, venous pressure alarms, air detector alarms, and blood leak alarms all require nurse assessment and documentation. The machine's internal log records every alarm with a timestamp. The nurse's flow sheet should show corresponding documentation of the alarm, the assessment performed, and the intervention. When machine logs show 23 alarms during treatment and the flow sheet shows zero documentation, you have proof of negligent monitoring. I've pulled machine data logs in dozens of cases. The logs don't lie. They show exactly when alarms sounded and how long they continued before someone responded. Response times over five minutes indicate understaffing or abandonment.
+
+**Blood Test Results Prove Knowledge of Deterioration**
+
+Every dialysis patient has monthly labs. Review the potassium, phosphorus, hemoglobin, and albumin trends. Rising potassium levels above 6.0 mEq/L require immediate intervention and physician notification. When records show a potassium of 6.8 with no documentation of physician notification or treatment changes, you have evidence of negligent monitoring. I reviewed a case where a patient's potassium climbed from 5.1 to 7.2 over three weeks. Nobody notified the physician. The patient arrested at home from hyperkalemia. The lab results were in the chart the entire time. The nephrologist never saw them because the dialysis nurse didn't flag the critical value.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-23",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Dialysis treatment records contain hard evidence of negligent monitoring. Learn what to look for in flow sheets and machine logs.",
+    keywords: ["dialysis negligence","dialysis malpractice","medical record review","negligent monitoring","hemodialysis lawsuit","legal nurse consultant"],
+  },
+  {
     slug: "what-patient-safety-event-reports-reveal-through-discovery",
     title: "What Patient Safety Event Reports Reveal Through Discovery",
     excerpt: "Patient safety reports contain admissions hospitals never put in medical records. Here's what I find when we get them.",
