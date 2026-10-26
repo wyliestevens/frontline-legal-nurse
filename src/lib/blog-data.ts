@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-neonatal-intensive-care-records-prove-in-birth-injury-litigation",
+    title: "What Neonatal Intensive Care Records Prove in Birth Injury Litigation",
+    excerpt: "NICU records document the cascade of injury. Here's what to look for when the damage is already done.",
+    content: `
+**The NICU Admission Note Tells You What Happened in Delivery**
+
+The neonatal intensive care unit admission note documents the condition of the infant immediately after birth. You will find Apgar scores, resuscitation efforts, cord blood gases, and the admitting diagnosis. When I see an Apgar of 3 at one minute and 5 at five minutes with a cord pH below 7.0, I know the baby suffered significant hypoxia. The admission note describes meconium aspiration, shoulder dystocia complications, or delayed resuscitation. This single document often proves causation better than the delivery record itself because the neonatologist documents what the obstetrician caused.
+
+**Ventilator Records Show the Severity and Duration of Respiratory Compromise**
+
+NICU ventilator flow sheets run continuously. They record every oxygen saturation level, every ventilator setting change, and every blood gas result. I have reviewed cases where the baby required 100% FiO2 for hours after birth. That level of oxygen support proves severe hypoxic injury. The duration of mechanical ventilation matters. A baby who remains intubated for three weeks tells a different damages story than one extubated in three days. Peak inspiratory pressures above 25 cmH2O and positive end-expiratory pressure requirements document the degree of lung injury and the body's oxygen debt.
+
+**Neurological Assessments Document Brain Injury Progression**
+
+NICU nurses perform neurological checks every shift. They document tone, reflexes, fontanel status, and seizure activity. You need these records to establish hypoxic-ischemic encephalopathy. I look for absent or hyperactive reflexes, poor feeding coordination, temperature instability, and altered consciousness levels. When the records show seizures starting within 24 hours of birth, you have strong evidence of acute intrapartum injury. The Sarnat staging documented by the neonatologist rates the encephalopathy as mild, moderate, or severe. Stage III encephalopathy with stupor, flaccid tone, and absent reflexes supports your catastrophic damages claim.
+
+**Therapeutic Hypothermia Protocols Prove the Hospital Recognized Severe HIE**
+
+Cooling therapy starts within six hours of birth for babies with moderate to severe hypoxic-ischemic encephalopathy. The hospital would not initiate this protocol without meeting strict criteria: gestational age over 36 weeks, evidence of acute perinatal hypoxia, and moderate to severe encephalopathy. The cooling records document 72 hours of induced hypothermia at 33.5 degrees Celsius. This treatment exists in the record because the medical team knew the baby suffered significant brain injury. Defense counsel cannot argue mild injury when their own hospital implemented brain cooling.
+
+**Cranial Imaging Reports Show Structural Brain Damage**
+
+Head ultrasounds happen at bedside in the NICU. The radiology reports describe intraventricular hemorrhage, periventricular leukomalacia, or cerebral edema. I look for the grading system on any hemorrhage: Grade III and IV bleeds involve ventricular dilation and parenchymal extension. MRI studies provide more detail. The radiologist identifies watershed infarcts, basal ganglia injury, and cortical highlighting on diffusion-weighted imaging. These findings correlate directly with the timing of hypoxic injury. Symmetric basal ganglia and thalamic injury on MRI proves acute profound hypoxia during labor and delivery.
+
+**EEG Monitoring Captures Seizure Activity and Brain Function**
+
+Continuous EEG monitoring runs for days in the NICU. The neurologist interprets the tracings and documents seizure frequency, amplitude, and background activity. I have seen cases with dozens of electrographic seizures in the first 48 hours of life. Burst suppression patterns on EEG indicate severe brain dysfunction. The absence of sleep-wake cycles shows disrupted brain activity. When phenobarbital loading doses fail to control seizures and the team adds fosphenytoin or levetiracetam, the records prove refractory epilepsy from the start. These medication records and EEG reports establish permanency before the baby ever leaves the hospital.
+
+**Laboratory Values Track Multi-Organ Failure**
+
+NICU labs run multiple times daily. Elevated liver enzymes indicate hepatic hypoxia. Rising creatinine levels show kidney injury. Lactate levels above 5 mmol/L prove inadequate tissue perfusion and anaerobic metabolism. Coagulation studies reveal consumptive coagulopathy from systemic hypoxia. I review every CBC for thrombocytopenia, every CMP for electrolyte derangements, and every blood gas for persistent metabolic acidosis. The baby's body tells the story of oxygen deprivation across every organ system. These objective laboratory values defeat defense arguments about subjective interpretation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-26",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "NICU records prove birth injury causation and damages. Learn what ventilator logs, EEGs, and cooling protocols reveal in litigation.",
+    keywords: ["birth injury litigation","NICU records","hypoxic ischemic encephalopathy","medical malpractice","neonatal records","birth injury proof"],
+  },
+  {
     slug: "how-dialysis-treatment-records-prove-negligent-monitoring",
     title: "How Dialysis Treatment Records Prove Negligent Monitoring",
     excerpt: "Dialysis records contain hard evidence of negligent monitoring. Here's what to look for in your next case.",
