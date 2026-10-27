@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-dental-records-prove-identity-and-document-assault-injuries",
+    title: "How Dental Records Prove Identity and Document Assault Injuries",
+    excerpt: "Dental records provide definitive identification in mass disasters and death cases. They also document assault patterns attorneys miss.",
+    content: `
+I have reviewed dental records in wrongful death cases where visual identification was impossible. I have examined bite mark documentation in assault cases where the defendant claimed consensual contact. Dental evidence wins cases when you know what to request and how to interpret it.
+
+**Dental Records Provide Positive Identification When Visual Methods Fail**
+
+Dental records identify remains in fire deaths, drownings, and decomposed bodies. Each person has a unique dental profile. Fillings, crowns, bridges, implants, root canals, extractions, and tooth positioning create an individual signature. Forensic odontologists compare antemortem records from your decedent's dentist to postmortem dental examination findings. They chart every restoration, every missing tooth, every rotated incisor. The match rate exceeds 99.9% when complete records exist. I worked a case where a family waited six months for DNA results. Dental records confirmed identity in 48 hours. Your wrongful death claim started immediately instead of stalling through probate delays.
+
+**Request Complete Dental Records, Not Just Charts**
+
+You need full mouth radiographs, not treatment notes alone. Periapical x-rays show individual teeth. Bitewing x-rays capture upper and lower molars together. Panoramic x-rays display the entire jaw structure. Request digital files in DICOM format when available. Get the radiology images, not printed reports. I have seen attorneys receive a two-page summary when 40 x-rays existed in the file. Those images showed three previous fractures to the mandible. The defense claimed the jaw broke easily due to bone disease. The x-rays proved prior assault history. Your case value doubled.
+
+**Bite Marks Document Force, Pattern, and Timing in Assault Cases**
+
+Human bite marks leave distinct patterns on skin. The intercanine distance measures the space between canine teeth. Adult human bites measure 25 to 40 millimeters. Children's bites measure smaller. The arch shape, tooth alignment, and individual tooth marks create identifiable patterns. I reviewed records where ER staff photographed bite marks on a victim's forearm, breast, and shoulder. The photographs included a ruler for scale. A forensic odontologist matched the bite pattern to dental molds taken from the suspect. The defense argued consensual rough sex. The depth of tissue damage and tearing showed forces inconsistent with any consensual activity. The bruising pattern aged the bites to within hours of the reported assault time.
+
+**Dental Injuries Reveal Assault Mechanisms**
+
+Facial trauma breaks teeth in predictable patterns. Direct blows to the mouth fracture anterior teeth. Mandible fractures occur when someone punches the jaw. I worked a nursing home abuse case where an 82-year-old resident presented with two fractured incisors and a chipped canine. The facility claimed she fell forward onto the bathroom floor. The dental examination showed the fracture angles were inconsistent with a forward fall. The pattern matched a direct horizontal blow to the face. We obtained her complete dental records showing intact, healthy teeth three months prior. No demineralization, no existing fractures, no bone disease. The jury awarded \$2.3 million.
+
+**Timing Dental Treatment Dates Against Incident Dates**
+
+Dental records timestamp injuries. Review treatment dates before and after the incident. Look for emergency visits. Check if your client had intact teeth before the assault, accident, or incident. I reviewed records where a plaintiff claimed a car accident broke four teeth. His dental records showed three of those teeth had existing crowns placed two years before the collision. Only one tooth fractured in the accident. The defense reduced their settlement offer by 70%. You need those records early in discovery.
+
+**Missing Teeth Tell Stories Defense Counsel Wants Hidden**
+
+Extractions leave evidence. Empty sockets appear on x-rays for years after tooth removal. The alveolar bone remodels slowly. Radiologists date extractions by bone healing patterns. Recent extractions show sharp socket edges. Old extractions show completely filled, remodeled bone. I examined records where a plaintiff claimed a workplace assault knocked out three teeth. His dental x-rays showed complete bone remodeling in all three sites. Those teeth were extracted at least 18 months before the alleged assault date. Your demand letter needs those x-rays attached.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-27",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Dental records prove identity in wrongful death cases and document assault injuries. Learn what to request and how to interpret the evidence.",
+    keywords: ["dental records","forensic odontology","bite mark evidence","assault documentation","victim identification","medical evidence"],
+  },
+  {
     slug: "what-neonatal-intensive-care-records-prove-in-birth-injury-litigation",
     title: "What Neonatal Intensive Care Records Prove in Birth Injury Litigation",
     excerpt: "NICU records document the cascade of injury. Here's what to look for when the damage is already done.",
