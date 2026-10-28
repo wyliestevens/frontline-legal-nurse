@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-chiropractic-records-prove-about-pre-existing-conditions-in-personal-injury",
+    title: "What Chiropractic Records Prove About Pre-Existing Conditions in Personal Injury Cases",
+    excerpt: "Chiropractic records document pre-existing spinal conditions with clinical precision. Here's what they reveal in your PI cases.",
+    content: `
+**Chiropractic Records Document Treatment Frequency Before the Incident**
+
+Chiropractic records show treatment patterns your client established months or years before the accident. I review intake forms listing previous injuries, onset dates, and complaint histories. Progress notes reveal whether your client visited weekly, monthly, or sporadically. A client who received adjustments three times per week for chronic lumbar pain presents differently than someone who sought relief once every few months for maintenance care. The defense will compare pre-incident and post-incident visit frequency. You need to know these numbers before they do.
+
+**SOAP Notes Reveal Symptom Location and Severity**
+
+Chiropractors document subjective complaints, objective findings, assessments, and treatment plans in every visit. I examine pain scale ratings, body diagrams marking affected areas, and range of motion measurements. A client reporting 7/10 cervical pain radiating into bilateral upper extremities three months before the crash presents a different picture than intermittent 3/10 neck stiffness after yard work. The objective findings matter more. Decreased cervical range of motion, positive orthopedic tests, and muscle spasm documentation establish baseline pathology. Match these findings against post-accident records to distinguish new injuries from chronic conditions.
+
+**Imaging Orders and Referrals Establish Structural Problems**
+
+Chiropractors order x-rays, refer for MRIs, and send patients to orthopedists when conservative care fails. I track these referrals because they mark escalation points in treatment. Your client who got an MRI showing multilevel degenerative disc disease six months before the accident has documented structural pathology. The radiologist's impression becomes exhibit material for both sides. Chiropractors also refer to pain management, physical therapy, and neurosurgery. Each referral tells me conservative treatment reached its limits. The defense reads these referrals as proof of pre-existing disability requiring aggressive intervention.
+
+**Treatment Plans Show Expected Recovery Versus Chronic Management**
+
+Chiropractors write treatment plans projecting visit frequency and duration. A six-week plan with tapering visits suggests acute injury management. A long-term maintenance plan with indefinite treatment duration signals chronic condition management. I read the chiropractor's prognosis statements carefully. Notes stating "patient will require ongoing supportive care" or "chronic condition requiring periodic adjustments" establish permanency before your incident occurred. The defense uses this language to argue your accident changed nothing. You use it to establish a baseline requiring expert testimony about aggravation versus new injury.
+
+**Billing Records Quantify the Financial Impact of Pre-Existing Care**
+
+Chiropractic billing shows what your client spent managing their condition before the accident. I calculate total visits, average cost per session, and annual treatment expenses. A client spending \$4,000 yearly on chiropractic care has quantifiable pre-existing treatment costs. The defense will argue any post-accident increase simply continues an established pattern. You need to show discontinuity. Did your client stop treatment for two years before the accident? Did post-accident care require different modalities like electrical stimulation or therapeutic ultrasound not previously needed? The billing codes tell this story.
+
+**Informed Consent Forms Capture What Your Client Knew**
+
+Chiropractors have patients sign consent forms acknowledging risks, limitations, and pre-existing conditions. I review these forms because your client's signature appears next to statements about their health history. Forms listing previous motor vehicle accidents, work injuries, or degenerative conditions become credibility issues at deposition. Your client who marked "yes" to previous neck pain but claims the accident caused their first-ever cervical symptoms faces impeachment. Get ahead of these documents. They exist in every chiropractic file.
+
+**Narrative Reports Synthesize the Clinical Picture**
+
+Chiropractors write narrative reports for attorneys, insurance companies, and disability evaluations. I find these reports in files from previous claims, workers compensation cases, and insurance disputes. A narrative written two years before your current case might describe your client's lumbar spine as "severely degenerative with chronic radiculopathy." That language follows your client into every subsequent case. The defense brings these reports to IMEs and deposititions. You bring them to your medical expert who explains aggravation, apportionment, and causation. The narrative report becomes the baseline your case builds from.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-28",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Chiropractic records document pre-existing conditions through treatment patterns, SOAP notes, and imaging. What they reveal in PI cases.",
+    keywords: ["chiropractic records","pre-existing conditions","personal injury cases","medical records review","legal nurse consulting","PI case strategy"],
+  },
+  {
     slug: "how-dental-records-prove-identity-and-document-assault-injuries",
     title: "How Dental Records Prove Identity and Document Assault Injuries",
     excerpt: "Dental records provide definitive identification in mass disasters and death cases. They also document assault patterns attorneys miss.",
