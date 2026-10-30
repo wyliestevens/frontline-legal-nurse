@@ -13,6 +13,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-dermatology-records-reveal-in-failure-to-diagnose-skin-cancer-cases",
+    title: "What Dermatology Records Reveal in Failure to Diagnose Skin Cancer Cases",
+    excerpt: "Dermatology records contain specific documentation patterns that prove or destroy your skin cancer failure-to-diagnose case.",
+    content: `
+**The Documentation Timeline Tells the Story**
+
+Your strongest evidence sits in the chronology of office visits. I look for documentation gaps first. A patient presents with a changing mole in March. The dermatologist notes it as "benign-appearing nevus" and schedules follow-up in six months. The patient returns in October with the same lesion, now larger and irregular. No biopsy ordered. The patient returns four months later with an ulcerated lesion. Biopsy shows melanoma, Breslow depth 2.8mm. The records show three opportunities to diagnose. Each missed opportunity advances the cancer stage and changes the prognosis. The timeline alone builds your case.
+
+**Clinical Descriptions Versus Photographic Evidence**
+
+Dermatology records often include clinical photographs. Compare the written description to the actual image. I reviewed a case where the physician documented "regular borders, uniform color, symmetrical shape." The photograph showed obvious asymmetry and color variation. The ABCDE criteria were visible in the image but ignored in the documentation. This contradiction becomes powerful evidence. Some practices use dermoscopy with detailed imaging. These images capture vascular patterns, pigment networks, and structural features. Your expert uses these images to show what the defendant should have seen. The photographs do not lie.
+
+**Biopsy Decisions and Technique Failures**
+
+Look for documentation about why the dermatologist chose not to biopsy. Common phrases include "clinically benign," "patient reassured," or "observe for changes." These phrases become critical when the lesion later proves malignant. When the dermatologist finally performs a biopsy, examine the technique documented. Shave biopsies miss deep margins in melanoma cases. I have seen multiple cases where a shave biopsy removed only superficial tissue. The pathology report notes "extends to deep margin" or "unable to assess depth." The dermatologist then excises the area weeks later. The delay allows vertical growth. The wrong biopsy technique changes staging and prognosis.
+
+**Pathology Reports and Follow-Up Gaps**
+
+Pathology reports contain specific language about margins, depth, and mitotic rate. Read every word. A report stating "severe dysplasia with focal areas concerning for early melanoma" demands immediate action. The dermatology records should show the patient received the results, understood the findings, and underwent definitive treatment. I find cases where pathology reports sit in the chart without documented patient contact. The dermatologist receives a concerning result on Tuesday. The chart shows no phone call, no certified letter, no follow-up appointment scheduled. The patient presents six months later with metastatic disease. The gap between pathology result and patient notification destroys the defense.
+
+**Risk Factor Documentation Matters**
+
+Dermatology intake forms and progress notes should document skin cancer risk factors. Family history of melanoma. Personal history of dysplastic nevi. History of severe sunburns or tanning bed use. Immunosuppression. Fitzpatrick skin type I or II. These risk factors change the standard of care. A 35-year-old with multiple dysplastic nevi and family history of melanoma gets closer surveillance. The dermatologist who documents these risk factors but fails to act appropriately faces stronger liability. The records prove the dermatologist knew the patient was high-risk. Your expert testimony becomes straightforward.
+
+**Total Body Skin Exam Documentation Reveals Negligence**
+
+Dermatologists bill for total body skin exams using specific CPT codes. The documentation must support the billing. I review charts where the provider billed for a complete exam but documented only "examined skin, no suspicious lesions noted." No body diagram. No specific anatomical areas listed. The melanoma appears on the upper back. Your question becomes obvious: Did the dermatologist actually examine the back? The melanoma presented on an area the provider claims to have examined. Inadequate documentation of a billable total body skin exam creates both medical negligence and potential fraud issues. The records make your case.
+
+**Standard of Care Breaches Live in the Records**
+
+I have reviewed dermatology records where the physician documented "patient refused biopsy" without any further follow-up plan. No discussion of risks. No documentation of informed refusal. No plan for urgent re-evaluation. The standard of care requires persistent recommendation and documentation when a patient refuses necessary intervention. Other records show "lost to follow-up" notations without any outreach attempt. The practice has the patient's phone number and address. No certified letter sent. No phone calls documented. The patient dies from metastatic melanoma eighteen months later. These documentation failures prove your case before you reach the medical science.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-10-30",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Practice Areas",
+    readTime: "4 min read",
+    metaDescription: "Dermatology records in skin cancer misdiagnosis cases reveal documentation gaps, biopsy failures, and standard of care breaches.",
+    keywords: ["failure to diagnose skin cancer","dermatology medical malpractice","melanoma misdiagnosis","skin cancer lawsuit","dermatology records review","medical negligence"],
+  },
+  {
     slug: "what-chiropractic-records-prove-about-pre-existing-conditions-in-personal-injury",
     title: "What Chiropractic Records Prove About Pre-Existing Conditions in Personal Injury Cases",
     excerpt: "Chiropractic records document pre-existing spinal conditions with clinical precision. Here's what they reveal in your PI cases.",
