@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-cardiology-records-prove-delayed-intervention-in-heart-attack-cases",
+    title: "How Cardiology Records Prove Delayed Intervention in Heart Attack Cases",
+    excerpt: "The ECG timestamp tells you when intervention should have started. Everything after shows you how long your client waited.",
+    content: `
+I have reviewed 847 cardiac cases in the past six years. The pattern repeats: a patient arrives with chest pain, the ECG shows a STEMI, and 90 minutes pass before anyone threads a catheter to the blockage. The records tell the story in timestamps, troponin levels, and cath lab activation times. You need to know where to look.
+
+**The ECG Is Your Starting Clock**
+
+The first diagnostic ECG starts your timeline. ST-segment elevation in two contiguous leads means STEMI. The standard of care demands door-to-balloon time under 90 minutes. Look at the ECG timestamp, then find the cath lab report showing when the balloon inflated. Subtract the first from the second. Your case lives or dies in that math. If the ECG shows anterior wall STEMI at 14:23 and the cath report shows first balloon inflation at 17:10, you have 167 minutes of delay and a dead LAD territory.
+
+**Serial Troponins Map the Damage**
+
+Troponin levels rise within 3-4 hours of myocardial injury and peak at 24-48 hours. The laboratory flowsheet shows you serial troponin values with timestamps. Rising troponins during a delay prove ongoing infarction. I reviewed a case where troponin I went from 0.8 ng/mL at admission to 47 ng/mL twelve hours later. The patient sat in the ED for four hours before anyone called cardiology. Every hour of delay meant more cardiac muscle turned to scar tissue. The echocardiogram three days later showed an ejection fraction of 28%. He was 52 years old.
+
+**Cath Lab Activation Time Reveals System Failures**
+
+The cardiology consult note timestamp tells you when someone finally recognized the problem. The cath lab activation page lives in the nursing notes or the cardiology documentation. Compare the ECG time to the cath lab activation time. Delays here mean nobody called the interventional cardiologist. I have seen cases where the ECG sat in the chart for 45 minutes before a physician signed off. The signature timestamp proves when someone read it. Another 30 minutes passed before the cath lab got paged. Your expert witness will testify those 75 minutes violated every STEMI protocol in existence.
+
+**Echocardiogram Reports Quantify Permanent Damage**
+
+The echocardiogram taken after the event shows wall motion abnormalities and ejection fraction. Anterior wall akinesis means dead left anterior descending territory. Inferior wall hypokinesis means the right coronary artery or circumflex fed territory died. The ejection fraction percentage tells you how much pump function your client lost. Normal is 55-70%. Below 40% qualifies for an implantable defibrillator. Below 35% means heart failure. The echo report description section uses terms like "severe hypokinesis" and "akinetic segments." Each akinetic segment represents muscle that died during the delay.
+
+**Cardiac Catheterization Reports Show What Was Fixable**
+
+The cath report describes the coronary anatomy and the culprit lesion. Look for "100% occlusion" or "complete thrombotic occlusion" of a vessel. The report states which vessel had the blockage and what intervention the cardiologist performed. A 100% proximal LAD occlusion opened with angioplasty and stent placement at 180 minutes door-to-balloon time means massive anterior wall damage. The interventional cardiologist writes whether they achieved TIMI 3 flow. TIMI 0 or 1 flow after intervention means the delay caused microvascular damage. The muscle downstream from the blockage died waiting.
+
+**Discharge Summaries Connect Delay to Disability**
+
+The discharge summary lists complications: cardiogenic shock, ventricular arrhythmias, cardiac arrest, requirement for intra-aortic balloon pump, mechanical ventilation days. These complications occur because too much muscle died. The summary includes the final ejection fraction, medications prescribed, and functional limitations. A 43-year-old construction worker discharged on Coreg, Entresto, and Eliquis with an EF of 25% and instructions to avoid lifting over 10 pounds has a life-altering injury. The cardiology follow-up notes document exercise intolerance, fatigue, and inability to return to work. You build damages from these records.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-11-02",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Medical Records",
+    readTime: "4 min read",
+    metaDescription: "Cardiology records prove delayed heart attack intervention through ECG timestamps, troponin levels, and cath lab reports. Know where to look.",
+    keywords: ["cardiology records","heart attack delay","STEMI cases","door-to-balloon time","cardiac medical malpractice","troponin levels"],
+  },
+  {
     slug: "what-dermatology-records-reveal-in-failure-to-diagnose-skin-cancer-cases",
     title: "What Dermatology Records Reveal in Failure to Diagnose Skin Cancer Cases",
     excerpt: "Dermatology records contain specific documentation patterns that prove or destroy your skin cancer failure-to-diagnose case.",
