@@ -13,6 +13,46 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-a-well-built-medical-chronology-increases-your-demand-package-by-six-figures",
+    title: "How a Well-Built Medical Chronology Increases Your Demand Package by Six Figures",
+    excerpt: "A clinical nurse consultant shows how detailed medical chronologies expose treatment gaps and causation that insurance adjusters overlook.",
+    content: `
+I reviewed a slip and fall case last month where the initial demand sat at \$340,000. The attorney sent complete medical records but no chronology. The adjuster offered \$85,000. We built a medical chronology and refiled. The case settled at \$625,000 three weeks later. The records were identical. The presentation changed everything.
+
+**Insurance Adjusters Exploit Disorganized Records**
+
+Adjusters receive your 2,400-page medical file and search for three things: pre-existing conditions, treatment gaps, and alternative causation. They spend 20 minutes skimming. They miss nothing that helps you and miss nothing that hurts you. When you hand them disorganized records, you do their job for them. They lowball because you gave them room to claim the injuries were pre-existing or unrelated. A chronology removes that room.
+
+**Clinical Details Win Dollars**
+
+Your client had a lumbar fusion after a rear-end collision. The records show an MRI one week post-accident revealing a Grade 2 anterolisthesis at L4-L5 with severe central canal stenosis. The adjuster points to a 2019 X-ray mentioning "mild degenerative changes" and claims pre-existing injury. A proper chronology shows the 2019 X-ray noted no listhesis, no stenosis, and full range of motion. The chronology lists the radiologist's exact language from both reports side by side. The adjuster's argument dies. Your demand holds.
+
+**Treatment Gaps Disappear With Proper Documentation**
+
+I see attorneys lose six figures because a client missed physical therapy for three weeks. The insurance company claims the gap proves the injury resolved. The chronology shows your client was hospitalized for surgical site infection during those exact three weeks. The gap vanishes. The causation stays intact. You include the discharge summary, the culture results showing MRSA, and the IV antibiotic orders. The adjuster moves on to find weakness elsewhere and finds none.
+
+**Causation Links Require Timestamp Precision**
+
+A products liability case involved a defective surgical mesh. The patient developed chronic pelvic pain, recurrent UTIs, and mesh erosion. Defense counsel claimed the pain started before mesh placement. Our chronology showed the first pain complaint occurred 14 days post-op, documented in a nurse's note at 1430 hours. Prior to surgery, eighteen clinic visits over two years showed zero pain complaints. The timestamps destroyed their timeline. The case value jumped from \$200,000 to \$890,000 because we eliminated their causation defense before deposition.
+
+**Medical Terminology Credibility Matters**
+
+Your demand letter states the client suffered "serious brain damage." The chronology specifies diffuse axonal injury Grade 2, bifrontal contusions with 4mm midline shift, and Glasgow Coma Scale of 7 at scene, improving to 13 at 72 hours. The neuropsychological testing six months later shows persistent deficits in executive function and processing speed, two standard deviations below age-matched norms. The adjuster reads clinical precision and knows you have expert support locked in. Vague language invites lowball offers. Clinical specificity demands serious money.
+
+**We Catch What You Miss Because We Read Thousands of Records**
+
+Last week I found a nursing note buried on page 1,647 of a hospital record. The note documented the patient reporting to the night nurse he felt a "pop" in his spine during the lifting incident at work. The attorney missed it. The client never mentioned it in deposition. Defense was arguing gradual degenerative process. That single nursing note proved acute injury. Settlement went from \$150,000 to \$480,000. The note was timestamped 0320 hours, written by an LPN, and filed in the wrong section of the chart. You need someone who knows where to look.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-11-09",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical chronologies increase settlement value by exposing treatment gaps and causation insurance adjusters miss in disorganized records.",
+    keywords: ["medical chronology","demand package","legal nurse consultant","case settlement value","medical records review","insurance adjuster"],
+  },
+  {
     slug: "how-cardiology-records-prove-delayed-intervention-in-heart-attack-cases",
     title: "How Cardiology Records Prove Delayed Intervention in Heart Attack Cases",
     excerpt: "The ECG timestamp tells you when intervention should have started. Everything after shows you how long your client waited.",
