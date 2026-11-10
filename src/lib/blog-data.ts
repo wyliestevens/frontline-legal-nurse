@@ -13,6 +13,42 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "three-questions-every-attorney-must-ask-before-accepting-medical-malpractice-cas",
+    title: "Three Questions Every Attorney Must Ask Before Accepting Medical Malpractice Cases",
+    excerpt: "Twenty years of case reviews taught me which questions separate winning cases from expensive losses. Here's what to ask first.",
+    content: `
+I've reviewed thousands of medical malpractice cases. Most attorneys lose money because they ask the wrong questions during intake. They focus on damages before determining liability. They chase sympathetic facts instead of provable standards of care. They sign cases where the medical records tell a completely different story than the client.
+
+**Does the Timeline Support Causation**
+
+You need documentation showing when the injury occurred relative to the alleged negligent act. I've seen attorneys take cases where the client suffered a stroke three days post-surgery, assuming surgical error caused it. The records showed uncontrolled hypertension for six months pre-op, multiple warnings about medication compliance, and a blood pressure of 198/110 on admission. The stroke was inevitable. The surgery didn't cause it. You need records proving the harm followed the breach within a medically plausible timeframe. Get the complete chart. Check vital signs, lab values, and nursing notes. A two-hour gap between a medication error and cardiac arrest creates a stronger causation argument than a two-week gap. The defense will hire experts who tear apart weak causation. Don't give them easy targets.
+
+**Do the Records Match the Story**
+
+Your client tells you the nurse never checked on them for eight hours post-operatively. The nursing flow sheets document vital signs every 15 minutes with corresponding blood pressure readings, oxygen saturation levels, and pain scores. Someone is wrong. I've seen this exact scenario in a case where the client insisted they were ignored. The records showed 32 separate nursing assessments during the timeframe in question. The case died in discovery. Pull the complete medical record before you commit resources. Compare the history of present illness in the emergency department note with what your client told you. Check if the discharge instructions mention risks the client claims were never discussed. Look for informed consent documents. Read the anesthesia record to verify the client's version of events in the operating room. Discrepancies between client statements and documented care kill cases. Find them during intake, not after you've spent \$15,000 on expert reviews.
+
+**Does the Standard of Care Support Your Theory**
+
+You think the obstetrician should have performed a C-section sooner. The fetal heart rate strips show Category I tracings until 12 minutes before delivery. The current ACOG guidelines give clinicians 30 minutes to perform an emergency cesarean section for Category III tracings. Your theory fails. I reviewed a case where an attorney believed a delayed appendectomy caused perforation. The CT scan showed a perforated appendix on arrival to the emergency department. The surgery happened within two hours of diagnosis. The delay didn't cause the perforation. The infection was already established. You need to know the applicable standard before you file. This means understanding clinical practice guidelines from organizations like the American College of Surgeons, the American Heart Association, or the American Diabetes Association. Get a preliminary nurse review to identify the relevant standards. A \$500 screening review saves you from a \$50,000 mistake. We've screened cases where the attorney was certain they had a winner. The records showed textbook care. The bad outcome was a known risk, discussed in the informed consent, documented in the pre-operative assessment.
+
+**What the Records Tell You About Credibility**
+
+Juries believe documentation over testimony. When your client says the surgeon never explained the risks, but the chart contains a detailed informed consent form with the client's signature next to every listed complication, you have a credibility problem. I've seen cases collapse because the plaintiff testified they told the nurse about chest pain, but the nursing notes make no mention of cardiac symptoms. The defense introduces the nurse's contemporaneous documentation. The plaintiff looks like a liar. Check for entries your client contradicts. Look for documentation of patient education, refusal of recommended treatments, or non-compliance with medical advice. These notes destroy cases. If the records show your client left against medical advice twice before the incident in question, the jury hears about poor judgment and disregard for medical expertise.
+
+**The Real Cost of Missing These Questions**
+
+A bad med mal case costs you \$30,000 to \$100,000 in expert fees, deposition costs, and filing fees before you reach summary judgment. You lose the opportunity cost of working a solid case. Your reputation takes a hit when defense counsel knows you filed without reviewing records. I've watched attorneys sink \$75,000 into cases where a two-hour nurse review would have identified fatal flaws. The client interview gives you their perspective. The medical records give you the evidence. You need both before you sign the retainer.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-11-10",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical malpractice case screening requires asking three critical questions. Learn what 20 years of case reviews taught about intake.",
+    keywords: ["medical malpractice case screening","legal nurse consulting","medical record review","malpractice case evaluation","attorney case intake","medical negligence cases"],
+  },
+  {
     slug: "how-a-well-built-medical-chronology-increases-your-demand-package-by-six-figures",
     title: "How a Well-Built Medical Chronology Increases Your Demand Package by Six Figures",
     excerpt: "A clinical nurse consultant shows how detailed medical chronologies expose treatment gaps and causation that insurance adjusters overlook.",
