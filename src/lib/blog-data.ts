@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "use-your-clients-medical-records-to-prepare-for-defense-medical-exams",
+    title: "Use Your Client's Medical Records to Prepare for Defense Medical Exams",
+    excerpt: "Defense medical exams destroy cases when attorneys skip record review. Here's how to prepare your client using what's already documented.",
+    content: `
+The defense medical examiner already has your client's records. You need them more.
+
+I've reviewed files where a single unprepared IME response cost six figures in settlement value. The defense physician cherry-picks abnormal findings, contradicts treating physicians, and testifies your client exaggerated symptoms. Your client walks in blind and confirms every assumption the defense wants. This happens because you sent them without mapping their medical history first.
+
+**Pull Every Prior Imaging Report Before the Exam**
+
+Your client has degenerative disc disease at L4-L5 documented three years before the accident. The IME physician finds it on exam and attributes all current pain to pre-existing conditions. You need every MRI, CT, and X-ray report from before the incident to show what was asymptomatic and what changed. I've seen defense experts ignore a new herniation at L5-S1 because the attorney never highlighted the difference between old and new findings. Give your client a timeline. Tell them which disc levels were present before and which appeared after. They need to articulate this distinction during the exam.
+
+**Map Medication Changes to Symptom Progression**
+
+The IME doctor asks about pain medication. Your client says they've taken oxycodone since the accident. The medical records show a four-month gap where they took nothing stronger than ibuprofen. The defense calls them a drug seeker. You prevent this by creating a medication timeline from pharmacy records and physician notes. Show your client when prescriptions started, when they stopped, when dosages increased, and why. Connect each change to a documented medical visit or worsening condition. I've prepared clients who walked into IMEs with a one-page medication grid showing dates, doses, and prescribing physicians. They gave precise answers. The defense found nothing to exploit.
+
+**Identify Gaps and Script Explanations**
+
+Your client didn't see a doctor for eight weeks after the accident. The records show they canceled two follow-up appointments. The IME physician writes that the client showed no urgency consistent with serious injury. You need to find out why those gaps exist before the defense does. Review the records for financial barriers, transportation issues, or scheduling conflicts documented in clinical notes. One case I reviewed showed a client missed appointments during FMLA leave because she was caring for a dying parent. This was buried in a social history note from a routine visit. We found it. The defense never raised the gap again. Prepare your client to explain every timeline inconsistency with facts, not excuses.
+
+**Teach Symptom Vocabulary From Treating Provider Notes**
+
+Your client tells the IME their back "really hurts." The treating physiatrist documented radicular pain with positive straight leg raise at 45 degrees, reduced sensation in the L5 dermatome, and 4/5 strength in ankle dorsiflexion. The defense examiner writes that the client gave vague complaints inconsistent with objective findings. Your client has the same symptoms. They don't have the words. Pull direct quotes from physical therapy notes, pain management records, and specialist evaluations. Show your client how their doctors described what they feel. Teach them "shooting pain down my left leg" instead of "bad leg pain." Teach them "numbness in my foot" instead of "weird feeling." The medical records contain the exact language your client needs to describe their injuries accurately.
+
+**Highlight Functional Limitations Documented Across Providers**
+
+The IME report says your client showed full range of motion and normal gait. The physical therapy notes from two weeks earlier document antalgic gait, 60-degree limitation in lumbar flexion, and inability to perform heel-to-toe walk. Your client didn't fake improvement for the defense exam. They had a good day. You prevent this from destroying your case by showing your client what their worst days look like in the medical records. Pull functional capacity evaluations, occupational therapy notes, and home health assessments. Show them the documented limitations. Tell them to report their typical function, not their best moment. I've seen clients lose cases because they demonstrated abilities during a 45-minute exam that contradicted months of documented restrictions. The records tell the truth. Make sure your client does too.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-11-12",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Defense medical exams destroy cases when attorneys skip record review. Use medical records to prepare clients for IME appointments.",
+    keywords: ["defense medical exam","IME preparation","medical records review","legal nurse consulting","personal injury case preparation","independent medical examination"],
+  },
+  {
     slug: "three-questions-every-attorney-must-ask-before-accepting-medical-malpractice-cas",
     title: "Three Questions Every Attorney Must Ask Before Accepting Medical Malpractice Cases",
     excerpt: "Twenty years of case reviews taught me which questions separate winning cases from expensive losses. Here's what to ask first.",
