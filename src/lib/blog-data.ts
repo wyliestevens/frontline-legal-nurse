@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-use-medical-record-gaps-to-your-advantage-in-deposition",
+    title: "How to Use Medical Record Gaps to Your Advantage in Deposition",
+    excerpt: "Missing documentation creates liability. Turn absent records into cross-examination weapons with these clinical fact patterns.",
+    content: `
+**Missing Nurse's Notes Tell You Someone Skipped Monitoring**
+
+I've reviewed charts where eight-hour nursing shifts show zero entries. No vital signs. No pain assessments. No neurovascular checks after orthopedic surgery. The physician ordered hourly neuro checks post-fall, but the flow sheet sits blank from 2200 to 0600. This isn't sloppy charting. This documents neglect. You ask the nurse: "Your charting policy requires documentation every two hours, correct?" Then: "I see no entries here for six hours. Walk me through what you were doing during that time." The nurse will claim she did the checks but forgot to chart. You respond: "So you're telling this jury you provided care you have no proof you gave?" The gap becomes your fact.
+
+**Absent Physician Orders Mean No Legal Authority to Act**
+
+Nurses need orders to administer medications, change treatment plans, or discontinue monitoring. I've seen cases where a patient's restraints stayed on for 14 hours with no physician order past the initial two-hour authorization. The regulations are clear: restraints require renewal every four hours for adults. No order means the nurse acted outside her scope. Your questions write themselves. "Where is the physician order authorizing restraints from 1400 to 2200?" Silence. "So you restrained my client for ten hours without legal authority?" The absence of that order proves battery. The nurse will scramble to explain the physician gave a verbal order. You pull the phone logs. No calls logged. The gap wins your case.
+
+**Undocumented Informed Consent Creates Malpractice Liability**
+
+The operative report describes a procedure. The consent form sits in the chart. But nowhere do the notes reflect what the surgeon told the patient about risks, alternatives, or complications. I've worked cases where the surgeon swears he discussed stroke risk before carotid surgery, but his office note reads: "Patient agrees to proceed." Three sentences. Zero documentation of the informed consent conversation. You depose the surgeon. "Your note here says the patient agrees. What specific risks did you discuss?" He'll recite the standard speech he gives everyone. "Point me to where you documented telling Mrs. Johnson about stroke risk." He points to the consent form she signed. "This form lists stroke as a risk. Where did you document your verbal discussion with her?" Nothing. His memory against hers. The gap makes his testimony worthless.
+
+**Missing Medication Administration Records Prove Dosing Errors**
+
+The MAR should show every medication given, the time, the dose, and the nurse's initials. I've reviewed charts where narcotics appear signed out from pharmacy but show no corresponding MAR entry. The patient claims oversedation. The narcotic log shows three doses of morphine in four hours. The MAR shows two. Someone gave an undocumented dose. You depose the nurse with both records in front of you. "The pharmacy log shows you withdrew 10mg of morphine at 1430. Where is that dose on your MAR?" She'll claim she wasted it or the pharmacy made an error. You ask for the waste witness signature. Nothing. "So 10mg of morphine disappeared, and you have no record of giving it, wasting it, or accounting for it?" The discrepancy proves your dosing error.
+
+**Absent Incident Reports Tell You They Knew They Made a Mistake**
+
+Facility policy requires incident reports for falls, medication errors, treatment complications, and patient complaints. The chart describes a fall. The nurse documents finding the patient on the floor. But no incident report exists in the risk management file. You depose the charge nurse. "Your policy manual states you complete an incident report for any patient fall, correct?" Yes. "Where is the incident report for Mr. Davis's fall on March 12th?" She'll claim she doesn't remember or someone else handled it. You ask risk management. No report filed. "So your staff violated policy by not reporting this fall?" The missing report proves they recognized the fall resulted from their negligence and they buried it.
+
+**Documentation Gaps in Emergency Departments Win Delay of Treatment Claims**
+
+ED charts should show triage time, physician evaluation time, and treatment milestones. I've seen records where a patient arrives at 1800 with chest pain, but the first physician note appears at 2145. Three hours and 45 minutes. No documentation of what happened in between. No nursing reassessment. No repeat vital signs. You depose the ED physician. "The triage note shows my client arrived at 1800 with substernal chest pain. Your first note is timestamped 2145. What were you doing for three hours and 45 minutes?" He'll blame volume and staffing. You ask: "Show me in this chart where anyone evaluated my client between 1800 and 2145." The absence of documentation proves delay. The delay caused the infarction to extend. The gap proves causation.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-11-16",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Medical record gaps create deposition leverage. Learn how missing documentation proves negligence in medical malpractice cases.",
+    keywords: ["medical record gaps","deposition strategy","medical malpractice","nursing documentation","legal nurse consulting","medical records review"],
+  },
+  {
     slug: "use-your-clients-medical-records-to-prepare-for-defense-medical-exams",
     title: "Use Your Client's Medical Records to Prepare for Defense Medical Exams",
     excerpt: "Defense medical exams destroy cases when attorneys skip record review. Here's how to prepare your client using what's already documented.",
