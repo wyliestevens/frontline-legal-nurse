@@ -13,6 +13,44 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-reviewing-records-before-the-expert-witness-saves-thousands-in-expert-fees",
+    title: "Why Reviewing Records Before the Expert Witness Saves Thousands in Expert Fees",
+    excerpt: "Medical record review before engaging experts prevents wasted fees on unwinnable cases and focuses expert time on viable claims.",
+    content: `
+**You Pay Experts by the Hour for Work a Nurse Does Better**
+
+I watched an attorney burn \$4,800 on an expert reviewing a med mal case last month. The expert spent six hours at \$800 per hour combing through 2,300 pages of records before concluding what I see in the first two hours: no breach of standard of care existed. The nurse's notes documented every intervention. The physician's orders matched protocol. The outcome was unfortunate, not negligent. A legal nurse consultant would have identified this in a preliminary review for \$1,200. The attorney lost \$3,600 and three weeks.
+
+**Experts Focus on Causation, Not Chronology**
+
+Your expert witness needs to walk into deposition prep with the timeline already built, the medications already cross-referenced, and the contraindications already flagged. When you send raw records to a neurosurgeon expert, you pay them \$600 per hour to do data entry. They wade through discharge summaries, nursing flow sheets, and pharmacy records looking for the critical decision points. A legal nurse consultant organizes these records first. We create the medical chronology. We identify the gaps in documentation. We flag the deviations from standard protocols. Your expert then spends their billable time on what you hired them for: forming opinions on causation and standard of care.
+
+**We Catch the Case-Killers Before You Pay Retainers**
+
+Three case-killers appear in medical records before you ever reach an expert. First: pre-existing conditions the plaintiff failed to disclose. I found undiagnosed diabetes in records from two years before a wound care case. The infection the plaintiff blamed on the facility stemmed from uncontrolled blood glucose, documented in primary care visits. Second: patient non-compliance. A fall case fell apart when nursing notes showed the patient refused bed alarms and removal of obstacles three times per shift. Third: proper documentation of informed consent. The consent forms in a surgical case included specific discussion of the exact complication the plaintiff claimed as malpractice. These issues end cases. Finding them costs you \$800 to \$1,500 in legal nurse review fees. Missing them costs you \$5,000 to \$15,000 in expert retainers and reports you never use.
+
+**We Identify Which Expert You Need**
+
+An attorney sent me a pressure ulcer case last year. They were ready to hire a wound care specialist at \$550 per hour. I reviewed the records and found the real issue: the facility's pharmacy had switched the patient's anticoagulation medication without physician order, leading to bleeding and tissue breakdown. This was a pharmacy standard of care case, not wound care. We brought in a PharmD expert instead at \$400 per hour who built a stronger causation argument. The case settled for \$340,000. The wrong expert would have missed the medication error entirely and focused on repositioning protocols.
+
+**Record Gaps and Contradictions Need Investigation First**
+
+Missing nursing notes between 2200 and 0600 on the night of a patient fall tell a story. So do vital signs recorded every 15 minutes showing identical values for three hours straight. These patterns need investigation before expert review. We identify what records you need to subpoena. We spot the charting inconsistencies defense counsel will exploit. We find the documentation that proves or disproves your timeline of events. When your expert reviews complete, organized, and analyzed records, their time focuses on building your case, not questioning the foundation.
+
+**The Math Works in Every Practice Area**
+
+A workers compensation case with 4,000 pages of treatment records from eight providers costs roughly \$2,000 for complete legal nurse review and medical chronology. Without this review, your orthopedic expert bills \$700 per hour and needs 10 hours to review, organize, and analyze the same material. You spend \$7,000. The expert finds three treating physicians whose notes contradict the plaintiff's testimony about work restrictions. We find this in the preliminary review. Your expert gets a summary, focuses on causation, and bills four hours instead of ten. You save \$4,200 and get a better expert report.
+
+Frontline Legal Nurse Consulting reviews medical records for attorneys who refuse to leave money on the table. Call (928) 223-4233 or visit frontlinelegalnurse.com.
+    `.trim(),
+    date: "2026-11-19",
+    author: "Wylie Stevens, BSN, RN",
+    category: "Case Strategy",
+    readTime: "4 min read",
+    metaDescription: "Expert witness fees waste thousands when attorneys skip medical record review. Learn how legal nurse consultants save money on every case.",
+    keywords: ["expert witness fees","medical record review","legal nurse consultant","medical malpractice","case strategy","expert witness costs"],
+  },
+  {
     slug: "how-to-use-medical-record-gaps-to-your-advantage-in-deposition",
     title: "How to Use Medical Record Gaps to Your Advantage in Deposition",
     excerpt: "Missing documentation creates liability. Turn absent records into cross-examination weapons with these clinical fact patterns.",
